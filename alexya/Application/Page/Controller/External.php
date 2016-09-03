@@ -23,12 +23,7 @@ class External extends Controller
      */
     public function index() : string
     {
-        if(
-            Container::Settings()->get("application.invitation.enabled") &&
-            !Container::Account()->hasVerifiedInvitationCode()
-        ) {
-            return $this->InvitationCode();
-        }
+        $this->_requiresInvitationCodeVerified(false);
 
         return $this->Login();
     }
@@ -40,6 +35,10 @@ class External extends Controller
      */
     public function InvitationCode() : string
     {
+        if(!Container::Settings()->get("application.invitation.enabled")) {
+            Response::redirect("/External/Login");
+        }
+
         $this->_triad->View->setName("InvitationCode");
 
         return $this->_triad->View->render();
@@ -52,6 +51,8 @@ class External extends Controller
      */
     public function Login() : string
     {
+        $this->_requiresInvitationCodeVerified();
+
         $this->_triad->View->setName("Login");
 
         return $this->_triad->View->render();
@@ -64,9 +65,34 @@ class External extends Controller
      */
     public function Register() : string
     {
+        $this->_requiresInvitationCodeVerified();
+
         $this->_triad->View->setName("Register");
 
         return $this->_triad->View->render();
+    }
+
+    /**
+     * Checks that the invitation code is verifed and redirect the
+     * user to `/External/InvitationCode` if it isn't
+     *
+     * @param  boolean $showMessage `true` to create a flash result warning the user about verifying the code (default = `true`)
+     */
+    private function _requiresInvitationCodeVerified(bool $showMessage = true)
+    {
+        if(
+            Container::Settings()->get("application.invitation.enabled") &&
+            !Container::Account()->hasVerifiedInvitationCode()
+        ) {
+            if($showMessage) {
+                Results::addFlash([
+                    "result"  => "danger",
+                    "message" => t("Please, verify your invitation code!")
+                ]);
+            }
+
+            Response::redirect("/External/InvitationCode");
+        }
     }
 
     /**
