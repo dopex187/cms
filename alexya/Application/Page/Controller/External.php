@@ -40,7 +40,9 @@ class External extends Controller
      */
     public function InvitationCode() : string
     {
-        return $this->_triad->View->render("InvitationCode");
+        $this->_triad->View->setName("InvitationCode");
+
+        return $this->_triad->View->render();
     }
 
     /**
@@ -50,7 +52,9 @@ class External extends Controller
      */
     public function Login() : string
     {
-        return $this->_triad->View->render("Login");
+        $this->_triad->View->setName("Login");
+
+        return $this->_triad->View->render();
     }
 
     /**
@@ -60,7 +64,9 @@ class External extends Controller
      */
     public function Register() : string
     {
-        return $this->_triad->View->render("Register");
+        $this->_triad->View->setName("Register");
+
+        return $this->_triad->View->render();
     }
 
     /**
