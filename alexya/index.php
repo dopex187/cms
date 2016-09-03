@@ -40,4 +40,15 @@ if($lang != \Alexya\Container::Session()->lang) {
 
 \Alexya\Container::Translator()->setDefaultLanguage($lang);
 
+// Register Account instance
+\Alexya\Container::registerSingleton("Account", function() {
+    $session_id = \Alexya\Container::Session()->id;
+
+    $account = \Application\ORM\Account::find([
+        "session_id" => $session_id
+    ]);
+
+    return $account;
+});
+
 \Alexya\Container::Router()->route();
