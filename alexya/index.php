@@ -16,11 +16,20 @@
  * @author Manulaiko <manulaiko@gmail.com>
  */
 
+error_reporting(E_ALL);
+ini_set("display_errors", true);
+
 /**
  * Load composer.
  */
 if(!require_once("vendor/autoload.php")) {
     die("Please, execute `composer update` in order to install dependencies");
+}
+
+\Alexya\Container::Logger()->debug("Request URI: ". \Alexya\Http\Request::main()->uri);
+
+foreach(\Alexya\Container::Settings()->get("application.view_vars") as $key => $value) {
+    \Alexya\Foundation\View::global($key, $value);
 }
 
 \Alexya\Container::Router()->route();
