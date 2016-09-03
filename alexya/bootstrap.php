@@ -82,6 +82,9 @@ if(class_exists("\Alexya\Database\Connection") && \Alexya\Container::Settings()-
 
         $database = new \Alexya\Database\Connection($settings["host"], $settings["port"], $settings["username"], $settings["password"], $settings["database"]);
 
+        // Initialize ORM model
+        \Alexya\Database\ORM\Model::initialize($database, $settings["namespace"]);
+
         return $database;
     });
 }
