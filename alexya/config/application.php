@@ -22,5 +22,12 @@ return [
          * Ultimate hyper mega mlg super cool ultra mighty invitation code.
          */
         "code" => "Totally not an invitation code"
+    ],
+
+    /**
+     * Global view variables.
+     */
+    "view_vars" => [
+        "URL" => "http://localhost/"
     ]
 ];

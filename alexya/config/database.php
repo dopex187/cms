@@ -42,7 +42,7 @@ return [
     /**
      * Database name
      */
-    "database"   => "alexya",
+    "database"   => "blackeye",
 
     /**
      * Alternative PDO options
