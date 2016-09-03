@@ -4,17 +4,17 @@ The best DarkOrbit private server.
 
 CMS Structure
 -------------
-The core of the CMS (the installation of Alexya) is located in the folder *blackeye* while the folder *public_html* contains the files interpreted by the browser (css, images, js...).
+The core of the CMS (the installation of Alexya) is located in the directory *alexya* while the directory *public_html* contains the files interpreted by the browser (css, images, js...).
 
-The file *blackeye/TODO.md* contains a list of the things that needs to be done so you don't forget about what you need to do next from day to day.
-
-The CMS is build on top of the [Alexya Framework](https://github.com/manulaiko/alexya) so you should check it for knowing how it works.
+The CMS is build on top of the [Alexya Framework](https://github.com/AlexyaFramework/Alexya) so you should check it for knowing how it works.
 There just two pages (they're located on *Application/Page*):
  * Internal page
  * External page
 
 The external page simply prints external page and registers/logins users.
 The internal page will load the requested module (they're located on *Application/Module*) and render it.
+
+Before continue you should go to the *alexya* directory and execute `composer update` for installing composer's dependencies.
 
 ORM Classes
 -----------
