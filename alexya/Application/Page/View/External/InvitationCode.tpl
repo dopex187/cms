@@ -15,7 +15,7 @@
                 <div class="head">
                     <div class="user">
                         <div class="info user-change">
-                            <img src="{$URL}img/logo.png" class="img-circle img-thumbnail"/>
+                            <img src="{$URL}img/logob.png" class="img-circle img-thumbnail"/>
                         </div>
                     </div>
                 </div>
@@ -29,7 +29,7 @@
                                     <div class="input-group-addon">
                                         <span class="icon-key"></span>
                                     </div>
-                                    <input type="password" class="form-control" placeholder="{t("Invitation Code")}"/>
+                                    <input type="text" class="form-control" placeholder="{t("Invitation Code")}"/>
                                 </div>
                             </div>
                         </div>
