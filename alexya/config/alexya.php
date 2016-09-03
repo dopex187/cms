@@ -26,7 +26,7 @@ return [
         /**
          * Default parser.
          */
-        "default" => "php",
+        "default" => "tpl",
 
         /**
          * Available parsers.
