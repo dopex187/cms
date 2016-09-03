@@ -32,4 +32,32 @@ foreach(\Alexya\Container::Settings()->get("application.view_vars") as $key => $
     \Alexya\Foundation\View::global($key, $value);
 }
 
+// Set language
+$lang = ($_GET["lang"] ?? (\Alexya\Container::Session()["lang"] ?? "en"));
+if($lang != \Alexya\Container::Session()["lang"]) {
+    \Alexya\Container::Session()["lang"] = $lang;
+}
+
+// Register translator on container
+\Alexya\Container::registerSingleton("Translator", function() {
+    $translations = [];
+    $defaultLang  = \Alexya\Container::Session()["lang"];
+    $directory    = \Alexya\FileSystem\Directory::make(ROOT_DIR."translations".DS, \Alexya\FileSystem\Directory::MAKE_DIRECTORY_EXISTS_OPEN);
+
+    // All files from the `translations` directory are suposed to be PHP scripts
+    // that returns an array with the translations, the name of each file is
+    // is the language name used by the translator.
+    foreach($directory->getFiles() as $file) {
+        $translations[$file->getName()] = require($file->getPath());
+    }
+
+    return new \Alexya\Localization\Translator($translations, $defaultLang);
+});
+
+// Translator shortcut function
+function t() : string
+{
+    return \Alexya\Container::Translator()->translate(... func_get_args());
+}
+
 \Alexya\Container::Router()->route();
