@@ -28,7 +28,7 @@ class Internal extends Controller
      */
     public function index() : string
     {
-        $uri = $this->_triad->request->uri();
+        $uri = $this->_triad->_request->uri();
 
         if(
             count($uri) < 2 ||
