@@ -114,6 +114,65 @@ class External extends Controller
     }
 
     /**
+     * Performs a login attempt.
+     *
+     * @param string $username Username.
+     * @param string $password Password.
+     *
+     * @return string Response content
+     */
+    public function doLogin($username, $password) : string
+    {
+        $Database = Container::Database();
+        $Session  = Container::Session();
+        $Logger   = Container::Logger();
+
+        $session_id = Str::random(32, "0123456789abcdef");
+
+        if(!$this->_checkInfo($username, $password)) {
+            return $this->Login();
+        }
+
+        // $username = Security::cleanXSS($username);
+        // $password = Security::hash($password);
+
+        $query = new QueryBuilder($Database);
+        $query->select()
+              ->from("users")
+              ->where([
+                  "AND" => [
+                      "name"     => $username,
+                      "password" => $password
+                  ]
+              ]);
+
+        $id = $Database->execute($query, false);
+        if(!is_numeric($id["id"])) {
+            Results::addFlash("invalid_username_password", [
+                "result"  => "danger",
+                "message" => t("Username/password does not exists")
+            ]);
+
+            return $this->Login();
+        }
+
+        $query->clear();
+
+        $query->update("accounts")
+              ->set([
+                    "session_id" => $session_id
+                ])
+              ->where([
+                    "id" => $id["last_login_accounts_id"]
+                ]);
+        $Database->execute($query);
+
+        $Session->id = $session_id;
+
+        Response::redirect("/internal/Start");
+    }
+
+    /**
      * Performs a register attempt.
      *
      * @param string $username Username.
