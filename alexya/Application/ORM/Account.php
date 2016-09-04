@@ -1,6 +1,7 @@
 <?php
 namespace Application\ORM;
 
+use \Alexya\Container;
 use \Alexya\Database\ORM\Model as ORM;
 
 /**
@@ -64,6 +65,6 @@ class Account extends ORM
     public function hasVerifiedInvitationCode() : bool
     {
         // TODO compare invitation code with database
-        return Container::Session()->invitation["verified"];
+        return (Container::Session()->invitation["verified"] ?? false);
     }
 }
