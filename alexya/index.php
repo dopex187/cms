@@ -48,7 +48,11 @@ if($lang != \Alexya\Container::Session()->lang) {
         "session_id" => $session_id
     ]);
 
-    return $account;
+    if(!empty($account)) {
+        return $account;
+    }
+
+    return \Application\ORM\Account::create();
 });
 
 \Alexya\Container::Router()->route();
