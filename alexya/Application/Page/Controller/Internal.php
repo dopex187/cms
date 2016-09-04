@@ -28,7 +28,7 @@ class Internal extends Controller
      */
     public function index() : string
     {
-        $uri = $this->_triad->_request->uri();
+        $uri = $this->_request->uri();
 
         if(
             count($uri) < 2 ||
@@ -40,7 +40,14 @@ class Internal extends Controller
         $body = "";
         try {
             $moduleURI = implode("/", array_slice($uri, 2));
-            $module    = new Module($uri[2], new Request($moduleURI));
+            $module    = new Module($uri[2], new Request(
+                $moduleURI,
+                ($_GET ?? []),
+                ($_POST ?? []),
+                ($_COOKIES ?? []),
+                ($_FILES ?? []),
+                ($_SERVER ?? [])
+            ));
 
             $this->_triad->children->module = $module;
 
