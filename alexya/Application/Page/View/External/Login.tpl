@@ -20,6 +20,11 @@
                     </div>
                 </div>
                 <div class="content controls npt">
+                    {foreach from=\Alexya\Tools\Session\Results::get() item=result}
+                    <div class="alert alert-{$result["result"]}">
+                        {$result["message"]}
+                    </div>
+                    {/foreach}
                     <form method="post" action="{$URL}External/Login">
                         <input type="hidden" name="action" value="doLogin" />
                         <div class="form-row">
@@ -29,7 +34,7 @@
                                     <div class="input-group-addon">
                                         <span class="icon-user"></span>
                                     </div>
-                                    <input type="text" class="form-control" placeholder="{t("Username")}"/>
+                                    <input type="text" class="form-control" name="username" placeholder="{t("Username")}"/>
                                 </div>
                             </div>
                         </div>
@@ -39,7 +44,7 @@
                                     <div class="input-group-addon">
                                         <span class="icon-key"></span>
                                     </div>
-                                    <input type="password" class="form-control" placeholder="{t("Password")}"/>
+                                    <input type="password" class="form-control" name="password" placeholder="{t("Password")}"/>
                                 </div>
                             </div>
                         </div>
