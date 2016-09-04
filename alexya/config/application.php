@@ -16,7 +16,7 @@ return [
          * Flag to check if the invitation code system
          * is enabled or not.
          */
-        "enabled" => true,
+        "enabled" => false,
 
         /**
          * Ultimate hyper mega mlg super cool ultra mighty invitation code.
