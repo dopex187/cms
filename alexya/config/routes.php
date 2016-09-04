@@ -36,7 +36,7 @@ return [
         $uri     = $request->uri();
 
         $page    = $uri[1];
-        $action  = ($uri[2] ?? ($_POST["action"] ?? "index"));
+        $action  = ($_POST["action"] ?? ($uri[2] ?? "index"));
         $params  = array_slice($uri, 3);
 
         $triad = new \Alexya\Foundation\Page($page, $request);
@@ -54,7 +54,7 @@ return [
             $params = $_POST;
         }
 
-        $response = $triad->Controller->$action(... $params);
+        $response = $triad->Controller->$action(... array_values($params));
 
         if(!$response instanceof \Alexya\Http\Response) {
             // Allow user to return the content of the response instead of the
