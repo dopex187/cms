@@ -55,4 +55,4 @@ if($lang != \Alexya\Container::Session()->lang) {
     return \Application\ORM\Account::create();
 });
 
-\Alexya\Container::Router()->route();
+\Alexya\Container::Router()->route(true);

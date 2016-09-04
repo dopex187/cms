@@ -66,5 +66,68 @@ return [
 
         $response->send();
         die();
+    },
+
+    /**
+     * Page verification.
+     *
+     * This route assures that the requested page is either /External`
+     * or `/Internal`, if none of both is requested user will be redirected
+     * to `/External/Login`.
+     */
+    "(.*)" => function() {
+        $uri = \Alexya\Http\Request::main()->uri();
+
+        if(
+            $uri[1] != "External" &&
+            $uri[1] != "Internal"
+        ) {
+            \Alexya\Http\Response::redirect("/External/Login");
+        }
+    },
+
+    /**
+     * Login verification for External page.
+     *
+     * This route will be executed if the External page is requested.
+     * It won't do anything but check that the user isn't logged yet, and if
+     * it is, it will be redirected to `/Internal/Start`.
+     *
+     * It will also check that the invitation code is properly verified.
+     *
+     * This way the default route is also executed even so it can render the page.
+     */
+    "/External(/?)(.*)" => function() {
+        // Check login status.
+        if(\Alexya\Container::Account()->isLogged()) {
+            \Alexya\Http\Response::redirect("/Internal/Start");
+        }
+
+        // Check invitation code verification.
+        if(!\Alexya\Container::Settings()->get("application.invitation.enabled")) {
+            return;
+        }
+
+        if(
+            !\Alexya\Container::Account()->hasVerifiedInvitationCode() &&
+            \Alexya\Http\Request::main()->uri()[2] != "InvitationCode"
+        ) {
+            \Alexya\Http\Response::redirect("/External/InvitationCode");
+        }
+    },
+
+    /**
+     * Login verification for Internal page.
+     *
+     * This route will be executed if the Internal page is requested.
+     * It won't do anything but check that the user is logged yet, and if
+     * it isn't, it will be redirected to `/External/Login`.
+     *
+     * This way the default route is also executed even so it can render the page.
+     */
+    "/Internal(/?)(.*)" => function() {
+        if(!\Alexya\Container::Account()->isLogged()) {
+            \Alexya\Http\Response::redirect("/External/Login");
+        }
     }
 ];
