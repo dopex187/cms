@@ -1,6 +1,7 @@
 <?php
 namespace Application\Page\Controller;
 
+use \Alexya\Container;
 use \Alexya\Foundation\Controller;
 use \Alexya\Http\Response;
 use \Alexya\Tools\Session\Results;
@@ -85,7 +86,7 @@ class External extends Controller
             !Container::Account()->hasVerifiedInvitationCode()
         ) {
             if($showMessage) {
-                Results::addFlash([
+                Results::flash("code_verified_required", [
                     "result"  => "danger",
                     "message" => t("Please, verify your invitation code!")
                 ]);
@@ -106,16 +107,16 @@ class External extends Controller
             Container::Settings()->get("application.invitation.enabled") ||
             $code != Container::Settings()->get("application.invitation.code")
         ) {
-            $query = new QueryBuilder(Container::Database());
+            /*$query = new QueryBuilder(Container::Database());
             $query->select()
                   ->from("invitation_codes")
                   ->where([
                       "code" => $code
                   ])
-                  ->execute();
+                  ->execute();*/
 
-            if(empty($query)) {
-                Results::flash([
+            if(true) {
+                Results::flash("code_doesnt_exist", [
                     "result"  => "success",
                     "message" => t("The invitation code does not exists!")
                 ]);
@@ -128,7 +129,7 @@ class External extends Controller
             "verified" => true,
             "code"     => $code
         ];
-        Results::flash([
+        Results::flash("code_verified", [
             "result"  => "success",
             "message" => t("The invitation code has been successfully validated!")
         ]);
