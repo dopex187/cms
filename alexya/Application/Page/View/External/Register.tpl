@@ -20,6 +20,11 @@
                     </div>
                 </div>
                 <div class="content controls npt">
+                    {foreach from=\Alexya\Tools\Session\Results::get() item=result}
+                    <div class="alert alert-{$result["result"]}">
+                        {$result["message"]}
+                    </div>
+                    {/foreach}
                     <form method="post" action="{$URL}External/Register">
                         <input type="hidden" name="action" value="doRegister" />
                         <div class="form-row">
@@ -29,17 +34,7 @@
                                     <div class="input-group-addon">
                                         <span class="icon-user"></span>
                                     </div>
-                                    <input type="text" class="form-control" placeholder="{t("Username")}"/>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="form-row">
-                            <div class="col-md-12">
-                                <div class="input-group">
-                                    <div class="input-group-addon">
-                                        <span class="icon-envelope"></span>
-                                    </div>
-                                    <input type="text" class="form-control" placeholder="{t("Email")}"/>
+                                    <input type="text" class="form-control" name="username" placeholder="{t("Username")}"/>
                                 </div>
                             </div>
                         </div>
@@ -49,7 +44,17 @@
                                     <div class="input-group-addon">
                                         <span class="icon-key"></span>
                                     </div>
-                                    <input type="password" class="form-control" placeholder="{t("Password")}"/>
+                                    <input type="password" class="form-control" name="password" placeholder="{t("Password")}"/>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-md-12">
+                                <div class="input-group">
+                                    <div class="input-group-addon">
+                                        <span class="icon-envelope"></span>
+                                    </div>
+                                    <input type="text" class="form-control" name="email" placeholder="{t("Email")}"/>
                                 </div>
                             </div>
                         </div>
