@@ -18,6 +18,7 @@
 
 error_reporting(E_ALL);
 ini_set("display_errors", true);
+define("IP", "127.0.0.1");
 
 /**
  * Load composer.
