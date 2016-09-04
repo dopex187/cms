@@ -108,6 +108,7 @@ if(class_exists("\Alexya\Tools\Session\Session") && \Alexya\Container::Settings(
 
         return $session;
     });
+    \Alexya\Tools\Session\Results::initialize(\Alexya\Container::Session());
 }
 ///////////////////////////////////////
 // End Register container's bindings //
