@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>BlackEye | Invitation Code</title>
+    <title>BlackEye | Login</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
     <link rel="icon" type="{$URL}imgage/ico" href="favicon.html"/>
