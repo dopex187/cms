@@ -22,8 +22,9 @@ return [
      * If `Action` is empty the default action `index` will be called on `Controller`,
      * this means that `/Login/index` is the same as `/Login`.
      *
-     * If the controller for the request doesn't exist or the action can't be
-     * executed an exception will be thrown.
+     * If the controller for the request doesn't exist an exception will be thrown.
+     *
+     * If the action can't be executed, the default action `index` will be executed.
      *
      * The controller action can return a string being the response content,
      * how ever, it's recommended that it returns an instance of the `\Alexya\Http\Response`
@@ -41,12 +42,17 @@ return [
 
         $triad = new \Alexya\Foundation\Page($page, $request);
 
+        if($triad->Controller == null) {
+            // The requested action isn't available, throw exception
+            throw new Exception("The requested action couldn't be performed!");
+        }
+
         if(
             !is_callable([$triad->Controller, $action]) ||
             empty($page)
         ) {
-            // The requested action isn't available, throw exception
-            throw new Exception("The requested action couldn't be performed!");
+            // The requested action isn't available, use `index` as action
+            $action = "index";
         }
 
         if(!empty($_POST)) {
