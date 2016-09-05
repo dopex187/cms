@@ -3,10 +3,10 @@
 	<title>BlackEye | {$name}</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
-	<link rel="icon" type="image/ico" href="favicon.html">
+	<link rel="icon" type="image/ico" href="{$URL}favicon.html">
 
-	<link href="css/stylesheets.css" rel="stylesheet" type="text/css">
-	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="{$URL}css/stylesheets.css" rel="stylesheet" type="text/css">
+	<link href="{$URL}http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
     <script type='text/javascript' src='js/plugins/jquery/jquery.min.js'></script>
     <script type='text/javascript' src='js/plugins/jquery/jquery-ui.min.js'></script>
@@ -46,9 +46,96 @@
 			font: 10px arial, san serif;
 			text-align: left;
 		}
+        .news-slider {
+            white-space: nowrap;
+            overflow: hidden;
+            width: 500px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .news-slider li {
+            margin-right: 10px;
+            opacity: 0.88;
+            display: inline-block;
+        }
+        .top-right {
+             position: absolute;
+             top: 0px;
+             right: 0px;
+        }
+        .newest-messages a {
+             padding: 10px 10px 10px 22px;
+        }
+        .newest-messages ul {
+            width: 314px;
+            padding: 10px;
+            background-color: rgb(14, 44, 78);
+        }
+        .newest-messages ul li {
+            border-bottom: 1px solid;
+            margin-bottom: 10px;
+        }
+        .newest-messages ul li:last-child {
+            border: 0px;
+            margin: 0px;
+        }
+        .circle-warning {
+            margin-left: 5px;
+            vertical-align: text-top;
+            border-radius: 50%;
+            width: 18px;
+            background-color: rgb(248, 172, 89);
+            color: rgb(255, 255, 255);
+        }
 	</style>
 </head>
 <body class="bg-img-num1">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <nav class="navbar brb" role="navigation">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="{$URL}Internal/Start">
+                            <img src="{$URL}img/logo.png"/>
+                        </a>
+                    </div>
+                    <div class="collapse navbar-collapse navbar-ex1-collapse">
+                        <div class="news-slider">
+                            <ul id="news-slider" class="nav nav-bar">
+                                {foreach from=$news item=n}
+                                <li>
+                                    <a href="{$URL}Internal/News/{$n["id"]}">{$n["title"]}</a>
+                                </li>
+                                {/foreach}
+                            </ul>
+                        </div>
+                        <ul class="nav navbar-nav navbar-right top-right">
+                            <li class="dropdown newest-messages">
+                                <a href="#" class="drodown-toggle" data-toggle="dropdown">
+                                    <span class="fa fa-envelope fa-3x"></span>
+                                    {if $user->Messages->hasUnreadMessages()}
+                                        <small class="circle-warning top-right">{$user->Messages->unreadMessagesCount()}</small>
+                                    {/if}
+                                </a>
+                                <ul class="dropdown-menu">
+                                    {foreach from=$user->Messages->unreadMessages() item=message}
+                                    <li>
+                                        <h4><a href="{$URL}Internal/Messages/{$message["id"]}">{$message["title"]}</a></h4>
+                                    </li>
+                                    {/foreach}
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="{$URL}Internal/Logout">
+                                    <i class="fa fa-sign-out"></i> {t("Logout")}
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
 	<div class="page-container">
 		<div class="page-sidebar">
 			<div class="page-navigation-panel logo"></div>
@@ -157,9 +244,86 @@
         </div>
 		<div class="page-content">
 			<div class="container">
-				{$module->render}
+
+                <div class="row">
+
+                </div>
 			</div>
 		</div>
 	</div>
+    <script>
+    function ScrollerChangeFirst()
+    {
+        NewsController.scroller.append(NewsController.scrollItems.eq(0).remove()).css('margin-left', 0);
+        NewsController.scrollTicker();
+    }
+
+    var NewsController = {
+        scrollSpeed: 5,
+        scrollerWidth: 0,
+        scroller: undefined,
+        scrollItems: undefined,
+        scrollMargin: 0,
+
+        /**
+         * Inits scroller and sets onclick events
+         */
+        init: function()
+        {
+            this.initScroller();
+
+            jQuery("#news-slider > li").click(function() {
+                console.log("Object: "+ JSON.stringify(jQuery(this).attr("id")));
+            });
+
+            $('.news_content').slimscroll({
+                height: '200px'
+            })
+        },
+
+        /**
+         * Inits scroller
+         */
+        initScroller: function()
+        {
+            this.scroller = jQuery('#news-slider');
+
+            this.scroller.children().each(function() {
+                NewsController.scrollerWidth += jQuery(this).outerWidth(true);
+            });
+            this.scrollerWidth = this.scroller.outerWidth();
+
+            this.scrollTicker();
+
+            this.scroller.mouseover(function() {
+                NewsController.scroller.stop();
+            });
+            this.scroller.mouseout(function() {
+                NewsController.scrollMargin = parseInt(NewsController.scroller.css('margin-left').replace(/px/, ''));
+                NewsController.scrollTicker();
+            });
+        },
+
+        /**
+         * Scrolls news
+         */
+        scrollTicker: function()
+        {
+            this.scrollItems  = this.scroller.children();
+            var scrollWidth   = this.scrollItems.eq(0).outerWidth(true);
+            var scrollMargin  = this.scrollMargin;
+            this.scrollMargin = 0;
+
+            this.scroller.animate({
+                    'margin-left': (scrollWidth * -1) + scrollMargin
+                },
+                scrollWidth * 100 / this.scrollSpeed,
+                'linear',
+                ScrollerChangeFirst
+            );
+        }
+    }
+    NewsController.init();
+    </script>
 </body>
 </html>
