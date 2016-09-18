@@ -323,7 +323,7 @@ class External extends Controller
         $insert_users = $Database->insert($query);
 
         if(empty($insert_users)) {
-            $Logger->debug("Couldn't insert `users`: ". $Database->getError()[2]);
+            $Logger->debug("Couldn't insert `users`: ". $Database->getError());
             $Logger->debug("Query executed: ". $Database->lastQuery);
 
             return false;
@@ -351,7 +351,7 @@ class External extends Controller
         $insert_accounts = $Database->insert($query);
 
         if(empty($insert_accounts)) {
-            $Logger->debug("Couldn't insert `accounts`: ". $Database->getError()[2]);
+            $Logger->debug("Couldn't insert `accounts`: ". $Database->getError());
             $Logger->debug("Query executed: ". $Database->lastQuery);
 
             return false;
@@ -386,7 +386,7 @@ class External extends Controller
         $insert_accounts_equipment_hangars = $Database->insert($query);
 
         if(empty($insert_accounts_equipment_hangars)) {
-            $Logger->debug("Couldn't insert `accounts_equipment_hangars`: ". $Database->getError()[2]);
+            $Logger->debug("Couldn't insert `accounts_equipment_hangars`: ". $Database->getError());
             $Logger->debug("Query executed: ". $Database->lastQuery);
 
             return false;
@@ -410,7 +410,7 @@ class External extends Controller
         $insert_accounts_equipment_ships = $Database->insert($query);
 
         if(empty($insert_accounts_equipment_ships)) {
-            $Logger->debug("Couldn't insert `accounts_equipment_ships`: ". $Database->getError()[2]);
+            $Logger->debug("Couldn't insert `accounts_equipment_ships`: ". $Database->getError());
             $Logger->debug("Query executed: ". $Database->lastQuery);
 
             return false;
@@ -444,7 +444,7 @@ class External extends Controller
             $insert_items[] = $Database->insert($query);
 
             if(empty($insert_items[$i])) {
-                $Logger->debug("Couldn't insert `accounts_equipment_items`: ". $Database->getError()[2]);
+                $Logger->debug("Couldn't insert `accounts_equipment_items`: ". $Database->getError());
                 $Logger->debug("Query executed: ". $Database->lastQuery);
                 //There's no need to make registration unsuccessfull just because we couldn't add 1 item
             }
@@ -471,7 +471,7 @@ class External extends Controller
             $insert_gg = $Database->insert($query);
 
             if(empty($insert_gg)) {
-                $Logger->debug("Couldn't insert `accounts_galaxygate`: ". $Database->getError()[2]);
+                $Logger->debug("Couldn't insert `accounts_galaxygate`: ". $Database->getError());
                 $Logger->debug("Query executed: ". $Database->lastQuery);
                 //There's no need to make registration unsuccessfull just because we couldn't add 1 galaxygate
             }
@@ -491,7 +491,7 @@ class External extends Controller
         $insert_profile = $Database->insert($query);
 
         if(empty($insert_profile)) {
-            $Logger->debug("Couldn't insert `accounts_profiles`: ". $Database->getError()[2]);
+            $Logger->debug("Couldn't insert `accounts_profiles`: ". $Database->getError());
             $Logger->debug("Query executed: ". $Database->lastQuery);
         }
 
@@ -511,7 +511,7 @@ class External extends Controller
             $insert_message = $Database->insert($query);
 
             if(empty($insert_message)) {
-                $Logger->debug("Couldn't insert `accounts_messages`: ". $Ddatabase->getError()[2]);
+                $Logger->debug("Couldn't insert `accounts_messages`: ". $Ddatabase->getError());
                 $Logger->debug("Query executed: ". $Database->lastQuery);
             }
 
