@@ -56,4 +56,6 @@ if($lang != \Alexya\Container::Session()->lang) {
     return \Application\ORM\Account::create();
 });
 
+\Alexya\Foundation\View::global("user", \Alexya\Container::Account());
+
 \Alexya\Container::Router()->route(true);
