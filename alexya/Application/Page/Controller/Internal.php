@@ -51,7 +51,7 @@ class Internal extends Controller
 
             $this->_triad->children->module = $module;
 
-            $body = $this->_triad->View->render();
+            $body = $this->_triad->Presenter->render();
         } catch(Exception $e) {
             if(!Container::Settings()->get("application.debug")) {
                 Response::redirect("/Internal/Start");
