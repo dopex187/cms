@@ -32,8 +32,7 @@ return [
      * Global view variables.
      */
     "view_vars" => [
-        "URL"  => "http://localhost/",
-        "user" => \Alexya\Container::Account()
+        "URL" => "http://localhost/"
     ],
 
     /**
