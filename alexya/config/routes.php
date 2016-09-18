@@ -132,8 +132,16 @@ return [
      * This way the default route is also executed even so it can render the page.
      */
     "/Internal(/?)(.*)" => function() {
+        // Check that account is logged
         if(!\Alexya\Container::Account()->isLogged()) {
             \Alexya\Http\Response::redirect("/External/Login");
+        }
+        // Check that account has choosen a company
+        if(
+            \Alexya\Container::Account()->factions_id == 0 &&
+            \Alexya\Http\Request::main()->uri()[2]    != "CompanyChoose"
+        ) {
+            \Alexya\Http\Response::redirect("/Internal/CompanyChoose");
         }
     }
 ];
