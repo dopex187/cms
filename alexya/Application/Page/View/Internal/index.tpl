@@ -6,7 +6,7 @@
     <link rel="icon" type="image/ico" href="{$URL}favicon.html">
 
     <link href="{$URL}css/stylesheets.css" rel="stylesheet" type="text/css">
-    <link href="{$URL}http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
     <script type='text/javascript' src='{$URL}js/plugins/jquery/jquery.min.js'></script>
     <script type='text/javascript' src='{$URL}js/plugins/jquery/jquery-ui.min.js'></script>
@@ -63,19 +63,19 @@
              top: 0px;
              right: 0px;
         }
-        .newest-messages a {
+        .nav-box a {
              padding: 10px 10px 10px 22px;
         }
-        .newest-messages ul {
+        .nav-box ul {
             width: 314px;
             padding: 10px;
             background-color: rgb(14, 44, 78);
         }
-        .newest-messages ul li {
+        .nav-box ul li {
             border-bottom: 1px solid;
             margin-bottom: 10px;
         }
-        .newest-messages ul li:last-child {
+        .nav-box ul li:last-child {
             border: 0px;
             margin: 0px;
         }
@@ -110,19 +110,74 @@
                             </ul>
                         </div>
                         <ul class="nav navbar-nav navbar-right top-right">
-                            <li class="dropdown newest-messages">
+                            <li class="dropdown nav-box">
                                 <a href="#" class="drodown-toggle" data-toggle="dropdown">
                                     <span class="fa fa-envelope fa-3x"></span>
-                                    {if $user->Messages->hasUnreadMessages()}
-                                        <small class="circle-warning top-right">{$user->Messages->unreadMessagesCount()}</small>
+                                    {if $user->Messaging->hasUnreadMessages()}
+                                        <small class="circle-warning top-right">{$user->Messaging->unreadMessagesCount()}</small>
                                     {/if}
                                 </a>
                                 <ul class="dropdown-menu">
-                                    {foreach from=$user->Messages->unreadMessages() item=message}
+                                    {foreach from=$user->Messaging->unreadMessages() item=message}
                                     <li>
-                                        <h4><a href="{$URL}Internal/Messages/{$message["id"]}">{$message["title"]}</a></h4>
+                                        <h4><a href="{$URL}Internal/Messages/{$message->id}">{$message->title}</a></h4>
+                                    </li>
+                                    {foreachelse}
+                                    <li>
+                                        <h4>No new messages!</h4>
                                     </li>
                                     {/foreach}
+                                </ul>
+                            </li><li class="nav-box dropdown">
+                                <a href="#" class="drodown-toggle" data-toggle="dropdown">
+                                    {$user->name}
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <div class="block block-drop-shadow">
+                                        <div class="head np">
+                                            <div class="user">
+                                                <div class="info">
+                                                <img src="{$URL}img/logob.png" class="img-circle img-thumbnail">
+                                                    <a href="#" class="informer informer-one">
+                                                        <span>{$user->experience}</span>
+                                                        {t("Experience")}
+                                                    </a>
+                                                    <a href="#" class="informer informer-two">
+                                                        <span>{$user->honor}</span>
+                                                        {t("Honor")}
+                                                    </a>
+                                                    <a href="#" class="informer informer-three">
+                                                        <span>{$user->credits}</span>
+                                                        {t("Credits")}
+                                                    </a>
+                                                    <a href="#" class="informer informer-four">
+                                                        <span>{$user->uridium}</span>
+                                                        {t("Uridium")}
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="block block-drop-shadow page-navigation-hide">
+                                        <div class="head bg-dot20">
+                                            <div class="side pull-left">
+                                                <div class="head-panel nm">
+                                                    <div class="hp-info hp-simple pull-left hp-inline">
+                                                        <span class="hp-sm">{t("Level")}</span>
+                                                        <span class="hp-sm">{t("Experience needed for next level")}</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="side pull-right">
+                                                <div class="head-panel nm">
+                                                    <div class="hp-info hp-simple pull-left hp-inline">
+                                                        <span class="hp-sm">{$user->levels_id}</span>
+                                                        <span class="hp-sm">0</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </ul>
                             </li>
                             <li>
@@ -211,36 +266,6 @@
                     </a>
                 </li>
             </ul>
-        </div>
-        <div class="page-sidebar pull-right">
-            <div class="block block-drop-shadow page-navigation-hide" style="margin-top: 94px">
-                <div class="head bg-dot20">
-                    <div class="side pull-left">
-                        <div class="head-panel nm">
-                            <div class="hp-info hp-simple pull-left hp-inline">
-                                <span class="hp-sm">{t("Experience")}</span>
-                                <span class="hp-sm">{t("Level")}</span>
-                                <span class="hp-sm">{t("Honor")}</span>
-                                <span class="hp-sm">{t("Credits")}</span>
-                                <span class="hp-sm">{t("Uridium")}</span>
-                                <span class="hp-sm">{t("Jackpot")}</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="side pull-right">
-                        <div class="head-panel nm">
-                            <div class="hp-info hp-simple pull-left hp-inline">
-                                <span class="hp-sm">{$user->experience}</span>
-                                <span class="hp-sm">{$user->level}</span>
-                                <span class="hp-sm">{$user->honor}</span>
-                                <span class="hp-sm">{$user->credits}</span>
-                                <span class="hp-sm">{$user->uridium}</span>
-                                <span class="hp-sm">{$user->jackpot}</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
         <div class="page-content">
             <div class="container">
