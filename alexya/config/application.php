@@ -9,6 +9,11 @@
 
  return [
      /**
+      * Whether we're under debug mode or not
+      */
+     "debug" => true,
+
+     /**
       * Invitation code settings.
       */
      "invitation" => [
