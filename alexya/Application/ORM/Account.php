@@ -4,6 +4,8 @@ namespace Application\ORM;
 use \Alexya\Container;
 use \Alexya\Database\ORM\Model as ORM;
 
+use \Application\Handler\Account\Messaging;
+
 /**
  * Account object.
  *
@@ -48,7 +50,27 @@ class Account extends ORM
     ///////////////////////////////////////
 
     /**
-     * Sount is 100% instantiated (aka user is logged in), `false` if not.
+     * OnInstance method.
+     *
+     * Sets user's messages handler.
+     */
+    public function onInstance()
+    {
+        $inbox = ORM::all([
+            "to_accounts_id" => $this->id
+        ], "accounts_messages");
+
+        $outbox = ORM::all([
+            "from_accounts_id" => $this->id
+        ], "accounts_messages");
+
+        $this->_data["Messaging"] = new Messaging($inbox, $outbox);
+    }
+
+    /**
+     * Checks that the user is logged in.
+     *
+     * @return bool `true` if account is 100% instantiated (aka user is logged in), `false` if not.
      */
     public function isLogged() : bool
     {
