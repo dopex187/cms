@@ -169,7 +169,7 @@ class External extends Controller
 
         $Session->id = $session_id;
 
-        Response::redirect("/internal/Start");
+        Response::redirect("/Internal/Start");
     }
 
     /**
