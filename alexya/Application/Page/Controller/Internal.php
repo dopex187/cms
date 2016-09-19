@@ -1,6 +1,7 @@
 <?php
 namespace Application\Page\Controller;
 
+use \Alexya\Container;
 use \Alexya\Foundation\{
     Controller,
     Module
