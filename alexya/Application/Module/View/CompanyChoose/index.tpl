@@ -15,22 +15,16 @@
                 <div class="col-md-6">
                     <h2 style="color: #{$faction->color}">{t("Advantages")}</h2>
                     <table class="table">
+                        {foreach from=json_decode($faction->bonus) item=bonus}
                         <tr>
-                            <td>Experience for NPC destroyed</td>
-                            <td>+5%</td>
+                            <td>{$bonus->description}</td>
+                            <td>{$bonus->effect}{$bonus->amount}{$bonus->type}</td>
                         </tr>
+                        {foreachelse}
                         <tr>
-                            <td>Honor for NPC destroyed</td>
-                            <td>+10%</td>
+                            <td>No additional bonuses in this faction.</td>
                         </tr>
-                        <tr>
-                            <td>Credits for NPC destroyed</td>
-                            <td>+10%</td>
-                        </tr>
-                        <tr>
-                            <td>Uridium for NPC destroyed</td>
-                            <td>+10%</td>
-                        </tr>
+                        {/foreach}
                     </table>
                 </div>
                 <center style="clear: both">
