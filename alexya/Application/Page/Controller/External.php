@@ -294,14 +294,14 @@ class External extends Controller
     }
 
     /**
-     * Registers a user
+     * Registers a new user in the database.
      *
-     * @param string $username   User name
-     * @param string $password   Password
-     * @param string $email      Email
-     * @param string $session_id Session ID
+     * @param string $username   User name.
+     * @param string $password   Password.
+     * @param string $email      Email.
+     * @param string $session_id Session ID.
      *
-     * @return bool Whether the register succeeded or not
+     * @return bool Whether the register succeeded or not.
      */
     private function _registerUser(string $username, string $password, string $email, string $session_id) : bool
     {
@@ -396,15 +396,16 @@ class External extends Controller
 
         $query->insert("accounts_equipment_ships")
               ->values([
-                  "accounts_id"      => $insert_accounts,
-                  "ships_id"         => $Settings->get("application.register.ship.id"),
-                  "ships_designs_id" => $Settings->get("application.register.ship.designs_id"),
-                  "gfx"              => $Settings->get("application.register.ship.gfx"),
-                  "maps_id"          => $Settings->get("application.register.ship.maps_id"),
-                  "(JSON)position"   => $Settings->get("application.register.ship.position"),
-                  "health"           => $Settings->get("application.register.ship.health"),
-                  "nanohull"         => $Settings->get("application.register.ship.nanohull"),
-                  "shield"           => $Settings->get("application.register.ship.shield"),
+                  "accounts_id"                   => $insert_accounts,
+                  "accounts_equipment_hangars_id" => $insert_accounts_equipment_hangars,
+                  "ships_id"                      => $Settings->get("application.register.ship.id"),
+                  "ships_designs_id"              => $Settings->get("application.register.ship.designs_id"),
+                  "gfx"                           => $Settings->get("application.register.ship.gfx"),
+                  "maps_id"                       => $Settings->get("application.register.ship.maps_id"),
+                  "(JSON)position"                => $Settings->get("application.register.ship.position"),
+                  "health"                        => $Settings->get("application.register.ship.health"),
+                  "nanohull"                      => $Settings->get("application.register.ship.nanohull"),
+                  "shield"                        => $Settings->get("application.register.ship.shield"),
               ]);
 
         $insert_accounts_equipment_ships = $Database->insert($query);
