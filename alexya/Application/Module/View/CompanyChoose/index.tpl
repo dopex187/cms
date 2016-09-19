@@ -17,7 +17,7 @@
                     <table class="table">
                         {foreach from=json_decode($faction->bonus) item=bonus}
                         <tr>
-                            <td>{$bonus->description}</td>
+                            <td>{t($bonus->description)}</td>
                             <td>{$bonus->effect}{$bonus->amount}{$bonus->type}</td>
                         </tr>
                         {foreachelse}
