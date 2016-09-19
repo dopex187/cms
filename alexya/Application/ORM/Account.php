@@ -25,13 +25,26 @@ class Account extends ORM
      * @var array
      */
     protected static $_relations = [
-        "Accounts\\Equipment\\Hangar" => [
-            "setRelations" => true
+        "accounts_equipment_hangars" => [
+            "setRelations" => true,
+            "name" => "Hangar"
         ],
-        "Faction",
-        "Rank",
-        "Clan" => [
+        "factions" => [
+            "name" => "Faction"
+        ],
+        "ranks" => [
+            "name" => "Rank"
+        ],
+        "clans" => [
+            "name"      => "Clan",
             "condition" => "\\Aplication\\ORM\\Account::canSetClan"
+        ],
+        "maps" => [
+            "name" => "Map",
+            "localKey" => "id"
+        ],
+        "levels" => [
+            "name" => "Level"
         ]
     ];
 
