@@ -18,7 +18,7 @@ class Internal extends Presenter
      */
     public function onInstance()
     {
-        $this->_triad->View->set("name", ($this->_request->uri()[1] ?? ""));
+        $this->_triad->View->set("name", ($this->_request->uri()[2] ?? ""));
         $this->_triad->View->set("module", $this->_triad->children->module);
         $this->_triad->View->set("news", Model::latest(10, "id", "news"));
     }
