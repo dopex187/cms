@@ -55,20 +55,20 @@ function updateDescription(id)
                 console.log(data.error);
             }
 
-            $("#preview").children("img").attr("src", data.image);
-            $("#preview").children("p").text(data.price);
-            $("#description").children("p").text(data.description);
+            $("#preview").children("img").attr("src", data.item.image);
+            $("#preview").children("p").text(data.item.price);
+            $("#description").children("p").text(data.item.description);
             $("#stats").empty();
             for(var i = 0; i < data.stats.length; i++) {
                 var tr   = $("<tr></tr>");
-                var name = $("<td></td>").text(data.stats[i].name);
-                var desc = $("<td></td>").text(data.stats[i].description);
+                var name = $("<td></td>").text(data.item.stats[i].name);
+                var desc = $("<td></td>").text(data.item.stats[i].description);
 
                 tr.append(name, desc);
 
                 $("#stats").append(tr);
             }
-            $("#buy").attr("href", "{$URL}Internal/Shop/buy/"+ data.id);
+            $("#buy").attr("href", "{$URL}Internal/Shop/buy/"+ data.item.id);
         }
     });
 }
