@@ -86,7 +86,8 @@ return [
 
         if(
             $uri[1] != "External" &&
-            $uri[1] != "Internal"
+            $uri[1] != "Internal" &&
+            $uri[1] != "Map"
         ) {
             \Alexya\Http\Response::redirect("/External/Login");
         }
@@ -131,7 +132,7 @@ return [
      *
      * This way the default route is also executed even so it can render the page.
      */
-    "/Internal(/?)(.*)" => function() {
+    "/(Internal|Map)(/?)(.*)" => function() {
         // Check that account is logged
         if(!\Alexya\Container::Account()->isLogged()) {
             \Alexya\Http\Response::redirect("/External/Login");

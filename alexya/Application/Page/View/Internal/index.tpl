@@ -260,7 +260,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="{$URL}Internal/Map">
+                    <a href="{$URL}Map">
                         {t("Spacemap")}
                         <span class="fa fa-play fa-lg fa-pull-right" style="float: right;"></span>
                     </a>
