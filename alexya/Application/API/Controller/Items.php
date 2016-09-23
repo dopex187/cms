@@ -47,4 +47,38 @@ class Items extends Controller
             "item"   => $item->columns()
         ];
     }
+
+    /**
+     * Returns items from a category.
+     *
+     * @param string category Category name.
+     * @param int    amount   Amount of items to return (-1 = all).
+     */
+    public function category($category, $amount = -1) : array
+    {
+        if(!is_numeric($amount)) {
+            return $this->index();
+        }
+
+        $items = Model::find([
+            "category" => $category
+        ], $amount, "items");
+        if(empty($items)) {
+            return [
+                "result" => "error",
+                "error"  => t("Category does not exist!")
+            ];
+        }
+
+        $result = [
+            "result" => "success",
+            "items"  => []
+        ];
+
+        foreach($items as $item) {
+            $result["items"][] = $item->columns();
+        }
+
+        return $result;
+    }
 }
