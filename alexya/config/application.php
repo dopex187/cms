@@ -32,6 +32,7 @@ return [
      * Global view variables.
      */
     "view_vars" => [
+        "ip"  => "127.0.0.1",
         "URL" => "http://localhost/"
     ],
 
