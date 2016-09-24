@@ -10,9 +10,13 @@
                 {if $item->lifetime > 0}
                     {$lifetime = $item->lifetime}
                 {/if}
+                {$coin = "Credits"}
+                {if $items[0]->is_elite}
+                    {$coin = "Uridium"}
+                {/if}
                 <div class="col-md-3 item" onclick="updateDescription({$item->id})">
                     <img src="{$URL}img/items/{$item->category}/{$item->loot_id}.png">
-                    <p>{$item->price} / {$lifetime}{$item->unity}</p>
+                    <p>{$item->price} {t($coin)}/ {$lifetime}{$item->unity}</p>
                 </div>
                 {/foreach}
             </div>
@@ -29,8 +33,12 @@
                     {if $items[0]->lifetime > 0}
                         {$lifetime = $items[0]->lifetime}
                     {/if}
+                    {$coin = "Credits"}
+                    {if $items[0]->is_elite}
+                        {$coin = "Uridium"}
+                    {/if}
                     <img src="{$URL}img/items/{$items[0]->category}/{$items[0]->loot_id}.png">
-                    <p>{$items[0]->price} / {$lifetime}{$items[0]->unity}</p>
+                    <p>{$items[0]->price} {t($coin)} / {$lifetime}{$items[0]->unity}</p>
                 </div>
                 <div class="col-md-6" id="description">
                     <p>{t($items[0]->description)}</p>
@@ -43,7 +51,7 @@
                     </tr>
                     {/foreach}
                 </table>
-                <center><a href="#" class="btn btn-default" style="width: 100px;">{t("Buy")}</a></center>
+                <center><a href="{$URL}Internal/Shop/buy/{$items[0]->id}" id="buy" class="btn btn-default" style="width: 100px; margin-top: 10px;">{t("Buy")}</a></center>
             </div>
         </div>
     </div>
@@ -62,17 +70,19 @@ function updateDescription(id)
             if(data.result != "success") {
                 console.log(data.error);
             }
+            console.log(data);
 
             $("#preview").children("img").attr("src", data.item.image);
             $("#preview").children("p").text(data.item.price);
             $("#description").children("p").text(data.item.description);
             $("#stats").empty();
-            for(var i = 0; i < data.stats.length; i++) {
+            for(var i = 0; i < data.item.stats.length; i++) {
+                console.log(data.item.stats[i]);
                 var tr   = $("<tr></tr>");
                 var name = $("<td></td>").text(data.item.stats[i].name);
-                var desc = $("<td></td>").text(data.item.stats[i].description);
+                var val  = $("<td></td>").text(data.item.stats[i].value);
 
-                tr.append(name, desc);
+                tr.append(name, val);
 
                 $("#stats").append(tr);
             }
