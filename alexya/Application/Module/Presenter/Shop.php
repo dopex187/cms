@@ -4,6 +4,7 @@ namespace Application\Module\Presenter;
 use \Alexya\Database\ORM\Model;
 use \Alexya\Foundation\Presenter;
 use \Alexya\Http\Response;
+use \Alexya\Container;
 
 /**
  * Shop page presenter.
@@ -17,13 +18,13 @@ class Shop extends Presenter
      */
     public function onInstance()
     {
-        $category = $this->_request->uri()[3] ?? "";
+        $category = strtolower(($this->_request->uri()[1] ?? ""));
         $items    = Model::all([
             "category" => $category
         ], "items");
 
         if(empty($items)) {
-            Response::redirect("/Shop/Ships");
+            Response::redirect("/Internal/Shop/Ships");
         }
 
         $this->_triad->View->set("items", $items);
