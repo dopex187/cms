@@ -269,7 +269,7 @@
         </div>
         <div class="page-content">
             <div class="container">
-                {$module->Controller->render()}
+                {$module}
             </div>
         </div>
     </div>
