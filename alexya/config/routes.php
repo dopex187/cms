@@ -107,15 +107,15 @@ return [
         $request = \Alexya\Http\Request::main();
         $uri     = $request->uri();
 
-        $page    = $uri[1];
-        $action  = ($_POST["action"] ?? ($uri[2] ?? "index"));
-        $params  = array_slice($uri, 3);
+        $page    = $uri[2];
+        $action  = ($_POST["action"] ?? ($uri[3] ?? "index"));
+        $params  = array_slice($uri, 4);
 
         $triad = new \Application\API($page, $request);
 
         if($triad->Controller == null) {
             // The requested action isn't available
-            die('{"result":"error","error":"No action available!"}')
+            die('{"result":"error","error":"No action available!"}');
         }
 
         if(
@@ -137,8 +137,11 @@ return [
             $json = $response;
 
             // Encode the response if it's not already encoded
-            $temp = json_decode($json);
-            if(json_last_error() != JSON_ERROR_NONE) {
+            $temp = @json_decode($json);
+            if(
+                json_last_error() != JSON_ERROR_NONE ||
+                $temp == null
+            ) {
                 $json = json_encode($json);
             }
 
