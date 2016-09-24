@@ -5,10 +5,14 @@
                 <h2>{t("Items")}</h2>
             </div>
             <div class="content">
-                {foreach from=items item=item}
+                {foreach from=$items item=item}
+                {$lifetime = ""}
+                {if $item->lifetime > 0}
+                    {$lifetime = $item->lifetime}
+                {/if}
                 <div class="col-md-3 item" onclick="updateDescription({$item->id})">
                     <img src="{$URL}img/items/{$item->category}/{$item->loot_id}.png">
-                    <p>{$item->price} / {$item->unity}</p>
+                    <p>{$item->price} / {$lifetime}{$item->unity}</p>
                 </div>
                 {/foreach}
             </div>
@@ -21,8 +25,12 @@
             </div>
             <div class="content">
                 <div class="col-md-6 item" id="preview">
+                    {$lifetime = ""}
+                    {if $items[0]->lifetime > 0}
+                        {$lifetime = $items[0]->lifetime}
+                    {/if}
                     <img src="{$URL}img/items/{$items[0]->category}/{$items[0]->loot_id}.png">
-                    <p>{$items[0]->price} / {$items[0]->unity}</p>
+                    <p>{$items[0]->price} / {$lifetime}{$items[0]->unity}</p>
                 </div>
                 <div class="col-md-6" id="description">
                     <p>{t($items[0]->description)}</p>
@@ -35,7 +43,7 @@
                     </tr>
                     {/foreach}
                 </table>
-                <a href="#" class="btn btn-default" style="width: 100px;">{t("Buy")}</a>
+                <center><a href="#" class="btn btn-default" style="width: 100px;">{t("Buy")}</a></center>
             </div>
         </div>
     </div>
