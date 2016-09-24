@@ -1,6 +1,7 @@
 <?php
 namespace Application\API\Controller;
 
+use \Alexya\Database\ORM\Model;
 use \Alexya\Foundation\Controller;
 
 /**
