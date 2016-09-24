@@ -1,6 +1,7 @@
 <?php
 namespace Application\API\Controller;
 
+use \Alexya\Container;
 use \Alexya\Database\ORM\Model;
 use \Alexya\Foundation\Controller;
 
@@ -43,10 +44,20 @@ class Items extends Controller
             ];
         }
 
-        return [
+        $result = [
             "result" => "success",
             "item"   => $item->asDecodedJSON()
         ];
+
+        if($result["item"]["is_elite"]) {
+            $result["item"]["price"] .= t(" Uridum");
+        } else {
+            $result["item"]["price"] .= t(" Credits");
+        }
+
+        $result["item"]["image"] = Container::Settings()->get("application.view_vars.URL") ."img/items/". $result["item"]["category"] ."/". $result["item"]["loot_id"] .".png";
+
+        return $result;
     }
 
     /**
@@ -83,7 +94,16 @@ class Items extends Controller
         ];
 
         foreach($items as $item) {
-            $result["items"][] = $item->asDecodedJSON();
+            $i = $item->asDecodedJSON();
+
+            if($i["is_elite"]) {
+                $i["price"] .= t(" Uridum");
+            } else {
+                $i["price"] .= t(" Credits");
+            }
+            $i["image"] = Container::Settings()->get("application.view_vars.URL") ."img/items/". $category ."/". $i["loot_id"] .".png";
+
+            $result["items"][] = $i;
         }
 
         return $result;
