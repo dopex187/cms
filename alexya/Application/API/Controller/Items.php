@@ -45,7 +45,7 @@ class Items extends Controller
 
         return [
             "result" => "success",
-            "item"   => $item->columns()
+            "item"   => $item->asDecodedJSON()
         ];
     }
 
@@ -53,7 +53,7 @@ class Items extends Controller
      * Returns items from a category.
      *
      * @param string category Category name.
-     * @param int    amount   Amount of items to return (-1 = all).
+     * @param int    amount   Amount of items to return (< 0 = all).
      */
     public function category($category, $amount = -1) : array
     {
@@ -64,6 +64,12 @@ class Items extends Controller
         $items = Model::find([
             "category" => $category
         ], $amount, "items");
+        if($amount < 0) {
+            $items = Model::all([
+                "category" => $category
+            ], "items");
+        }
+
         if(empty($items)) {
             return [
                 "result" => "error",
@@ -77,7 +83,7 @@ class Items extends Controller
         ];
 
         foreach($items as $item) {
-            $result["items"][] = $item->columns();
+            $result["items"][] = $item->asDecodedJSON();
         }
 
         return $result;
