@@ -50,9 +50,9 @@ class Items extends Controller
         ];
 
         if($result["item"]["is_elite"]) {
-            $result["item"]["price"] .= t(" Uridum");
+            $result["item"]["price"] .= t(" U.");
         } else {
-            $result["item"]["price"] .= t(" Credits");
+            $result["item"]["price"] .= t(" C.");
         }
 
         $result["item"]["image"] = Container::Settings()->get("application.view_vars.URL") ."img/items/". $result["item"]["category"] ."/". $result["item"]["loot_id"] .".png";
@@ -97,9 +97,9 @@ class Items extends Controller
             $i = $item->asDecodedJSON();
 
             if($i["is_elite"]) {
-                $i["price"] .= t(" Uridum");
+                $i["price"] .= t(" U.");
             } else {
-                $i["price"] .= t(" Credits");
+                $i["price"] .= t(" C.");
             }
             $i["image"] = Container::Settings()->get("application.view_vars.URL") ."img/items/". $category ."/". $i["loot_id"] .".png";
 

@@ -10,13 +10,13 @@
                 {if $item->lifetime > 0}
                     {$lifetime = $item->lifetime}
                 {/if}
-                {$coin = "Credits"}
-                {if $items[0]->is_elite}
-                    {$coin = "Uridium"}
+                {$coin = "C."}
+                {if $item->is_elite}
+                    {$coin = "U."}
                 {/if}
                 <div class="col-md-3 item" onclick="updateDescription({$item->id})">
                     <img src="{$URL}img/items/{$item->category}/{$item->loot_id}.png">
-                    <p>{$item->price} {t($coin)}/ {$lifetime}{$item->unity}</p>
+                    <p>{$item->price} {$coin}/ {$lifetime}{$item->unity}</p>
                 </div>
                 {/foreach}
             </div>
@@ -33,12 +33,12 @@
                     {if $items[0]->lifetime > 0}
                         {$lifetime = $items[0]->lifetime}
                     {/if}
-                    {$coin = "Credits"}
+                    {$coin = "C."}
                     {if $items[0]->is_elite}
-                        {$coin = "Uridium"}
+                        {$coin = "U."}
                     {/if}
                     <img src="{$URL}img/items/{$items[0]->category}/{$items[0]->loot_id}.png">
-                    <p>{$items[0]->price} {t($coin)} / {$lifetime}{$items[0]->unity}</p>
+                    <p>{$items[0]->price} {$coin} / {$lifetime}{$items[0]->unity}</p>
                 </div>
                 <div class="col-md-6" id="description">
                     <p>{t($items[0]->description)}</p>
@@ -51,7 +51,7 @@
                     </tr>
                     {/foreach}
                 </table>
-                <center><a href="{$URL}Internal/Shop/buy/{$items[0]->id}" id="buy" class="btn btn-default" style="width: 100px; margin-top: 10px;">{t("Buy")}</a></center>
+                <center><a href="{$URL}Internal/Shop/buy/{$items[0]->id}" id="buy" class="btn btn-default">{t("Buy")}</a></center>
             </div>
         </div>
     </div>
