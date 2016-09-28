@@ -134,7 +134,21 @@ return [
          * Items to give.
          */
         "items" => [
-            // No items for now (I need to add them to database first xD).
+            "lcb_10"  => [
+                "items_id" => 11,
+                "amount"   => 1000
+            ],
+            "mcb_25"  => 12,
+            "mcb_50"  => 13,
+            "ucb_100" => 14,
+            "rsb_75"  => 15,
+            "r310"    => [
+                "items_id" => 16,
+                "amount"   => 100
+            ],
+            "plt_2026" => 17,
+            "plt_2021" => 18,
+            "plt_3030" => 19
         ],
 
         /**
