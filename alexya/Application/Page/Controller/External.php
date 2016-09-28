@@ -133,8 +133,8 @@ class External extends Controller
             return $this->Login();
         }
 
-        // $username = Security::cleanXSS($username);
-        // $password = Security::hash($password);
+        //$username = Security::cleanXSS($username);
+        $password = md5($password); //Security::hash($password);
 
         $query = new QueryBuilder($Database);
         $query->select()
@@ -189,14 +189,13 @@ class External extends Controller
 
         $session_id = Str::random(32, "0123456789abcdef");
 
-
         if(!$this->_checkInfo($username, $password, $email, $tac)) {
             return $this->Register();
         }
 
-        // $username = Security::cleanXSS($username);
-        // $password = Security::hash($password);
-        // $email    = Security::cleanXSS($email);
+        //$username = Security::cleanXSS($username);
+        $password = md5($password); //Security::hash($password);
+        //$email    = Security::cleanXSS($email);
 
         //Check username and email is unique in db
         $query = new QueryBuilder($Database);
@@ -396,15 +395,15 @@ class External extends Controller
 
         $query->insert("accounts_equipment_ships")
               ->values([
-                  "accounts_id"                   => $insert_accounts,
-                  "ships_id"                      => $Settings->get("application.register.ship.id"),
-                  "ships_designs_id"              => $Settings->get("application.register.ship.designs_id"),
-                  "gfx"                           => $Settings->get("application.register.ship.gfx"),
-                  "maps_id"                       => $Settings->get("application.register.ship.maps_id"),
-                  "(JSON)position"                => $Settings->get("application.register.ship.position"),
-                  "health"                        => $Settings->get("application.register.ship.health"),
-                  "nanohull"                      => $Settings->get("application.register.ship.nanohull"),
-                  "shield"                        => $Settings->get("application.register.ship.shield"),
+                  "accounts_id"      => $insert_accounts,
+                  "ships_id"         => $Settings->get("application.register.ship.id"),
+                  "ships_designs_id" => $Settings->get("application.register.ship.designs_id"),
+                  "gfx"              => $Settings->get("application.register.ship.gfx"),
+                  "maps_id"          => $Settings->get("application.register.ship.maps_id"),
+                  "(JSON)position"   => $Settings->get("application.register.ship.position"),
+                  "health"           => $Settings->get("application.register.ship.health"),
+                  "nanohull"         => $Settings->get("application.register.ship.nanohull"),
+                  "shield"           => $Settings->get("application.register.ship.shield"),
               ]);
 
         $insert_accounts_equipment_ships = $Database->insert($query);
@@ -446,12 +445,19 @@ class External extends Controller
         $insert_items = [];
         for($i = 0; $i < count($Settings->get("application.register.items")); $i++) {
             $item = $Settings->get("application.register.items")[$i];
+            if(!is_array($item)) {
+                $item = [
+                    "id"        => $item,
+                    "levels_id" => 1,
+                    "amount"    => 0
+                ];
+            }
 
             $query->insert("accounts_equipment_items")
                   ->values([
                       "items_id"  => $item["id"],
-                      "levels_id" => $item["levels_id"],
-                      "amount"    => $item["amount"]
+                      "levels_id" => ($item["levels_id"] ?? 1),
+                      "amount"    => ($item["amount"] ?? 0)
                   ]);
 
             $insert_items[] = $Database->insert($query);
