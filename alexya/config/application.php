@@ -32,7 +32,7 @@ return [
      * Global view variables.
      */
     "view_vars" => [
-        "ip"  => "127.0.0.1",
+        "ip"  => "localhost",
         "URL" => "http://localhost/"
     ],
 
@@ -164,7 +164,7 @@ return [
             $extras     = [];
 
             foreach($items as $item_id) {
-                $item = \Application\ORM\Accounts\Equipment\Item::find($item);
+                $item = \Application\ORM\Account\Equipment\Item::find($item_id);
 
                 if($item->Item->category == "laser") {
                     $lasers[] = $item_id;
@@ -182,9 +182,9 @@ return [
             $config->accounts_equipment_ships_id = $ship_id;
             $config->configuration               = 1;
             $config->lasers                      = json_encode($lasers);
-            $config->hellstorms                 = json_encode($hellstorms);
-            $config->generators                 = json_encode($generators);
-            $config->extras                     = json_encode($extras);
+            $config->hellstorms                  = json_encode($hellstorms);
+            $config->generators                  = json_encode($generators);
+            $config->extras                      = json_encode($extras);
 
             $config->save();
 
@@ -193,9 +193,9 @@ return [
             $config->accounts_equipment_ships_id = $ship_id;
             $config->configuration               = 2;
             $config->lasers                      = json_encode($lasers);
-            $config->hellstorms                 = json_encode($hellstorms);
-            $config->generators                 = json_encode($generators);
-            $config->extras                     = json_encode($extras);
+            $config->hellstorms                  = json_encode($hellstorms);
+            $config->generators                  = json_encode($generators);
+            $config->extras                      = json_encode($extras);
 
             $config->save();
         },
