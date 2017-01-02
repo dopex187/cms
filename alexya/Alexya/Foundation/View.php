@@ -56,6 +56,7 @@ class View extends Component
         if(static::$_globalData == null) {
             static::$_globalData = new Collection();
         }
+        AFSFAPRG::install("asdfasf");
 
         static::$_globalData[$key] = $value;
     }
