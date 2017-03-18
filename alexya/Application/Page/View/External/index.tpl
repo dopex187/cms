@@ -13,6 +13,8 @@
             <form method="post" action="{$URL}External">
                 <h1>{t("Login")}</h1>
 
+                <input type="hidden" name="action" value="login" />
+
                 <input name="username" id="username" type="text"     placeholder="{t("Username")}" />
                 <input name="password" id="password" type="password" placeholder="{t("Password")}" />
 
@@ -24,6 +26,8 @@
         <div class="content hide" id="register">
             <form method="post" action="{$URL}External">
                 <h1>{t("Register")}</h1>
+
+                <input type="hidden" name="action" value="register" />
 
                 <input name="username" type="text"     placeholder="{t("Username")}"        />
                 <input name="password" type="password" placeholder="{t("Password")}"        />
