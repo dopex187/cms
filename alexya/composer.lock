@@ -1,0 +1,525 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "f7c26668757fcbf2d814d50a94a7ac51",
+    "content-hash": "c267c21af47c93cef89bab25b72dfe18",
+    "packages": [
+        {
+            "name": "alexya-framework/database",
+            "version": "3.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AlexyaFramework/Database.git",
+                "reference": "e860c1f602a2c75142f8d21eca4867025296920b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AlexyaFramework/Database/zipball/e860c1f602a2c75142f8d21eca4867025296920b",
+                "reference": "e860c1f602a2c75142f8d21eca4867025296920b",
+                "shasum": ""
+            },
+            "require": {
+                "alexya-framework/tools": ">=3.0",
+                "php": ">=7.0"
+            },
+            "type": "framework",
+            "autoload": {
+                "psr-4": {
+                    "Alexya\\": "Alexya"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GNU"
+            ],
+            "authors": [
+                {
+                    "name": "Manulaiko",
+                    "email": "manulaiko@gmail.com"
+                }
+            ],
+            "description": "Alexya's Database utilities",
+            "keywords": [
+                "PHP7",
+                "alexya",
+                "database",
+                "framework",
+                "orm",
+                "php",
+                "querybuilder"
+            ],
+            "time": "2016-09-19 21:42:09"
+        },
+        {
+            "name": "alexya-framework/filesystem",
+            "version": "3.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AlexyaFramework/FileSystem.git",
+                "reference": "d13e4b0b3ade1be3abe489ecd054b44f22a695f2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AlexyaFramework/FileSystem/zipball/d13e4b0b3ade1be3abe489ecd054b44f22a695f2",
+                "reference": "d13e4b0b3ade1be3abe489ecd054b44f22a695f2",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0"
+            },
+            "type": "framework",
+            "autoload": {
+                "psr-4": {
+                    "Alexya\\": "Alexya"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GNU"
+            ],
+            "authors": [
+                {
+                    "name": "Manulaiko",
+                    "email": "manulaiko@gmail.com"
+                }
+            ],
+            "description": "Alexya's FileSystem utilities",
+            "keywords": [
+                "PHP7",
+                "alexya",
+                "directory",
+                "file",
+                "filesystem",
+                "framework",
+                "php"
+            ],
+            "time": "2016-09-02 16:38:45"
+        },
+        {
+            "name": "alexya-framework/http",
+            "version": "3.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AlexyaFramework/Http.git",
+                "reference": "5af59e881670b5cfedbebafc405d5daee07c3ae9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AlexyaFramework/Http/zipball/5af59e881670b5cfedbebafc405d5daee07c3ae9",
+                "reference": "5af59e881670b5cfedbebafc405d5daee07c3ae9",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0"
+            },
+            "type": "framework",
+            "autoload": {
+                "psr-4": {
+                    "Alexya\\": "Alexya"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GNU"
+            ],
+            "authors": [
+                {
+                    "name": "Manulaiko",
+                    "email": "manulaiko@gmail.com"
+                }
+            ],
+            "description": "Alexya's HTTP components",
+            "keywords": [
+                "PHP7",
+                "alexya",
+                "framework",
+                "http",
+                "php"
+            ],
+            "time": "2016-09-02 16:46:14"
+        },
+        {
+            "name": "alexya-framework/localization",
+            "version": "3.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AlexyaFramework/Localization.git",
+                "reference": "0f37f43957ca9f3ebf04a07bf88cd3476303a816"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AlexyaFramework/Localization/zipball/0f37f43957ca9f3ebf04a07bf88cd3476303a816",
+                "reference": "0f37f43957ca9f3ebf04a07bf88cd3476303a816",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0"
+            },
+            "type": "framework",
+            "autoload": {
+                "psr-4": {
+                    "Alexya\\": "Alexya"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GNU"
+            ],
+            "authors": [
+                {
+                    "name": "Manulaiko",
+                    "email": "manulaiko@gmail.com"
+                }
+            ],
+            "description": "Alexya's Localization utilities",
+            "keywords": [
+                "PHP7",
+                "alexya",
+                "framework",
+                "locale",
+                "localization",
+                "php",
+                "translations"
+            ],
+            "time": "2016-08-16 17:50:02"
+        },
+        {
+            "name": "alexya-framework/logger",
+            "version": "3.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AlexyaFramework/Logger.git",
+                "reference": "dce346ac7db8229cad1f7fb4c38eceaf58c49210"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AlexyaFramework/Logger/zipball/dce346ac7db8229cad1f7fb4c38eceaf58c49210",
+                "reference": "dce346ac7db8229cad1f7fb4c38eceaf58c49210",
+                "shasum": ""
+            },
+            "require": {
+                "alexya-framework/database": ">=3.0",
+                "alexya-framework/filesystem": ">=3.0",
+                "php": ">=7.0",
+                "psr/log": "^1.0"
+            },
+            "type": "framework",
+            "autoload": {
+                "psr-4": {
+                    "Alexya\\": "Alexya"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GNU"
+            ],
+            "authors": [
+                {
+                    "name": "Manulaiko",
+                    "email": "manulaiko@gmail.com"
+                }
+            ],
+            "description": "Alexya's Logger",
+            "keywords": [
+                "PHP7",
+                "alexya",
+                "framework",
+                "logger",
+                "php"
+            ],
+            "time": "2016-08-25 02:56:31"
+        },
+        {
+            "name": "alexya-framework/router",
+            "version": "3.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AlexyaFramework/Router.git",
+                "reference": "f0b1a8b726ed61cf6726d7ea046352435d6cc4fe"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AlexyaFramework/Router/zipball/f0b1a8b726ed61cf6726d7ea046352435d6cc4fe",
+                "reference": "f0b1a8b726ed61cf6726d7ea046352435d6cc4fe",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0"
+            },
+            "type": "framework",
+            "autoload": {
+                "psr-4": {
+                    "Alexya\\": "Alexya"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GNU"
+            ],
+            "authors": [
+                {
+                    "name": "Manulaiko",
+                    "email": "manulaiko@gmail.com"
+                }
+            ],
+            "description": "Alexya's Router utilities",
+            "keywords": [
+                "PHP7",
+                "alexya",
+                "framework",
+                "php",
+                "router"
+            ],
+            "time": "2016-10-03 06:41:04"
+        },
+        {
+            "name": "alexya-framework/tools",
+            "version": "3.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AlexyaFramework/Tools.git",
+                "reference": "1854697f24c11de815f623f5d57f49aa965693e4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AlexyaFramework/Tools/zipball/1854697f24c11de815f623f5d57f49aa965693e4",
+                "reference": "1854697f24c11de815f623f5d57f49aa965693e4",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0"
+            },
+            "type": "framework",
+            "autoload": {
+                "psr-4": {
+                    "Alexya\\": "Alexya"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GNU"
+            ],
+            "authors": [
+                {
+                    "name": "Manulaiko",
+                    "email": "manulaiko@gmail.com"
+                }
+            ],
+            "description": "Alexya's Tools utilities",
+            "keywords": [
+                "PHP7",
+                "alexya",
+                "framework",
+                "php",
+                "tools"
+            ],
+            "time": "2016-10-03 06:45:54"
+        },
+        {
+            "name": "alexya-framework/validator",
+            "version": "3.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AlexyaFramework/Validator.git",
+                "reference": "3149db46ea83e6da2a74500eaf1ddb3897869446"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AlexyaFramework/Validator/zipball/3149db46ea83e6da2a74500eaf1ddb3897869446",
+                "reference": "3149db46ea83e6da2a74500eaf1ddb3897869446",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0"
+            },
+            "type": "framework",
+            "autoload": {
+                "psr-4": {
+                    "Alexya\\": "Alexya"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GNU"
+            ],
+            "authors": [
+                {
+                    "name": "Manulaiko",
+                    "email": "manulaiko@gmail.com"
+                }
+            ],
+            "description": "Alexya's Validator utilities",
+            "keywords": [
+                "PHP7",
+                "alexya",
+                "framework",
+                "php",
+                "validator"
+            ],
+            "time": "2016-10-03 06:50:09"
+        },
+        {
+            "name": "nategood/httpful",
+            "version": "0.2.20",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nategood/httpful.git",
+                "reference": "c1cd4d46a4b281229032cf39d4dd852f9887c0f6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nategood/httpful/zipball/c1cd4d46a4b281229032cf39d4dd852f9887c0f6",
+                "reference": "c1cd4d46a4b281229032cf39d4dd852f9887c0f6",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": ">=5.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Httpful": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nate Good",
+                    "email": "me@nategood.com",
+                    "homepage": "http://nategood.com"
+                }
+            ],
+            "description": "A Readable, Chainable, REST friendly, PHP HTTP Client",
+            "homepage": "http://github.com/nategood/httpful",
+            "keywords": [
+                "api",
+                "curl",
+                "http",
+                "requests",
+                "rest",
+                "restful"
+            ],
+            "time": "2015-10-26 16:11:30"
+        },
+        {
+            "name": "psr/log",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/log.git",
+                "reference": "4ebe3a8bf773a19edfe0a84b6585ba3d401b724d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/4ebe3a8bf773a19edfe0a84b6585ba3d401b724d",
+                "reference": "4ebe3a8bf773a19edfe0a84b6585ba3d401b724d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Log\\": "Psr/Log/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for logging libraries",
+            "homepage": "https://github.com/php-fig/log",
+            "keywords": [
+                "log",
+                "psr",
+                "psr-3"
+            ],
+            "time": "2016-10-10 12:19:37"
+        },
+        {
+            "name": "smarty/smarty",
+            "version": "v3.1.31",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/smarty-php/smarty.git",
+                "reference": "c7d42e4a327c402897dd587871434888fde1e7a9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/smarty-php/smarty/zipball/c7d42e4a327c402897dd587871434888fde1e7a9",
+                "reference": "c7d42e4a327c402897dd587871434888fde1e7a9",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.1.x-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "libs/bootstrap.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Monte Ohrt",
+                    "email": "monte@ohrt.com"
+                },
+                {
+                    "name": "Uwe Tews",
+                    "email": "uwe.tews@googlemail.com"
+                },
+                {
+                    "name": "Rodney Rehm",
+                    "email": "rodney.rehm@medialize.de"
+                }
+            ],
+            "description": "Smarty - the compiling PHP template engine",
+            "homepage": "http://www.smarty.net",
+            "keywords": [
+                "templating"
+            ],
+            "time": "2016-12-14 21:57:25"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=7.0"
+    },
+    "platform-dev": []
+}
