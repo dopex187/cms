@@ -85,7 +85,6 @@ return [
      * * External
      */
     "/(External|Internal|Support|Payment)(.*)" => function($page, $ignore) {
-        \Alexya\Container::Logger()->debug("In '$page'!");
         /**
          * Account object.
          *
@@ -116,8 +115,6 @@ return [
      * Require the account to have chosen a company before accessing Internal.
      */
     "/Internal/(.*)" => function($page) {
-        \Alexya\Container::Logger()->debug("In 'Internal/$page'!");
-
         /**
          * Account object.
          *
