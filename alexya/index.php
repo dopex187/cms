@@ -95,8 +95,6 @@ if(!require_once("vendor/autoload.php")) {
 
     $response = $API->get("accounts/all?session_id={$sid}");
 
-    var_dump($response);
-
     return \Application\ORM\Account::api($response);
 });
 
