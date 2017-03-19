@@ -10,7 +10,7 @@
     <div class="box">
         <img src="{$URL}img/logo.png" class="logo" />
         <div class="errors">
-            {foreach from=\Alexya\Tools\Session\Result::all() item=error}
+            {foreach from=\Alexya\Tools\Session\Results::all() item=error}
             <div class="error">{$error}</div>
             {/foreach}
         </div>
