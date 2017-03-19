@@ -87,7 +87,7 @@ class Account extends Model
      */
     public static function api($response) : Account
     {
-        return Account::debug($response);
+        return Account::debug(json_decode(json_encode($response), true));
     }
 
     ///////////////////////////////////////
