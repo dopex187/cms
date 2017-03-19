@@ -93,8 +93,6 @@ return [
          */
         $Account = \Alexya\Container::get("Account");
 
-        var_dump($Account);
-
         if(
             $page == "External" &&
             !$Account->isLogged()
