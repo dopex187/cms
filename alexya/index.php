@@ -93,7 +93,9 @@ if(!require_once("vendor/autoload.php")) {
      */
     $API = \Alexya\Container::get("API");
 
-    $response = $API->get("accounts/all?session_id={$sid}");
+    $response = $API->get("accounts/all", [
+        "session_id" => $sid
+    ]);
 
     return \Application\ORM\Account::api($response);
 });
