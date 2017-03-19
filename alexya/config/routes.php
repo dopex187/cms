@@ -127,6 +127,13 @@ return [
 
         $page = (explode("/", $page)[0] ?? "");
 
+        // Logout
+        if($page == "Logout") {
+            \Alexya\Container::Session()->remove("id");
+
+            \Alexya\Http\Response::redirect("/External");
+        }
+
         // In case user hasn't choose a company yet
         if(
             $page != "CompanyChoose" &&
