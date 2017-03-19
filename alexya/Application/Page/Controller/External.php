@@ -75,7 +75,7 @@ class External extends Controller
             Response::redirect("/Internal/CompanyChoose");
         }
 
-        return $this->_errors($result->error);
+        return $this->_errors($result->errors);
     }
 
     /**
@@ -115,7 +115,7 @@ class External extends Controller
             Response::redirect("/Internal/Start");
         }
 
-        return $this->_errors($result->error);
+        return $this->_errors($result->errors);
     }
 
     /**
@@ -128,7 +128,7 @@ class External extends Controller
     private function _errors(array $errors) : Response
     {
         foreach($errors as $key => $value) {
-            Results::flash($key, t($value));
+            Results::flash($key, t($value->message));
         }
 
         return $this->index();
