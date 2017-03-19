@@ -37,6 +37,7 @@ if(!require_once("vendor/autoload.php")) {
     $Settings = \Alexya\Container::Settings();
 
     $template = \Httpful\Request::init()
+                                ->addHeader("Forward", ($_SERVER["REMOTE_ADDR"] ?? "127.0.0.1"))
                                 ->method(\Httpful\Http::POST)
                                 ->expects(\Httpful\Mime::JSON)
                                 ->sendsType(\Httpful\Mime::FORM);
