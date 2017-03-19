@@ -81,11 +81,11 @@ class Account extends Model
     /**
      * Returns an Account object from an API response.
      *
-     * @param Response $response API response.
+     * @param mixed $response API response.
      *
      * @return \Application\ORM\Account Account object.
      */
-    public static function api(Response $response) : Account
+    public static function api($response) : Account
     {
         return Account::debug(json_decode($response->raw_body, true));
     }
