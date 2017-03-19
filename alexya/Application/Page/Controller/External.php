@@ -42,10 +42,11 @@ class External extends Controller
      * @param string $name     Username.
      * @param string $password Password.
      * @param string $email    Email.
+     * @param string $code     Invitation code.
      *
      * @return Response Response object.
      */
-    public function register(string $name, string $password, string $email) : Response
+    public function register(string $name, string $password, string $email, string $code = "") : Response
     {
         $this->validate($name, $password, $email);
 
@@ -66,7 +67,8 @@ class External extends Controller
         $result = $API->post("register", [
             "username" => $name,
             "password" => $password,
-            "email"    => $email
+            "email"    => $email,
+            "code"     => $code
         ]);
 
         if(!$result->isError) {
