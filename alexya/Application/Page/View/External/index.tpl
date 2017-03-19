@@ -45,11 +45,6 @@
     </div>
     <script src="{$URL}js/jquery.min.js"></script>
     <script>
-        jQuery('.btn').on('click', function() {
-            jQuery(this).attr('disabled', true)
-                        .html('{t("Executing...")}');
-        });
-
         jQuery('.link').on('click', function(e) {
             e.preventDefault();
             var $tab = jQuery(this);
