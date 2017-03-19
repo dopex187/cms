@@ -87,6 +87,8 @@ class Account extends Model
      */
     public static function api($response) : Account
     {
+        var_dump($response);
+
         return Account::debug(json_decode($response->raw_body, true));
     }
 
