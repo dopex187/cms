@@ -9,6 +9,11 @@
 <body>
     <div class="box">
         <img src="{$URL}img/logo.png" class="logo" />
+        <div class="errors">
+            {foreach from=\Alexya\Tools\Session\Result::all() item=error}
+            <div class="error">{$error}</div>
+            {/foreach}
+        </div>
         <div class="content show" id="login">
             <form method="post" action="{$URL}External">
                 <h1>{t("Login")}</h1>
