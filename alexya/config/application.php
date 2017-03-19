@@ -67,7 +67,7 @@ return [
          *  * `debug` To load them from this configuration.
          *  * `default` To load them from API server.
          */
-        "load_from" => "debug",
+        "load_from" => "default",
 
         /**
          * Account ORM debug info.
