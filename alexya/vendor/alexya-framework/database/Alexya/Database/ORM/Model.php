@@ -866,6 +866,7 @@ class Model
             $return[$key] = $decoded;
             if(
                 !is_array($decoded)  &&
+
                 !is_object($decoded)
             ) {
                 $return[$key] = $value;
