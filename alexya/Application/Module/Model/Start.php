@@ -47,19 +47,19 @@ class Start extends Model
         $ret    = [];
         $size   = count($result);
 
-        foreach($result as $val) {
-            $ret[] = Account::debug((array)$val);
-        }
-
         if($size < 9) {
             for($i = $size; $i < 9; $i++) {
-                $ret[] = [
+                $result[] = (object)[
                     "name"          => "",
                     "factions_id"   => "",
                     "rank_position" => "",
                     "rank_points"   => ""
                 ];
             }
+        }
+
+        foreach($result as $val) {
+            $ret[] = Account::debug((array)$val);
         }
 
         $ret[] = Container::get("Account");
@@ -82,9 +82,10 @@ class Start extends Model
 
         if($size < 10) {
             for($i = $size; $i < 9; $i++) {
-                $ret[] = [
+                $ret[] = (object)[
                     "name"          => "",
-                    "factions_id"   => "",
+                    "tag"           => "",
+                    "id"            => "",
                     "rank_position" => "",
                     "rank_points"   => ""
                 ];
