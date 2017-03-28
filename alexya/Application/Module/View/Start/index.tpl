@@ -84,8 +84,8 @@
                     <td>
                         <img src="{$URL}do_img/global/logos/logo_{$a->Faction->tag}_mini.png" alt="{$a->Faction->tag}" width="7" height="8" />
                     </td>
-                    <td title="{$a->Rank->position}" style="cursor: pointer">{$a->Rank->position}</td>
-                    <td>{$a->Rank->points}</td>
+                    <td title="{$a->rank_position}" style="cursor: pointer">{$a->rank_position}</td>
+                    <td>{$a->rank_points}</td>
                 </tr>
                 {/foreach}
             </table>
@@ -107,8 +107,8 @@
                             [{$c->tag}]
                         </a>
                     </td>
-                    <td>{$c->Rank->position}</td>
-                    <td>{$c->Rank->points}</td>
+                    <td>{$c->rank_position}</td>
+                    <td>{$c->rank_points}</td>
                 </tr>
                 {/foreach}
             </table>
