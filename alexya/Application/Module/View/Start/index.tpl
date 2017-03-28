@@ -1,3 +1,4 @@
+{var_dump($account)}
 <script type="text/javascript">
     // server time setup
     var serverTime = '{$serverTime}';
