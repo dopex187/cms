@@ -124,7 +124,7 @@ class Account extends Model
             return null;
         }
 
-        $command = Str::plural(strtolower($name));
+        $command = Str::snake(Str::plural($name));
         $key     = Str::snake([$command, "id"]);
 
         if(!array_key_exists($key, $this->_data)) {
