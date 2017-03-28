@@ -124,7 +124,9 @@ class Account extends Model
             return null;
         }
 
-        $key = Str::snake([Str::plural(strtolower($name)), "id"]);
+        $command = Str::plural(strtolower($name));
+        $key     = Str::snake([$command, "id"]);
+
         if(!array_key_exists($key, $this->_data)) {
             return null;
         }
@@ -137,7 +139,7 @@ class Account extends Model
          * @var \Application\API $api
          */
         $api = Container::get("API");
-        $response = $api->get(strtolower($name), [
+        $response = $api->get($command, [
             "id" => $value
         ]);
 
