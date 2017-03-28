@@ -56,7 +56,7 @@ class CompanyChoose extends Controller
             return json_encode($result);
         }
 
-        $result = $API->get("ChangeFaction", [
+        $result = $API->get("changeFaction", [
             "factions_id" => $id,
             "session_id"  => $Account->session_id
         ]);
