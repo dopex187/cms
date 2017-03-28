@@ -150,11 +150,11 @@ class Controller extends Component
             return $this->index();
         }
 
-        if(!($response instanceof Response)) {
+        /*if(!($response instanceof Response)) {
             $response = new Response([
                 "Content-Type" => "text/html"
              ], $response);
-        }
+        }*/
 
         return $response;
     }
