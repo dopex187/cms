@@ -27,9 +27,11 @@
                 <div class="userInfoLine">
                     <label>{t("Username:")}</label> {$account->name}
                 </div>
+                {if $account->Clan != null}
                 <div class="userInfoLine clan_name_qtip" title="{$account->Clan->name}">
                     <label>{t("Clan:")}</label> {$account->Clan->name}
                 </div>
+                {/if}
                 <div class="userInfoLine">
                     <label>{t("Rank:")}</label>
                     <img id="userRankIcon" src="{$URL}do_img/global/ranks/rank_{$account->Rank->id}.gif"> {t($account->Rank->name)}

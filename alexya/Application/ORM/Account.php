@@ -143,8 +143,6 @@ class Account extends Model
             "id" => $value
         ]);
 
-        var_dump($response);
-
         if($response->isError) {
             return null;
         }
