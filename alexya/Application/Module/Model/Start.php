@@ -40,9 +40,9 @@ class Start extends Model
     private function _getAccountRanking() : array
     {
         $result = Container::get("API")->get("accounts", [
-            "sort"  => "-rank_points",
-            "limit" => 10,
-            "factions_id" => ">0"
+            "sort"         => "-rank_points",
+            "limit"        => 8,
+            "factions_id!" => "NULL"
         ])->result;
         $ret    = [];
 
