@@ -41,7 +41,7 @@ class Start extends Model
     {
         $result = Container::get("API")->get("accounts", [
             "sort"         => "-rank_points",
-            "limit"        => 8,
+            "limit"        => 9,
             "factions_id!" => "NULL"
         ])->result;
         $ret    = [];
