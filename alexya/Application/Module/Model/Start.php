@@ -45,10 +45,23 @@ class Start extends Model
             "factions_id!" => "NULL"
         ])->result;
         $ret    = [];
+        $size   = count($result);
 
         foreach($result as $val) {
             $ret[] = Account::debug((array)$val);
         }
+
+        if($size < 9) {
+            for($i = $size; $i < 9; $i++) {
+                $ret[] = [
+                    "name"          => "",
+                    "factions_id"   => "",
+                    "rank_position" => "",
+                    "rank_points"   => ""
+                ];
+            }
+        }
+
         $ret[] = Container::get("Account");
 
         return $ret;
@@ -65,6 +78,18 @@ class Start extends Model
             "sort"  => "-rank_points",
             "limit" => 10
         ])->result;
+        $size = count($result);
+
+        if($size < 10) {
+            for($i = $size; $i < 9; $i++) {
+                $ret[] = [
+                    "name"          => "",
+                    "factions_id"   => "",
+                    "rank_position" => "",
+                    "rank_points"   => ""
+                ];
+            }
+        }
 
         if(Container::get("Account")->Clan != null) {
             $result[count($result) - 1] = Container::get("Account")->Clan;
