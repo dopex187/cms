@@ -445,7 +445,7 @@
                     async: false,
                     success: function(data) {
                         data = jQuery.parseJSON(data);
-                        if (data.result) {
+                        if (data.result !== false) {
                             //doOpenClient(href);
                             doOpenClient();
                             // timeout is needed because on using without the redirect is faster then the eventstream tracking

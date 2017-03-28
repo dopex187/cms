@@ -35,14 +35,14 @@ class CompanyChoose extends Controller
          *
          * @var \Application\API $API
          */
-        $API = Container::API();
+        $API = Container::get("API");
 
         /**
          * Account object.
          *
          * @var \Application\ORM\Account $Account
          */
-        $Account = Container::Account();
+        $Account = Container::get("Account");
 
         $result = [
             "result" => false
@@ -56,12 +56,11 @@ class CompanyChoose extends Controller
             return json_encode($result);
         }
 
-        $result = $API->post("accounts/{$Account->id}/chooseFaction", [
-            "factions_id" => $id
+        $result = $API->get("ChangeFaction", [
+            "factions_id" => $id,
+            "session_id"  => $Account->session_id
         ]);
 
-        die(var_dump($result));
-
-        return json_encode($result->getAll());
+        return json_encode($result);
     }
 }
