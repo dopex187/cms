@@ -46,7 +46,7 @@ class Start extends Model
         $ret    = [];
 
         foreach($result as $val) {
-            $ret[] = Account::debug($val);
+            $ret[] = Account::debug((array)$val);
         }
 
         return $ret;
