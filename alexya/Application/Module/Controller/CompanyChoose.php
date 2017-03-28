@@ -60,6 +60,8 @@ class CompanyChoose extends Controller
             "factions_id" => $id
         ]);
 
+        die(var_dump($result));
+
         return json_encode($result->getAll());
     }
 }
