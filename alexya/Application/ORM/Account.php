@@ -145,6 +145,12 @@ class Account extends Model
 
         var_dump($response);
 
-        return null;
+        if($response->isError) {
+            return null;
+        }
+
+        $this->_data[$name] = $response->result[0];
+
+        return $this->_data[$name];
     }
 }
