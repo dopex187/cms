@@ -30,14 +30,18 @@
                 <div class="userInfoLine clan_name_qtip" title="{$account->Clan->name}">
                     <label>{t("Clan:")}</label> {$account->Clan->name}
                 </div>
+                {else}
+                <div class="userInfoLine clan_name_qtip">
+                    <label>{t("Ocupation:")}</label> {t("Free agent")}
+                </div>
                 {/if}
                 <div class="userInfoLine">
-                    <label>{t("Rank:")}</label>
-                    <img id="userRankIcon" src="{$URL}do_img/global/ranks/rank_{$account->ranks_id}.gif"> {t($account->Rank->name)}
+                    <label>{t("Rank:")}</label> {t($account->Rank->name)}
+                    <img id="userRankIcon" src="{$URL}do_img/global/ranks/rank_{$account->ranks_id}.gif">
                 </div>
-            </div>
-            <div id="userContentLevel">
-                <label>{t("Level:")}</label> {$account->levels_id}
+                <div id="userContentLevel">
+                    <label>{t("Level:")}</label> {$account->levels_id}
+                </div>
             </div>
 
             <a id="userButtonLeft" class="userHomeButton" href="{$URL}Profile/{$account->id}" target="_blank">
