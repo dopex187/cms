@@ -48,6 +48,7 @@ class Start extends Model
         foreach($result as $val) {
             $ret[] = Account::debug((array)$val);
         }
+        $ret[] = Container::get("Account");
 
         return $ret;
     }
