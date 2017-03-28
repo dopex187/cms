@@ -471,8 +471,7 @@
                     <div id="header_branding">
                         <img id="PartnerCobrandLogo" src="{$URL}published/cobrands/0_22_2.png" />
                     </div>
-
-                    <div id="header_ship" style="background-image: url({$URL}do_img/global/header/ships/model{$account->Ship->id}.png)"></div>
+                    <div id="header_ship" style="background-image: url({$URL}do_img/global/header/ships/model{$account->AccountsHangar->accounts_ships_id}.png)"></div>
                     <a id="header_logo" href="{$URL}Internal/Start"></a>
                     <div id="header_top_bar">
                         <div id="header_top_id" class="header_top_item">
@@ -484,7 +483,7 @@
                         <div id="header_top_level" class="header_top_item">
                             <div class="header_item_wrapper">
                                 <img src="{$URL}do_img/global/header/buttons/icon_stats_lvl.png" width="16" height="13" alt="" />
-                                <span>{$account->Level->id}</span>
+                                <span>{$account->levels_id}</span>
                             </div>
                         </div>
                         <div id="header_top_hnr" class="header_top_item">

@@ -1,4 +1,3 @@
-{var_dump($account)}
 <script type="text/javascript">
     // server time setup
     var serverTime = '{$serverTime}';
@@ -34,11 +33,11 @@
                 {/if}
                 <div class="userInfoLine">
                     <label>{t("Rank:")}</label>
-                    <img id="userRankIcon" src="{$URL}do_img/global/ranks/rank_{$account->Rank->id}.gif"> {t($account->Rank->name)}
+                    <img id="userRankIcon" src="{$URL}do_img/global/ranks/rank_{$account->ranks_id}.gif"> {t($account->Rank->name)}
                 </div>
             </div>
             <div id="userContentLevel">
-                <label>{t("Level:")}</label> {$account->Level->id}
+                <label>{t("Level:")}</label> {$account->levels_id}
             </div>
 
             <a id="userButtonLeft" class="userHomeButton" href="{$URL}Profile/{$account->id}" target="_blank">
