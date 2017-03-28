@@ -147,7 +147,13 @@ class Controller extends Component
         }
 
         if(empty($response)) {
-            return $this->index();
+            $response = $this->index();
+        }
+
+        if(!($response instanceof Response)) {
+            $response = new Response([
+                "Content-Type" => "text/html"
+             ], $response);
         }
 
         return $response;
