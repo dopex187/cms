@@ -124,7 +124,7 @@
                 "helpLink": "http%3A%2F%2F{$server->host}%2Fforum%2F",
                 "loadingClaim": "{t("Loading...")}",
                 "chatHost": "{$server->host}",
-                "cdn": "http://{$server->host}",
+                "cdn": "http://{$server->host}/",
                 "useHash": "1",
                 "host": "http://{$server->host}",
                 "browser": "Firefox",
