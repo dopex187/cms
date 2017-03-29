@@ -3,6 +3,7 @@
     <location path="items/" id="items"/>
     <location path="items/ammunition/" id="items_ammunition"/>
     <location path="items/ammunition/firework/" id="items_ammunition_firework"/>
+    <location path="items/ammunition/ggportal/" id="items_ammunition_ggportal"/>
     <location path="items/ammunition/laser/" id="items_ammunition_laser"/>
     <location path="items/ammunition/mine/" id="items_ammunition_mine"/>
     <location path="items/ammunition/rocket/" id="items_ammunition_rocket"/>
@@ -100,6 +101,9 @@
     <file version="1" type="png" name="50-cent-boosterPack_100x100" location="items_deal" id="50-cent-boosterPack_100x100" hash="1b6c625070641bea650f17f6000ded00" debugView="false"/>
     <file version="1" type="png" name="50-cent-boosterPack_30x30" location="items_deal" id="50-cent-boosterPack_30x30" hash="06de48e3bc2a64a54cae08f2d7378000" debugView="false"/>
     <file version="1" type="png" name="50-cent-boosterPack_63x63" location="items_deal" id="50-cent-boosterPack_63x63" hash="a0bbc17ac0ff5253ce3eaadb9ac5d200" debugView="false"/>
+    <file version="1" type="flv" name="ObsidianBooty" location="items_deal" id="ObsidianBooty" hash="d34b66cb93276be36935acf6bec34800" debugView="false"/>
+    <file version="1" type="png" name="ObsidianBooty_100x100" location="items_deal" id="ObsidianBooty_100x100" hash="221b58cd10999f354d6f275bc57eeb00" debugView="false"/>
+    <file version="1" type="png" name="ObsidianBooty_63x63" location="items_deal" id="ObsidianBooty_63x63" hash="ed2e8341e6e8033a8eaa6c24bbfa8100" debugView="false"/>
     <file version="1" type="gif" name="PU-ES-01_100x100" location="items_package" id="PU-ES-01_100x100" hash="4cd17c87d0eda5b061d4f8c36a211c00" debugView="false"/>
     <file version="1" type="gif" name="PU-XL-01_100x100" location="items_package" id="PU-XL-01_100x100" hash="0016d55ddefb00cad09718f904304900" debugView="false"/>
     <file version="1" type="flv" name="a-elite-blaze" location="items_ship_a-elite_design" id="a-elite-blaze" hash="670c6c76f9e7b172683ce3ca88e62100" debugView="false"/>
@@ -760,6 +764,13 @@
     <file version="1" type="png" name="drone-spectrum-sandstorm_30x30" location="items_drone_designs" id="drone-spectrum-sandstorm_30x30" hash="173a6caf710cd83cbbee783fef920c00" debugView="false"/>
     <file version="1" type="png" name="drone-spectrum-sandstorm_63x63" location="items_drone_designs" id="drone-spectrum-sandstorm_63x63" hash="46a623f6acc23612e1e094cfc817f300" debugView="false"/>
     <file version="1" type="png" name="drone-spectrum-sandstorm_top" location="items_drone_designs" id="drone-spectrum-sandstorm_top" hash="5885546b3fa20f407e61da97cfd6a200" debugView="false"/>
+    <file version="1" type="flv" name="dropch-b01" location="items_booster" id="dropch-b01" hash="468b9d380b162ba41f500e511f054100" debugView="false"/>
+    <file version="1" type="png" name="dropch-b01_100x100" location="items_booster" id="dropch-b01_100x100" hash="9ddf34f4b773b140de1c806d8dc65100" debugView="false"/>
+    <file version="1" type="png" name="dropch-b01_30x30" location="items_booster" id="dropch-b01_30x30" hash="67cf061b3aae8f883dfa540792f6a400" debugView="false"/>
+    <file version="1" type="png" name="dropch-b01_63x63" location="items_booster" id="dropch-b01_63x63" hash="3970380f01ff5bf834f708cd2a478c00" debugView="false"/>
+    <file version="1" type="png" name="duothrin_100x100" location="items_resource_collectable" id="duothrin_100x100" hash="276708213b7cff527628aadec36a5e00" debugView="false"/>
+    <file version="1" type="png" name="duothrin_30x30" location="items_resource_collectable" id="duothrin_30x30" hash="7496fe6ccc5ae3d34f04aeda5058ce00" debugView="false"/>
+    <file version="1" type="png" name="duothrin_63x63" location="items_resource_collectable" id="duothrin_63x63" hash="cd73c945fee2c7c1f2e4db6e90374b00" debugView="false"/>
     <file version="1" type="png" name="duranium_30x30" location="items_resource_ore" id="duranium_30x30" hash="6bb6f068deff7b4d7f311e82cda5f600" debugView="false"/>
     <file version="1" type="png" name="duranium_63x63" location="items_resource_ore" id="duranium_63x63" hash="0c027e1e4299b8f6bca072a13a4b8300" debugView="false"/>
     <file version="1" type="png" name="e_30x30" location="items_resource_wordpuzzle-letter" id="e_30x30" hash="6836c68a84385ed822107e97d47d7e00" debugView="false"/>
@@ -1388,6 +1399,11 @@
     <file version="1" type="jpg" name="g-surgeon-cicada_30x30" location="items_ship_g-surgeon_design" id="g-surgeon-cicada_30x30" hash="0b1f0320fa3faf7f3878abba779eda00" debugView="false"/>
     <file version="1" type="jpg" name="g-surgeon-cicada_63x63" location="items_ship_g-surgeon_design" id="g-surgeon-cicada_63x63" hash="d38ea72ebf09b8c85221650b5292a700" debugView="false"/>
     <file version="1" type="png" name="g-surgeon-cicada_top" location="items_ship_g-surgeon_design" id="g-surgeon-cicada_top" hash="5e5289759a2adeeeae371c7afeded700" debugView="false"/>
+    <file version="1" type="flv" name="g-surgeon-locust" location="items_ship_g-surgeon_design" id="g-surgeon-locust" hash="1a67baf94338cc50bbd07ca17271e200" debugView="false"/>
+    <file version="1" type="png" name="g-surgeon-locust_100x100" location="items_ship_g-surgeon_design" id="g-surgeon-locust_100x100" hash="68659fd54e6cb0616c53dfcf7b1a5700" debugView="false"/>
+    <file version="1" type="png" name="g-surgeon-locust_30x30" location="items_ship_g-surgeon_design" id="g-surgeon-locust_30x30" hash="6ec2875b84b28535bb8f5c7eb8564c00" debugView="false"/>
+    <file version="1" type="png" name="g-surgeon-locust_63x63" location="items_ship_g-surgeon_design" id="g-surgeon-locust_63x63" hash="c9f018a5ed2b2bf80cd82ffbdd877400" debugView="false"/>
+    <file version="1" type="png" name="g-surgeon-locust_top" location="items_ship_g-surgeon_design" id="g-surgeon-locust_top" hash="fd8f1c5a33e2d4729475fe3183d03c00" debugView="false"/>
     <file version="1" type="png" name="g-surgeon_100x100" location="items_ship" id="g-surgeon_100x100" hash="443033dc427666cafedd61b84988bd00" debugView="false"/>
     <file version="1" type="png" name="g-surgeon_30x30" location="items_ship" id="g-surgeon_30x30" hash="d14548c71712a09868f146962ce9b900" debugView="false"/>
     <file version="1" type="png" name="g-surgeon_63x63" location="items_ship" id="g-surgeon_63x63" hash="0303efd6d8c6febf1895b04167075c00" debugView="false"/>
@@ -1457,6 +1473,10 @@
     <file version="1" type="png" name="ghostifier_100x100" location="items_ammunition_specialammo" id="ghostifier_100x100" hash="05a050a27da09ceb453448bfaac8f500" debugView="false"/>
     <file version="1" type="png" name="ghostifier_30x30" location="items_ammunition_specialammo" id="ghostifier_30x30" hash="aadc629817fa9742abda510d30426a00" debugView="false"/>
     <file version="1" type="png" name="ghostifier_63x63" location="items_ammunition_specialammo" id="ghostifier_63x63" hash="a56efaff4e6321068203c182c814d800" debugView="false"/>
+    <file version="1" type="flv" name="glacial-fragment" location="items_resource_collectable" id="glacial-fragment" hash="3750b53a9143b7e41371545634f04800" debugView="false"/>
+    <file version="1" type="png" name="glacial-fragment_100x100" location="items_resource_collectable" id="glacial-fragment_100x100" hash="977d89a369aa62f98cb6deaa9e84f600" debugView="false"/>
+    <file version="1" type="png" name="glacial-fragment_30x30" location="items_resource_collectable" id="glacial-fragment_30x30" hash="a20acf5db153125c568c2f194af8bf00" debugView="false"/>
+    <file version="1" type="png" name="glacial-fragment_63x63" location="items_resource_collectable" id="glacial-fragment_63x63" hash="fca5f6420e0fd819e602b159bb620900" debugView="false"/>
     <file version="1" type="flv" name="gold" location="items_ship_goliath_design" id="gold" hash="a8e2f5080127deabe479e54c92e69b00" debugView="false"/>
     <file version="1" type="png" name="gold_100x100" location="items_ship_goliath_design" id="gold_100x100" hash="e7fdff39e3a064ba55b0d399e4049200" debugView="false"/>
     <file version="1" type="png" name="gold_30x30" location="items_ship_goliath_design" id="gold_30x30" hash="50ce66116614edb49eaabdbcc6277100" debugView="false"/>
@@ -1694,6 +1714,10 @@
     <file version="1" type="png" name="lf-3_100x100" location="items_equipment_weapon_laser" id="lf-3_100x100" hash="5ced49170920715d57158fe1773a4400" debugView="false"/>
     <file version="1" type="png" name="lf-3_30x30" location="items_equipment_weapon_laser" id="lf-3_30x30" hash="dc3f2118a4fae31b28744f5f69b53e00" debugView="false"/>
     <file version="1" type="png" name="lf-3_63x63" location="items_equipment_weapon_laser" id="lf-3_63x63" hash="b8ec173f11257347acc378cf2b19c300" debugView="false"/>
+    <file version="1" type="flv" name="lf-4-unstable" location="items_equipment_weapon_laser" id="lf-4-unstable" hash="09e34bb67542449bf428cde176d26300" debugView="false"/>
+    <file version="1" type="png" name="lf-4-unstable_100x100" location="items_equipment_weapon_laser" id="lf-4-unstable_100x100" hash="f6d1c4282a61b1a4b63ef1c8232bd700" debugView="false"/>
+    <file version="1" type="png" name="lf-4-unstable_30x30" location="items_equipment_weapon_laser" id="lf-4-unstable_30x30" hash="624119619ec2acb66298c5bc96ff7000" debugView="false"/>
+    <file version="1" type="png" name="lf-4-unstable_63x63" location="items_equipment_weapon_laser" id="lf-4-unstable_63x63" hash="aa75e59d4a43c22237a1934c3c3c6300" debugView="false"/>
     <file version="1" type="png" name="lf-4_100x100" location="items_equipment_weapon_laser" id="lf-4_100x100" hash="eb976bb32197c21a8b6be56eb65e1d00" debugView="false"/>
     <file version="1" type="png" name="lf-4_30x30" location="items_equipment_weapon_laser" id="lf-4_30x30" hash="12046c7960d4b8dcb3b42b9ae3bbbe00" debugView="false"/>
     <file version="1" type="png" name="lf-4_63x63" location="items_equipment_weapon_laser" id="lf-4_63x63" hash="ddd3dc54b0e1fad5c7d893c9d1b19400" debugView="false"/>
@@ -1890,6 +1914,10 @@
     <file version="1" type="png" name="pd-pc-01_100x100" location="items_package" id="pd-pc-01_100x100" hash="b81acbde1a8244f47012cbf07531b800" debugView="false"/>
     <file version="1" type="png" name="pd-pc-01_30x30" location="items_package" id="pd-pc-01_30x30" hash="c82173c6b97b6a2d4643e77ac5025a00" debugView="false"/>
     <file version="1" type="png" name="pd-pc-01_63x63" location="items_package" id="pd-pc-01_63x63" hash="f56aecfa1961c86784e4c1e1cf55f600" debugView="false"/>
+    <file version="1" type="flv" name="permafrost-fissure-cpu" location="items_ammunition_ggportal" id="permafrost-fissure-cpu" hash="60440d5794034cb8e019b73e869ff000" debugView="false"/>
+    <file version="1" type="png" name="permafrost-fissure-cpu_100x100" location="items_ammunition_ggportal" id="permafrost-fissure-cpu_100x100" hash="43fb96b152c65ee13fe4d8da3fa7e800" debugView="false"/>
+    <file version="1" type="png" name="permafrost-fissure-cpu_30x30" location="items_ammunition_ggportal" id="permafrost-fissure-cpu_30x30" hash="15e7bd202e187a615bf9f7d16396ed00" debugView="false"/>
+    <file version="1" type="png" name="permafrost-fissure-cpu_63x63" location="items_ammunition_ggportal" id="permafrost-fissure-cpu_63x63" hash="81c69d9ee1c3c3d4efd56f1c30445c00" debugView="false"/>
     <file version="1" type="flv" name="pet" location="items_deal" id="pet" hash="b11271aee029c8929eff52ad3bf7a100" debugView="false"/>
     <file version="1" type="flv" name="pet-a-elite-blaze" location="items_pet_designs" id="pet-a-elite-blaze" hash="efef405b25b7ba6b44ef5666f8481d00" debugView="false"/>
     <file version="1" type="png" name="pet-a-elite-blaze_100x100" location="items_pet_designs" id="pet-a-elite-blaze_100x100" hash="15e1c9a1cc8d7e465d084522f7881300" debugView="false"/>
@@ -2076,6 +2104,10 @@
     <file version="1" type="png" name="police_63x63" location="items_ship" id="police_63x63" hash="be5917baf12f9700ef52e873c3e28100" debugView="false"/>
     <file version="1" type="png" name="police_top" location="items_ship" id="police_top" hash="8eef551a4d7b222fac97eb14e59a8300" debugView="false"/>
     <file version="1" type="flv" name="premium-weeks-1" location="items_resource" id="premium-weeks-1" hash="fc23fde0771beb484ee91a911deb8200" debugView="false"/>
+    <file version="1" type="flv" name="priceIncrease2017" location="items_deal" id="priceIncrease2017" hash="fbe5341ce43239981cf7182f9495d900" debugView="false"/>
+    <file version="1" type="png" name="priceIncrease2017_100x100" location="items_deal" id="priceIncrease2017_100x100" hash="675f24616d115411dd8028bf9f391f00" debugView="false"/>
+    <file version="1" type="png" name="priceIncrease2017_30x30" location="items_deal" id="priceIncrease2017_30x30" hash="5bfd7c4947eb8b2ea99e5bf6b4188e00" debugView="false"/>
+    <file version="1" type="png" name="priceIncrease2017_63x63" location="items_deal" id="priceIncrease2017_63x63" hash="8f34e56169440a64ed70216bc4118a00" debugView="false"/>
     <file version="1" type="flv" name="prismatic-socket" location="items_resource" id="prismatic-socket" hash="c8b880baa4dfeddd986de9b89ef3b100" debugView="false"/>
     <file version="1" type="png" name="prismatic-socket_100x100" location="items_resource" id="prismatic-socket_100x100" hash="2beb49a3a74c6b1effd0ed51606d1000" debugView="false"/>
     <file version="1" type="png" name="prismatic-socket_30x30" location="items_resource" id="prismatic-socket_30x30" hash="dbb8cf278b9dd43d1d549fcbaa9ff000" debugView="false"/>
@@ -2095,6 +2127,12 @@
     <file version="1" type="png" name="prometid_63x63" location="items_resource_ore" id="prometid_63x63" hash="1e8dbf2955df6513a172a28b57fbc800" debugView="false"/>
     <file version="1" type="png" name="prometium_30x30" location="items_resource_ore" id="prometium_30x30" hash="3dfd3ed97d4f5b039d81aa3d0ba3cd00" debugView="false"/>
     <file version="1" type="png" name="prometium_63x63" location="items_resource_ore" id="prometium_63x63" hash="cea1d899667583722409741b9ab5b400" debugView="false"/>
+    <file version="1" type="flv" name="proxiumBooster" location="items_deal" id="proxiumBooster" hash="5e8b3e4cd54de5a752573bd3decf7300" debugView="false"/>
+    <file version="1" type="png" name="proxiumBooster_100x100" location="items_deal" id="proxiumBooster_100x100" hash="4749c4070d964a659b442f5e9e1f7800" debugView="false"/>
+    <file version="1" type="png" name="proxiumBooster_63x63" location="items_deal" id="proxiumBooster_63x63" hash="6c1fa4062a03f49635e9845aa55f6600" debugView="false"/>
+    <file version="1" type="png" name="proxium_100x100" location="items_resource_collectable" id="proxium_100x100" hash="d6aa314fe02bfa7592b366381c119e00" debugView="false"/>
+    <file version="1" type="png" name="proxium_30x30" location="items_resource_collectable" id="proxium_30x30" hash="2d73c8a021d83438425457d89cb0e200" debugView="false"/>
+    <file version="1" type="png" name="proxium_63x63" location="items_resource_collectable" id="proxium_63x63" hash="bf0ae258d2338599fed5f4d4b3d41e00" debugView="false"/>
     <file version="1" type="flv" name="pusat" location="items_ship" id="pusat" hash="168ee4fdf762e1a9ee6f4e0417478700" debugView="false"/>
     <file version="1" type="flv" name="pusat-blaze" location="items_ship_pusat_design" id="pusat-blaze" hash="0f05398f27776a04ec37706e6b8a2200" debugView="false"/>
     <file version="1" type="png" name="pusat-blaze_100x100" location="items_ship_pusat_design" id="pusat-blaze_100x100" hash="627289368823ccbac94d9b23ada97d00" debugView="false"/>
@@ -2143,6 +2181,9 @@
     <file version="1" type="png" name="pusat_63x63" location="items_ship" id="pusat_63x63" hash="886b022a525b0ecb5058a2c23c20c000" debugView="false"/>
     <file version="1" type="png" name="pusat_top" location="items_ship" id="pusat_top" hash="a4f93f1e56b0b78185bead51effe0200" debugView="false"/>
     <file version="1" type="flv" name="qr-01" location="items_booster" id="qr-01" hash="0ab0e80ac36ea561f2a8e973b1d0ed00" debugView="false"/>
+    <file version="1" type="png" name="quadrothrin_100x100" location="items_resource_collectable" id="quadrothrin_100x100" hash="beade4911622527a80f875ca030fd700" debugView="false"/>
+    <file version="1" type="png" name="quadrothrin_30x30" location="items_resource_collectable" id="quadrothrin_30x30" hash="37d7016657fab2c818efd09c6a619400" debugView="false"/>
+    <file version="1" type="png" name="quadrothrin_63x63" location="items_resource_collectable" id="quadrothrin_63x63" hash="a7d36cff763b942f43d5f3f12e7e6600" debugView="false"/>
     <file version="1" type="flv" name="r-310" location="items_ammunition_rocket" id="r-310" hash="cb7c34b317d89ac554e8158875fe9f00" debugView="false"/>
     <file version="1" type="png" name="r-310_100x100" location="items_ammunition_rocket" id="r-310_100x100" hash="9d29b47ca17ee0316f80a4bee39c9600" debugView="false"/>
     <file version="1" type="png" name="r-310_30x30" location="items_ammunition_rocket" id="r-310_30x30" hash="68af73bca9114add674a573fee166200" debugView="false"/>
@@ -2283,6 +2324,10 @@
     <file version="1" type="png" name="rsb-75_100x100" location="items_ammunition_laser" id="rsb-75_100x100" hash="ed334efd4833335cb183b8b3fbb11500" debugView="false"/>
     <file version="1" type="png" name="rsb-75_30x30" location="items_ammunition_laser" id="rsb-75_30x30" hash="12c893d480540c5fc1279664048b4100" debugView="false"/>
     <file version="1" type="png" name="rsb-75_63x63" location="items_ammunition_laser" id="rsb-75_63x63" hash="50206543ccd2bc1002d106f117756600" debugView="false"/>
+    <file version="1" type="flv" name="rwrddbl-b01" location="items_booster" id="rwrddbl-b01" hash="8012e078d2555ad07ecbba1643d9fd00" debugView="false"/>
+    <file version="1" type="png" name="rwrddbl-b01_100x100" location="items_booster" id="rwrddbl-b01_100x100" hash="c8aa09664fcce1644511179d7e2a6d00" debugView="false"/>
+    <file version="1" type="png" name="rwrddbl-b01_30x30" location="items_booster" id="rwrddbl-b01_30x30" hash="9cb984cd471e580e863b7392050f6e00" debugView="false"/>
+    <file version="1" type="png" name="rwrddbl-b01_63x63" location="items_booster" id="rwrddbl-b01_63x63" hash="7ed96b64f95d44c44b0042fd66de0b00" debugView="false"/>
     <file version="1" type="gif" name="s-ds-01_100x100" location="items_package" id="s-ds-01_100x100" hash="81ece47d488f0607810c39a1a5253a00" debugView="false"/>
     <file version="1" type="gif" name="s-ds-01_30x30" location="items_package" id="s-ds-01_30x30" hash="309816768971af3dae2593a415edc000" debugView="false"/>
     <file version="1" type="gif" name="s-ds-01_63x63" location="items_package" id="s-ds-01_63x63" hash="40979258a4778e90f842a457cfacfc00" debugView="false"/>
@@ -2510,6 +2555,11 @@
     <file version="1" type="png" name="solace-blaze_30x30" location="items_ship_solace_design" id="solace-blaze_30x30" hash="d2c13ccd699a432d51125b302e9bac00" debugView="false"/>
     <file version="1" type="png" name="solace-blaze_63x63" location="items_ship_solace_design" id="solace-blaze_63x63" hash="fccc2d174c613726c0c72b69934b7500" debugView="false"/>
     <file version="1" type="png" name="solace-blaze_top" location="items_ship_solace_design" id="solace-blaze_top" hash="17d76747076aa93e354a64d137d6ec00" debugView="false"/>
+    <file version="1" type="flv" name="solace-ocean" location="items_ship_solace_design" id="solace-ocean" hash="684c2d3d6468666d22327d50d28a7b00" debugView="false"/>
+    <file version="1" type="png" name="solace-ocean_100x100" location="items_ship_solace_design" id="solace-ocean_100x100" hash="5d2b1716e3848ed96601eaccbfa02a00" debugView="false"/>
+    <file version="1" type="png" name="solace-ocean_30x30" location="items_ship_solace_design" id="solace-ocean_30x30" hash="148c6b78a3b001855176bae630fd2500" debugView="false"/>
+    <file version="1" type="png" name="solace-ocean_63x63" location="items_ship_solace_design" id="solace-ocean_63x63" hash="9010617a4b49a861ccb5590db2c60500" debugView="false"/>
+    <file version="1" type="png" name="solace-ocean_top" location="items_ship_solace_design" id="solace-ocean_top" hash="8ba186e987f491574b44ba91cb8d7300" debugView="false"/>
     <file version="1" type="png" name="solace_100x100" location="items_ship" id="solace_100x100" hash="e84847653278801250a58224f8777d00" debugView="false"/>
     <file version="1" type="png" name="solace_30x30" location="items_ship" id="solace_30x30" hash="70cf9706cc404ac0034e7fe526455c00" debugView="false"/>
     <file version="1" type="png" name="solace_63x63" location="items_ship" id="solace_63x63" hash="503face1b4bbaf6c1da553fb44a90100" debugView="false"/>
@@ -2633,6 +2683,9 @@
     <file version="1" type="png" name="tr-sp-02_100x100" location="items_deal" id="tr-sp-02_100x100" hash="f6417887516ba19e09ecc2fdd4eb6c00" debugView="false"/>
     <file version="1" type="png" name="tr-sp-02_30x30" location="items_deal" id="tr-sp-02_30x30" hash="9f24054a20ef7a0a371ec2b79d872c00" debugView="false"/>
     <file version="1" type="png" name="tr-sp-02_63x63" location="items_deal" id="tr-sp-02_63x63" hash="0af2e3ffb45191d734ba124b1bad2d00" debugView="false"/>
+    <file version="1" type="png" name="trittothrin_100x100" location="items_resource_collectable" id="trittothrin_100x100" hash="652fc8000c9ec6fc014db741d8becc00" debugView="false"/>
+    <file version="1" type="png" name="trittothrin_30x30" location="items_resource_collectable" id="trittothrin_30x30" hash="704be21c72e9d825f3fedc780c3c2400" debugView="false"/>
+    <file version="1" type="png" name="trittothrin_63x63" location="items_resource_collectable" id="trittothrin_63x63" hash="faa0c13357df632feeacdcfb87629600" debugView="false"/>
     <file version="1" type="flv" name="ubr-100" location="items_ammunition_rocketlauncher" id="ubr-100" hash="749bed8d03b3b89740790c66dbcf7f00" debugView="false"/>
     <file version="1" type="png" name="ubr-100_100x100" location="items_ammunition_rocketlauncher" id="ubr-100_100x100" hash="c6ca51af1bb56f163268ae1f5564f400" debugView="false"/>
     <file version="1" type="png" name="ubr-100_30x30" location="items_ammunition_rocketlauncher" id="ubr-100_30x30" hash="eb3e5b22d91cc6445902fb1f0862d200" debugView="false"/>
@@ -2698,6 +2751,11 @@
     <file version="1" type="png" name="venom-frost_30x30" location="items_ship_venom_design" id="venom-frost_30x30" hash="2ad4a22899d3d9799e324e27d6e13500" debugView="false"/>
     <file version="1" type="png" name="venom-frost_63x63" location="items_ship_venom_design" id="venom-frost_63x63" hash="db8506588a14ad206adc42315d202f00" debugView="false"/>
     <file version="1" type="png" name="venom-frost_top" location="items_ship_venom_design" id="venom-frost_top" hash="0c1c7db6a61d59b7022d1544674ef600" debugView="false"/>
+    <file version="1" type="flv" name="venom-ocean" location="items_ship_venom_design" id="venom-ocean" hash="b6f3d53d15769f6def2d22a52aa55f00" debugView="false"/>
+    <file version="1" type="png" name="venom-ocean_30x30" location="items_ship_venom_design" id="venom-ocean_30x30" hash="9359c1944c4165e7142048b25e7dd400" debugView="false"/>
+    <file version="1" type="png" name="venom-ocean_63x63" location="items_ship_venom_design" id="venom-ocean_63x63" hash="0f2028b43e0fa3eeecaea796f0b31900" debugView="false"/>
+    <file version="1" type="png" name="venom-ocean_top" location="items_ship_venom_design" id="venom-ocean_top" hash="956b1e155e67f5c1c72c44b8af2f1f00" debugView="false"/>
+    <file version="1" type="png" name="venom-oceant_100x100" location="items_ship_venom_design" id="venom-oceant_100x100" hash="54f333afe23ec03d54cfca3449729800" debugView="false"/>
     <file version="1" type="png" name="venom_100x100" location="items_ship" id="venom_100x100" hash="b0b80879d5a2b7d846350f5730ab8100" debugView="false"/>
     <file version="1" type="png" name="venom_30x30" location="items_ship" id="venom_30x30" hash="6fdce7d00f2e632bbabbfe291981a800" debugView="false"/>
     <file version="1" type="png" name="venom_63x63" location="items_ship" id="venom_63x63" hash="5d79b53e857f6d7c59a23b07225dec00" debugView="false"/>
