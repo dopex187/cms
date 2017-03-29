@@ -19,7 +19,10 @@ class Internal extends Presenter
     {
         $name = ($this->_request->uri()[2] ?? "");
 
-        if($name == "CompanyChoose") {
+        if(
+            $name == "CompanyChoose" ||
+            $name == "Map"
+        ) {
             return $this->_triad->children->module->Controller->render();
         }
 
