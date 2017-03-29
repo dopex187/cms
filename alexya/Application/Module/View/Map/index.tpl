@@ -51,6 +51,8 @@
     <!-- affiliatePopupTag -->
 
     <script type='text/javascript'>
+        {$translationVars = []}
+        {$translationVars["SERVER_NAME"] = $server->name}
         function onFailFlashembed() {
             var html =
                 '<div class="flashFailHead">{t("Get the Adobe Flash Player")}</div>\n'+
