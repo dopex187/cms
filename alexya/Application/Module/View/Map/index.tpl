@@ -9,7 +9,7 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
 
     <script src="{$URL}js/function.js" type="text/javascript"></script>
-    <script type="text/javascript" src="{$URL}js/jQuery/jquery-1.4.4.js"></script>
+    <script type="text/javascript" src="{$URL}js/jQuery/jquery-1.4.4.min.js"></script>
     <script type="text/javascript" src="{$URL}js/jQuery/jquery.flashembed.js"></script>
     <script type="text/javascript">jQuery.noConflict();</script>
     <script type="text/javascript" src="{$URL}resources/js/tools.js"></script>
