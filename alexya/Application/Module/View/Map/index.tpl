@@ -71,14 +71,6 @@
              */
             var aFlashVersion = flashembed.getVersion();
 
-            /* nicer
-             var sParam =
-             '{' +
-                        '"flashVersion":' + aFlashVersion[0] + "." + aFlashVersion[1] +
-                        ',"browserInfo":' + JSON.stringify(jQuery.browser) +
-                        '}';
-             */
-
             /* faster */
 
             /* Fix IE8 Object.keys */
