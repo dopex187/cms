@@ -3,7 +3,6 @@ namespace Application\Module\Controller;
 
 use Alexya\Foundation\Controller;
 
-use Alexya\Http\Response;
 
 /**
  * Map controller.
@@ -17,14 +16,10 @@ class Map extends Controller
      *
      * Default action to execute.
      *
-     * @return Response Response object.
+     * @return string Module content.
      */
-    public function index() : Response
+    public function index() : string
     {
-        $response = new Response([
-            "Content-Type" => "text/html"
-        ], $this->_triad->View->render());
-
-        return $response;
+        $this->_triad->View->render();
     }
 }
