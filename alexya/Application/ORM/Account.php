@@ -88,7 +88,10 @@ class Account extends Model
      */
     public static function api($response) : Account
     {
-        var_dump($response);
+        if($response->isError) {
+            return Account::empty();
+        }
+
         return Account::debug((array)$response);
     }
 
