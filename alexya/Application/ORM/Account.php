@@ -92,7 +92,7 @@ class Account extends Model
             return Account::empty();
         }
 
-        return Account::debug((array)$response);
+        return Account::debug((array)$response->result[0]);
     }
 
     ///////////////////////////////////////
