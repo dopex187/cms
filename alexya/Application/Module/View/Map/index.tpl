@@ -99,8 +99,9 @@
                 "isEncodeMessage": 0 // 1- encode text  // 0 - plain text
             };
 
-            jQuery.post('/flashAPI/loadingScreen.php', data, function (data) {});
-
+            jQuery.post('{$URL}flashAPI/loadingScreen.php', data, function (data) {
+                console.log(data);
+            });
 
             flashembed("container", {
                 "onFail": onFailFlashembed,
@@ -123,10 +124,10 @@
                 "boardLink": "%2FGameAPI.php%3Faction%3Dportal.redirectToBoard",
                 "helpLink": "http%3A%2F%2F{$server->host}%2Fforum%2F",
                 "loadingClaim": "{t("Loading...")}",
-                "chatHost": "{$server->host}",
-                "cdn": "http://{$server->host}/",
+                "chatHost": "http://{$server->host}/",
+                "cdn": "{$URL}",
                 "useHash": "1",
-                "host": "{$server->host}",
+                "host": "http://{$server->host}/",
                 "browser": "Firefox",
                 "fullscreen": "1",
                 "itemXmlHash": "34da376e319a0a3b5a12d2c3e6644300",
@@ -143,7 +144,7 @@
                 "showAdvertisingHint": "",
                 "gameclientAllowedInitDelay": "10",
                 // "eventStreamContext": "eyJwaWQiOjIyLCJ1aWQiOjE2MDI2MTUwNCwidGlkIjoiMDM0YmMyYTQ4MjJjZWNlNmNjYTMwMWJjNjc3MTczMjUiLCJpaWQiOiJhODExYzVjMjA4YWJkOWUzYTc5ZTI5OWNmODYwMTQ4MSIsInNpZCI6IjI2ODc1NGJkNTA1Mjk0ZThlZWU3M2YwNDk4MzAxMzljIiwiY3RpbWUiOjE0OTA3ODU1MDY1NjR9",
-                "requestScheme": "https",
+                "requestScheme": "http",
                 "sharedImages": "https://sharedimages-ns.bpsecure.com/darkorbit/",
                 "useDeviceFonts": "0",
                 "display2d": "2",
