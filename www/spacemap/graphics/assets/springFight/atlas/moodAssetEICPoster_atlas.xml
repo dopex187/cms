@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="moodAssetEICPoster.png">
+	<!-- Created with Adobe Flash Professional version 13.1.0.226 -->
+	<!-- http://www.adobe.com/products/flash.html -->
+	<SubTexture name="poster1_eic" x="0" y="0" width="218" height="305" pivotX="0" pivotY="0"/>
+	<SubTexture name="poster2_eic" x="0" y="305" width="218" height="305" pivotX="0" pivotY="0"/>
+	<SubTexture name="poster3_eic" x="0" y="610" width="218" height="305" pivotX="0" pivotY="0"/>
+</TextureAtlas>

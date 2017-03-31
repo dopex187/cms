@@ -5,9 +5,9 @@
 	<SubTexture name="assembly_hover" x="0" y="0" width="38" height="38" pivotX="0" pivotY="0"/>
 	<SubTexture name="assembly_normal" x="38" y="0" width="38" height="38" pivotX="0" pivotY="0"/>
 	<SubTexture name="assembly_select" x="76" y="0" width="38" height="38" pivotX="0" pivotY="0"/>
-	<SubTexture name="autostart_warnin_hover" x="114" y="0" width="38" height="38" pivotX="0" pivotY="0"/>
-	<SubTexture name="autostart_warning_normal" x="152" y="0" width="38" height="38" pivotX="0" pivotY="0"/>
-	<SubTexture name="autostart_warning_select" x="114" y="38" width="38" height="38" pivotX="0" pivotY="0"/>
+	<SubTexture name="autostart_warnin_hover" x="152" y="38" width="38" height="38" pivotX="0" pivotY="0"/>
+	<SubTexture name="autostart_warning_normal" x="114" y="0" width="38" height="38" pivotX="0" pivotY="0"/>
+	<SubTexture name="autostart_warning_select" x="152" y="0" width="38" height="38" pivotX="0" pivotY="0"/>
 	<SubTexture name="booster_hover" x="190" y="0" width="38" height="38" pivotX="0" pivotY="0"/>
 	<SubTexture name="booster_normal" x="228" y="0" width="38" height="38" pivotX="0" pivotY="0"/>
 	<SubTexture name="booster_select" x="266" y="0" width="38" height="38" pivotX="0" pivotY="0"/>
@@ -17,60 +17,63 @@
 	<SubTexture name="clanvisibility_hover" x="418" y="0" width="38" height="38" pivotX="0" pivotY="0"/>
 	<SubTexture name="clanvisibility_normal" x="456" y="0" width="38" height="38" pivotX="0" pivotY="0"/>
 	<SubTexture name="clanvisibility_select" x="0" y="38" width="38" height="38" pivotX="0" pivotY="0"/>
-	<SubTexture name="cli_hover" x="152" y="152" width="38" height="38" pivotX="0" pivotY="0"/>
-	<SubTexture name="cli_normal" x="38" y="38" width="38" height="38" pivotX="0" pivotY="0"/>
-	<SubTexture name="cli_select" x="76" y="38" width="38" height="38" pivotX="0" pivotY="0"/>
-	<SubTexture name="connection_hover" x="114" y="0" width="38" height="38" pivotX="0" pivotY="0"/>
-	<SubTexture name="connection_normal" x="152" y="0" width="38" height="38" pivotX="0" pivotY="0"/>
-	<SubTexture name="connection_select" x="114" y="38" width="38" height="38" pivotX="0" pivotY="0"/>
-	<SubTexture name="contacts_hover" x="152" y="38" width="38" height="38" pivotX="0" pivotY="0"/>
-	<SubTexture name="contacts_normal" x="190" y="38" width="38" height="38" pivotX="0" pivotY="0"/>
-	<SubTexture name="contacts_select" x="228" y="38" width="38" height="38" pivotX="0" pivotY="0"/>
-	<SubTexture name="ctb_hover" x="266" y="38" width="38" height="38" pivotX="0" pivotY="0"/>
-	<SubTexture name="ctb_normal" x="304" y="38" width="38" height="38" pivotX="0" pivotY="0"/>
-	<SubTexture name="ctb_select" x="342" y="38" width="38" height="38" pivotX="0" pivotY="0"/>
-	<SubTexture name="curcubitor_hover" x="380" y="38" width="38" height="38" pivotX="0" pivotY="0"/>
-	<SubTexture name="curcubitor_normal" x="418" y="38" width="38" height="38" pivotX="0" pivotY="0"/>
-	<SubTexture name="curcubitor_select" x="456" y="38" width="38" height="38" pivotX="0" pivotY="0"/>
-	<SubTexture name="domination_hover" x="0" y="76" width="38" height="38" pivotX="0" pivotY="0"/>
-	<SubTexture name="domination_normal" x="38" y="76" width="38" height="38" pivotX="0" pivotY="0"/>
-	<SubTexture name="domination_select" x="76" y="76" width="38" height="38" pivotX="0" pivotY="0"/>
-	<SubTexture name="equipment_hover" x="114" y="76" width="38" height="38" pivotX="0" pivotY="0"/>
-	<SubTexture name="equipment_normal" x="152" y="76" width="38" height="38" pivotX="0" pivotY="0"/>
-	<SubTexture name="equipment_select" x="190" y="76" width="38" height="38" pivotX="0" pivotY="0"/>
-	<SubTexture name="fullscreen_hover" x="228" y="76" width="38" height="38" pivotX="0" pivotY="0"/>
-	<SubTexture name="fullscreen_normal" x="266" y="76" width="38" height="38" pivotX="0" pivotY="0"/>
-	<SubTexture name="fullscreen_select" x="304" y="76" width="38" height="38" pivotX="0" pivotY="0"/>
-	<SubTexture name="group_hover" x="342" y="76" width="38" height="38" pivotX="0" pivotY="0"/>
-	<SubTexture name="group_normal" x="380" y="76" width="38" height="38" pivotX="0" pivotY="0"/>
-	<SubTexture name="group_select" x="418" y="76" width="38" height="38" pivotX="0" pivotY="0"/>
-	<SubTexture name="help_hover" x="456" y="76" width="38" height="38" pivotX="0" pivotY="0"/>
-	<SubTexture name="help_normal" x="0" y="114" width="38" height="38" pivotX="0" pivotY="0"/>
-	<SubTexture name="help_select" x="38" y="114" width="38" height="38" pivotX="0" pivotY="0"/>
-	<SubTexture name="highscoregate_hover" x="76" y="114" width="38" height="38" pivotX="0" pivotY="0"/>
-	<SubTexture name="highscoregate_normal" x="114" y="114" width="38" height="38" pivotX="0" pivotY="0"/>
-	<SubTexture name="highscoregate_select" x="152" y="114" width="38" height="38" pivotX="0" pivotY="0"/>
-	<SubTexture name="infiltration_hover" x="190" y="114" width="38" height="38" pivotX="0" pivotY="0"/>
-	<SubTexture name="infiltration_normal" x="228" y="114" width="38" height="38" pivotX="0" pivotY="0"/>
-	<SubTexture name="infiltration_select" x="266" y="114" width="38" height="38" pivotX="0" pivotY="0"/>
-	<SubTexture name="influence_hover" x="304" y="114" width="38" height="38" pivotX="0" pivotY="0"/>
-	<SubTexture name="influence_normal" x="342" y="114" width="38" height="38" pivotX="0" pivotY="0"/>
-	<SubTexture name="influence_select" x="380" y="114" width="38" height="38" pivotX="0" pivotY="0"/>
-	<SubTexture name="invasion_hover" x="418" y="114" width="38" height="38" pivotX="0" pivotY="0"/>
-	<SubTexture name="invasion_normal" x="456" y="114" width="38" height="38" pivotX="0" pivotY="0"/>
-	<SubTexture name="invasion_select" x="0" y="152" width="38" height="38" pivotX="0" pivotY="0"/>
-	<SubTexture name="jackpot_status_ui_hover" x="38" y="152" width="38" height="38" pivotX="0" pivotY="0"/>
-	<SubTexture name="jackpot_status_ui_normal" x="76" y="152" width="38" height="38" pivotX="0" pivotY="0"/>
-	<SubTexture name="jackpot_status_ui_select" x="114" y="152" width="38" height="38" pivotX="0" pivotY="0"/>
-	<SubTexture name="log_hover" x="152" y="152" width="38" height="38" pivotX="0" pivotY="0"/>
-	<SubTexture name="log_normal" x="38" y="38" width="38" height="38" pivotX="0" pivotY="0"/>
-	<SubTexture name="log_select" x="76" y="38" width="38" height="38" pivotX="0" pivotY="0"/>
+	<SubTexture name="cli_hover" x="38" y="38" width="38" height="38" pivotX="0" pivotY="0"/>
+	<SubTexture name="cli_normal" x="76" y="38" width="38" height="38" pivotX="0" pivotY="0"/>
+	<SubTexture name="cli_select" x="114" y="38" width="38" height="38" pivotX="0" pivotY="0"/>
+	<SubTexture name="connection_hover" x="152" y="38" width="38" height="38" pivotX="0" pivotY="0"/>
+	<SubTexture name="connection_normal" x="114" y="0" width="38" height="38" pivotX="0" pivotY="0"/>
+	<SubTexture name="connection_select" x="152" y="0" width="38" height="38" pivotX="0" pivotY="0"/>
+	<SubTexture name="contacts_hover" x="190" y="38" width="38" height="38" pivotX="0" pivotY="0"/>
+	<SubTexture name="contacts_normal" x="228" y="38" width="38" height="38" pivotX="0" pivotY="0"/>
+	<SubTexture name="contacts_select" x="266" y="38" width="38" height="38" pivotX="0" pivotY="0"/>
+	<SubTexture name="ctb_hover" x="304" y="38" width="38" height="38" pivotX="0" pivotY="0"/>
+	<SubTexture name="ctb_normal" x="342" y="38" width="38" height="38" pivotX="0" pivotY="0"/>
+	<SubTexture name="ctb_select" x="380" y="38" width="38" height="38" pivotX="0" pivotY="0"/>
+	<SubTexture name="curcubitor_hover" x="418" y="38" width="38" height="38" pivotX="0" pivotY="0"/>
+	<SubTexture name="curcubitor_normal" x="456" y="38" width="38" height="38" pivotX="0" pivotY="0"/>
+	<SubTexture name="curcubitor_select" x="0" y="76" width="38" height="38" pivotX="0" pivotY="0"/>
+	<SubTexture name="domination_hover" x="38" y="76" width="38" height="38" pivotX="0" pivotY="0"/>
+	<SubTexture name="domination_normal" x="76" y="76" width="38" height="38" pivotX="0" pivotY="0"/>
+	<SubTexture name="domination_select" x="114" y="76" width="38" height="38" pivotX="0" pivotY="0"/>
+	<SubTexture name="equipment_hover" x="152" y="76" width="38" height="38" pivotX="0" pivotY="0"/>
+	<SubTexture name="equipment_normal" x="190" y="76" width="38" height="38" pivotX="0" pivotY="0"/>
+	<SubTexture name="equipment_select" x="228" y="76" width="38" height="38" pivotX="0" pivotY="0"/>
+	<SubTexture name="eventProgress_hover" x="418" y="38" width="38" height="38" pivotX="0" pivotY="0"/>
+	<SubTexture name="eventProgress_normal" x="456" y="38" width="38" height="38" pivotX="0" pivotY="0"/>
+	<SubTexture name="eventProgress_select" x="0" y="76" width="38" height="38" pivotX="0" pivotY="0"/>
+	<SubTexture name="fullscreen_hover" x="266" y="76" width="38" height="38" pivotX="0" pivotY="0"/>
+	<SubTexture name="fullscreen_normal" x="304" y="76" width="38" height="38" pivotX="0" pivotY="0"/>
+	<SubTexture name="fullscreen_select" x="342" y="76" width="38" height="38" pivotX="0" pivotY="0"/>
+	<SubTexture name="group_hover" x="380" y="76" width="38" height="38" pivotX="0" pivotY="0"/>
+	<SubTexture name="group_normal" x="418" y="76" width="38" height="38" pivotX="0" pivotY="0"/>
+	<SubTexture name="group_select" x="456" y="76" width="38" height="38" pivotX="0" pivotY="0"/>
+	<SubTexture name="help_hover" x="0" y="114" width="38" height="38" pivotX="0" pivotY="0"/>
+	<SubTexture name="help_normal" x="38" y="114" width="38" height="38" pivotX="0" pivotY="0"/>
+	<SubTexture name="help_select" x="76" y="114" width="38" height="38" pivotX="0" pivotY="0"/>
+	<SubTexture name="highscoregate_hover" x="114" y="114" width="38" height="38" pivotX="0" pivotY="0"/>
+	<SubTexture name="highscoregate_normal" x="152" y="114" width="38" height="38" pivotX="0" pivotY="0"/>
+	<SubTexture name="highscoregate_select" x="190" y="114" width="38" height="38" pivotX="0" pivotY="0"/>
+	<SubTexture name="infiltration_hover" x="228" y="114" width="38" height="38" pivotX="0" pivotY="0"/>
+	<SubTexture name="infiltration_normal" x="266" y="114" width="38" height="38" pivotX="0" pivotY="0"/>
+	<SubTexture name="infiltration_select" x="304" y="114" width="38" height="38" pivotX="0" pivotY="0"/>
+	<SubTexture name="influence_hover" x="342" y="114" width="38" height="38" pivotX="0" pivotY="0"/>
+	<SubTexture name="influence_normal" x="380" y="114" width="38" height="38" pivotX="0" pivotY="0"/>
+	<SubTexture name="influence_select" x="418" y="114" width="38" height="38" pivotX="0" pivotY="0"/>
+	<SubTexture name="invasion_hover" x="456" y="114" width="38" height="38" pivotX="0" pivotY="0"/>
+	<SubTexture name="invasion_normal" x="0" y="152" width="38" height="38" pivotX="0" pivotY="0"/>
+	<SubTexture name="invasion_select" x="38" y="152" width="38" height="38" pivotX="0" pivotY="0"/>
+	<SubTexture name="jackpot_status_ui_hover" x="76" y="152" width="38" height="38" pivotX="0" pivotY="0"/>
+	<SubTexture name="jackpot_status_ui_normal" x="114" y="152" width="38" height="38" pivotX="0" pivotY="0"/>
+	<SubTexture name="jackpot_status_ui_select" x="152" y="152" width="38" height="38" pivotX="0" pivotY="0"/>
+	<SubTexture name="log_hover" x="38" y="38" width="38" height="38" pivotX="0" pivotY="0"/>
+	<SubTexture name="log_normal" x="76" y="38" width="38" height="38" pivotX="0" pivotY="0"/>
+	<SubTexture name="log_select" x="114" y="38" width="38" height="38" pivotX="0" pivotY="0"/>
 	<SubTexture name="logout_hover" x="190" y="152" width="38" height="38" pivotX="0" pivotY="0"/>
 	<SubTexture name="logout_normal" x="228" y="152" width="38" height="38" pivotX="0" pivotY="0"/>
 	<SubTexture name="logout_select" x="266" y="152" width="38" height="38" pivotX="0" pivotY="0"/>
-	<SubTexture name="lost_connection_hover" x="114" y="0" width="38" height="38" pivotX="0" pivotY="0"/>
-	<SubTexture name="lost_connection_normal" x="152" y="0" width="38" height="38" pivotX="0" pivotY="0"/>
-	<SubTexture name="lost_connection_select" x="114" y="38" width="38" height="38" pivotX="0" pivotY="0"/>
+	<SubTexture name="lost_connection_hover" x="152" y="38" width="38" height="38" pivotX="0" pivotY="0"/>
+	<SubTexture name="lost_connection_normal" x="114" y="0" width="38" height="38" pivotX="0" pivotY="0"/>
+	<SubTexture name="lost_connection_select" x="152" y="0" width="38" height="38" pivotX="0" pivotY="0"/>
 	<SubTexture name="minimap_hover" x="304" y="152" width="38" height="38" pivotX="0" pivotY="0"/>
 	<SubTexture name="minimap_normal" x="342" y="152" width="38" height="38" pivotX="0" pivotY="0"/>
 	<SubTexture name="minimap_select" x="380" y="152" width="38" height="38" pivotX="0" pivotY="0"/>
@@ -80,9 +83,9 @@
 	<SubTexture name="pet_hover" x="38" y="190" width="38" height="38" pivotX="0" pivotY="0"/>
 	<SubTexture name="pet_normal" x="76" y="190" width="38" height="38" pivotX="0" pivotY="0"/>
 	<SubTexture name="pet_select" x="114" y="190" width="38" height="38" pivotX="0" pivotY="0"/>
-	<SubTexture name="popup_hover" x="114" y="0" width="38" height="38" pivotX="0" pivotY="0"/>
-	<SubTexture name="popup_normal" x="152" y="0" width="38" height="38" pivotX="0" pivotY="0"/>
-	<SubTexture name="popup_select" x="114" y="38" width="38" height="38" pivotX="0" pivotY="0"/>
+	<SubTexture name="popup_hover" x="152" y="38" width="38" height="38" pivotX="0" pivotY="0"/>
+	<SubTexture name="popup_normal" x="114" y="0" width="38" height="38" pivotX="0" pivotY="0"/>
+	<SubTexture name="popup_select" x="152" y="0" width="38" height="38" pivotX="0" pivotY="0"/>
 	<SubTexture name="quests_hover" x="152" y="190" width="38" height="38" pivotX="0" pivotY="0"/>
 	<SubTexture name="quests_normal" x="190" y="190" width="38" height="38" pivotX="0" pivotY="0"/>
 	<SubTexture name="quests_select" x="228" y="190" width="38" height="38" pivotX="0" pivotY="0"/>
@@ -92,9 +95,9 @@
 	<SubTexture name="refinement_hover" x="380" y="190" width="38" height="38" pivotX="0" pivotY="0"/>
 	<SubTexture name="refinement_normal" x="418" y="190" width="38" height="38" pivotX="0" pivotY="0"/>
 	<SubTexture name="refinement_select" x="456" y="190" width="38" height="38" pivotX="0" pivotY="0"/>
-	<SubTexture name="reset_prompt_hover" x="114" y="0" width="38" height="38" pivotX="0" pivotY="0"/>
-	<SubTexture name="reset_prompt_normal" x="152" y="0" width="38" height="38" pivotX="0" pivotY="0"/>
-	<SubTexture name="reset_prompt_select" x="114" y="38" width="38" height="38" pivotX="0" pivotY="0"/>
+	<SubTexture name="reset_prompt_hover" x="152" y="38" width="38" height="38" pivotX="0" pivotY="0"/>
+	<SubTexture name="reset_prompt_normal" x="114" y="0" width="38" height="38" pivotX="0" pivotY="0"/>
+	<SubTexture name="reset_prompt_select" x="152" y="0" width="38" height="38" pivotX="0" pivotY="0"/>
 	<SubTexture name="rzone_hover" x="0" y="228" width="38" height="38" pivotX="0" pivotY="0"/>
 	<SubTexture name="rzone_normal" x="38" y="228" width="38" height="38" pivotX="0" pivotY="0"/>
 	<SubTexture name="rzone_popup_hover" x="0" y="228" width="38" height="38" pivotX="0" pivotY="0"/>
@@ -127,7 +130,7 @@
 	<SubTexture name="spacemap_select" x="0" y="304" width="38" height="38" pivotX="0" pivotY="0"/>
 	<SubTexture name="spaceplague_hover" x="38" y="304" width="38" height="38" pivotX="0" pivotY="0"/>
 	<SubTexture name="spaceplague_normal" x="76" y="304" width="38" height="38" pivotX="0" pivotY="0"/>
-	<SubTexture name="spaceplague_select" x="114" y="38" width="38" height="38" pivotX="0" pivotY="0"/>
+	<SubTexture name="spaceplague_select" x="152" y="0" width="38" height="38" pivotX="0" pivotY="0"/>
 	<SubTexture name="tdm_hover" x="114" y="304" width="38" height="38" pivotX="0" pivotY="0"/>
 	<SubTexture name="tdm_normal" x="152" y="304" width="38" height="38" pivotX="0" pivotY="0"/>
 	<SubTexture name="tdm_select" x="190" y="304" width="38" height="38" pivotX="0" pivotY="0"/>

@@ -1166,8 +1166,24 @@
     <file version="1" type="atf" name="curcubitor_specular_128" location="3d_textures" id="curcubitor_specular_128" hash="c33671f5244fab7ab3d952eeee60fd00" debugView="false"/>
     <file version="1" type="atf" name="curcubitor_specular_256" location="3d_textures" id="curcubitor_specular_256" hash="a428a6d0f6b8fd84f86a3fbc4cc41800" debugView="false"/>
     <file version="1" type="atf" name="curcubitor_specular_512" location="3d_textures" id="curcubitor_specular_512" hash="7002a53d89be1cd13a64b1ec03729d00" debugView="false"/>
+    <file version="1" type="awd" name="cyborg" location="3d_meshes" id="cyborg" hash="93913ede95866d6335070175cc7ae200" debugView="false"/>
+    <file version="1" type="atf" name="cyborg_diffuse_128" location="3d_textures" id="cyborg_diffuse_128" hash="43451da347a80a2394623f0a9a76a300" debugView="false"/>
+    <file version="1" type="atf" name="cyborg_diffuse_256" location="3d_textures" id="cyborg_diffuse_256" hash="a72df2d283566307a95fb571fbfeb700" debugView="false"/>
+    <file version="1" type="atf" name="cyborg_diffuse_512" location="3d_textures" id="cyborg_diffuse_512" hash="991a1282330f7788a39ce5929616e700" debugView="false"/>
+    <file version="1" type="atf" name="cyborg_glow_128" location="3d_textures" id="cyborg_glow_128" hash="99067080e21f3ddd2e5101773f399400" debugView="false"/>
+    <file version="1" type="atf" name="cyborg_glow_256" location="3d_textures" id="cyborg_glow_256" hash="78f2476fe6d78c7e30a24e536b2eca00" debugView="false"/>
+    <file version="1" type="atf" name="cyborg_glow_512" location="3d_textures" id="cyborg_glow_512" hash="e083c62bf1e3d072f9c7e1ce1f8b0a00" debugView="false"/>
+    <file version="1" type="atf" name="cyborg_normal_128" location="3d_textures" id="cyborg_normal_128" hash="05d8afd198ef775572b0ab5cbf302d00" debugView="false"/>
+    <file version="1" type="atf" name="cyborg_normal_256" location="3d_textures" id="cyborg_normal_256" hash="24f4ed26d74075eebfe11258dbdcc300" debugView="false"/>
+    <file version="1" type="atf" name="cyborg_normal_512" location="3d_textures" id="cyborg_normal_512" hash="06451417bed8456a67c202348bb70500" debugView="false"/>
+    <file version="1" type="atf" name="cyborg_specular_128" location="3d_textures" id="cyborg_specular_128" hash="b02ab8907ff94f475932883cf3d0f400" debugView="false"/>
+    <file version="1" type="atf" name="cyborg_specular_256" location="3d_textures" id="cyborg_specular_256" hash="6fb0c6553a9dcc814a1ffe4c47198900" debugView="false"/>
+    <file version="1" type="atf" name="cyborg_specular_512" location="3d_textures" id="cyborg_specular_512" hash="f4754f932139b71f24cde642d16cab00" debugView="false"/>
     <file version="1" type="awd" name="damage-module" location="3d_meshes" id="damage-module" hash="b13873cd226ad1385252e07d8f36aa00" debugView="false"/>
     <file version="1" type="awd" name="defcom" location="3d_meshes" id="defcom" hash="533089a1cf41d3c177a5d72ba98b9000" debugView="false"/>
+    <file version="1" type="atf" name="defcom-raven_diffuse_128" location="3d_textures" id="defcom-raven_diffuse_128" hash="007d31ecac3ef17232f924ba9884b600" debugView="false"/>
+    <file version="1" type="atf" name="defcom-raven_diffuse_256" location="3d_textures" id="defcom-raven_diffuse_256" hash="3b184523c50637a8fe33af1fe4d21200" debugView="false"/>
+    <file version="1" type="atf" name="defcom-raven_diffuse_512" location="3d_textures" id="defcom-raven_diffuse_512" hash="0398c372d4d65cbe16c2ea5d47859d00" debugView="false"/>
     <file version="1" type="atf" name="defcom-violet_diffuse_128" location="3d_textures" id="defcom-violet_diffuse_128" hash="2fae2af22fe8bf327fe9de7d5484eb00" debugView="false"/>
     <file version="1" type="atf" name="defcom-violet_diffuse_256" location="3d_textures" id="defcom-violet_diffuse_256" hash="c0acb99008d012e2a2d8c419045b5d00" debugView="false"/>
     <file version="1" type="atf" name="defcom-violet_diffuse_512" location="3d_textures" id="defcom-violet_diffuse_512" hash="b0faaa9f785f9918e27fabdf272ade00" debugView="false"/>
@@ -2321,6 +2337,22 @@
     <file version="1" type="atf" name="goliath_specular_128" location="3d_textures" id="goliath_specular_128" hash="f8ad7926d2395dfde2105462d1db7300" debugView="false"/>
     <file version="1" type="atf" name="goliath_specular_256" location="3d_textures" id="goliath_specular_256" hash="739c5fe84ba5d21b11366274bceb7600" debugView="false"/>
     <file version="1" type="atf" name="goliath_specular_512" location="3d_textures" id="goliath_specular_512" hash="68f86a6f58fe6ce036cd0a0328175400" debugView="false"/>
+    <file version="1" type="atf" name="gygerthrall-infected_glow_128" location="3d_textures" id="gygerthrall-infected_glow_128" hash="3d1212abe258819e31efa04435e13100" debugView="false"/>
+    <file version="1" type="atf" name="gygerthrall-infected_glow_256" location="3d_textures" id="gygerthrall-infected_glow_256" hash="86b900cf0f753f82fb3ae08c8a16f000" debugView="false"/>
+    <file version="1" type="atf" name="gygerthrall-infected_glow_512" location="3d_textures" id="gygerthrall-infected_glow_512" hash="95a14daa52a41b3ab43c690890fefe00" debugView="false"/>
+    <file version="1" type="awd" name="hammerclaw" location="3d_meshes" id="hammerclaw" hash="8efdcdb9dad10d0a9ea0b124b4ce6f00" debugView="false"/>
+    <file version="1" type="atf" name="hammerclaw_diffuse_128" location="3d_textures" id="hammerclaw_diffuse_128" hash="725d1cca3206904935c8ec781be2b700" debugView="false"/>
+    <file version="1" type="atf" name="hammerclaw_diffuse_256" location="3d_textures" id="hammerclaw_diffuse_256" hash="c041ccb7f99f38410ea0436d3be4cd00" debugView="false"/>
+    <file version="1" type="atf" name="hammerclaw_diffuse_512" location="3d_textures" id="hammerclaw_diffuse_512" hash="7fb023478cc336227a37e7fb0e19b500" debugView="false"/>
+    <file version="1" type="atf" name="hammerclaw_glow_128" location="3d_textures" id="hammerclaw_glow_128" hash="39314c097c8f7ec50a6117cde3b48300" debugView="false"/>
+    <file version="1" type="atf" name="hammerclaw_glow_256" location="3d_textures" id="hammerclaw_glow_256" hash="29751aaea1f8b5d9c88fbc985e855a00" debugView="false"/>
+    <file version="1" type="atf" name="hammerclaw_glow_512" location="3d_textures" id="hammerclaw_glow_512" hash="d0336ad834f083814396ead96a507300" debugView="false"/>
+    <file version="1" type="atf" name="hammerclaw_normal_128" location="3d_textures" id="hammerclaw_normal_128" hash="ff0853515d93fb7fd2423d8902ed5800" debugView="false"/>
+    <file version="1" type="atf" name="hammerclaw_normal_256" location="3d_textures" id="hammerclaw_normal_256" hash="a78c4e2c81ca0e3237714012fb525500" debugView="false"/>
+    <file version="1" type="atf" name="hammerclaw_normal_512" location="3d_textures" id="hammerclaw_normal_512" hash="dec98915b40b0def80ee271fa2298800" debugView="false"/>
+    <file version="1" type="atf" name="hammerclaw_specular_128" location="3d_textures" id="hammerclaw_specular_128" hash="9ffc1c389d4d9fb326e0a4bba848db00" debugView="false"/>
+    <file version="1" type="atf" name="hammerclaw_specular_256" location="3d_textures" id="hammerclaw_specular_256" hash="e6f53d1582cc0d678f09debcbd5e9000" debugView="false"/>
+    <file version="1" type="atf" name="hammerclaw_specular_512" location="3d_textures" id="hammerclaw_specular_512" hash="9f3a95da83a6bfe4415d6385a4ac6800" debugView="false"/>
     <file version="1" type="awd" name="hitac-minion" location="3d_meshes" id="hitac-minion" hash="0e5bc1d0b2a0c7b131210e619775bb00" debugView="false"/>
     <file version="1" type="awd" name="hitac-mothership" location="3d_meshes" id="hitac-mothership" hash="c0b253d506c21224ed2f2ab0369f6600" debugView="false"/>
     <file version="1" type="atf" name="hitac_diffuse_128" location="3d_textures" id="hitac_diffuse_128" hash="a574ef92eba7ac9808d88d1dc7eec300" debugView="false"/>
@@ -2329,6 +2361,12 @@
     <file version="1" type="atf" name="hitac_glow_128" location="3d_textures" id="hitac_glow_128" hash="478de59c9ee39846813785bfc0be0500" debugView="false"/>
     <file version="1" type="atf" name="hitac_glow_256" location="3d_textures" id="hitac_glow_256" hash="40363cdbdf2b6eb56a1c4af63b201400" debugView="false"/>
     <file version="1" type="atf" name="hitac_glow_512" location="3d_textures" id="hitac_glow_512" hash="53b1cd72cbbebafcf87946bb26aafc00" debugView="false"/>
+    <file version="1" type="atf" name="hitac_infected_diffuse_128" location="3d_textures" id="hitac_infected_diffuse_128" hash="049c4cbd167776d0bfcf818f534de100" debugView="false"/>
+    <file version="1" type="atf" name="hitac_infected_diffuse_256" location="3d_textures" id="hitac_infected_diffuse_256" hash="1534b2c97aa2f6b81b272454b9625c00" debugView="false"/>
+    <file version="1" type="atf" name="hitac_infected_diffuse_512" location="3d_textures" id="hitac_infected_diffuse_512" hash="2222688c61f3110a745dc92a48ff9500" debugView="false"/>
+    <file version="1" type="atf" name="hitac_infected_glow_128" location="3d_textures" id="hitac_infected_glow_128" hash="9d0d3fac03009c352903c4098a15ea00" debugView="false"/>
+    <file version="1" type="atf" name="hitac_infected_glow_256" location="3d_textures" id="hitac_infected_glow_256" hash="5f459b9c28c88f06b79a517069cdcc00" debugView="false"/>
+    <file version="1" type="atf" name="hitac_infected_glow_512" location="3d_textures" id="hitac_infected_glow_512" hash="e67d775c7def464ccbe321770e549800" debugView="false"/>
     <file version="1" type="atf" name="hitac_normal_128" location="3d_textures" id="hitac_normal_128" hash="16c45e55dbb3038d803c4512d47cbe00" debugView="false"/>
     <file version="1" type="atf" name="hitac_normal_256" location="3d_textures" id="hitac_normal_256" hash="5968adf8587bf1475c300dcbd8509c00" debugView="false"/>
     <file version="1" type="atf" name="hitac_normal_512" location="3d_textures" id="hitac_normal_512" hash="80b0aaab26b94bd1dafaecb4b1e97d00" debugView="false"/>
@@ -3100,6 +3138,12 @@
     <file version="1" type="atf" name="pet_designs_pet-a-elite_specular_128" location="3d_textures" id="pet_designs_pet-a-elite_specular_128" hash="3f8a13c6fc81cb58ae26a439ee021c00" debugView="false"/>
     <file version="1" type="atf" name="pet_designs_pet-a-elite_specular_256" location="3d_textures" id="pet_designs_pet-a-elite_specular_256" hash="2c8ae062e4bcc06c83bbb24146de9900" debugView="false"/>
     <file version="1" type="atf" name="pet_designs_pet-a-elite_specular_512" location="3d_textures" id="pet_designs_pet-a-elite_specular_512" hash="0bd114e4a065cd0ddbfbf049966e6b00" debugView="false"/>
+    <file version="1" type="atf" name="pet_designs_pet-pusat-poison_diffuse_128" location="3d_textures" id="pet_designs_pet-pusat-poison_diffuse_128" hash="4c4b2662d30cb7e392ec2ce521d10b00" debugView="false"/>
+    <file version="1" type="atf" name="pet_designs_pet-pusat-poison_diffuse_256" location="3d_textures" id="pet_designs_pet-pusat-poison_diffuse_256" hash="12ec2aaf8244b091f5d1d801f4b1d800" debugView="false"/>
+    <file version="1" type="atf" name="pet_designs_pet-pusat-poison_diffuse_512" location="3d_textures" id="pet_designs_pet-pusat-poison_diffuse_512" hash="196b46fd7a5b7857998d7ec8eadd1c00" debugView="false"/>
+    <file version="1" type="atf" name="pet_designs_pet-spectrum-poison_diffuse_128" location="3d_textures" id="pet_designs_pet-spectrum-poison_diffuse_128" hash="8e6efcc7c615e3f976bebfae59c48200" debugView="false"/>
+    <file version="1" type="atf" name="pet_designs_pet-spectrum-poison_diffuse_256" location="3d_textures" id="pet_designs_pet-spectrum-poison_diffuse_256" hash="f4c31dd2113bef8dd473b69b879dcc00" debugView="false"/>
+    <file version="1" type="atf" name="pet_designs_pet-spectrum-poison_diffuse_512" location="3d_textures" id="pet_designs_pet-spectrum-poison_diffuse_512" hash="6d9e2f754b6ffb60454ff0d94bc23700" debugView="false"/>
     <file version="1" type="atf" name="pet_diffuse_128" location="3d_textures" id="pet_diffuse_128" hash="eae9f35c15e608ad94d4886a64c65800" debugView="false"/>
     <file version="1" type="atf" name="pet_diffuse_256" location="3d_textures" id="pet_diffuse_256" hash="ad0ac67568fc259d003e82ffa1cfc200" debugView="false"/>
     <file version="1" type="atf" name="pet_diffuse_512" location="3d_textures" id="pet_diffuse_512" hash="b18a7c8a5d493492bf26d32e673b6d00" debugView="false"/>
@@ -4120,6 +4164,9 @@
     <file version="1" type="atf" name="xmas-tree_specular_256" location="3d_textures" id="xmas-tree_specular_256" hash="8adec3226465c058feee6bb1f6aabb00" debugView="false"/>
     <file version="1" type="atf" name="xmas-tree_specular_512" location="3d_textures" id="xmas-tree_specular_512" hash="0dc1d983be78c7be4f412292dc50e000" debugView="false"/>
     <file version="1" type="awd" name="yamato" location="3d_meshes" id="yamato" hash="040fc98f384b6a339eb547c59bddc900" debugView="false"/>
+    <file version="1" type="atf" name="yamato-ronin_diffuse_128" location="3d_textures" id="yamato-ronin_diffuse_128" hash="d6ebd783b4219eb4d3613ba7f0898a00" debugView="false"/>
+    <file version="1" type="atf" name="yamato-ronin_diffuse_256" location="3d_textures" id="yamato-ronin_diffuse_256" hash="162c2dead236a33d194d57e0766ef400" debugView="false"/>
+    <file version="1" type="atf" name="yamato-ronin_diffuse_512" location="3d_textures" id="yamato-ronin_diffuse_512" hash="4af70070ef52a735938fbc398cec2200" debugView="false"/>
     <file version="1" type="atf" name="yamato-violet_diffuse_128" location="3d_textures" id="yamato-violet_diffuse_128" hash="d60c5b47391bc7c259ea93bc6e9a6400" debugView="false"/>
     <file version="1" type="atf" name="yamato-violet_diffuse_256" location="3d_textures" id="yamato-violet_diffuse_256" hash="913f342b2124c2c607a57ef64df96b00" debugView="false"/>
     <file version="1" type="atf" name="yamato-violet_diffuse_512" location="3d_textures" id="yamato-violet_diffuse_512" hash="59d3e7a204bc7b847bdd76cf96706600" debugView="false"/>
