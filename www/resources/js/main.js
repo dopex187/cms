@@ -45,7 +45,7 @@ var Main = {
         if (this.mapRevolutionDisplayMode == "0") {
             var popupModifiers = '';
         }
-        var url = 'Internal/' + map; // IDK Why someone would do this, but congratz BP
+        var url = '/Internal/' + map; // IDK Why someone would do this, but congratz BP
         if (this.windowSpaceMap == null || this.windowSpaceMap.closed) {
             this.windowSpaceMap = window.open(url, 'spaceMap', popupModifiers);
 

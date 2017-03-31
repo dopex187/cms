@@ -925,7 +925,7 @@ function openContextHelp() {
 
 function showHangar() {
     if (window.opener) {
-        window.opener.location.href = 'Internal/Dock';
+        window.opener.location.href = '/Internal/Dock';
         window.opener.focus();
     } else {
         // todo: öffne neue seite mit dock-startseite
@@ -942,7 +942,7 @@ function showHangar() {
 
 function showPetFuel() {
     if (window.opener) {
-        window.opener.location.href = 'Internal/Shop/Pet';
+        window.opener.location.href = '/Internal/Shop/Pet';
         window.opener.focus();
     } else {
         // todo: öffne neue seite mit dock-startseite
@@ -1278,7 +1278,7 @@ function showFeedbackForm() {
 function refreshPage(pageId) {
     if (window.opener) {
         if (pageId == 0) {
-            window.opener.location.href = "Internal/NanoTechFactory";
+            window.opener.location.href = "/Internal/NanoTechFactory";
         }
 
 
@@ -3453,7 +3453,7 @@ function executeDocumentReadyFunctions() {
 function gotoWriteMessage(recipient, type) {
     if (recipient.constructor == Array) recipient = recipient.join('_');
     typeID = (type == 'user') ? 'recipientID' : 'clanID';
-    do_redirect('Internal/Messaging&subaction=writeMessage&' + typeID + '=' + recipient);
+    do_redirect('/Internal/Messaging?subaction=writeMessage&' + typeID + '=' + recipient);
 }
 
 //function userInfoLayerInvite(invitedID)
