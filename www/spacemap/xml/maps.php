@@ -1,10 +1,5 @@
 <?php
-/**
- * Load alexya.
- */
-require_once("../../../alexya/bootstrap.php");
-
-$ip = \Alexya\Settings::get("application.ip");
+$ip = "144.217.188.121";
 ?>
 <maps>
 <map id="1"><gameserverIP><?php echo $ip; ?></gameserverIP></map>
