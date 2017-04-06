@@ -57,7 +57,7 @@
 
     <link type="text/css" href="{$URL}css/cdn/jQuery/jquery.jscrollpane.css" rel="stylesheet" media="all" />
     <link type="text/css" href="{$URL}css/cdn/scrollbar_dark.css" rel="stylesheet" media="all" />
-    <link rel="stylesheet" media="all" href="{$URL}css/cdn/internalStart.css" />
+    <link rel="stylesheet" media="all" href="{$URL}css/cdn/internal{$name}.css" />
     <link rel="stylesheet" media="all" href="{$URL}css/cdn/window.css" />
     <link rel="stylesheet" media="all" href="{$URL}css/cdn/window_alert.css" />
     <link rel="stylesheet" media="all" href="{$URL}application/fancybox/jquery.fancybox-1.3.4.css" />
