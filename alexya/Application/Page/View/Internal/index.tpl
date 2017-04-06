@@ -1,6 +1,5 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml">
-
 <head>
     <title>{$server->title}</title>
 
@@ -61,6 +60,7 @@
     <link rel="stylesheet" media="all" href="{$URL}css/cdn/internalStart.css" />
     <link rel="stylesheet" media="all" href="{$URL}css/cdn/window.css" />
     <link rel="stylesheet" media="all" href="{$URL}css/cdn/window_alert.css" />
+    <link rel="stylesheet" media="all" href="{$URL}application/fancybox/jquery.fancybox-1.3.4.css" />
 
     <link rel="SHORTCUT ICON" href="{$URL}favicon.ico" type="image/x-icon">
 
@@ -501,11 +501,11 @@
                     </div>
                     <div id="header_second_bar">
                         <script type="text/javascript" src="{$URL}js/externalDefault/lpInstances.js"></script>
-                        <div id="header_button_home" onclick="do_redirect('{$URL}Internal/Start')"></div>
-                        <div id="header_button_server" onclick="Main.getInstanceList()"></div>
-                        <div id="header_button_logout" onclick="do_redirect('{$URL}Logout')"></div>
-                        <div id="header_button_help" onclick="showHelp()"></div>
-                        <div id="header_button_account" onclick="do_redirect('{$URL}Settings/Newsletter')"></div>
+                        <a href="{$URL}Internal/Start" id="header_button_home"></a>
+                        <a href="#" onclick="Main.getInstanceList()" id="header_button_server"></a>
+                        <a href="{$URL}Internal/Logout" id="header_button_logout"></a>
+                        <a href="#" onclick="showHelp()" id="header_button_help"></a>
+                        <a href="{$URL}Internal/Start" id="header_button_account"></a>
                     </div>
 
                     <div id="header_main">
@@ -633,10 +633,11 @@
                         }
 
                         if (document.getElementById('flashGG')) {
-                            document.getElementById('materialiser').innerHTML = inner_html;
+                            var m = $("#materialiser");
 
-                            jQuery('#materialiser').css('margin-left', 110);
-                            jQuery('#materialiser').css('margin-top', 40);
+                            m.html(inner_html);
+                            m.css("marginleft", 110);
+                            m.css("margin-top", 40);
                         }
                     }
 
@@ -669,14 +670,14 @@
                             historyContainer.jScrollPane({
                                 showArrows: true
                             });
-                        };
+                        }
 
                         // Initial parameter for SLAYER
                         var parameter = {
                             // BASIC SETTINGS
                             gameId: 22,
                             gameTitle: '{$server->name}',
-                            dispatcherUrl: '/socialAPI/mailInvite.php', // The path where you call the dispatcher
+                            dispatcherUrl: '{$URL}socialAPI/mailInvite.php', // The path where you call the dispatcher
 
                             instanceId: '22',
                             affiliateId: '0',
@@ -698,12 +699,12 @@
                                 buddyList: false, // Defines wether to show the Buddylist and Friendsearch or not
                                 friendSearch: {
                                     enable: false, // Default: False
-                                    url: '/socialAPI/friendSearch.php' // Url to Your search engine
+                                    url: '{$URL}socialAPI/friendSearch.php' // Url to Your search engine
                                 }
                             },
 
                             // GAME EVENT SERVICE
-                            events: {} // You just need to place this empty object inside the initParameter to tell SLAYER it should initiate the GES
+                            events: { } // You just need to place this empty object inside the initParameter to tell SLAYER it should initiate the GES
                         }
 
                         SLAYER.init(parameter);
@@ -736,7 +737,6 @@
                             </div>
                             <div id="container_teamcredits" style="height: 528px;">
                                 <div id="teamCredits_text">
-
                                     <ul id="main">
                                         <li style="height: 1px;"></li>
                                         <li id="head"></li>
@@ -753,11 +753,12 @@
                                                         </li>
                                                         <li id="table1_col2">
                                                             <ul id="dev2">
+                                                                <li><a href="#" target="_blank">Ordepsousa</a></li>
                                                             </ul>
                                                         </li>
                                                         <li id="table1_col3">
                                                             <ul id="dev3">
-                                                                <li><a href="https://github.com/BabaElmo/" target="_blank">BabaElmo</a></li>
+                                                                <li><a href="#" target="_blank">Real</a></li>
                                                             </ul>
                                                         </li>
                                                     </ul>
@@ -782,7 +783,7 @@
                                                         </li>
                                                         <li id="table3_col3">
                                                             <ul id="thanks3">
-                                                                <li><a href="https://github.com/BorjaSanchidrian" target="_blank">Yuu-chan</a></li>
+                                                                <li><a href="https://darkorbit.com/" target="_blank">DarkOrbit</a></li>
                                                             </ul>
                                                         </li>
                                                         <br class="clearMe" />
@@ -842,46 +843,12 @@
             jQuery('body').css('background-position', 'center 30px');
         }
     </script>
-    <!-- LayertoolService JavaScript Injection start -->
-    <script type="text/javascript">
-        //<![CDATA[
-        // add fancybox css to the head
-        var cssLink = document.createElement('link');
-        cssLink.type = 'text/css';
-        cssLink.rel = 'stylesheet';
-        cssLink.href = '{$URL}application/fancybox/jquery.fancybox-1.3.4.css';
-        document.getElementsByTagName('head')[0].appendChild(cssLink);
-        //]]>
-    </script>
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+    <script type="text/javascript" src="{$URL}ajax/libs/jquery/1.7/jquery.min.js"></script>
     <script type="text/javascript" src="{$URL}application/fancybox/jquery.fancybox-1.3.4.js"></script>
     <script type="text/javascript" src="{$URL}application/client/client.js"></script>
     <script type="text/javascript" src="{$URL}application/cookie/jquery.cookie.js"></script>
     <script type="text/javascript">
         var jQueryLts = jQuery.noConflict(true);
     </script>
-    <script type="text/javascript">
-        //<![CDATA[
-        jQueryLts('document').ready(function() {
-            try {
-                var serviceLinks = ['{$URL}Payment/Service'];
-                var paymentURL = '{$URL}Payment';
-                BPLayertool2.Helper.setPaymentLink(paymentURL);
-                BPLayertool2.Helper.setUserId();
-                BPLayertool2.Helper.setRequestTime(1483436667);
-                BPLayertool2.Helper.setServices(serviceLinks);
-                BPLayertool2.JSONPRequest.setRequestURL(serviceLinks[0]);
-                BPLayertool2.JSONPRequest.doRequest(BPLayertool2.LayerView.prepareView);
-            } catch (Exception) {
-                if (true === Boolean(console.log)) {
-                    console.log(Exception);
-                } else {
-                    throw Exception;
-                };
-            }
-        });
-        //]]>
-    </script>
-    <!-- LayertoolService JavaScript Injection end -->
 </body>
 </html>
