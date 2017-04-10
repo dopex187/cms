@@ -101,7 +101,7 @@
         cursor: pointer;
         width: 24px;
         height: 24px;
-        background: url({$URL}do_img/global/skylab/modules_large/close_button_sprite.png?__cv=fa1f7ef0f89ab04212dbf02f3424d700) no-repeat center -24px;
+        background: url({$theme->url()}do_img/global/skylab/modules_large/close_button_sprite.png?__cv=fa1f7ef0f89ab04212dbf02f3424d700) no-repeat center -24px;
     }
 
     #brand_cinema_layer .close_button:hover {

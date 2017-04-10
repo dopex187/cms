@@ -1,4 +1,4 @@
-<script src="{$URL}resources/js/dock.js"></script>
+<script src="{$theme->url()}resources/js/dock.js"></script>
 <script>
     // Parameters for Tools.Popup
     Tools.Popup.Parameters = {

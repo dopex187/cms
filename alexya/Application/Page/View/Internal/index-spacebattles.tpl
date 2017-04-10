@@ -24,7 +24,7 @@
     <meta property="og:title" content="{$server->name}" />
     <meta property="og:type" content="game" />
     <meta property="og:url" content="{$URL}" />
-    <meta property="og:image" content="{$URL}do_img/global/fb_icon.jpg" />
+    <meta property="og:image" content="{$theme->url()}do_img/global/fb_icon.jpg" />
     <meta property="og:site_name" content="{$server->name}" />
     <meta property="og:description" content="{t($server->description)}" />
     <meta property="og:locale" content="{$locale->code}" />
@@ -34,17 +34,17 @@
 
     <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />
     <style type="text/css" media="screen">
-        @import "{$URL}css/cdn/darkorbit.css";
+        @import "{$theme->url()}css/cdn/darkorbit.css";
     </style>
 
     <!--[if lt IE 8]>
-    <style type="text/css" media="screen">    @import "{$URL}css/cdn/darkorbit_ie.css"; </style>
+    <style type="text/css" media="screen">    @import "{$theme->url()}css/cdn/darkorbit_ie.css"; </style>
     <![endif]-->
     <style type="text/css" media="screen">
-        @import "{$URL}css/cdn/includeSkinNavbar.css";
+        @import "{$theme->url()}css/cdn/includeSkinNavbar.css";
     </style>
     <style type="text/css" media="screen">
-        @import "{$URL}css/cdn/includeInfoStyles.css";
+        @import "{$theme->url()}css/cdn/includeInfoStyles.css";
     </style>
 
     <link href='http://fonts.googleapis.com/css?family=Ubuntu+Condensed&subset=latin,greek,cyrillic' rel='stylesheet' type='text/css'>
@@ -55,43 +55,43 @@
 
     <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
 
-    <link type="text/css" href="{$URL}css/cdn/jQuery/jquery.jscrollpane.css" rel="stylesheet" media="all" />
-    <link type="text/css" href="{$URL}css/cdn/scrollbar_dark.css" rel="stylesheet" media="all" />
-    <link rel="stylesheet" media="all" href="{$URL}css/cdn/internal{$name}.css" />
-    <link rel="stylesheet" media="all" href="{$URL}css/cdn/window.css" />
-    <link rel="stylesheet" media="all" href="{$URL}css/cdn/window_alert.css" />
-    <link rel="stylesheet" media="all" href="{$URL}application/fancybox/jquery.fancybox-1.3.4.css" />
+    <link type="text/css" href="{$theme->url()}css/cdn/jQuery/jquery.jscrollpane.css" rel="stylesheet" media="all" />
+    <link type="text/css" href="{$theme->url()}css/cdn/scrollbar_dark.css" rel="stylesheet" media="all" />
+    <link rel="stylesheet" media="all" href="{$theme->url()}css/cdn/internal{$name}.css" />
+    <link rel="stylesheet" media="all" href="{$theme->url()}css/cdn/window.css" />
+    <link rel="stylesheet" media="all" href="{$theme->url()}css/cdn/window_alert.css" />
+    <link rel="stylesheet" media="all" href="{$theme->url()}application/fancybox/jquery.fancybox-1.3.4.css" />
 
-    <link rel="SHORTCUT ICON" href="{$URL}favicon.ico" type="image/x-icon">
+    <link rel="SHORTCUT ICON" href="{$theme->url()}favicon.ico" type="image/x-icon">
 
     <script language="javascript">
-        var CDN = "{$URL}";
+        var CDN = "{$theme->url()}";
     </script>
 
-    <script type="text/javascript" src="{$URL}js/scriptaculous/prototype.js"></script>
-    <script type="text/javascript" src="{$URL}js/scriptaculous/scriptaculous.js"></script>
-    <script type="text/javascript" src="{$URL}js/scriptaculous/do_extensions.js"></script>
-    <script type="text/javascript" src="{$URL}js/scriptaculous/window.js"></script>
-    <script type="text/javascript" src="{$URL}js/scriptaculous/tooltip.js"></script>
-    <script type="text/javascript" src="{$URL}js/tooltipPilotSheet.js"></script>
-    <script type="text/javascript" src="{$URL}js/livepipe.js"></script>
-    <script type="text/javascript" src="{$URL}js/scroller.js"></script>
-    <script type="text/javascript" src="{$URL}js/customSelect.js"></script>
-    <script type="text/javascript" src="{$URL}js/jQuery/jquery-1.4.4.min.js"></script>
-    <script type="text/javascript" src="{$URL}js/jQuery/jquery.mousewheel.js"></script>
-    <script type="text/javascript" src="{$URL}js/jQuery/jquery.jscrollpane.min.js"></script>
-    <script type="text/javascript" src="{$URL}js/jQuery/custom-form-elements.js"></script>
-    <script type="text/javascript" src="{$URL}js/jQuery/jquery.flashembed.js"></script>
-    <script type="text/javascript" src="{$URL}js/jQuery/doExtensions.js"></script>
-    <script type="text/javascript" src="{$URL}js/jQuery/jquery.qtip-1.0.0-rc3.min.js"></script>
-    <script type="text/javascript" src="{$URL}js/jQuery/jquery.livequery.js" id="liveQuery"></script>
-    <script type="text/javascript" src="{$URL}js/hangarSlots.js"></script>
+    <script type="text/javascript" src="{$theme->url()}js/scriptaculous/prototype.js"></script>
+    <script type="text/javascript" src="{$theme->url()}js/scriptaculous/scriptaculous.js"></script>
+    <script type="text/javascript" src="{$theme->url()}js/scriptaculous/do_extensions.js"></script>
+    <script type="text/javascript" src="{$theme->url()}js/scriptaculous/window.js"></script>
+    <script type="text/javascript" src="{$theme->url()}js/scriptaculous/tooltip.js"></script>
+    <script type="text/javascript" src="{$theme->url()}js/tooltipPilotSheet.js"></script>
+    <script type="text/javascript" src="{$theme->url()}js/livepipe.js"></script>
+    <script type="text/javascript" src="{$theme->url()}js/scroller.js"></script>
+    <script type="text/javascript" src="{$theme->url()}js/customSelect.js"></script>
+    <script type="text/javascript" src="{$theme->url()}js/jQuery/jquery-1.4.4.min.js"></script>
+    <script type="text/javascript" src="{$theme->url()}js/jQuery/jquery.mousewheel.js"></script>
+    <script type="text/javascript" src="{$theme->url()}js/jQuery/jquery.jscrollpane.min.js"></script>
+    <script type="text/javascript" src="{$theme->url()}js/jQuery/custom-form-elements.js"></script>
+    <script type="text/javascript" src="{$theme->url()}js/jQuery/jquery.flashembed.js"></script>
+    <script type="text/javascript" src="{$theme->url()}js/jQuery/doExtensions.js"></script>
+    <script type="text/javascript" src="{$theme->url()}js/jQuery/jquery.qtip-1.0.0-rc3.min.js"></script>
+    <script type="text/javascript" src="{$theme->url()}js/jQuery/jquery.livequery.js" id="liveQuery"></script>
+    <script type="text/javascript" src="{$theme->url()}js/hangarSlots.js"></script>
     <script type="text/javascript">
         jQuery.noConflict();
     </script>
-    <script type="text/javascript" src="{$URL}resources/js/tools.js"></script>
-    <script type="text/javascript" src="{$URL}resources/js/tools/text.js"></script>
-    <script type="text/javascript" src="{$URL}resources/js/user.js"></script>
+    <script type="text/javascript" src="{$theme->url()}resources/js/tools.js"></script>
+    <script type="text/javascript" src="{$theme->url()}resources/js/tools/text.js"></script>
+    <script type="text/javascript" src="{$theme->url()}resources/js/user.js"></script>
     <!-- Darkorbit Javascript tools -->
     <script type="text/javascript">
         var textResourcesTitle = {
@@ -119,16 +119,16 @@
         Tools.Text.setResource('message_contact_user_is_blocking_contacts', '{t("This pilot does not accept contact requests.")}');
         Tools.Text.setResource('message_contact_invite_sended', '{t("Your friendship request has been sent!")}');
     </script>
-    <script type="text/javascript" src="{$URL}resources/js/tools/popup.js"></script>
-    <script type="text/javascript" src="{$URL}resources/js/tools/errorHandler.js"></script>
-    <script type="text/javascript" src="{$URL}resources/js/library.js"></script>
-    <script type="text/javascript" src="{$URL}resources/js/main.js" type="text/javascript"></script>
+    <script type="text/javascript" src="{$theme->url()}resources/js/tools/popup.js"></script>
+    <script type="text/javascript" src="{$theme->url()}resources/js/tools/errorHandler.js"></script>
+    <script type="text/javascript" src="{$theme->url()}resources/js/library.js"></script>
+    <script type="text/javascript" src="{$theme->url()}resources/js/main.js"></script>
     <script language="javascript">
         Main.Initialize('1', 'dosid={$account->session_id}');
     </script>
 
-    <script src="{$URL}js/function.js" type="text/javascript"></script>
-    <script src="{$URL}js/base.js" type="text/javascript"></script>
+    <script src="{$theme->url()}js/function.js" type="text/javascript"></script>
+    <script src="{$theme->url()}js/base.js" type="text/javascript"></script>
     <script type="text/javascript">
         jQuery.fn.qtip.styles.dohdr = {
             background: '#000000',
@@ -237,14 +237,14 @@
             <a id="general_popup_close" class="popup_close" href="javascript:void(0)" onclick="Main.hideGeneralInfoLayer()"></a>
         </div>
         <div id="general_popup_question" class="question">
-            <img src="{$URL}do_img/global/popups/general/success_icon.png" id="general_popup_success" class="success" />
-            <img src="{$URL}do_img/global/popups/general/error_icon.png" id="general_popup_error" class="error" />
+            <img src="{$theme->url()}do_img/global/popups/general/success_icon.png" id="general_popup_success" class="success" />
+            <img src="{$theme->url()}do_img/global/popups/general/error_icon.png" id="general_popup_error" class="error" />
             <p id="general_popup_question_text">this text will be replace on ajax call</p>
         </div>
         <div class="popup_contentcontainer">
             <div class="popup_footcontainer">
                 <div id="general_popup_close_button" class="popup_close_button" onclick="Main.hideGeneralInfoLayer()">
-                    <img src="{$URL}do_img/global/text_tf.esg?l={$locale->code}&s=12&t=ok&f=eurostyle_thea&color=white&bgcolor=grey" />
+                    <img src="{$theme->url()}do_img/global/text_tf.esg?l={$locale->code}&s=12&t=ok&f=eurostyle_thea&color=white&bgcolor=grey" />
                 </div>
             </div>
         </div>
@@ -258,13 +258,13 @@
     <!-- seitenabdecker -->
 
     <style type="text/css" media="screen">
-        @import "{$URL}css/cdn/includeInfoLayer.css";
+        @import "{$theme->url()}css/cdn/includeInfoLayer.css";
     </style>
     <script type="text/javascript">
         infoText = '';
         icon = '';
     </script>
-    <script type="text/javascript" src="{$URL}js/infoLayer.js"></script>
+    <script type="text/javascript" src="{$theme->url()}js/infoLayer.js"></script>
 
     <div id="infoLayer" class="confirmInfoLayer fliess13px-grey">
         <div class="popup_shop_headcontainer">
@@ -276,16 +276,16 @@
             <div class="popup_shop_footcontainer">
                 <div id="infoLayerConfirm">
                     <div class="popup_shop_confirm_button">
-                        <div id="infoLayer_link_confirm" class="popup_shop_confirm_text" style="background-image: url('{$URL}do_img/global/text_tf.esg?l={$locale->code}&s=12&t=ok&f=eurostyle_thea&color=white&bgcolor=grey');"></div>
+                        <div id="infoLayer_link_confirm" class="popup_shop_confirm_text" style="background-image: url('{$theme->url()}do_img/global/text_tf.esg?l={$locale->code}&s=12&t=ok&f=eurostyle_thea&color=white&bgcolor=grey');"></div>
                     </div>
                     <div class="popup_shop_abort_button">
-                        <div class="popup_shop_abort_text" style="background-image: url('{$URL}do_img/global/text_tf.esg?l={$locale->code}&s=12&t=confirmBox_cancel&f=eurostyle_thea&color=white&bgcolor=grey');" onclick="closeInfoLayer();"></div>
+                        <div class="popup_shop_abort_text" style="background-image: url('{$theme->url()}do_img/global/text_tf.esg?l={$locale->code}&s=12&t=confirmBox_cancel&f=eurostyle_thea&color=white&bgcolor=grey');" onclick="closeInfoLayer();"></div>
                     </div>
                 </div>
 
                 <div id="infoLayerInfo">
                     <div class="popup_shop_close_button">
-                        <div class="popup_shop_close_text" style='background-image: url("{$URL}do_img/global/text_tf.esg?l={$locale->code}&s=12&t=ok&f=eurostyle_thea&color=white&bgcolor=grey");' onclick="closeInfoLayer();"></div>
+                        <div class="popup_shop_close_text" style='background-image: url("{$theme->url()}do_img/global/text_tf.esg?l={$locale->code}&s=12&t=ok&f=eurostyle_thea&color=white&bgcolor=grey");' onclick="closeInfoLayer();"></div>
                     </div>
                 </div>
             </div>
@@ -305,13 +305,13 @@
 
     <div id="helpLayer" style="position:absolute;width:480px;display:none;z-index:10;" class="fliess11px-grey">
         <div id="popup_standard_headcontainer">
-            <div id="popup_standard_headline"><img src="{$URL}do_img/global/text.esg?l={$locale->code}&s=9&t=Help&f=eurostyle_clan"></div>
+            <div id="popup_standard_headline"><img src="{$theme->url()}do_img/global/text.esg?l={$locale->code}&s=9&t=Help&f=eurostyle_clan"></div>
             <div id="popup_standard_close">
-                <a href="javascript:void(0);" onclick="closeLayer('helpLayer');" onfocus="this.blur();"><img src="{$URL}do_img/global/popups/popup_middle_close.jpg"></a>
+                <a href="javascript:void(0);" onclick="closeLayer('helpLayer');" onfocus="this.blur();"><img src="{$theme->url()}do_img/global/popups/popup_middle_close.jpg"></a>
             </div>
         </div>
         <div id="popup_standard_content">
-            <div id="popup_info_sign_bg" style="background-image:url({$URL}do_img/global/popups/infopopup_bg_help.png);">
+            <div id="popup_info_sign_bg" style="background-image:url({$theme->url()}do_img/global/popups/infopopup_bg_help.png);">
                 <p>
                     <strong>{t("Greetings Space Pilot,")}</strong>
                     <br />
@@ -334,7 +334,7 @@
                 <table border="0" cellpadding="0" cellspacing="0" align="center" onclick="closeLayer('helpLayer');">
                     <tr>
                         <td class="button_resizable_1"></td>
-                        <td class="button_resizable_2"><img src="{$URL}do_img/global/text.esg?l={$locale->code}&s=9&t=ok&f=eurostyle_clan"></td>
+                        <td class="button_resizable_2"><img src="{$theme->url()}do_img/global/text.esg?l={$locale->code}&s=9&t=ok&f=eurostyle_clan"></td>
                         <td class="button_resizable_3"></td>
                     </tr>
                 </table>
@@ -358,7 +358,7 @@
         #news_head {
             width: 680px;
             height: 40px;
-            background-image: url({$URL}do_img/global/popups/popup2_top_bg.jpg);
+            background-image: url({$theme->url()}do_img/global/popups/popup2_top_bg.jpg);
             text-align: right;
         }
 
@@ -368,7 +368,7 @@
         }
 
         #news_content {
-            background-image: url({$URL}do_img/global/popups/popup2_mid_bg.jpg);
+            background-image: url({$theme->url()}do_img/global/popups/popup2_mid_bg.jpg);
             padding: 20px 35px;
             width: 610px;
             background-repeat: repeat-y;
@@ -388,7 +388,7 @@
         #news_bottom {
             width: 680px;
             height: 49px;
-            background-image: url({$URL}do_img/global/popups/popup2_bottom_bg.jpg);
+            background-image: url({$theme->url()}do_img/global/popups/popup2_bottom_bg.jpg);
             padding-top: 15px;
             vertical-align: top;
         }
@@ -399,7 +399,7 @@
             margin: auto;
             text-align: center;
             line-height: 19px;
-            background-image: url({$URL}do_img/global/popups/popup2_button_bg.png);
+            background-image: url({$theme->url()}do_img/global/popups/popup2_button_bg.png);
         }
     </style>
 
@@ -409,7 +409,7 @@
             <div id="news_head">
                 {$translationVars["NEWS_DATE"] = $n->date}
                 <div id="news_head_date" class="fliess11px-weiss">{t("News from %NEWS_DATE%", $translationVars)}</div>
-                <a id="closeButton" href="javascript:void(0);" onclick="closeNews('{$n->id}');" onfocus="this.blur()"><img src="{$URL}do_img/global/popups/popup2_closebutton.jpg" width="30" height="29"></a>
+                <a id="closeButton" href="javascript:void(0);" onclick="closeNews('{$n->id}');" onfocus="this.blur()"><img src="{$theme->url()}do_img/global/popups/popup2_closebutton.jpg" width="30" height="29"></a>
             </div>
 
             <div id="news_content" class="fliess11px-weiss">
@@ -429,7 +429,7 @@
             <div id="news_bottom" class="fliess11px">
                 <div style="float:left;margin-left:16px;">
                     <a href="javascript: showNews('{$n->id}');">
-                        <img src="{$URL}do_img/global/popups/popup2_but_backward.jpg" width="42" height="20" />
+                        <img src="{$theme->url()}do_img/global/popups/popup2_but_backward.jpg" width="42" height="20" />
                     </a>
                 </div>
                 <div id="news_but_close">
@@ -464,43 +464,43 @@
         }
     </script>
 
-    <div class="backgroundImageContainer" style="background-image: url({$URL}do_img/global/bg_standard_{$account->Faction->tag}.jpg)">
+    <div class="backgroundImageContainer" style="background-image: url({$theme->url()}do_img/global/bg_standard_{$account->Faction->tag}.jpg)">
         <div class="overallContainer">
             <div class="outerContainer fliess11px-gelb">
                 <div class="header_standard" id="header_intern">
                     <div id="header_branding">
-                        <img id="PartnerCobrandLogo" src="{$URL}published/cobrands/0_22_2.png" />
+                        <img id="PartnerCobrandLogo" src="{$theme->url()}published/cobrands/0_22_2.png" />
                     </div>
-                    <div id="header_ship" style="background-image: url({$URL}do_img/global/header/ships/model{$account->AccountsHangar->accounts_ships_id}.png)"></div>
+                    <div id="header_ship" style="background-image: url({$theme->url()}do_img/global/header/ships/model{$account->AccountsHangar->accounts_ships_id}.png)"></div>
                     <a id="header_logo" href="{$URL}Internal/Start"></a>
                     <div id="header_top_bar">
                         <div id="header_top_id" class="header_top_item">
                             <div class="header_item_wrapper">
-                                <img src="{$URL}do_img/global/header/buttons/icon_stats_ID.png" width="16" height="13" alt="" />
+                                <img src="{$theme->url()}do_img/global/header/buttons/icon_stats_ID.png" width="16" height="13" alt="" />
                                 <span>{$account->id}</span>
                             </div>
                         </div>
                         <div id="header_top_level" class="header_top_item">
                             <div class="header_item_wrapper">
-                                <img src="{$URL}do_img/global/header/buttons/icon_stats_lvl.png" width="16" height="13" alt="" />
+                                <img src="{$theme->url()}do_img/global/header/buttons/icon_stats_lvl.png" width="16" height="13" alt="" />
                                 <span>{$account->levels_id}</span>
                             </div>
                         </div>
                         <div id="header_top_hnr" class="header_top_item">
                             <div class="header_item_wrapper">
-                                <img src="{$URL}do_img/global/header/buttons/icon_stats_hon.png" width="16" height="13" alt="" />
+                                <img src="{$theme->url()}do_img/global/header/buttons/icon_stats_hon.png" width="16" height="13" alt="" />
                                 <span>{$account->honor}</span>
                             </div>
                         </div>
                         <div id="header_top_exp" class="header_top_item">
                             <div class="header_item_wrapper">
-                                <img src="{$URL}do_img/global/header/buttons/icon_stats_exp.png" width="16" height="13" alt="" />
+                                <img src="{$theme->url()}do_img/global/header/buttons/icon_stats_exp.png" width="16" height="13" alt="" />
                                 <span>{$account->experience}</span>
                             </div>
                         </div>
                     </div>
                     <div id="header_second_bar">
-                        <script type="text/javascript" src="{$URL}js/externalDefault/lpInstances.js"></script>
+                        <script type="text/javascript" src="{$theme->url()}js/externalDefault/lpInstances.js"></script>
                         <a href="{$URL}Internal/Start" id="header_button_home"></a>
                         <a href="#" onclick="Main.getInstanceList()" id="header_button_server"></a>
                         <a href="{$URL}Internal/Logout" id="header_button_logout"></a>
@@ -579,9 +579,9 @@
                             </a>
 
                             <div id="header_my_jackpot">
-                                <img src="{$URL}do_img/global/header/buttons/jackpot_display_left.png" width="20" height="15" />
+                                <img src="{$theme->url()}do_img/global/header/buttons/jackpot_display_left.png" width="20" height="15" />
                                 <div>{$account->jackpot} EUR</div>
-                                <img src="{$URL}do_img/global/header/buttons/jackpot_display_right.png" width="20" height="15" />
+                                <img src="{$theme->url()}do_img/global/header/buttons/jackpot_display_right.png" width="20" height="15" />
                             </div>
                         </div>
 
@@ -595,8 +595,8 @@
                         </div>
                     </div>
                     <div id="header_bottom">
-                        <img id="news_overlay_left" src="{$URL}do_img/global/header/buttons/newsticker_gradient_left.png" width="123" height="26" />
-                        <img id="news_overlay_right" src="{$URL}do_img/global/header/buttons/newsticker_gradient_right.png" width="123" height="26" />
+                        <img id="news_overlay_left" src="{$theme->url()}do_img/global/header/buttons/newsticker_gradient_left.png" width="123" height="26" />
+                        <img id="news_overlay_right" src="{$theme->url()}do_img/global/header/buttons/newsticker_gradient_right.png" width="123" height="26" />
                         <div id="header_news_wrapper">
                             <ul id="header_news_ticker">
                                 {foreach from=$news item=n}
@@ -733,7 +733,7 @@
 
                         <div id="teamCreditsBox" style="height:600px;" class="fliesstext">
                             <div id="teamCredits_close">
-                                <a href="javascript:void(0);" onclick="closeInfo('teamCreditsBox');"><img src="{$URL}do_img/global/intro/but_close.png" alt="" /></a>
+                                <a href="javascript:void(0);" onclick="closeInfo('teamCreditsBox');"><img src="{$theme->url()}do_img/global/intro/but_close.png" alt="" /></a>
                             </div>
                             <div id="container_teamcredits" style="height: 528px;">
                                 <div id="teamCredits_text">
@@ -843,10 +843,10 @@
             jQuery('body').css('background-position', 'center 30px');
         }
     </script>
-    <script type="text/javascript" src="{$URL}ajax/libs/jquery/1.7/jquery.min.js"></script>
-    <script type="text/javascript" src="{$URL}application/fancybox/jquery.fancybox-1.3.4.js"></script>
-    <script type="text/javascript" src="{$URL}application/client/client.js"></script>
-    <script type="text/javascript" src="{$URL}application/cookie/jquery.cookie.js"></script>
+    <script type="text/javascript" src="{$theme->url()}ajax/libs/jquery/1.7/jquery.min.js"></script>
+    <script type="text/javascript" src="{$theme->url()}application/fancybox/jquery.fancybox-1.3.4.js"></script>
+    <script type="text/javascript" src="{$theme->url()}application/client/client.js"></script>
+    <script type="text/javascript" src="{$theme->url()}application/cookie/jquery.cookie.js"></script>
     <script type="text/javascript">
         var jQueryLts = jQuery.noConflict(true);
     </script>

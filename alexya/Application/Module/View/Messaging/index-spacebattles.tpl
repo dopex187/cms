@@ -207,7 +207,7 @@
         </div>
     </div>
 
-    <script type="text/javascript" src="{$URL}js/jQuery/jquery.textarea-expander.js"></script>
+    <script type="text/javascript" src="{$theme->url()}js/jQuery/jquery.textarea-expander.js"></script>
     <script type="text/javascript">
         jQuery.fn.qtip.styles.domsg = {
             background: 'rgba(0, 0, 0, 0.9)',
@@ -223,7 +223,7 @@
             name: 'dark'
         };
     </script>
-    <script type="text/javascript" src="{$URL}js/domsg.min.js"></script>
+    <script type="text/javascript" src="{$theme->url()}js/domsg.min.js"></script>
 
     <script type="text/javascript">
         //<![CDATA[

@@ -12,12 +12,12 @@
     var minute = tmp2[0];
     var meridiem = tmp2[1];
 </script>
-<script type="text/javascript" language="javascript" src="{$URL}js/internalStart.js"></script>
+<script type="text/javascript" language="javascript" src="{$theme->url()}js/internalStart.js"></script>
 
 <div id="mainContainer">
     <div id="mainContainerContent">
         <div id="homeUserContent">
-            <img src="{$URL}do_img/global/avatar.png" alt="{$account->name}" id="pilotAvatar" />
+            <img src="{$theme->url()}do_img/global/avatar.png" alt="{$account->name}" id="pilotAvatar" />
 
             <div id="companyLogo" class="companyLogoSmall_{$account->Faction->tag}"></div>
 
@@ -37,7 +37,7 @@
                 {/if}
                 <div class="userInfoLine">
                     <label>{t("Rank:")}</label> {t($account->Rank->name)}
-                    <img id="userRankIcon" src="{$URL}do_img/global/ranks/rank_{$account->ranks_id}.gif">
+                    <img id="userRankIcon" src="{$theme->url()}do_img/global/ranks/rank_{$account->ranks_id}.gif">
                 </div>
                 <div id="userContentLevel">
                     <label>{t("Level:")}</label> {$account->levels_id}
@@ -82,7 +82,7 @@
                         {$a->name}
                     </td>
                     <td>
-                        <img src="{$URL}do_img/global/logos/logo_{$a->Faction->tag}_mini.png" alt="{$a->Faction->tag}" width="7" height="8" />
+                        <img src="{$theme->url()}do_img/global/logos/logo_{$a->Faction->tag}_mini.png" alt="{$a->Faction->tag}" width="7" height="8" />
                     </td>
                     <td title="{$a->rank_position}" style="cursor: pointer">{$a->rank_position}</td>
                     <td>{$a->rank_points}</td>

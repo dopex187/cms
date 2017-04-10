@@ -1,11 +1,11 @@
-<link rel="stylesheet" media="all" href="{$URL}css/cdn/window_alert.css" />
+<link rel="stylesheet" media="all" href="{$theme->url()}css/cdn/window_alert.css" />
 <!-- start payment template -->
 
 <div id="paymentContent"></div>
 <div id="internalPaymentCloseButton" onclick="closePaymentWindow(this)"></div>
 <div id="paymentFrame">
     <div id="navigationFrame">
-        <link rel="stylesheet" href="{$URL}css/cdn/navigation.css" />
+        <link rel="stylesheet" href="{$theme->url()}css/cdn/navigation.css" />
 
         <!-- start internal uridum -->
 
@@ -13,14 +13,14 @@
             <!-- Banking -->
             <div class="button active">
                 <a href="{$URL}Internal/Payment/Banking" title="{t("Banking")}">
-                    <img src="{$URL}do_img/global/text_tf.esg?l={$locale->code}&s=10&t=nav_sub1_payment_banking&f=eurostyle_tregcon&color=white&bgcolor=grey" />
+                    <img src="{$theme->url()}do_img/global/text_tf.esg?l={$locale->code}&s=10&t=nav_sub1_payment_banking&f=eurostyle_tregcon&color=white&bgcolor=grey" />
                 </a>
             </div>
 
             <!-- Balance -->
             <div class="button ">
                 <a href="{$URL}Internal/Payment/Balance" title="{t("Balance")}">
-                    <img src="{$URL}do_img/global/text_tf.esg?l={$locale->code}&s=10&t=nav_sub1_payment_balance&f=eurostyle_tregcon&color=black&bgcolor=grey1" />
+                    <img src="{$theme->url()}do_img/global/text_tf.esg?l={$locale->code}&s=10&t=nav_sub1_payment_balance&f=eurostyle_tregcon&color=black&bgcolor=grey1" />
                 </a>
             </div>
 
@@ -28,14 +28,14 @@
             <!-- Subscriptions -->
             <div class="button">
                 <a href="{$URL}Payment" class="open_external" target="_blank" title="{t("Manage subscriptions")}">
-                    <img src="{$URL}do_img/global/text_tf.esg?l={$locale->code}&s=10&t=nav_sub1_payment_sms_subscription&f=eurostyle_tregcon&color=white&bgcolor=grey" />
+                    <img src="{$theme->url()}do_img/global/text_tf.esg?l={$locale->code}&s=10&t=nav_sub1_payment_sms_subscription&f=eurostyle_tregcon&color=white&bgcolor=grey" />
                 </a>
             </div>
 
             <!-- Vouchers -->
             <div class="button ">
                 <a href="{$URL}Payment/Vouchers" title="{t("VOUCHERS")}">
-                    <img src="{$URL}do_img/global/text_tf.esg?l={$locale->code}&s=10&t=nav_sub1_evoucher_voucher_caps&f=eurostyle_tregcon&color=white&bgcolor=grey" />
+                    <img src="{$theme->url()}do_img/global/text_tf.esg?l={$locale->code}&s=10&t=nav_sub1_evoucher_voucher_caps&f=eurostyle_tregcon&color=white&bgcolor=grey" />
                 </a>
             </div>
 

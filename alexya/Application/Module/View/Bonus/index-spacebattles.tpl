@@ -1,24 +1,24 @@
 <style type="text/css">
     .tabLabel1Active {
-        background-image: url({$URL}do_img/global/text_tf.esg?l={$locale->code}&s=10&t=pilot_invite_incentive_page_invite&f=eurostyle_thea&color=black&bgcolor=grey1);
+        background-image: url({$theme->url()}do_img/global/text_tf.esg?l={$locale->code}&s=10&t=pilot_invite_incentive_page_invite&f=eurostyle_thea&color=black&bgcolor=grey1);
         background-repeat: no-repeat;
         background-position: center;
     }
 
     .tabLabel1InActive {
-        background-image: url({$URL}do_img/global/text_tf.esg?l={$locale->code}&s=10&t=pilot_invite_incentive_page_invite&f=eurostyle_thea&color=white&bgcolor=grey);
+        background-image: url({$theme->url()}do_img/global/text_tf.esg?l={$locale->code}&s=10&t=pilot_invite_incentive_page_invite&f=eurostyle_thea&color=white&bgcolor=grey);
         background-repeat: no-repeat;
         background-position: center;
     }
 
     .tabLabel2Active {
-        background-image: url({$URL}do_img/global/text_tf.esg?l={$locale->code}&s=10&t=pilot_invite_incentive_page_login_bonus&f=eurostyle_thea&color=black&bgcolor=grey1);
+        background-image: url({$theme->url()}do_img/global/text_tf.esg?l={$locale->code}&s=10&t=pilot_invite_incentive_page_login_bonus&f=eurostyle_thea&color=black&bgcolor=grey1);
         background-repeat: no-repeat;
         background-position: center;
     }
 
     .tabLabel2InActive {
-        background-image: url({$URL}do_img/global/text_tf.esg?l={$locale->code}&s=10&t=pilot_invite_incentive_page_login_bonus&f=eurostyle_thea&color=white&bgcolor=grey);
+        background-image: url({$theme->url()}do_img/global/text_tf.esg?l={$locale->code}&s=10&t=pilot_invite_incentive_page_login_bonus&f=eurostyle_thea&color=white&bgcolor=grey);
         background-repeat: no-repeat;
         background-position: center;
     }
@@ -108,17 +108,17 @@
             </div>
 
             <div class="incentiveDisplay" onmouseover="showIncentiveTT('1')" onmouseout="hideIncentiveTT('1')">
-                <img class="incentiveStatus" src="{$URL}do_img/global/pilotSheet/invitePage/5friends.png" width="57" />
-                <img class="incentiveImage" src="{$URL}do_img/global/pilotSheet/invitePage/incentives1.png" width="200" alt="bonus 1" />
+                <img class="incentiveStatus" src="{$theme->url()}do_img/global/pilotSheet/invitePage/5friends.png" width="57" />
+                <img class="incentiveImage" src="{$theme->url()}do_img/global/pilotSheet/invitePage/incentives1.png" width="200" alt="bonus 1" />
                 <div class="customTooltip type_inviteIncentives loadType_normal id_incentiveTip1 inner_completedRight outer_profilePage top_30 left_300"></div>
             </div>
             <div class="incentiveDisplay" onmouseover="showIncentiveTT('2')" onmouseout="hideIncentiveTT('2')">
-                <img class="incentiveStatus" src="{$URL}do_img/global/pilotSheet/invitePage/10friends.png" width="57" />
-                <img class="incentiveImage" src="{$URL}do_img/global/pilotSheet/invitePage/incentives2.png" width="205" alt="bonus 2" />
+                <img class="incentiveStatus" src="{$theme->url()}do_img/global/pilotSheet/invitePage/10friends.png" width="57" />
+                <img class="incentiveImage" src="{$theme->url()}do_img/global/pilotSheet/invitePage/incentives2.png" width="205" alt="bonus 2" />
             </div>
             <div class="incentiveDisplay" onmouseover="showIncentiveTT('3')" onmouseout="hideIncentiveTT('3')">
-                <img class="incentiveStatus" src="{$URL}do_img/global/pilotSheet/invitePage/25friends.png" width="57" />
-                <img class="incentiveImage" src="{$URL}do_img/global/pilotSheet/invitePage/incentives3.png" width="210" alt="bonus 3" />
+                <img class="incentiveStatus" src="{$theme->url()}do_img/global/pilotSheet/invitePage/25friends.png" width="57" />
+                <img class="incentiveImage" src="{$theme->url()}do_img/global/pilotSheet/invitePage/incentives3.png" width="210" alt="bonus 3" />
             </div>
         </div>
 
@@ -183,9 +183,9 @@
         <div id="invitePopup_top"></div>
         <div id="invitePopup_middle">
             <div class="invitePopup_headline">{t("Invite your friends to %SERVER_NAME% and receive rewards", $translationVars)}</div>
-            <img class="invitePopup_devider" src="{$URL}do_img/global/pilotSheet/invitePage/popup/popup_devider_yellow.png" />
+            <img class="invitePopup_devider" src="{$theme->url()}do_img/global/pilotSheet/invitePage/popup/popup_devider_yellow.png" />
             <div class="invitePopup_subHeadline">{t("Here's how it works:")}</div>
-            <img src="{$URL}do_img/global/pilotSheet/invitePage/popup/popup_numbers.png" />
+            <img src="{$theme->url()}do_img/global/pilotSheet/invitePage/popup/popup_numbers.png" />
             <div id="invitePopup_textWrapper">
                 <div id="invitePopup_number1Text" class="invitePopup_text invitePopup_numberText">
                     {t("Invite your friends to %SERVER_NAME%", $translationVars)}
@@ -197,9 +197,9 @@
                     {t("Invite 5, 10, or even 25 friends to receive special Nostromo ships in acknowledgement of your loyalty.")}
                 </div>
             </div>
-            <img class="invitePopup_devider" src="{$URL}do_img/global/pilotSheet/invitePage/popup/popup_devider_blue.png" />
+            <img class="invitePopup_devider" src="{$theme->url()}do_img/global/pilotSheet/invitePage/popup/popup_devider_blue.png" />
             <div class="invitePopup_subHeadline">{t("Your bonus for recruiting 25 friends")}</div>
-            <img src="{$URL}do_img/global/pilotSheet/invitePage/popup/popup_incentives.png" style="margin-bottom: 10px;" />
+            <img src="{$theme->url()}do_img/global/pilotSheet/invitePage/popup/popup_incentives.png" style="margin-bottom: 10px;" />
             <div class="invitePopup_text">
                 {t("The Nostromo Ambassador is the most powerful ship of the Nostromo class. A classic reward for a sassy pilot!<br /> Please enjoy 1 month of Premium access, two LF-4 lasers, 1 Havoc drone design, 200 extra energy, 10 Booty Keys, 10,000 RSB-75
                 ammunition, 200 EMP-01 Charges, and 10 hours of Damage, Shield and Honor boosters!")}

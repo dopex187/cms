@@ -5,14 +5,14 @@
 
     <meta charset="utf-8" />
 
-    <link rel="stylesheet" media="all" href="{$URL}css/cdn/internalCompanyChoose.css" />
-    <script type="text/javascript" src="{$URL}js/jQuery/jquery-1.4.4.min.js"></script>
-    <script type="text/javascript" src="{$URL}js/jQuery/jquery.mousewheel.js"></script>
+    <link rel="stylesheet" media="all" href="{$theme->url()}css/cdn/internalCompanyChoose.css" />
+    <script type="text/javascript" src="{$theme->url()}js/jQuery/jquery-1.4.4.min.js"></script>
+    <script type="text/javascript" src="{$theme->url()}js/jQuery/jquery.mousewheel.js"></script>
     <script type="text/javascript">
         jQuery.noConflict();
     </script>
-    <script type="text/javascript" src="{$URL}resources/js/tools.js"></script>
-    <script type="text/javascript" src="{$URL}resources/js/tools/text.js"></script>
+    <script type="text/javascript" src="{$theme->url()}resources/js/tools.js"></script>
+    <script type="text/javascript" src="{$theme->url()}resources/js/tools/text.js"></script>
     <script>
         var textResourcesTitle = {
             "seo_title_client": "{$server->name}",
@@ -34,7 +34,7 @@
             Tools.Text.setResource(i, n)
         });
     </script>
-    <script src="{$URL}resources/js/main.js" type="text/javascript"></script>
+    <script src="{$theme->url()}resources/js/main.js" type="text/javascript"></script>
     <script language="javascript">
         Main.Initialize('1', 'dosid={$account->session_id}');
     </script>
@@ -53,19 +53,19 @@
             <div id="gamelogo"></div>
 
             <div class="default">
-                <img src="{$URL}do_img/{$locale->code}/companyChoose/Choose-your-company.png" alt="Choose-your-company" />
+                <img src="{$theme->url()}do_img/{$locale->code}/companyChoose/Choose-your-company.png" alt="Choose-your-company" />
             </div>
 
             <div class="mmo">
-                <img src="{$URL}do_img/{$locale->code}/companyChoose/Join-the-Colonial-Juggernaut.png" alt="Join-the-Colonial-Juggernaut" />
+                <img src="{$theme->url()}do_img/{$locale->code}/companyChoose/Join-the-Colonial-Juggernaut.png" alt="Join-the-Colonial-Juggernaut" />
             </div>
 
             <div class="eic">
-                <img src="{$URL}do_img/{$locale->code}/companyChoose/For-Glory-and-Privilege.png" alt="For-Glory-and-Privilege" />
+                <img src="{$theme->url()}do_img/{$locale->code}/companyChoose/For-Glory-and-Privilege.png" alt="For-Glory-and-Privilege" />
             </div>
 
             <div class="vru">
-                <img src="{$URL}do_img/{$locale->code}/companyChoose/Progress-Through-Knowledge.png" alt="Progress-Through-Knowledge" />
+                <img src="{$theme->url()}do_img/{$locale->code}/companyChoose/Progress-Through-Knowledge.png" alt="Progress-Through-Knowledge" />
             </div>
 
         </div>
@@ -109,8 +109,8 @@
                     <div class="confirm" id="confirm_mmo">
                         <div class="confirm_glow"></div>
                         <a href="{$URL}Internal/CompanyChoose/choose/1">
-                            <img class="inactive" src="{$URL}do_img/{$locale->code}/companyChoose/Click-to-confirm.png" alt="Click-to-confirm" />
-                            <img class="active" src="{$URL}do_img/{$locale->code}/companyChoose/Confirm.png" alt="Confirm" />
+                            <img class="inactive" src="{$theme->url()}do_img/{$locale->code}/companyChoose/Click-to-confirm.png" alt="Click-to-confirm" />
+                            <img class="active" src="{$theme->url()}do_img/{$locale->code}/companyChoose/Confirm.png" alt="Confirm" />
                         </a>
                     </div>
                 </div>
@@ -140,8 +140,8 @@
                     <div class="confirm" id="confirm_eic">
                         <div class="confirm_glow"></div>
                         <a href="{$URL}Internal/CompanyChoose/choose/2">
-                            <img class="inactive" src="{$URL}do_img/{$locale->code}/companyChoose/Click-to-confirm.png" alt="Click-to-confirm" />
-                            <img class="active" src="{$URL}do_img/{$locale->code}/companyChoose/Confirm.png" alt="Confirm" />
+                            <img class="inactive" src="{$theme->url()}do_img/{$locale->code}/companyChoose/Click-to-confirm.png" alt="Click-to-confirm" />
+                            <img class="active" src="{$theme->url()}do_img/{$locale->code}/companyChoose/Confirm.png" alt="Confirm" />
                         </a>
                     </div>
                 </div>
@@ -171,8 +171,8 @@
                     <div class="confirm" id="confirm_vru">
                         <div class="confirm-glow confirm_glow"></div>
                         <a href="{$URL}Internal/CompanyChoose/choose/3">
-                            <img class="inactive" src="{$URL}do_img/{$locale->code}/companyChoose/Click-to-confirm.png" alt="Click-to-confirm" />
-                            <img class="active" src="{$URL}do_img/{$locale->code}/companyChoose/Confirm.png" alt="Confirm" />
+                            <img class="inactive" src="{$theme->url()}do_img/{$locale->code}/companyChoose/Click-to-confirm.png" alt="Click-to-confirm" />
+                            <img class="active" src="{$theme->url()}do_img/{$locale->code}/companyChoose/Confirm.png" alt="Confirm" />
                         </a>
                     </div>
                 </div>
@@ -184,7 +184,7 @@
 
             <div id="factionDescription">
                 <div class="default">
-                    <img src="{$URL}do_img/{$locale->code}/companyChoose/Click-on-a-character.png" alt="Click-on-a-character" />
+                    <img src="{$theme->url()}do_img/{$locale->code}/companyChoose/Click-on-a-character.png" alt="Click-on-a-character" />
                 </div>
 
                 <div class="mmo">
@@ -224,7 +224,7 @@
     </div>
 
     <!-- affiliateEndTag -->
-    <script type="text/javascript" src="{$URL}js/jQuery/jquery-1.4.4.min.js"></script>
+    <script type="text/javascript" src="{$theme->url()}js/jQuery/jquery-1.4.4.min.js"></script>
 
     <script type="text/javascript">
         var factions = [];

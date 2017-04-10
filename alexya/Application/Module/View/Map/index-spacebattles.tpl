@@ -2,18 +2,18 @@
 <html>
 <head>
     <title>{$server->name}</title>
-    <style type="text/css" media="screen">@import "{$URL}css/cdn/darkorbit.css";</style>
+    <style type="text/css" media="screen">@import "{$theme->url()}css/cdn/darkorbit.css";</style>
 
     <meta http-equiv="Content-Language" content="{implode($server->tags, " , ")}">
     <meta name="language" content="{implode($server->tags, " , ")}">
     <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
 
-    <script src="{$URL}js/function.js" type="text/javascript"></script>
-    <script type="text/javascript" src="{$URL}js/jQuery/jquery-1.4.4.min.js"></script>
-    <script type="text/javascript" src="{$URL}js/jQuery/jquery.flashembed.js"></script>
+    <script src="{$theme->url()}js/function.js" type="text/javascript"></script>
+    <script type="text/javascript" src="{$theme->url()}js/jQuery/jquery-1.4.4.min.js"></script>
+    <script type="text/javascript" src="{$theme->url()}js/jQuery/jquery.flashembed.js"></script>
     <script type="text/javascript">jQuery.noConflict();</script>
-    <script type="text/javascript" src="{$URL}resources/js/tools.js"></script>
-    <script type="text/javascript" src="{$URL}resources/js/tools/text.js"></script>
+    <script type="text/javascript" src="{$theme->url()}resources/js/tools.js"></script>
+    <script type="text/javascript" src="{$theme->url()}resources/js/tools/text.js"></script>
 
     <script type="text/javascript">
         var textResourcesTitle = {
@@ -37,10 +37,10 @@
         });
 
     </script>
-    <script type="text/javascript" src="{$URL}resources/js/tools/popup.js"></script>
-    <script type="text/javascript" src="{$URL}resources/js/tools/errorHandler.js"></script>
-    <script type="text/javascript" src="{$URL}resources/js/library.js"></script>
-    <script src="{$URL}resources/js/internalMapRevolution.js" type="text/javascript"></script>
+    <script type="text/javascript" src="{$theme->url()}resources/js/tools/popup.js"></script>
+    <script type="text/javascript" src="{$theme->url()}resources/js/tools/errorHandler.js"></script>
+    <script type="text/javascript" src="{$theme->url()}resources/js/library.js"></script>
+    <script src="{$theme->url()}resources/js/internalMapRevolution.js" type="text/javascript"></script>
     <script type="text/javascript">
         InternalMapRevolution.Initialize();
     </script>
