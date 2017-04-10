@@ -1,5 +1,5 @@
 <?php
-namespace Application;
+namespace Alexya\Foundation\View;
 
 use Alexya\Tools\Str;
 
