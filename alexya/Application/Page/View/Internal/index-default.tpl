@@ -103,7 +103,7 @@
         }
     </style>
 </head>
-<body class="bg-img-num1">
+<body>
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -144,7 +144,7 @@
                                 </ul>
                             </li><li class="nav-box dropdown">
                                 <a href="#" class="drodown-toggle" data-toggle="dropdown">
-                                    {$user->name}
+                                    {$account->name}
                                 </a>
                                 <ul class="dropdown-menu">
                                     <div class="block block-drop-shadow">
@@ -153,19 +153,19 @@
                                                 <div class="info">
                                                 <img src="{$theme->url()}img/logob.png" class="img-circle img-thumbnail">
                                                     <a href="#" class="informer informer-one">
-                                                        <span>{$user->experience}</span>
+                                                        <span>{$account->experience}</span>
                                                         {t("Experience")}
                                                     </a>
                                                     <a href="#" class="informer informer-two">
-                                                        <span>{$user->honor}</span>
+                                                        <span>{$account->honor}</span>
                                                         {t("Honor")}
                                                     </a>
                                                     <a href="#" class="informer informer-three">
-                                                        <span>{$user->credits}</span>
+                                                        <span>{$account->credits}</span>
                                                         {t("Credits")}
                                                     </a>
                                                     <a href="#" class="informer informer-four">
-                                                        <span>{$user->uridium}</span>
+                                                        <span>{$account->uridium}</span>
                                                         {t("Uridium")}
                                                     </a>
                                                 </div>
@@ -185,7 +185,7 @@
                                             <div class="side pull-right">
                                                 <div class="head-panel nm">
                                                     <div class="hp-info hp-simple pull-left hp-inline">
-                                                        <span class="hp-sm">{$user->levels_id}</span>
+                                                        <span class="hp-sm">{$account->levels_id}</span>
                                                         <span class="hp-sm">0</span>
                                                     </div>
                                                 </div>

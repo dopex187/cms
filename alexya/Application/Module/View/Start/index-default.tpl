@@ -136,7 +136,7 @@
                         </tr>
                         <tr>
                             <td>{$account->name}</td>
-                            <td style="color: {$account->Faction->color}"><span class="fa fa-circle"></span>{strtoupper($account->Faction->abbreviation)}</td>
+                            <td style="color: {$account->Faction->color}"><span class="fa fa-circle"></span>{*strtoupper($account->Faction->abbreviation)*}</td>
                             <td>{$account->rank_position}</td>
                             <td>{$account->rank_points}</td>
                         </tr>

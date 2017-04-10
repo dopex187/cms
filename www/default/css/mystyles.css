@@ -1,0 +1,19 @@
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.fixed {
+    position: fixed;
+}
+
+.navbar, .page-navigation > li > a, .block .header, .block .content, .block .footer, .block .toolbar, .block .header.header-default, .block .content.content-default, .block .toolbar.toolbar-default, .block .footer.footer-default {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.nav-box ul {
+    background-color: rgba(23, 50, 59, 0.95);
+}
