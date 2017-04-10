@@ -31,6 +31,18 @@ use \Alexya\Tools\{
  * or the magic method `\Alexya\Foundation\View::__set`.
  *
  * You can specify the global theme for the view by setting the `$theme` static property.
+ * If you don't and there session variable `theme` is set, it will be used to set the theme,
+ * being the variable the key of the `application.view.themes` settings array.
+ *
+ * Example:
+ *
+ * ```php
+ * // Default theme.
+ * View::$theme = new DefaultTheme();
+ *
+ * // Set global $theme through the session variable.
+ * Container::Session()->set("theme", "test");
+ * ```
  *
  * @author Manulaiko <manulaiko@gmail.com>
  */
@@ -117,6 +129,13 @@ class View extends Component
     {
         $this->_data    = new Collection();
         $this->_parsers = Container::Settings()->get("alexya.view.parsers");
+
+        // Override the theme by using the `$_SESSION["theme"]` var.
+        $themes = Container::Settings()->get("alexya.view.themes");
+        $theme  = Container::Session()->get("theme");
+        if(isset($themes[$theme])) {
+            static::$theme = $themes[$theme];
+        }
 
         $this->onInstance();
     }
