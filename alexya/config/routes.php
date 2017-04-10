@@ -33,7 +33,7 @@ return [
      */
     "{DEFAULT}" => function() {
         $request = \Alexya\Http\Request::main();
-        $uri     = $request->uri();
+        $uri     = explode("/", ($_SERVER["PATH_INFO"] ?? "/External"));
 
         $page    = $uri[1];
         $action  = ($uri[2] ?? ($_POST["action"] ?? "index"));

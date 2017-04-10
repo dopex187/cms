@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>{$server->title}</title>
-    <link rel="stylesheet" href="{$URL}css/style.css" />
+    <link rel="stylesheet" href="{$theme->url()}css/style.css" />
 </head>
 
 <body>
     <div class="box">
-        <img src="{$URL}img/logo.png" class="logo" />
+        <img src="{$theme->url()}img/logo.png" class="logo" />
         {foreach from=\Alexya\Tools\Session\Results::get() item=error}
             <div class="error">{$error}</div>
         {/foreach}
@@ -43,9 +43,9 @@
             </form>
         </div>
     </div>
-    <script src="{$URL}js/jquery.min.js"></script>
+    <script src="{$theme->url()}js/jquery.min.js"></script>
     <script>
-        jQuery('.link').on('click', function(e) {
+        $('.link').on('click', function(e) {
             e.preventDefault();
             var $tab = jQuery(this);
             var href = $tab.attr('href');
