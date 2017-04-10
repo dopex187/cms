@@ -134,8 +134,10 @@ class View extends Component
         $themes = Container::Settings()->get("alexya.view.themes");
         $theme  = Container::Session()->get("theme");
         if(isset($themes[$theme])) {
-            static::$theme = $themes[$theme];
+            self::$theme = $themes[$theme];
         }
+
+        $this->set("theme", self::$theme);
 
         $this->onInstance();
     }
@@ -181,8 +183,8 @@ class View extends Component
      */
     public function setName(string $name)
     {
-        if(static::$theme instanceof Theme) {
-            $name = static::$theme->viewName($name);
+        if(self::$theme instanceof Theme) {
+            $name = self::$theme->viewName($name);
         }
 
         $settings = Container::Settings()->get("alexya.view");
