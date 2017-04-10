@@ -38,6 +38,15 @@ return [
             "php"  => "\\Alexya\\Foundation\\View\\DefaultParser",
             "html" => "\\Alexya\\Foundation\\View\\HtmlParser",
             "tpl"  => "\\Alexya\\Foundation\\View\\SmartyParser",
+        ],
+
+        /**
+         * Available themes.
+         *
+         * The key is the name of the theme (used by the session variable).
+         * The value is the `\Alexya\Foundation\View\Theme` instance.
+         */
+        "themes" => [
         ]
     ],
 

@@ -100,6 +100,13 @@ if(!require_once("vendor/autoload.php")) {
     return \Application\ORM\Account::api($response);
 });
 
+// Implement theme
+\Alexya\Foundation\View::$theme = new \Application\Theme\DefaultTheme();
+$theme = (\Alexya\Http\Request::main()->get["theme"] ?? "");
+if(!empty($theme)) {
+    \Alexya\Container::Session()->set("theme", $theme);
+}
+
 \Alexya\Foundation\View::global("server", \Alexya\Container::get("Server"));
 \Alexya\Foundation\View::global("locale", \Alexya\Container::Translator()->locale);
 \Alexya\Foundation\View::global("URL", \Alexya\Container::Settings()->get("application.url"));
