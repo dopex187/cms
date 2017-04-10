@@ -75,7 +75,7 @@
 }
 
 .bgc .bgcdw_login_form_login #bgcdw_login_form_username,.bgc .bgcdw_login_form_login #bgcdw_login_form_password {
-    background:      url(/do_img/global/externalDefault/input_login.png?__cv=15e31e7322a8e84a16a1c4f6a76e5600) center center no-repeat;
+    background:      url(../../do_img/global/externalDefault/input_login.png) center center no-repeat;
     border:         none;
     width:          144px;
     height:         22px;
@@ -103,7 +103,7 @@
 }
 
 .bgcdw_login_form_buttons .bgcdw_login_form_login {
-    background:  url(/do_img/de/externalDefault/button_login.png?__cv=cd725a3216183f70732bdf116cf41100) center center no-repeat;
+    background:  url(../../do_img/de/externalDefault/button_login.png) center center no-repeat;
     width: 120px;
 }
 
@@ -161,7 +161,7 @@
 .bgc_signup_form .bgc_input_password,
 .bgc_signup_form .bgc_input_email,
 .bgc_signup_form .bgcdw_captcha_response_container {
-    background:      url(/do_img/global/externalDefault/input_form.png?__cv=4ee0eb53e8a6a926b2f781e6482df600);
+    background:      url(../../do_img/global/externalDefault/input_form.png);
     background-repeat:  no-repeat;
     background-position: 150px 0 !important;
     margin-top: 8px !important;
@@ -289,7 +289,7 @@
 .bgcdw_errors_all {
     color: #ffffff;
     font-size: 11px;
-    background:  url(/do_img/global/externalDefault/colorbox-bg_color.jpg?__cv=aa581ab66e5e2e81c5fb636c1c601400) transparent;
+    background:  url(../../do_img/global/externalDefault/colorbox-bg_color.jpg) transparent;
     border-radius: 0;
     border: 4px solid #ffffff;
 }
@@ -298,7 +298,7 @@
     position:absolute;
     top:-31px;
     right:-34px;
-    background: url(/do_img/global/externalDefault/colorbox-button.png?__cv=5498afb6a3c2e9f7581ce890ee4db000) no-repeat -111px -50px;
+    background: url(../../do_img/global/externalDefault/colorbox-button.png) no-repeat -111px -50px;
     width:40px;
     height:40px;
 }
@@ -362,7 +362,7 @@
     position: absolute;
     left: 25px;
     top: -18px;
-    background-image:  url(/do_img/global/facebookLayer/fb_logo.png?__cv=1ee2f9daf29299333d34ae2d4be57000);
+    background-image:  url(../../do_img/global/facebookLayer/fb_logo.png);
 }
 
 #gameBrandingLogo {
@@ -371,7 +371,7 @@
     position: relative;
     top: 8px;
     margin: auto;
-    background-image:  url(/do_img/global/facebookLayer/do_logo.png?__cv=2bab9ca6fe17b48720dbd431f52f0c00);
+    background-image:  url(../../do_img/global/facebookLayer/do_logo.png);
 }
 
 #facebookConnectClose {
@@ -380,7 +380,7 @@
     position: absolute;
     top: 5px;
     right: 5px;
-    background:  url(/do_img/global/facebookLayer/close_button.png?__cv=db42f02bf1925a7940783440d0afcb00) no-repeat;
+    background:  url(../../do_img/global/facebookLayer/close_button.png) no-repeat;
     cursor: pointer;
 }
 

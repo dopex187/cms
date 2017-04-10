@@ -5,7 +5,7 @@
 #mainContainerContent {
     width: 674px;
     height: 444px;
-    background:  url(/do_img/global/internalStart/main_container.png?__cv=5bfa724796666fbb85eecda1b9045700) no-repeat 0 0;
+    background:  url(../../do_img/global/internalStart/main_container.png?__cv=5bfa724796666fbb85eecda1b9045700) no-repeat 0 0;
     position: absolute;
     top: 0;
     left: 22px;
@@ -73,7 +73,7 @@
     width: 134px;
     height: 452px;
     position: absolute;
-    background:  url(/do_img/global/internalStart/sidebar_bg.png?__cv=6d56cce62b92781efc89769a000d3800) no-repeat 0 0;
+    background:  url(../../do_img/global/internalStart/sidebar_bg.png?__cv=6d56cce62b92781efc89769a000d3800) no-repeat 0 0;
     top: 0;
     right: 30px;
 }
@@ -84,7 +84,7 @@
     color: #649ec4;
     width: 85px;
     height: 25px;
-    background-image:  url(/do_img/global/sidebar/time_display_85x25.png?__cv=650a39736e2a0d0649dd0d38c7b27100);
+    background-image:  url(../../do_img/global/sidebar/time_display_85x25.png?__cv=650a39736e2a0d0649dd0d38c7b27100);
     position: absolute;
     top: 3px;
     left: 22px;
@@ -99,7 +99,7 @@
 #sidebarLights {
     width: 112px;
     height: 17px;
-    background:  url(/do_img/global/internalStart/sidebar_live-event_lights.png?__cv=0a9acfe28df56b80990542d752de7800) no-repeat center top;
+    background:  url(../../do_img/global/internalStart/sidebar_live-event_lights.png?__cv=0a9acfe28df56b80990542d752de7800) no-repeat center top;
     margin: 28px 0 0 8px;
     text-align: center;
     font-family: 'Ubuntu Condensed', Arial;
@@ -114,7 +114,7 @@
 #sidebarStatus {
     color: #00AAFF;
     text-align: center;
-    background:  url(/do_img/global/internalStart/button_default_80x15.png?__cv=3a5afd9445d071176bac2eaf7a7dd300) no-repeat center top;
+    background:  url(../../do_img/global/internalStart/button_default_80x15.png?__cv=3a5afd9445d071176bac2eaf7a7dd300) no-repeat center top;
     margin: 7px 0 0 23px;
     height: 15px;
     width: 80px;
@@ -140,7 +140,7 @@
     margin-top: 10px;
     padding: 2px 0 0 14px;
     height: 65px;
-    background:  url(/do_img/global/internalStart/sidebar_block_element.png?__cv=23eae6a5eddb0c300022f4bdb203e100) no-repeat left center;
+    background:  url(../../do_img/global/internalStart/sidebar_block_element.png?__cv=23eae6a5eddb0c300022f4bdb203e100) no-repeat left center;
 }
 .upcomingEvent .eventDate {
     font-family: 'Ubuntu Condensed', Arial;
@@ -182,7 +182,7 @@
     width: 110px;
     height: 33px;
     padding-top: 2px;
-    background:  url(/do_img/global/internalStart/score_display_faction.png?__cv=a6d5f9d2e2c4ca410df888e0d5ba3300) no-repeat center;
+    background:  url(../../do_img/global/internalStart/score_display_faction.png?__cv=a6d5f9d2e2c4ca410df888e0d5ba3300) no-repeat center;
     text-align: center;
     font-weight: bold;
     color: #e7f4ff;
@@ -191,7 +191,7 @@
     width: 110px;
     height: 26px;
     padding-top: 2px;
-    background:  url(/do_img/global/internalStart/score_display_faction.png?__cv=a6d5f9d2e2c4ca410df888e0d5ba3300) no-repeat center;
+    background:  url(../../do_img/global/internalStart/score_display_faction.png?__cv=a6d5f9d2e2c4ca410df888e0d5ba3300) no-repeat center;
     text-align: center;
     font-weight: normal;
     font-size: 10px;
@@ -214,19 +214,19 @@
     bottom: 23px;
 }
 #company_MMO .companyIconSmall, #company_1 .companyIconSmall {
-    background:  url(/do_img/global/logos/logo_faction_mmo_17x17.png?__cv=737afbbe7969af0dc6715b7e54aacd00) no-repeat center;
+    background:  url(../../do_img/global/logos/logo_faction_mmo_17x17.png?__cv=737afbbe7969af0dc6715b7e54aacd00) no-repeat center;
 }
 #company_EIC .companyIconSmall, #company_2 .companyIconSmall {
-    background:  url(/do_img/global/logos/logo_faction_eic_17x17.png?__cv=3cbef604e6feb92e940224b1e6d89c00) no-repeat center;
+    background:  url(../../do_img/global/logos/logo_faction_eic_17x17.png?__cv=3cbef604e6feb92e940224b1e6d89c00) no-repeat center;
 }
 #company_VRU .companyIconSmall, #company_3 .companyIconSmall {
-    background:  url(/do_img/global/logos/logo_faction_vru_17x17.png?__cv=df24cd3c42b2da01ba5ce50c41d17a00) no-repeat center;
+    background:  url(../../do_img/global/logos/logo_faction_vru_17x17.png?__cv=df24cd3c42b2da01ba5ce50c41d17a00) no-repeat center;
 }
 #user_myPoints {
     width: 106px;
     height: 37px;
     padding-top: 6px;
-    background:  url(/do_img/global/internalStart/score_display_user.png?__cv=311643c46e36441c1899240852925e00) no-repeat center;
+    background:  url(../../do_img/global/internalStart/score_display_user.png?__cv=311643c46e36441c1899240852925e00) no-repeat center;
     text-align: center;
     position: absolute;
     left: 3px;
@@ -260,7 +260,7 @@
     height: 15px;
     text-align: center;
     cursor: pointer;
-    background:  url(/do_img/global/internalStart/button_window_sprite_99x15.png?__cv=486d0d0b2e06c1efa5fbf483e6f67200) no-repeat center 0;
+    background:  url(../../do_img/global/internalStart/button_window_sprite_99x15.png?__cv=486d0d0b2e06c1efa5fbf483e6f67200) no-repeat center 0;
     position: absolute;
     top: 113px;
 }
@@ -299,17 +299,17 @@ a.userHomeButton, a.userHomeButton:visited, a.userHomeButton:link {
     left: 5px;
 }
 .companyLogoSmall_mmo {
-    background-image:  url(/do_img/global/logos/logo_mmo.png?__cv=6ce55fa9933dd905fea7d77a6b791400);
+    background-image:  url(../../do_img/global/logos/logo_mmo.png?__cv=6ce55fa9933dd905fea7d77a6b791400);
     width: 65px;
     height: 36px;
 }
 .companyLogoSmall_eic {
-    background-image:  url(/do_img/global/logos/logo_eic.png?__cv=4a52618fce64d396fbe1c12495aefd00);
+    background-image:  url(../../do_img/global/logos/logo_eic.png?__cv=4a52618fce64d396fbe1c12495aefd00);
     width: 65px;
     height: 36px;
 }
 .companyLogoSmall_vru {
-    background-image:  url(/do_img/global/logos/logo_vru.png?__cv=5416ea953e8fcd0b83e50827a0059b00);
+    background-image:  url(../../do_img/global/logos/logo_vru.png?__cv=5416ea953e8fcd0b83e50827a0059b00);
     width: 65px;
     height: 36px;
 }
@@ -338,12 +338,12 @@ a.userHomeButton, a.userHomeButton:visited, a.userHomeButton:link {
 #rankingTabLeft {
     width: 147px;
     left: 32px;
-    background-image:  url(/do_img/global/internalStart/tab_diagonal_sprite_147x18.png?__cv=db347eab81be1d86e51aa319be004400);
+    background-image:  url(../../do_img/global/internalStart/tab_diagonal_sprite_147x18.png?__cv=db347eab81be1d86e51aa319be004400);
 }
 #rankingTabRight {
     width: 137px;
     left: 182px;
-    background-image:  url(/do_img/global/internalStart/tab_squared_sprite_137x18.png?__cv=ea0f7a75eaf2253f2e8b0649948f9900);
+    background-image:  url(../../do_img/global/internalStart/tab_squared_sprite_137x18.png?__cv=ea0f7a75eaf2253f2e8b0649948f9900);
 }
 .rankingTab:hover {
     background-position: center -18px;
@@ -374,10 +374,10 @@ a.userHomeButton, a.userHomeButton:visited, a.userHomeButton:link {
     margin: 0 0 0 15px;
 }
 .homeRankingTable tr.rankingOdd {
-    background:  url(/do_img/global/internalStart/row_bright_319x20.png?__cv=94bf8f3f02fad77294eb769aa461a200) repeat-x 0 0;
+    background:  url(../../do_img/global/internalStart/row_bright_319x20.png?__cv=94bf8f3f02fad77294eb769aa461a200) repeat-x 0 0;
 }
 .rankingHeadline {
-    background:  url(/do_img/global/internalStart/row_dark_319x20.png?__cv=9cf5ee5286be1eaaaac3a8ad48f64600) repeat-x 0 0;
+    background:  url(../../do_img/global/internalStart/row_dark_319x20.png?__cv=9cf5ee5286be1eaaaac3a8ad48f64600) repeat-x 0 0;
 }
 .homeRankingTable .rankingHeadline td {
     color: #CCCCCC;
@@ -440,7 +440,7 @@ a.userHomeButton, a.userHomeButton:visited, a.userHomeButton:link {
     height: 141px;
     top: 30px;
     left: 18px;
-    background:  url(/do_img/global/internalStart/breaking_news_frame.png?__cv=b8bd824c12a3117a914dd7be43698f00) no-repeat center;
+    background:  url(../../do_img/global/internalStart/breaking_news_frame.png?__cv=b8bd824c12a3117a914dd7be43698f00) no-repeat center;
 }
 #breakingNewsIconWrapper {
     position: absolute;
@@ -461,7 +461,7 @@ a.userHomeButton, a.userHomeButton:visited, a.userHomeButton:link {
     height: 25px;
     top: 0;
     left: 0px;
-    background:  url(/do_img/global/internalStart/breaking_news_small_overlay.png?__cv=b2f27938608e77f21b7e7e808a061900) no-repeat center;
+    background:  url(../../do_img/global/internalStart/breaking_news_small_overlay.png?__cv=b2f27938608e77f21b7e7e808a061900) no-repeat center;
 }
 .breakingNewsArrow {
     position: absolute;
@@ -475,11 +475,11 @@ a.userHomeButton, a.userHomeButton:visited, a.userHomeButton:link {
 }
 #breakingNewsLeftArrow {
     left: 0;
-    background-image:  url(/do_img/global/internalStart/breaking_news_button_left_25x50.png?__cv=0a76211a8f089bc45cbfd85995753b00);
+    background-image:  url(../../do_img/global/internalStart/breaking_news_button_left_25x50.png?__cv=0a76211a8f089bc45cbfd85995753b00);
 }
 #breakingNewsRightArrow {
     right: 0;
-    background-image:  url(/do_img/global/internalStart/breaking_news_button_right_25x50.png?__cv=8b04ea90bd49a052e539ca5df3dd4900);
+    background-image:  url(../../do_img/global/internalStart/breaking_news_button_right_25x50.png?__cv=8b04ea90bd49a052e539ca5df3dd4900);
 }
 .breakingNewsArrow:hover {
     background-position: -50px center;
@@ -533,7 +533,7 @@ a.userHomeButton, a.userHomeButton:visited, a.userHomeButton:link {
     height: 17px;
     top: 195px;
     left: 1px;
-    background:  url(/do_img/global/internalStart/gradient_top.png?__cv=ae2e4494c04391865ee53488cca6f600) repeat-x 0 0;
+    background:  url(../../do_img/global/internalStart/gradient_top.png?__cv=ae2e4494c04391865ee53488cca6f600) repeat-x 0 0;
 }
 #breakingNewsBottomGradiant {
     position: absolute;
@@ -542,7 +542,7 @@ a.userHomeButton, a.userHomeButton:visited, a.userHomeButton:link {
     height: 17px;
     top: 408px;
     left: 1px;
-    background:  url(/do_img/global/internalStart/gradient_down.png?__cv=a0c8b281a10fc6efe4b12e62c9b14b00) repeat-x 0 0;
+    background:  url(../../do_img/global/internalStart/gradient_down.png?__cv=a0c8b281a10fc6efe4b12e62c9b14b00) repeat-x 0 0;
 }
 
 /* Layer */
@@ -566,7 +566,7 @@ a.userHomeButton, a.userHomeButton:visited, a.userHomeButton:link {
     height: 24px;
     float:right;
     cursor: pointer;
-    background:  url(/do_img/global/layer/close_button_sprite.png?__cv=fa1f7ef0f89ab04212dbf02f3424d700) no-repeat 0 0;
+    background:  url(../../do_img/global/layer/close_button_sprite.png?__cv=fa1f7ef0f89ab04212dbf02f3424d700) no-repeat 0 0;
 }
 #percentBoosterEvent_layer_content {
     position: absolute;
@@ -592,7 +592,7 @@ a.userHomeButton, a.userHomeButton:visited, a.userHomeButton:link {
     font-size: 7pt;
 }
 #teaser_soccer_2010 {
-    background-image: url(/do_img/global/left/overlay_soccer_2010.png?__cv=d642aafa10e7a76c735684be0a715f00);
+    background-image: url(../../do_img/global/left/overlay_soccer_2010.png?__cv=d642aafa10e7a76c735684be0a715f00);
     height:72px;
     left:-30px;
     top:364px;
@@ -653,7 +653,7 @@ a.userHomeButton, a.userHomeButton:visited, a.userHomeButton:link {
     margin-top:20px;
     width: 249px;
     height: 101px;
-    background-image:  url(/do_img/global/layer/bettingGame_select_bg.png?__cv=289a8787ef0832af530bd266eb970c00);
+    background-image:  url(../../do_img/global/layer/bettingGame_select_bg.png?__cv=289a8787ef0832af530bd266eb970c00);
 }
 #bettingGame_select_inner {
     padding: 13px 0px 0px 25px;
@@ -686,10 +686,10 @@ a.userHomeButton, a.userHomeButton:visited, a.userHomeButton:link {
     font-weight: bold;
     width: 241px;
     height: 58px;
-    background-image:  url(/do_img/global/layer/bettingGame_but_0.png?__cv=3ed0a55c1869c24e35f0355b17bf9d00);
+    background-image:  url(../../do_img/global/layer/bettingGame_but_0.png?__cv=3ed0a55c1869c24e35f0355b17bf9d00);
 }
 #bettingGames_butSave :hover {
-    background-image:  url(/do_img/global/layer/bettingGame_but_1.png?__cv=ef36489bb01d63b8f16909152181fb00);
+    background-image:  url(../../do_img/global/layer/bettingGame_but_1.png?__cv=ef36489bb01d63b8f16909152181fb00);
 }
 #bettingGame_send {
 }
@@ -701,13 +701,13 @@ a.userHomeButton, a.userHomeButton:visited, a.userHomeButton:link {
     width:56px;
     height:40px;
     margin:auto;
-    background-image: url(/do_img/global/flaggen/soccerlayer/GHA.png?__cv=67aaf558768f946db4c073fd691cf900);
+    background-image: url(../../do_img/global/flaggen/soccerlayer/GHA.png?__cv=67aaf558768f946db4c073fd691cf900);
 }
 #game_bet_flag_2 {
     width:56px;
     height:40px;
     margin:auto;
-    background-image: url(/do_img/global/flaggen/soccerlayer/ARG.png?__cv=af94252ca7b3140cf99393a72c068400);
+    background-image: url(../../do_img/global/flaggen/soccerlayer/ARG.png?__cv=af94252ca7b3140cf99393a72c068400);
 }
 .game_bet_col {
     width:30px;
@@ -748,7 +748,7 @@ a.userHomeButton, a.userHomeButton:visited, a.userHomeButton:link {
 	left: 50%;
 	width: 250px;
 	height: 90px;
-	background:  url(/do_img/global/header/buttons/logo_darkorbit_sprite.png?__cv=a104d49b1b4c0ed0c40c9920adf29e00) 0 0 no-repeat;
+	background:  url(../../do_img/global/header/buttons/logo_darkorbit_sprite.png?__cv=a104d49b1b4c0ed0c40c9920adf29e00) 0 0 no-repeat;
 	margin-left: -105px;  /* (width / -2) + 20px */
 	color: transparent;
 	font-size: 0;

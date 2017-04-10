@@ -15,7 +15,7 @@ body {
     height: 0;
 }
 #eh_head_info {
-    background:  url(/do_img/global/externalHome/assets/header.png?__cv=61ba4ded8cefa8c53f22d09bf0d4a500) no-repeat left top;
+    background:  url(../../do_img/global/externalHome/assets/header.png?__cv=61ba4ded8cefa8c53f22d09bf0d4a500) no-repeat left top;
     margin: 0;
     width: 424px;
     height: 39px;
@@ -70,7 +70,7 @@ body {
     float: right;
     width: 13px;
     height: 10px;
-    background:  url(/do_img/global/externalDefault/arrow_lanugage.png?__cv=64b23adccedb1812b0848996520ff800) no-repeat;
+    background:  url(../../do_img/global/externalDefault/arrow_lanugage.png?__cv=64b23adccedb1812b0848996520ff800) no-repeat;
 }
 #languageBox {
     width: 155px;
@@ -113,7 +113,7 @@ body {
 
 #eh_main_wrapper {
     width: 100%;
-    background:  url(/do_img/global/externalHome/assets/bg_main.jpg?__cv=d1613ed7597e66908d558aa0546e8800) no-repeat center top;
+    background:  url(../../do_img/global/externalHome/assets/bg_main.jpg?__cv=d1613ed7597e66908d558aa0546e8800) no-repeat center top;
     min-height: 1030px;
     min-width: 1200px;
     position: absolute;
@@ -124,7 +124,7 @@ body {
     width: 100%;
     min-height: 910px;
     min-width: 1200px;
-    background:  url(/do_img/global/externalHome/assets/overlay_main.png?__cv=476ecf844472e61d88bb99a17c335200) no-repeat center top;
+    background:  url(../../do_img/global/externalHome/assets/overlay_main.png?__cv=476ecf844472e61d88bb99a17c335200) no-repeat center top;
 }
 #eh_login_container {
     float: right;
@@ -150,13 +150,13 @@ body {
 }
 
 #eh_bg_v1 {
-    background-image:  url(/do_img/global/externalHome/assets/background01.jpg?__cv=397704c29a84c67f3f4995196f1e8500);
+    background-image:  url(../../do_img/global/externalHome/assets/background01.jpg?__cv=397704c29a84c67f3f4995196f1e8500);
 }
 #eh_bg_v2 {
-    background-image:  url(/do_img/global/externalHome/assets/background02.jpg?__cv=0f952c6a9b05e5ce6cd802f56aa0d700);
+    background-image:  url(../../do_img/global/externalHome/assets/background02.jpg?__cv=0f952c6a9b05e5ce6cd802f56aa0d700);
 }
 #eh_bg_v3 {
-    background-image:  url(/do_img/global/externalHome/assets/background03.jpg?__cv=29ecf25481191d9435057f469c755400);
+    background-image:  url(../../do_img/global/externalHome/assets/background03.jpg?__cv=29ecf25481191d9435057f469c755400);
 }
 .eh_company_bg {
     background-position: center top;
@@ -213,12 +213,12 @@ body {
 }
 #eh_screenshot_container_left {
     float: left;
-    background:  url(/do_img/global/externalHome/assets/screenshots_left.png?__cv=452046c6e4402205a10818f3a03bd300) no-repeat top center;
+    background:  url(../../do_img/global/externalHome/assets/screenshots_left.png?__cv=452046c6e4402205a10818f3a03bd300) no-repeat top center;
     left: 50px;
 }
 #eh_screenshot_container_right {
     float: right;
-    background:  url(/do_img/global/externalHome/assets/screenshots_right.png?__cv=f90da0e9b95b577d6b74d39a1980ec00) no-repeat top center;
+    background:  url(../../do_img/global/externalHome/assets/screenshots_right.png?__cv=f90da0e9b95b577d6b74d39a1980ec00) no-repeat top center;
     right: 43px;
 }
 

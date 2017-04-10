@@ -8,45 +8,45 @@
 .alert_nw {
 	width: 4px;
 	height: 4px;
-	background: transparent  url(/do_img/global/misc/window_alert/top_left.gif?__cv=6ce53d9594d3bccfe14020808f784200) no-repeat bottom left;
+	background: transparent  url(../../do_img/global/misc/window_alert/top_left.gif?__cv=6ce53d9594d3bccfe14020808f784200) no-repeat bottom left;
 }
 
 .alert_n {
 	height: 4px;
-	background: transparent  url(/do_img/global/misc/window_alert/top.gif?__cv=e99b22bb7ee0c436bf9694da36f9df00) repeat-x bottom left;
+	background: transparent  url(../../do_img/global/misc/window_alert/top.gif?__cv=e99b22bb7ee0c436bf9694da36f9df00) repeat-x bottom left;
 }
 
 .alert_ne {
 	width: 4px;
 	height: 4px;
-	background: transparent  url(/do_img/global/misc/window_alert/top_right.gif?__cv=583e16ae287d453965454004d5e4ef00) no-repeat bottom left
+	background: transparent  url(../../do_img/global/misc/window_alert/top_right.gif?__cv=583e16ae287d453965454004d5e4ef00) no-repeat bottom left
 }
 
 .alert_e {
 	width: 4px;
-	background: transparent  url(/do_img/global/misc/window_alert/right.gif?__cv=aff796a406d4f803bef101008d7fd200) repeat-y 0 0;
+	background: transparent  url(../../do_img/global/misc/window_alert/right.gif?__cv=aff796a406d4f803bef101008d7fd200) repeat-y 0 0;
 }
 
 .alert_w {
 	width: 4px;
-	background: transparent  url(/do_img/global/misc/window_alert/left.gif?__cv=ec28ae3c22fa808259c71fdf68b83600) repeat-y 0 0;
+	background: transparent  url(../../do_img/global/misc/window_alert/left.gif?__cv=ec28ae3c22fa808259c71fdf68b83600) repeat-y 0 0;
 }
 
 .alert_sw {
 	width: 4px;
 	height: 4px;
-	background: transparent  url(/do_img/global/misc/window_alert/bottom_left.gif?__cv=d81e884b2003086e45461e606548f000) no-repeat 0 0;
+	background: transparent  url(../../do_img/global/misc/window_alert/bottom_left.gif?__cv=d81e884b2003086e45461e606548f000) no-repeat 0 0;
 }
 
 .alert_s {
 	height: 4px;
-	background: transparent  url(/do_img/global/misc/window_alert/bottom.gif?__cv=49be87fb94d9abde501eaca9ec156d00) repeat-x 0 0;
+	background: transparent  url(../../do_img/global/misc/window_alert/bottom.gif?__cv=49be87fb94d9abde501eaca9ec156d00) repeat-x 0 0;
 }
 
 .alert_se, .alert_sizer {
 	width: 5px;
 	height: 5px;
-	background: transparent  url(/do_img/global/misc/window_alert/bottom_right.gif?__cv=8d5b7412ac7b770312a58ba5b8532900) no-repeat 0 0;
+	background: transparent  url(../../do_img/global/misc/window_alert/bottom_right.gif?__cv=8d5b7412ac7b770312a58ba5b8532900) no-repeat 0 0;
 }
 
 .alert_close {
@@ -78,7 +78,7 @@
 	color: #000;
 	font-family: Tahoma, Arial, sans-serif;
     font: 12px arial;
-	background:  url(/do_img/global/misc/window_alert/bg.gif?__cv=e005c0f9ad13731bf876c25a38d8ad00);
+	background:  url(../../do_img/global/misc/window_alert/bg.gif?__cv=e005c0f9ad13731bf876c25a38d8ad00);
 }
 
 /* For alert/confirm dialog */

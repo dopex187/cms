@@ -47,7 +47,7 @@
     width:24px;
     height:24px;
     display: block;
-    background-image:  url(/do_img/global/layer/close_button_sprite.png?__cv=fa1f7ef0f89ab04212dbf02f3424d700);
+    background-image:  url(../../do_img/global/layer/close_button_sprite.png?__cv=fa1f7ef0f89ab04212dbf02f3424d700);
     background-position:0 0;
     cursor: pointer;
 }
@@ -64,7 +64,7 @@
     position: absolute;
     top: 351px;
     left: 300px;
-    background-image:  url(/do_img/global/layer/main_button_sprite.png?__cv=dc9bd5131fc051db82eb47a7f97c9500);
+    background-image:  url(../../do_img/global/layer/main_button_sprite.png?__cv=dc9bd5131fc051db82eb47a7f97c9500);
     background-position: 0 0;
     cursor: pointer;
     line-height: 37px;

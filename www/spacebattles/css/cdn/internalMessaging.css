@@ -40,7 +40,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-image:  url(/do_img/global/messaging/loader.gif?__cv=742c828b59f24a779f6fb79f0806fc00);
+    background-image:  url(../../do_img/global/messaging/loader.gif?__cv=742c828b59f24a779f6fb79f0806fc00);
     background-position: center center;
     background-repeat: no-repeat;
     z-index: 13;
@@ -48,7 +48,7 @@
 
 /* Basic Sprite Definitions */
 #domessaging .icon-add {
-    background-image:  url(/do_img/global/messaging/sprites/add_icon_22x22.png?__cv=9e8d701e781154457b3d272216702600);
+    background-image:  url(../../do_img/global/messaging/sprites/add_icon_22x22.png?__cv=9e8d701e781154457b3d272216702600);
     width: 22px;
     height: 22px;
     cursor: pointer;
@@ -69,7 +69,7 @@
 }
 
 #domessaging .icon-info {
-    background-image:  url(/do_img/global/messaging/sprites/info_button_sprite_24x24.png?__cv=02f677de70aec6b4726320e7e2705200);
+    background-image:  url(../../do_img/global/messaging/sprites/info_button_sprite_24x24.png?__cv=02f677de70aec6b4726320e7e2705200);
     width: 24px;
     height: 24px;
     cursor: help;
@@ -85,7 +85,7 @@
 }
 
 #domessaging .icon-trash {
-    background-image:  url(/do_img/global/messaging/sprites/trash_icon_22x22.png?__cv=05fa7a54bc39e3b751655148cfcbf100);
+    background-image:  url(../../do_img/global/messaging/sprites/trash_icon_22x22.png?__cv=05fa7a54bc39e3b751655148cfcbf100);
     width: 22px;
     height: 22px;
     cursor: pointer;
@@ -100,7 +100,7 @@
 }
 
 #domessaging .icon-mail {
-    background-image:  url(/do_img/global/messaging/sprites/mail_icon_29x19.png?__cv=aeaca3002d23a32afc0d7762152de900);
+    background-image:  url(../../do_img/global/messaging/sprites/mail_icon_29x19.png?__cv=aeaca3002d23a32afc0d7762152de900);
     width: 29px;
     height: 19px;
     cursor: pointer;
@@ -115,7 +115,7 @@
 }
 
 #domessaging .icon-status {
-    background-image:  url(/do_img/global/messaging/sprites/messaging_icons_20x20.png?__cv=44576321f4f2bde1ddfab85b54687000);
+    background-image:  url(../../do_img/global/messaging/sprites/messaging_icons_20x20.png?__cv=44576321f4f2bde1ddfab85b54687000);
     width: 20px;
     height: 20px;
 }
@@ -129,7 +129,7 @@
 }
 
 #domessaging .icon-spam {
-    background-image:  url(/do_img/global/messaging/sprites/spam_icon_22x22.png?__cv=4a400c34c41c2dbcec56f11410fc4600);
+    background-image:  url(../../do_img/global/messaging/sprites/spam_icon_22x22.png?__cv=4a400c34c41c2dbcec56f11410fc4600);
     width: 22px;
     height: 22px;
     cursor: pointer;
@@ -144,7 +144,7 @@
 }
 
 #domessaging .icon-reply {
-    background-image:  url(/do_img/global/messaging/sprites/reply_icons_22x15.png?__cv=48782c93bace602bbcb12cdca5ff2800);
+    background-image:  url(../../do_img/global/messaging/sprites/reply_icons_22x15.png?__cv=48782c93bace602bbcb12cdca5ff2800);
     width: 22px;
     height: 15px;
 }
@@ -162,7 +162,7 @@
 }
 
 #domessaging .button-dropdown {
-    background-image:  url(/do_img/global/messaging/sprites/dropdown_sprite_157x22.png?__cv=53b3682e3b0a432fac93cf945d2a2f00);
+    background-image:  url(../../do_img/global/messaging/sprites/dropdown_sprite_157x22.png?__cv=53b3682e3b0a432fac93cf945d2a2f00);
     width: 130px;
     height: 18px;
     cursor: pointer;
@@ -180,7 +180,7 @@
 }
 
 #domessaging .button-close {
-    background-image:  url(/do_img/global/messaging/sprites/close_button_sprite.png?__cv=fa1f7ef0f89ab04212dbf02f3424d700);
+    background-image:  url(../../do_img/global/messaging/sprites/close_button_sprite.png?__cv=fa1f7ef0f89ab04212dbf02f3424d700);
     width: 24px;
     height: 24px;
     cursor: pointer;
@@ -200,7 +200,7 @@
 }
 
 #domessaging .button-red {
-    background-image:  url(/do_img/global/messaging/sprites/button_red_130x19.png?__cv=933e7bee8c0230929af3d330b5f73300);
+    background-image:  url(../../do_img/global/messaging/sprites/button_red_130x19.png?__cv=933e7bee8c0230929af3d330b5f73300);
     width: 130px;
     height: 17px;
     cursor: pointer;
@@ -219,7 +219,7 @@
 }
 
 #domessaging .button-green {
-    background-image:  url(/do_img/global/messaging/sprites/button_green_130x19.png?__cv=05a762486f76a0e3df37c93071a22300);
+    background-image:  url(../../do_img/global/messaging/sprites/button_green_130x19.png?__cv=05a762486f76a0e3df37c93071a22300);
     width: 130px;
     height: 17px;
     cursor: pointer;
@@ -238,7 +238,7 @@
 }
 
 #domessaging .button-biggreen {
-    background: 0 -96px  url(/do_img/global/messaging/sprites/button_sprite_180x32px.png?__cv=848179494d8463903f996de0971f8b00);
+    background: 0 -96px  url(../../do_img/global/messaging/sprites/button_sprite_180x32px.png?__cv=848179494d8463903f996de0971f8b00);
     width: 180px;
     height: 27px;
     cursor: pointer;
@@ -262,7 +262,7 @@
 }
 
 #domessaging .button-cancel {
-    background-image:  url(/do_img/global/messaging/sprites/button_sprite_180x32px.png?__cv=848179494d8463903f996de0971f8b00);
+    background-image:  url(../../do_img/global/messaging/sprites/button_sprite_180x32px.png?__cv=848179494d8463903f996de0971f8b00);
     width: 180px;
     height: 27px;
     cursor: pointer;
@@ -281,7 +281,7 @@
 }
 
 #domessaging .button-answer {
-    background-image:  url(/do_img/global/messaging/sprites/answer_button_sprite_140x19.png?__cv=21b0463a2f35ed536aaa6c7d6eb8f900);
+    background-image:  url(../../do_img/global/messaging/sprites/answer_button_sprite_140x19.png?__cv=21b0463a2f35ed536aaa6c7d6eb8f900);
     width: 140px;
     height: 19px;
 }
@@ -307,7 +307,7 @@
 }
 
 #domessaging .button-answer .triangle {
-    background-image:  url(/do_img/global/messaging/sprites/answer_triangle_sprite_15x19.png?__cv=d2572fd1b531f8c40a76138164d9fd00);
+    background-image:  url(../../do_img/global/messaging/sprites/answer_triangle_sprite_15x19.png?__cv=d2572fd1b531f8c40a76138164d9fd00);
     background-position: 2px 0;
     background-repeat: no-repeat;
     width: 15px;
@@ -326,7 +326,7 @@
 }
 
 #domessaging .button-checkbox {
-    background-image:  url(/do_img/global/messaging/sprites/checkbox_button_82x28.png?__cv=9b1088fd46bd21349a45a195042eec00);
+    background-image:  url(../../do_img/global/messaging/sprites/checkbox_button_82x28.png?__cv=9b1088fd46bd21349a45a195042eec00);
     width: 56px;
     height: 22px;
     cursor: pointer;
@@ -353,7 +353,7 @@
     float: left;
 }
 #domessaging .button-singleCheckbox {
-    background-image:  url(/do_img/global/messaging/sprites/checkbox_button_18x19.png?__cv=2f690427bd5273120548c7a7fb640800);
+    background-image:  url(../../do_img/global/messaging/sprites/checkbox_button_18x19.png?__cv=2f690427bd5273120548c7a7fb640800);
     width: 18px;
     height: 19px;
     cursor: pointer;
@@ -375,7 +375,7 @@
 
 
 #domessaging .button-left {
-    background-image:  url(/do_img/global/messaging/sprites/left_26x22.png?__cv=10039baef85cd55a22f40d776be14600);
+    background-image:  url(../../do_img/global/messaging/sprites/left_26x22.png?__cv=10039baef85cd55a22f40d776be14600);
     width: 26px;
     height: 22px;
     background-position: 0 -22px;
@@ -392,7 +392,7 @@
 }
 
 #domessaging .button-right {
-    background-image:  url(/do_img/global/messaging/sprites/right_26x22.png?__cv=a9e546d685f9f6fe85daed9ca8430500);
+    background-image:  url(../../do_img/global/messaging/sprites/right_26x22.png?__cv=a9e546d685f9f6fe85daed9ca8430500);
     width: 26px;
     height: 22px;
     background-position: 0 -22px;
@@ -409,7 +409,7 @@
 }
 
 #domessaging .button-blacklist {
-    background-image:  url(/do_img/global/messaging/sprites/blacklist_button_130_28.png?__cv=6a5d1ddfdfabe9fcc1d305672f9c3500);
+    background-image:  url(../../do_img/global/messaging/sprites/blacklist_button_130_28.png?__cv=6a5d1ddfdfabe9fcc1d305672f9c3500);
     width: 130px;
     height: 21px;
     text-align: center;
@@ -429,7 +429,7 @@
 }
 
 #domessaging .checkbox {
-    background-image:  url(/do_img/global/messaging/sprites/checkbox_sprite_18x19.png?__cv=2f690427bd5273120548c7a7fb640800);
+    background-image:  url(../../do_img/global/messaging/sprites/checkbox_sprite_18x19.png?__cv=2f690427bd5273120548c7a7fb640800);
     width: 18px;
     height: 19px;
     cursor: pointer;
@@ -455,13 +455,13 @@
 }
 
 #domessaging #frame .frame-top {
-    background-image:  url(/do_img/global/messaging/frame/frame_top.jpg?__cv=88192ed3483133d36ad8622c02224000);
+    background-image:  url(../../do_img/global/messaging/frame/frame_top.jpg?__cv=88192ed3483133d36ad8622c02224000);
     width: 803px;
     height: 27px;
 }
 
 #domessaging #frame .frame-bottom {
-    background-image:  url(/do_img/global/messaging/frame/frame_bottom.jpg?__cv=658b50ba65339ab9d948c5d83225ee00);
+    background-image:  url(../../do_img/global/messaging/frame/frame_bottom.jpg?__cv=658b50ba65339ab9d948c5d83225ee00);
     width: 803px;
     height: 24px;
 }
@@ -472,11 +472,11 @@
 }
 
 #domessaging #frame .frame-left {
-    background-image:  url(/do_img/global/messaging/frame/frame_left_middle.jpg?__cv=eed7a9ce32383a88c87c413571a6a300);
+    background-image:  url(../../do_img/global/messaging/frame/frame_left_middle.jpg?__cv=eed7a9ce32383a88c87c413571a6a300);
 }
 
 #domessaging #frame .frame-right {
-    background-image:  url(/do_img/global/messaging/frame/frame_right_middle.jpg?__cv=6fd125b83004bdbc427f7bffc0b1ed00);
+    background-image:  url(../../do_img/global/messaging/frame/frame_right_middle.jpg?__cv=6fd125b83004bdbc427f7bffc0b1ed00);
 }
 
 #domessaging #frame .frame-left-top, #domessaging #frame .frame-left-bottom, #domessaging #frame .frame-right-top , #domessaging #frame .frame-right-bottom {
@@ -486,22 +486,22 @@
 }
 
 #domessaging #frame .frame-left-top {
-    background-image:  url(/do_img/global/messaging/frame/frame_left_top.jpg?__cv=6bc2db385a9f78384e0bca8599f0a900);
+    background-image:  url(../../do_img/global/messaging/frame/frame_left_top.jpg?__cv=6bc2db385a9f78384e0bca8599f0a900);
     top: 0;
 }
 
 #domessaging #frame .frame-left-bottom {
-    background-image:  url(/do_img/global/messaging/frame/frame_left_bottom.jpg?__cv=8e1278991decee27d3ea73ee15c0aa00);
+    background-image:  url(../../do_img/global/messaging/frame/frame_left_bottom.jpg?__cv=8e1278991decee27d3ea73ee15c0aa00);
     bottom: 24px;
 }
 
 #domessaging #frame .frame-right-top {
-    background-image:  url(/do_img/global/messaging/frame/frame_right_top.jpg?__cv=27eb8f51790e89d3dc89790895e75800);
+    background-image:  url(../../do_img/global/messaging/frame/frame_right_top.jpg?__cv=27eb8f51790e89d3dc89790895e75800);
     top: 0;
 }
 
 #domessaging #frame .frame-right-bottom {
-    background-image:  url(/do_img/global/messaging/frame/frame_right_bottom.jpg?__cv=08fc77ff6bd249fb86a58a096aeeff00);
+    background-image:  url(../../do_img/global/messaging/frame/frame_right_bottom.jpg?__cv=08fc77ff6bd249fb86a58a096aeeff00);
     bottom: 24px;
 }
 */
@@ -520,7 +520,7 @@
 }
 
 #domessaging #subNav_container .tab {
-    background-image:  url(/do_img/global/pilotSheet/profilePage/tab_inactive1.jpg?__cv=491773b46f05dd34c2ae423de5e95800);
+    background-image:  url(../../do_img/global/pilotSheet/profilePage/tab_inactive1.jpg?__cv=491773b46f05dd34c2ae423de5e95800);
     background-repeat: no-repeat;
     cursor: pointer;
     float: left;
@@ -540,7 +540,7 @@
 }
 
 #domessaging #subNav_container .tab-rollover, #domessaging #subNav_container .tab-active {
-    background-image:  url(/do_img/global/pilotSheet/profilePage/tab_active.jpg?__cv=af06774e97a98879d2b4cd781b350400);
+    background-image:  url(../../do_img/global/pilotSheet/profilePage/tab_active.jpg?__cv=af06774e97a98879d2b4cd781b350400);
     color: black;
 }
 
@@ -558,7 +558,7 @@
 }
 
 #domessaging .baseView .gradient-top {
-    background-image:  url(/do_img/global/messaging/gradient_top.png?__cv=696615a6cddccf1f50f85faaa91e8400);
+    background-image:  url(../../do_img/global/messaging/gradient_top.png?__cv=696615a6cddccf1f50f85faaa91e8400);
     width: 775px;
     height: 30px;
     position: absolute;
@@ -567,7 +567,7 @@
 }
 
 #domessaging .baseView .gradient-bottom {
-    background-image:  url(/do_img/global/messaging/gradient_bottom.png?__cv=384671d8036bdc7afd16c7b582513300);
+    background-image:  url(../../do_img/global/messaging/gradient_bottom.png?__cv=384671d8036bdc7afd16c7b582513300);
     width: 775px;
     height: 30px;
     position: absolute;
@@ -576,7 +576,7 @@
 }
 
 #domessaging .baseView .header {
-    background-image:  url(/do_img/global/messaging/content_header.png?__cv=e13f90f41b5e3c31b22ec14f165fea00);
+    background-image:  url(../../do_img/global/messaging/content_header.png?__cv=e13f90f41b5e3c31b22ec14f165fea00);
     width: 772px;
     height: 45px;
     margin-left: 2px;
@@ -1041,21 +1041,21 @@
     position: absolute;
     left: 32px;
     top: 25px;
-    background: 0 0  url(/do_img/global/externalHome/socialIconFacebook.png?__cv=d83caf7be7498e61fbdfb52b61966800);
+    background: 0 0  url(../../do_img/global/externalHome/socialIconFacebook.png?__cv=d83caf7be7498e61fbdfb52b61966800);
 }
 
 #domessaging #folderViewEntrys .entryOpen .socialBox .twitter {
     position: absolute;
     left: 58px;
     top: 25px;
-    background: 0 0  url(/do_img/global/externalHome/socialIconTwitter.png?__cv=4bf2c255170d4a001453e94979b6fe00);
+    background: 0 0  url(../../do_img/global/externalHome/socialIconTwitter.png?__cv=4bf2c255170d4a001453e94979b6fe00);
 }
 
 #domessaging #folderViewEntrys .entryOpen .socialBox .youtube {
     position: absolute;
     left: 84px;
     top: 25px;
-    background: 0 0  url(/do_img/global/externalHome/socialIconYoutube.png?__cv=c48da75f70a41292e589b227bf826f00);
+    background: 0 0  url(../../do_img/global/externalHome/socialIconYoutube.png?__cv=c48da75f70a41292e589b227bf826f00);
 }
 
 #domessaging #folderViewEntrys .entryOpen .close-linesep {
@@ -1210,7 +1210,7 @@
 }
 
 #domessaging #messageWriteView .contactSearch {
-    background-image:  url(/do_img/global/messaging/writemsg/bg_contactsearch.png?__cv=f14bb927fd62f5f99c762c53184d1e00);
+    background-image:  url(../../do_img/global/messaging/writemsg/bg_contactsearch.png?__cv=f14bb927fd62f5f99c762c53184d1e00);
     width: 227px;
     height: 67px;
     position: absolute;
@@ -1235,13 +1235,13 @@
 }
 
 #domessaging #messageWriteView .namecheck-positive {
-    background-image:  url(/do_img/global/messaging/sprites/namecheck_positiv.png?__cv=44f902a63a0dc22a97ae775a92530c00);
+    background-image:  url(../../do_img/global/messaging/sprites/namecheck_positiv.png?__cv=44f902a63a0dc22a97ae775a92530c00);
     background-position: right center;
     background-repeat: no-repeat;
 }
 
 #domessaging #messageWriteView .namecheck-negative {
-    background-image:  url(/do_img/global/messaging/sprites/namecheck_negative.png?__cv=825be78a2fe3e730a3ffb83a081c7700);
+    background-image:  url(../../do_img/global/messaging/sprites/namecheck_negative.png?__cv=825be78a2fe3e730a3ffb83a081c7700);
     background-position: right center;
     background-repeat: no-repeat;
 }
@@ -1268,7 +1268,7 @@
 }
 
 #domessaging #messageWriteView .contactList {
-    background-image:  url(/do_img/global/messaging/writemsg/bg_contactlist.png?__cv=1a96294f57ff63c99fb77a3e3590fe00);
+    background-image:  url(../../do_img/global/messaging/writemsg/bg_contactlist.png?__cv=1a96294f57ff63c99fb77a3e3590fe00);
     width: 210px;
     min-height: 300px;
     position: absolute;
@@ -1322,7 +1322,7 @@
 }
 
 #domessaging #messageWriteView .contactList .bottom {
-    background-image:  url(/do_img/global/messaging/writemsg/bg_contactlist_bottom.png?__cv=f77c40a0c453a9be4694e80190cb4600);
+    background-image:  url(../../do_img/global/messaging/writemsg/bg_contactlist_bottom.png?__cv=f77c40a0c453a9be4694e80190cb4600);
     width: 210px;
     height: 2px;
     position: absolute;
@@ -1330,7 +1330,7 @@
 }
 
 #domessaging #messageWriteView .recipients {
-    background-image:  url(/do_img/global/messaging/writemsg/bg_recipients.png?__cv=085d6ba4ee0278348b53473ee6ee1300);
+    background-image:  url(../../do_img/global/messaging/writemsg/bg_recipients.png?__cv=085d6ba4ee0278348b53473ee6ee1300);
     width: 546px;
     height: 43px;
     position: absolute;
@@ -1470,7 +1470,7 @@
 }
 
 #domessaging #messageWriteView .sendbar {
-    background-image:  url(/do_img/global/messaging/writemsg/write_message_footer.png?__cv=63c67a90f8226c7b78b7152131ea0500);
+    background-image:  url(../../do_img/global/messaging/writemsg/write_message_footer.png?__cv=63c67a90f8226c7b78b7152131ea0500);
     width: 542px;
     height: 40px;
     position: absolute;
@@ -1645,7 +1645,7 @@
 
 /* Help Layer */
 #domessaging .helpLayer {
-    background-image:  url(/do_img/global/messaging/help/layer_bg.png?__cv=213a135ae2583d5f368bc269e91b4400);
+    background-image:  url(../../do_img/global/messaging/help/layer_bg.png?__cv=213a135ae2583d5f368bc269e91b4400);
     position: absolute;
     left: 130px;
     top: 50px;
@@ -1670,7 +1670,7 @@
 }
 
 #domessaging .helpLayer .content {
-    background-image:  url(/do_img/global/messaging/help/inner_bg.png?__cv=ea3759958b49e525b8a0c699eb01d200);
+    background-image:  url(../../do_img/global/messaging/help/inner_bg.png?__cv=ea3759958b49e525b8a0c699eb01d200);
     width: 510px;
     height: 215px;
     overflow-y: scroll;
@@ -1708,7 +1708,7 @@
 }
 
 #domessaging .baseLayer .header {
-    background-image:  url(/do_img/global/popups/hangar/popup_header.png?__cv=57187cad6e380a0957fc186fd7b20b00);
+    background-image:  url(../../do_img/global/popups/hangar/popup_header.png?__cv=57187cad6e380a0957fc186fd7b20b00);
     color: #FFCC04;
     font-size: 13px;
     font-weight: bold;
@@ -1720,7 +1720,7 @@
 }
 
 #domessaging .baseLayer .header .close {
-    background-image:  url(/do_img/global/popups/hangar/close_button_sprite.png?__cv=fa1f7ef0f89ab04212dbf02f3424d700);
+    background-image:  url(../../do_img/global/popups/hangar/close_button_sprite.png?__cv=fa1f7ef0f89ab04212dbf02f3424d700);
     float: right;
     height: 24px;
     margin-right: 7px;
@@ -1734,7 +1734,7 @@
 }
 
 #domessaging .baseLayer .header .closeCaptcha {
-    background-image:  url(/do_img/global/popups/hangar/close_button_sprite.png?__cv=fa1f7ef0f89ab04212dbf02f3424d700);
+    background-image:  url(../../do_img/global/popups/hangar/close_button_sprite.png?__cv=fa1f7ef0f89ab04212dbf02f3424d700);
     float: right;
     height: 24px;
     margin-right: 7px;
@@ -1747,7 +1747,7 @@
  }
 
 #domessaging .baseLayer .content {
-    background-image:  url(/do_img/global/popups/hangar/popup_middle.png?__cv=56226ac40551323a9a89453ad36fc500);
+    background-image:  url(../../do_img/global/popups/hangar/popup_middle.png?__cv=56226ac40551323a9a89453ad36fc500);
     text-align: center;
     width: 359px;
 }
@@ -1768,14 +1768,14 @@
 }
 
 #domessaging .baseLayer .footer {
-    background-image:  url(/do_img/global/popups/hangar/popup_footer.png?__cv=bda06559499f3631035304b343035900);
+    background-image:  url(../../do_img/global/popups/hangar/popup_footer.png?__cv=bda06559499f3631035304b343035900);
     height: 49px;
     width: 359px;
     position: relative;
 }
 
 #domessaging .baseLayer .footer .button {
-    background-image:  url(/do_img/global/popups/hangar/button_sprite_150x32px.png?__cv=221b3d144671e9354638ad5a6bd9cf00);
+    background-image:  url(../../do_img/global/popups/hangar/button_sprite_150x32px.png?__cv=221b3d144671e9354638ad5a6bd9cf00);
     height: 26px;
     width: 150px;
     position: absolute;
@@ -1788,7 +1788,7 @@
 }
 
 #domessaging .confirmLayer .content .icon {
-    background-image:  url(/do_img/global/popups/icon_question.png?__cv=70c3a930d8d50265d35ae9fe4036b600);
+    background-image:  url(../../do_img/global/popups/icon_question.png?__cv=70c3a930d8d50265d35ae9fe4036b600);
 }
 
 #domessaging .confirmLayer .footer .button-confirm {
@@ -1812,7 +1812,7 @@
 }
 
 #domessaging .errorLayer .content .icon {
-    background-image:  url(/do_img/global/popups/icon_error.png?__cv=1ccb0dcd83aa2eaf8a2684885602b600);
+    background-image:  url(../../do_img/global/popups/icon_error.png?__cv=1ccb0dcd83aa2eaf8a2684885602b600);
 }
 
 #domessaging .errorLayer .footer .button-ok {
@@ -1824,7 +1824,7 @@
 }
 
 #domessaging .successLayer .content .icon {
-    background-image:  url(/do_img/global/popups/icon_success.png?__cv=4757057e0fc2cc236801922aba846800);
+    background-image:  url(../../do_img/global/popups/icon_success.png?__cv=4757057e0fc2cc236801922aba846800);
 }
 
 #domessaging .successLayer .footer .button-ok {

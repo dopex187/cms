@@ -71,49 +71,49 @@
 #cboxTopLeft {
     width: 30px;
     height: 30px;
-    background: url(/do_img/global/jQuery/colorbox/corners.png?__cv=ce89ba742e37202435aa9113a3304100) no-repeat top left;
+    background: url(../../../do_img/global/jQuery/colorbox/corners.png?__cv=ce89ba742e37202435aa9113a3304100) no-repeat top left;
 }
 
 #cboxTopRight {
     width: 30px;
     height: 30px;
-    background: url(/do_img/global/jQuery/colorbox/corners.png?__cv=ce89ba742e37202435aa9113a3304100) no-repeat top right;
+    background: url(../../../do_img/global/jQuery/colorbox/corners.png?__cv=ce89ba742e37202435aa9113a3304100) no-repeat top right;
 }
 
 #cboxBottomLeft {
     width: 30px;
     height: 30px;
-    background: url(/do_img/global/jQuery/colorbox/corners.png?__cv=ce89ba742e37202435aa9113a3304100) no-repeat bottom left;
+    background: url(../../../do_img/global/jQuery/colorbox/corners.png?__cv=ce89ba742e37202435aa9113a3304100) no-repeat bottom left;
 }
 
 #cboxBottomRight {
     width: 30px;
     height: 30px;
-    background: url(/do_img/global/jQuery/colorbox/corners.png?__cv=ce89ba742e37202435aa9113a3304100) no-repeat bottom right;
+    background: url(../../../do_img/global/jQuery/colorbox/corners.png?__cv=ce89ba742e37202435aa9113a3304100) no-repeat bottom right;
 }
 
 #cboxMiddleLeft {
     width: 30px;
-    background: url(/do_img/global/jQuery/colorbox/controls.png?__cv=df1004d8b29865b505d15dbf3f8f2b00) left top repeat-y;
+    background: url(../../../do_img/global/jQuery/colorbox/controls.png?__cv=df1004d8b29865b505d15dbf3f8f2b00) left top repeat-y;
 }
 
 #cboxMiddleRight {
     width: 30px;
-    background: url(/do_img/global/jQuery/colorbox/controls.png?__cv=df1004d8b29865b505d15dbf3f8f2b00) right top repeat-y;
+    background: url(../../../do_img/global/jQuery/colorbox/controls.png?__cv=df1004d8b29865b505d15dbf3f8f2b00) right top repeat-y;
 }
 
 #cboxTopCenter {
     height: 30px;
-    background: url(/do_img/global/jQuery/colorbox/border.png?__cv=42c4920a63d30cbaad8916b5183fe500) 0 0 repeat-x;
+    background: url(../../../do_img/global/jQuery/colorbox/border.png?__cv=42c4920a63d30cbaad8916b5183fe500) 0 0 repeat-x;
 }
 
 #cboxBottomCenter {
     height: 30px;
-    background: url(/do_img/global/jQuery/colorbox/border.png?__cv=42c4920a63d30cbaad8916b5183fe500) 0 -30px repeat-x;
+    background: url(../../../do_img/global/jQuery/colorbox/border.png?__cv=42c4920a63d30cbaad8916b5183fe500) 0 -30px repeat-x;
 }
 
 #cboxContent {
-    background: url(/do_img/global/jQuery/colorbox/background.png?__cv=7a6de745b044d42f143d5435cc8af300) transparent;
+    background: url(../../../do_img/global/jQuery/colorbox/background.png?__cv=7a6de745b044d42f143d5435cc8af300) transparent;
 }
 
 #cboxLoadedContent {}
@@ -145,7 +145,7 @@
     position: absolute;
     bottom: 0;
     left: 0px;
-    background: url(/do_img/global/jQuery/colorbox/controls.png?__cv=df1004d8b29865b505d15dbf3f8f2b00) no-repeat -84px 0px;
+    background: url(../../../do_img/global/jQuery/colorbox/controls.png?__cv=df1004d8b29865b505d15dbf3f8f2b00) no-repeat -84px 0px;
     width: 25px;
     height: 25px;
     text-indent: -9999px;
@@ -159,7 +159,7 @@
     position: absolute;
     bottom: 0;
     left: 27px;
-    background: url(/do_img/global/jQuery/colorbox/controls.png?__cv=df1004d8b29865b505d15dbf3f8f2b00) no-repeat -59px 0px;
+    background: url(../../../do_img/global/jQuery/colorbox/controls.png?__cv=df1004d8b29865b505d15dbf3f8f2b00) no-repeat -59px 0px;
     width: 25px;
     height: 25px;
     text-indent: -9999px;
@@ -170,18 +170,18 @@
 }
 
 #cboxLoadingOverlay {
-    background: url(/do_img/global/jQuery/colorbox/loading_background.png?__cv=acf427e932fb9413700a4b8b58b41e00) no-repeat center center;
+    background: url(../../../do_img/global/jQuery/colorbox/loading_background.png?__cv=acf427e932fb9413700a4b8b58b41e00) no-repeat center center;
 }
 
 #cboxLoadingGraphic {
-    background: url(/do_img/global/jQuery/colorbox/loading.gif?__cv=e6611f867d63754b7a2a974fb0a0e700) no-repeat center center;
+    background: url(../../../do_img/global/jQuery/colorbox/loading.gif?__cv=e6611f867d63754b7a2a974fb0a0e700) no-repeat center center;
 }
 
 #cboxClose {
     position: absolute;
     top: -23px;
     right: -23px;
-    background: url(/do_img/global/jQuery/colorbox/controls.png?__cv=df1004d8b29865b505d15dbf3f8f2b00) no-repeat -34px 0px;
+    background: url(../../../do_img/global/jQuery/colorbox/controls.png?__cv=df1004d8b29865b505d15dbf3f8f2b00) no-repeat -34px 0px;
     width: 25px;
     height: 25px;
     text-indent: -9999px;

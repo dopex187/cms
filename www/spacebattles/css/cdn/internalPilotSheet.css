@@ -25,7 +25,7 @@
     width: 35px;
     height: 35px;
     left: 465px;
-    background-image:  url(/do_img/global/pilotSheet/profilePage/loadingAnimation.gif?__cv=742c828b59f24a779f6fb79f0806fc00);
+    background-image:  url(../../do_img/global/pilotSheet/profilePage/loadingAnimation.gif?__cv=742c828b59f24a779f6fb79f0806fc00);
     background-repeat: no-repeat;
     z-index: 2;
 }
@@ -36,13 +36,13 @@
     top: -22px;
     width: 224px;
     height: 8px;
-    background-image:  url(/do_img/global/pilotSheet/edit_profile/rework/pic_loadingbar.gif?__cv=70b078566b662c5a2d902efa62de9f00);
+    background-image:  url(../../do_img/global/pilotSheet/edit_profile/rework/pic_loadingbar.gif?__cv=70b078566b662c5a2d902efa62de9f00);
     background-repeat: no-repeat;
     z-index: 2;
 }
 
 .tabButtonActive{
-    background-image:  url(/do_img/global/pilotSheet/profilePage/tab_active.jpg?__cv=af06774e97a98879d2b4cd781b350400);
+    background-image:  url(../../do_img/global/pilotSheet/profilePage/tab_active.jpg?__cv=af06774e97a98879d2b4cd781b350400);
     /*    font-family: Verdana, Arial, sans-serif;
         font-size: 12px;
         font-weight: bold;
@@ -51,7 +51,7 @@
 }
 
 .tabButtonInActive{
-    background-image:  url(/do_img/global/pilotSheet/profilePage/tab_inactive1.jpg?__cv=491773b46f05dd34c2ae423de5e95800);
+    background-image:  url(../../do_img/global/pilotSheet/profilePage/tab_inactive1.jpg?__cv=491773b46f05dd34c2ae423de5e95800);
     /*    font-family: Verdana, Arial, sans-serif;
         font-size: 12px;
         font-weight: bold;
@@ -60,7 +60,7 @@
 }
 
 .tabButtonRollOver{
-    background-image:  url(/do_img/global/pilotSheet/profilePage/tab_rollover.jpg?__cv=4e701de4cf154f4df18a7b68be13dd00);
+    background-image:  url(../../do_img/global/pilotSheet/profilePage/tab_rollover.jpg?__cv=4e701de4cf154f4df18a7b68be13dd00);
     font-family: Verdana, Arial, sans-serif;
     font-size: 12px;
     font-weight: bold;
@@ -70,15 +70,15 @@
 }
 
 .ppHorizontalSeparator{
-    background-image:  url(/do_img/global/pilotSheet/profilePage/seperator_horizontal.jpg?__cv=9a0c2ce4b4755f0ae553348fa9108900);
+    background-image:  url(../../do_img/global/pilotSheet/profilePage/seperator_horizontal.jpg?__cv=9a0c2ce4b4755f0ae553348fa9108900);
 }
 
 .ppHorizontalSeparatorBig{
-    background-image:  url(/do_img/global/pilotSheet/profilePage/seperator_horizontal_big.jpg?__cv=8d76fcfc560a1ca82538d17c6a1d6a00);
+    background-image:  url(../../do_img/global/pilotSheet/profilePage/seperator_horizontal_big.jpg?__cv=8d76fcfc560a1ca82538d17c6a1d6a00);
 }
 
 .ppVerticalSeparator{
-    background-image:  url(/do_img/global/pilotSheet/profilePage/seperator_vertical.jpg?__cv=7871c60f04c0e6644e2446a2ca24dc00);
+    background-image:  url(../../do_img/global/pilotSheet/profilePage/seperator_vertical.jpg?__cv=7871c60f04c0e6644e2446a2ca24dc00);
 }
 
 .pageFont{
@@ -113,7 +113,7 @@
     top: -12px;
     left: 33px;
     padding-left: 30px;
-    background-image:  url(/do_img/global/pilotSheet/profilePage/arrow_up.png?__cv=3e363c4d7abe8ebd5f81d3042e6f1800);
+    background-image:  url(../../do_img/global/pilotSheet/profilePage/arrow_up.png?__cv=3e363c4d7abe8ebd5f81d3042e6f1800);
     background-repeat: no-repeat;
     background-position: 16px -1px;
     width: 50px;
@@ -124,7 +124,7 @@
     top: -12px;
     left: 33px;
     padding-left: 30px;
-    background-image:  url(/do_img/global/pilotSheet/profilePage/arrow_down.png?__cv=62f0a1605e9de1b29bd2b02aa830da00);
+    background-image:  url(../../do_img/global/pilotSheet/profilePage/arrow_down.png?__cv=62f0a1605e9de1b29bd2b02aa830da00);
     background-repeat: no-repeat;
     background-position: 16px -1px;
     width: 50px;
@@ -230,15 +230,15 @@
 }
 
 .profileEditButtonEffects{
-    background: 0 0  url(/do_img/global/pilotSheet/profilePage/rework/button_sprite_200x33px.png?__cv=1556d1727584ec3e5a2e50ad3320c200);
+    background: 0 0  url(../../do_img/global/pilotSheet/profilePage/rework/button_sprite_200x33px.png?__cv=1556d1727584ec3e5a2e50ad3320c200);
 }
 
 .profileEditButtonEffects:hover{
-    background: 0 -33px  url(/do_img/global/pilotSheet/profilePage/rework/button_sprite_200x33px.png?__cv=1556d1727584ec3e5a2e50ad3320c200);
+    background: 0 -33px  url(../../do_img/global/pilotSheet/profilePage/rework/button_sprite_200x33px.png?__cv=1556d1727584ec3e5a2e50ad3320c200);
 }
 
 .profileEditButtonEffects:active{
-    background: 0 -66px  url(/do_img/global/pilotSheet/profilePage/rework/button_sprite_200x33px.png?__cv=1556d1727584ec3e5a2e50ad3320c200);
+    background: 0 -66px  url(../../do_img/global/pilotSheet/profilePage/rework/button_sprite_200x33px.png?__cv=1556d1727584ec3e5a2e50ad3320c200);
 }
 
 .profileEditButtonLabel{
@@ -271,7 +271,7 @@
 }
 
 .defaultProfileImage{
-    background-image:  url(/do_img/global/pilotSheet/profilePage/avatar.jpg?__cv=1d5100608ac24af8cf262385faef9e00);
+    background-image:  url(../../do_img/global/pilotSheet/profilePage/avatar.jpg?__cv=1d5100608ac24af8cf262385faef9e00);
     background-repeat: no-repeat;
     width: 105px;
     height: 115px;
@@ -346,7 +346,7 @@
 #profilePage{
     width: 772px;
     min-height: 400px;
-    background-image:  url(/do_img/global/pilotSheet/profilePage/Pilotsheet_bg2.jpg?__cv=fe9bb42e7e623415660191c9b7ccc500);
+    background-image:  url(../../do_img/global/pilotSheet/profilePage/Pilotsheet_bg2.jpg?__cv=fe9bb42e7e623415660191c9b7ccc500);
     background-repeat: no-repeat;
     position:relative;
 }
@@ -374,21 +374,21 @@
 .tendencyIconUP{
     width: 10px;
     height: 10px;
-    background-image:  url(/do_img/global/pilotSheet/profilePage/arrow_up.png?__cv=3e363c4d7abe8ebd5f81d3042e6f1800);
+    background-image:  url(../../do_img/global/pilotSheet/profilePage/arrow_up.png?__cv=3e363c4d7abe8ebd5f81d3042e6f1800);
     background-repeat: no-repeat;
 }
 
 /*.tendencyIconDown{
     width: 12px;
     height: 15px;
-    background-image:  url(/do_img/global/pilotSheet/profilePage/arrow_down.png?__cv=62f0a1605e9de1b29bd2b02aa830da00);
+    background-image:  url(../../do_img/global/pilotSheet/profilePage/arrow_down.png?__cv=62f0a1605e9de1b29bd2b02aa830da00);
     background-repeat: no-repeat;
 }
 
 .tendencyIconUp{
     width: 12px;
     height: 15px;
-    background-image:  url(/do_img/global/pilotSheet/profilePage/arrow_up.png?__cv=3e363c4d7abe8ebd5f81d3042e6f1800);
+    background-image:  url(../../do_img/global/pilotSheet/profilePage/arrow_up.png?__cv=3e363c4d7abe8ebd5f81d3042e6f1800);
     background-repeat: no-repeat;
 }*/
 
@@ -529,7 +529,7 @@
     top: 310px;
     height:33;
     width:200px;
-    background: 0 0  url(/do_img/global/pilotSheet/profilePage/rework/button_sprite_200x33px.png?__cv=1556d1727584ec3e5a2e50ad3320c200);
+    background: 0 0  url(../../do_img/global/pilotSheet/profilePage/rework/button_sprite_200x33px.png?__cv=1556d1727584ec3e5a2e50ad3320c200);
 }
 
 #statusTextbox{
@@ -548,7 +548,7 @@
 }
 
 .statMessTextarea{
-     background-image:  url(/do_img/global/pilotSheet/profilePage/rework/text_box.png?__cv=ecab469633c1d03e666482fdc097e800);
+     background-image:  url(../../do_img/global/pilotSheet/profilePage/rework/text_box.png?__cv=ecab469633c1d03e666482fdc097e800);
     background-repeat: no-repeat;
     width: 283px;
     height: 100px;
@@ -650,19 +650,19 @@
 
 .stationMars{
     height: 420px;
-    background-image:  url(/do_img/global/pilotSheet/profilePage/station_mars.jpg?__cv=7523e9407bc64f4d27ad0f7561636000);
+    background-image:  url(../../do_img/global/pilotSheet/profilePage/station_mars.jpg?__cv=7523e9407bc64f4d27ad0f7561636000);
     background-repeat: no-repeat;
 }
 
 .stationEarth{
     height: 420px;
-    background-image:  url(/do_img/global/pilotSheet/profilePage/station_earth.jpg?__cv=67a0c3415db4377fe7f1cf052c33d700);
+    background-image:  url(../../do_img/global/pilotSheet/profilePage/station_earth.jpg?__cv=67a0c3415db4377fe7f1cf052c33d700);
     background-repeat: no-repeat;
 }
 
 .stationVenus{
     height: 420px;
-    background-image:  url(/do_img/global/pilotSheet/profilePage/station_venus.jpg?__cv=10e048a3d89f9d587ff995436345bb00);
+    background-image:  url(../../do_img/global/pilotSheet/profilePage/station_venus.jpg?__cv=10e048a3d89f9d587ff995436345bb00);
     background-repeat: no-repeat;
 }
 
@@ -677,7 +677,7 @@
     position:relative;
     width:244px;
     height:32px;
-    background-image:  url(/do_img/global/pilotSheet/profilePage/rework/friend_request_top.png?__cv=62e7368b8dd07126fafa58d46f7e1200);
+    background-image:  url(../../do_img/global/pilotSheet/profilePage/rework/friend_request_top.png?__cv=62e7368b8dd07126fafa58d46f7e1200);
     background-repeat:no-repeat;
     text-align:center;
     color: #FCCE00;
@@ -695,14 +695,14 @@
 
 .listBody{
     position:relative;
-    background-image: url(/do_img/global/pilotSheet/profilePage/rework/friend_request_middle.png?__cv=b2ddd122f799d030bd9fe37b7412d200);
+    background-image: url(../../do_img/global/pilotSheet/profilePage/rework/friend_request_middle.png?__cv=b2ddd122f799d030bd9fe37b7412d200);
     width:244px;
 }
 
 .requestIcon{
     height:46px;
     width: 48px;
-    background-image: url(/do_img/global/pilotSheet/incentives/userpic.jpg?__cv=18675924bdaf715df706be8d3f195100);
+    background-image: url(../../do_img/global/pilotSheet/incentives/userpic.jpg?__cv=18675924bdaf715df706be8d3f195100);
     background-repeat:no-repeat;
 }
 
@@ -739,25 +739,25 @@
 
 .confirmButton{
     color:#CCCCCC;
-    background:0 0  url(/do_img/global/pilotSheet/profilePage/rework/button_tiny_sprite.png?__cv=5f1cae06d6ec31accf9beca96116c900)
+    background:0 0  url(../../do_img/global/pilotSheet/profilePage/rework/button_tiny_sprite.png?__cv=5f1cae06d6ec31accf9beca96116c900)
 }
 
 .confirmButton:hover{
     color:#FFFFFF;
     background-position: 0 -21px;
-    /*background:0 -21px  url(/do_img/global/pilotSheet/profilePage/rework/button_tiny_sprite.png?__cv=5f1cae06d6ec31accf9beca96116c900)*/
+    /*background:0 -21px  url(../../do_img/global/pilotSheet/profilePage/rework/button_tiny_sprite.png?__cv=5f1cae06d6ec31accf9beca96116c900)*/
 }
 
 .confirmButton:active{
     color:#FFFFFF;
     background-position: 0 -42px;
-    /*background:0 -42px  url(/do_img/global/pilotSheet/profilePage/rework/button_tiny_sprite.png?__cv=5f1cae06d6ec31accf9beca96116c900)*/
+    /*background:0 -42px  url(../../do_img/global/pilotSheet/profilePage/rework/button_tiny_sprite.png?__cv=5f1cae06d6ec31accf9beca96116c900)*/
 }
 
 .denyButton{
     left: 146px;
     color:#999999;
-    background-image: url(/do_img/global/pilotSheet/profilePage/rework/button_tiny_sprite.png?__cv=5f1cae06d6ec31accf9beca96116c900);
+    background-image: url(../../do_img/global/pilotSheet/profilePage/rework/button_tiny_sprite.png?__cv=5f1cae06d6ec31accf9beca96116c900);
     background-position:0 -63px;
 }
 
@@ -773,24 +773,24 @@
 
 /*.denyButtonEffect{
     color:#999999;
-    background:0 -63px  url(/do_img/global/pilotSheet/profilePage/rework/button_tiny_sprite.png?__cv=5f1cae06d6ec31accf9beca96116c900)
+    background:0 -63px  url(../../do_img/global/pilotSheet/profilePage/rework/button_tiny_sprite.png?__cv=5f1cae06d6ec31accf9beca96116c900)
 }
 
 .denyButtonEffect:hover{
     color:#FFFFFF;
-    background:0 -84px  url(/do_img/global/pilotSheet/profilePage/rework/button_tiny_sprite.png?__cv=5f1cae06d6ec31accf9beca96116c900)
+    background:0 -84px  url(../../do_img/global/pilotSheet/profilePage/rework/button_tiny_sprite.png?__cv=5f1cae06d6ec31accf9beca96116c900)
 }
 
 .denyButtonEffect:active{
     color:#FFFFFF;
-    background:0 -105px  url(/do_img/global/pilotSheet/profilePage/rework/button_tiny_sprite.png?__cv=5f1cae06d6ec31accf9beca96116c900)
+    background:0 -105px  url(../../do_img/global/pilotSheet/profilePage/rework/button_tiny_sprite.png?__cv=5f1cae06d6ec31accf9beca96116c900)
 }*/
 
 .listFooter{
     width:244px;
     height:35px;
     position:relative;
-    background-image:  url(/do_img/global/pilotSheet/profilePage/rework/friend_request_down.png?__cv=897dbaf86ae7cd58988173aba3223400);
+    background-image:  url(../../do_img/global/pilotSheet/profilePage/rework/friend_request_down.png?__cv=897dbaf86ae7cd58988173aba3223400);
     background-repeat:no-repeat;
 }
 
@@ -800,7 +800,7 @@
     width:227px;
     top: 24px;
     left: 15px;
-    background: 0 0  url(/do_img/global/pilotSheet/externalPPP/userInfo/gradient_sprite_227x15.png?__cv=57ef305a24bc39b10efdeb2172c74d00);
+    background: 0 0  url(../../do_img/global/pilotSheet/externalPPP/userInfo/gradient_sprite_227x15.png?__cv=57ef305a24bc39b10efdeb2172c74d00);
     z-index:1;
 }
 #gradient_bottom {
@@ -810,7 +810,7 @@
     height: 15px;
     width:228px;
     position:absolute;
-    background: 0 -15px  url(/do_img/global/pilotSheet/externalPPP/userInfo/gradient_sprite_227x15.png?__cv=57ef305a24bc39b10efdeb2172c74d00);
+    background: 0 -15px  url(../../do_img/global/pilotSheet/externalPPP/userInfo/gradient_sprite_227x15.png?__cv=57ef305a24bc39b10efdeb2172c74d00);
     z-index:1;
 }
 
@@ -844,24 +844,24 @@
 
 .jspTrack {
     position: relative;
-    background-image:  url(/do_img/global/pilotSheet/incentives/scrollbar/vertical/bg.png?__cv=000cfa7c72a8a047af40093042ef6600);
+    background-image:  url(../../do_img/global/pilotSheet/incentives/scrollbar/vertical/bg.png?__cv=000cfa7c72a8a047af40093042ef6600);
 }
 
 .jspArrowUp  {
-    background-image:  url(/do_img/global/pilotSheet/incentives/scrollbar/vertical/arrow_up.png?__cv=abcf286c198aff708ba0e922d8854100);
+    background-image:  url(../../do_img/global/pilotSheet/incentives/scrollbar/vertical/arrow_up.png?__cv=abcf286c198aff708ba0e922d8854100);
 }
 .jspArrow.jspDisabled {
-    background-image:  url(/do_img/global/pilotSheet/incentives/scrollbar/vertical/arrow_up.png?__cv=abcf286c198aff708ba0e922d8854100);
+    background-image:  url(../../do_img/global/pilotSheet/incentives/scrollbar/vertical/arrow_up.png?__cv=abcf286c198aff708ba0e922d8854100);
 }
 .jspArrowDown  {
-    background-image:  url(/do_img/global/pilotSheet/incentives/scrollbar/vertical/arrow_down.png?__cv=04d0ed94ef193c5199b4c83e2ec38300);
+    background-image:  url(../../do_img/global/pilotSheet/incentives/scrollbar/vertical/arrow_down.png?__cv=04d0ed94ef193c5199b4c83e2ec38300);
 }
 .jspArrowDown.jspDisabled  {
-    background-image:  url(/do_img/global/pilotSheet/incentives/scrollbar/vertical/arrow_down.png?__cv=04d0ed94ef193c5199b4c83e2ec38300);
+    background-image:  url(../../do_img/global/pilotSheet/incentives/scrollbar/vertical/arrow_down.png?__cv=04d0ed94ef193c5199b4c83e2ec38300);
 }
 
 .jspDrag {
-    background-image:  url(/do_img/global/pilotSheet/incentives/scrollbar/vertical/bar.png?__cv=6bc46b5f6b3b91f3f76cb00831cecc00);
+    background-image:  url(../../do_img/global/pilotSheet/incentives/scrollbar/vertical/bar.png?__cv=6bc46b5f6b3b91f3f76cb00831cecc00);
     background-position: bottom;
 
 }*/
@@ -891,7 +891,7 @@
     position: absolute;
     z-index: 1000;
     width: 485px;
-    background-image:  url(/do_img/global/pilotSheet/edit_profile/rework/layer_middle_483x1.png?__cv=07cd83660a05558512d77d0b8abe5000);
+    background-image:  url(../../do_img/global/pilotSheet/edit_profile/rework/layer_middle_483x1.png?__cv=07cd83660a05558512d77d0b8abe5000);
     left: 143px;
     margin: 0 auto;
     top: -640px;
@@ -930,7 +930,7 @@
     width: 485px;
     text-align: left;
     padding-top: 25px;
-    background-image:  url(/do_img/global/pilotSheet/edit_profile/rework/layer_header_483x269.png?__cv=fe6323fbd5351cf93af93aa57989cb00);
+    background-image:  url(../../do_img/global/pilotSheet/edit_profile/rework/layer_header_483x269.png?__cv=fe6323fbd5351cf93af93aa57989cb00);
     background-position: top center;
     background-repeat: no-repeat;
 }
@@ -938,7 +938,7 @@
 #editFormProfileFooter {
     width: 485px;
     height:90px;
-    background-image:  url(/do_img/global/pilotSheet/edit_profile/rework/layer_footer_483x90.png?__cv=6a25e803c7716dec127ae587ba658e00);
+    background-image:  url(../../do_img/global/pilotSheet/edit_profile/rework/layer_footer_483x90.png?__cv=6a25e803c7716dec127ae587ba658e00);
 }
 
 .ageFormElements{
@@ -988,7 +988,7 @@
 }
 
 .formTextBox1{
-    background-image:  url(/do_img/global/pilotSheet/edit_profile/textfield_medium.png?__cv=381a3f37561aa065b1dbe4d548a9a000);
+    background-image:  url(../../do_img/global/pilotSheet/edit_profile/textfield_medium.png?__cv=381a3f37561aa065b1dbe4d548a9a000);
     background-repeat: no-repeat;
     border: none;
     color: #A0A0A0;
@@ -997,7 +997,7 @@
 }
 
 .formTextBox2{
-    background-image:  url(/do_img/global/pilotSheet/edit_profile/textfield_big.png?__cv=0af30e74bdd3d36295c7cc9cac76bf00);
+    background-image:  url(../../do_img/global/pilotSheet/edit_profile/textfield_big.png?__cv=0af30e74bdd3d36295c7cc9cac76bf00);
     background-repeat: no-repeat;
     background-color: #000000;
     border: none;
@@ -1006,7 +1006,7 @@
 }
 
 .formTextBox3{
-    background-image:  url(/do_img/global/pilotSheet/edit_profile/textfield_big1.png?__cv=0ee1d6604e9c84781b5ef28ee2bb2100);
+    background-image:  url(../../do_img/global/pilotSheet/edit_profile/textfield_big1.png?__cv=0ee1d6604e9c84781b5ef28ee2bb2100);
     background-repeat: no-repeat;
     background-color: #000000;
     border: none;
@@ -1037,12 +1037,12 @@
 }
 
 .closeButtonInActive{
-    background-image:  url(/do_img/global/pilotSheet/edit_profile/close_button.png?__cv=09eb7b238c3c31c405fb3481cd016200);
+    background-image:  url(../../do_img/global/pilotSheet/edit_profile/close_button.png?__cv=09eb7b238c3c31c405fb3481cd016200);
     background-repeat: no-repeat;
 }
 
 .closeButtonRollOver{
-    background-image:  url(/do_img/global/pilotSheet/edit_profile/close_button_rollover.png?__cv=9624c319461de01c5abc084084482000);
+    background-image:  url(../../do_img/global/pilotSheet/edit_profile/close_button_rollover.png?__cv=9624c319461de01c5abc084084482000);
     background-repeat: no-repeat;
     cursor: pointer;
 }
@@ -1089,7 +1089,7 @@
 }
 
 .pppAvatarDescrLink{
-    background-image:  url(/do_img/global/pilotSheet/edit_profile/info_field.png?__cv=60311ae2df4ddaac1a89f1a8e54dbe00);
+    background-image:  url(../../do_img/global/pilotSheet/edit_profile/info_field.png?__cv=60311ae2df4ddaac1a89f1a8e54dbe00);
     background-repeat: no-repeat;
     position: relative;
     top: -28px;
@@ -1140,12 +1140,12 @@
 }
 
 .pppAvatarInputInActive{
-    background:  url(/do_img/global/pilotSheet/edit_profile/browse_button.png?__cv=77bcf4d683a7ba36a1efa0f059f41b00) no-repeat 100% 1px;
+    background:  url(../../do_img/global/pilotSheet/edit_profile/browse_button.png?__cv=77bcf4d683a7ba36a1efa0f059f41b00) no-repeat 100% 1px;
     cursor:pointer;
 }
 
 .pppAvatarInputRollOver{
-    background:  url(/do_img/global/pilotSheet/edit_profile/browse_button_rollover.png?__cv=39d4ad62f2a157c80ac73e16b1c94100) no-repeat 100% 1px;
+    background:  url(../../do_img/global/pilotSheet/edit_profile/browse_button_rollover.png?__cv=39d4ad62f2a157c80ac73e16b1c94100) no-repeat 100% 1px;
     cursor: pointer;
 }
 
@@ -1169,7 +1169,7 @@
 
 .fakefilepc{
     background-color: #000000;
-    background-image:  url(/do_img/global/pilotSheet/edit_profile/textfield_big1.png?__cv=0ee1d6604e9c84781b5ef28ee2bb2100);
+    background-image:  url(../../do_img/global/pilotSheet/edit_profile/textfield_big1.png?__cv=0ee1d6604e9c84781b5ef28ee2bb2100);
     background-repeat: no-repeat;
     width:224px;
     height:15px;
@@ -1240,21 +1240,21 @@
 }
 
 .radioClassActive{
-    background-image:  url(/do_img/global/pilotSheet/edit_profile/radio_button_active.png?__cv=0f7c58fc4562ceda58febfeec618d300);
+    background-image:  url(../../do_img/global/pilotSheet/edit_profile/radio_button_active.png?__cv=0f7c58fc4562ceda58febfeec618d300);
     background-repeat: no-repeat;
     height: 15px;
     width: 15px;
 }
 
 .radioClassInActive{
-    background-image:  url(/do_img/global/pilotSheet/edit_profile/radio_button_inactive.png?__cv=638e244987bc04b6f8ae0ba66ac69e00);
+    background-image:  url(../../do_img/global/pilotSheet/edit_profile/radio_button_inactive.png?__cv=638e244987bc04b6f8ae0ba66ac69e00);
     background-repeat: no-repeat;
     height: 15px;
     width: 15px;
 }
 
 .separatorLine{
-    background-image:  url(/do_img/global/pilotSheet/edit_profile/divider1.png?__cv=3368183a069c26276167124f2ddf3600);
+    background-image:  url(../../do_img/global/pilotSheet/edit_profile/divider1.png?__cv=3368183a069c26276167124f2ddf3600);
     background-repeat: no-repeat;
     width: 435px;
     height: 5px;
@@ -1287,7 +1287,7 @@
 }
 
 .saveButtonInActive{
-    background-image:  url(/do_img/global/pilotSheet/edit_profile/button_standard.png?__cv=521fce076e717775a44d68ff149f7000);
+    background-image:  url(../../do_img/global/pilotSheet/edit_profile/button_standard.png?__cv=521fce076e717775a44d68ff149f7000);
     background-repeat: no-repeat;
     width: 177px;
     height: 35px;
@@ -1297,7 +1297,7 @@
 }
 
 .saveButtonRollOver{
-    background-image:  url(/do_img/global/pilotSheet/edit_profile/button_rollover.png?__cv=1233485c1f95c874e661c1e0a3c09800);
+    background-image:  url(../../do_img/global/pilotSheet/edit_profile/button_rollover.png?__cv=1233485c1f95c874e661c1e0a3c09800);
     background-repeat: no-repeat;
     width: 177px;
     height: 35px;
@@ -1331,7 +1331,7 @@
     height: 22px;
     left: 500px;
     /*    top: 60px;*/
-    background-image:  url(/do_img/global/pilotSheet/edit_profile/dropdown.png?__cv=a826fb536064c23d86257a218c9e0200);
+    background-image:  url(../../do_img/global/pilotSheet/edit_profile/dropdown.png?__cv=a826fb536064c23d86257a218c9e0200);
     background-repeat: no-repeat;
 }
 
@@ -1343,7 +1343,7 @@
     top: 56px;
     width: 770px;
     height: 350px;
-    background-image:  url(/do_img/global/pilotSheet/skilltree/background_image.jpg?__cv=d7695e947f9539d5113a3b3693aefd00);
+    background-image:  url(../../do_img/global/pilotSheet/skilltree/background_image.jpg?__cv=d7695e947f9539d5113a3b3693aefd00);
     background-repeat: no-repeat;
 }
 
@@ -1379,7 +1379,7 @@
     right: 21px;
     width: 773px;
     height: 51px;
-    background-image:  url(/do_img/global/pilotSheet/skill/logfile_view_bg.jpg?__cv=f3e7f3320dc52e387f69d05e53160800);
+    background-image:  url(../../do_img/global/pilotSheet/skill/logfile_view_bg.jpg?__cv=f3e7f3320dc52e387f69d05e53160800);
     color: #FFFFFF;
     font-size: 10px;
     left: 0px;
@@ -1400,10 +1400,10 @@
     line-height: 25px;
 }
 #arrow_logfile_0 {
-    background-image:  url(/do_img/global/pilotSheet/skill/arrow_logfiles_0.png?__cv=36d146d4c4e15795d8e2beb5cffdcb00);
+    background-image:  url(../../do_img/global/pilotSheet/skill/arrow_logfiles_0.png?__cv=36d146d4c4e15795d8e2beb5cffdcb00);
 }
 #arrow_logfile_1 {
-    background-image:  url(/do_img/global/pilotSheet/skill/arrow_logfiles_1.png?__cv=36346ff9665d6a537fa7f53854313f00);
+    background-image:  url(../../do_img/global/pilotSheet/skill/arrow_logfiles_1.png?__cv=36346ff9665d6a537fa7f53854313f00);
 }
 
 #researchpoints_container {
@@ -1422,11 +1422,11 @@
     display: block;
 }
 #researchPoints_button_0 {
-    background-image:  url(/do_img/global/pilotSheet/skill/but_convert_0.png?__cv=1999216b1c086b4445e65ba2301ea400);
+    background-image:  url(../../do_img/global/pilotSheet/skill/but_convert_0.png?__cv=1999216b1c086b4445e65ba2301ea400);
 }
 
 #researchPoints_button_1 {
-    background-image:  url(/do_img/global/pilotSheet/skill/but_convert_1.png?__cv=4df9071b70d08aac0ee1f5417f5e8300);
+    background-image:  url(../../do_img/global/pilotSheet/skill/but_convert_1.png?__cv=4df9071b70d08aac0ee1f5417f5e8300);
 }
 #researchPoints_arrow_0, #researchPoints_arrow_1 {
     width: 45px;
@@ -1434,10 +1434,10 @@
     float: left;
 }
 #researchPoints_arrow_0 {
-    background-image:  url(/do_img/global/pilotSheet/skill/arrow_researchpoints_0.png?__cv=44d7526b93decbc12c2c659ef468c900);
+    background-image:  url(../../do_img/global/pilotSheet/skill/arrow_researchpoints_0.png?__cv=44d7526b93decbc12c2c659ef468c900);
 }
 #researchPoints_arrow_1 {
-    background-image:  url(/do_img/global/pilotSheet/skill/arrow_researchpoints_1.png?__cv=853fc88c19fb060169b7a60d9cef9e00);
+    background-image:  url(../../do_img/global/pilotSheet/skill/arrow_researchpoints_1.png?__cv=853fc88c19fb060169b7a60d9cef9e00);
 }
 #researchPoints_view {
     line-height: 25px;
@@ -1451,16 +1451,16 @@
     width:58px;
     height:17px;
     left: 710px;
-    background-image:  url(/do_img/global/pilotSheet/skill/help_normal.jpg?__cv=75ae409c51103583828bfd56a6777c00);
+    background-image:  url(../../do_img/global/pilotSheet/skill/help_normal.jpg?__cv=75ae409c51103583828bfd56a6777c00);
     cursor: pointer;
     padding-top:25px;
     text-align:center;
 }
 #infobar_helplink:hover {
-    background-image:  url(/do_img/global/pilotSheet/skill/help_hover.jpg?__cv=88adb150e1b7a63d3044278c58579700);
+    background-image:  url(../../do_img/global/pilotSheet/skill/help_hover.jpg?__cv=88adb150e1b7a63d3044278c58579700);
 }
 #infobar_helplink:active {
-    background-image:  url(/do_img/global/pilotSheet/skill/help_active.jpg?__cv=4ee7c2e3797da98775cb5a43325d7e00);
+    background-image:  url(../../do_img/global/pilotSheet/skill/help_active.jpg?__cv=4ee7c2e3797da98775cb5a43325d7e00);
 }
 
 /* Infobar */
@@ -1490,10 +1490,10 @@
     width:204px;
     height:54px;
     cursor: pointer;
-    background-image:  url(/do_img/global/pilotSheet/skill/b_buy_normal.png?__cv=16282376d8b5266865237d76787ff300);
+    background-image:  url(../../do_img/global/pilotSheet/skill/b_buy_normal.png?__cv=16282376d8b5266865237d76787ff300);
 }
 #directlink_logfiles:hover {
-    background-image:  url(/do_img/global/pilotSheet/skill/b_buy_hover.png?__cv=0d64834e6b5a60d738673da4bac16100);
+    background-image:  url(../../do_img/global/pilotSheet/skill/b_buy_hover.png?__cv=0d64834e6b5a60d738673da4bac16100);
 }
 #directlink_logfiles div {
     width: 115px;
@@ -1518,7 +1518,7 @@
     top: 0px;
     width: 890px;
     height: 271px;
-    background-image:  url(/do_img/global/pilotSheet/pilotSheet/scrollBackground.jpg?__cv=fe4c2876b3af189aad0463a79c92f500);
+    background-image:  url(../../do_img/global/pilotSheet/pilotSheet/scrollBackground.jpg?__cv=fe4c2876b3af189aad0463a79c92f500);
 }
 #skillResetButtonContainer {
     position: absolute;
@@ -1531,15 +1531,15 @@
     top: -71px;
     width: 146px;
     height: 37px;
-    background-image:  url(/do_img/global/pilotSheet/skill/b_reset_normal.png?__cv=52ff68bd1caccd4d9ada91cc5d1adf00);
+    background-image:  url(../../do_img/global/pilotSheet/skill/b_reset_normal.png?__cv=52ff68bd1caccd4d9ada91cc5d1adf00);
     cursor: pointer;
     font-size: 10px;
 }
 .skillResetButton:hover {
-    background-image:  url(/do_img/global/pilotSheet/skill/b_reset_hover.png?__cv=370a082325510fe01ce125e6dc037e00);
+    background-image:  url(../../do_img/global/pilotSheet/skill/b_reset_hover.png?__cv=370a082325510fe01ce125e6dc037e00);
 }
 .skillResetButton:active {
-    background-image:  url(/do_img/global/pilotSheet/skill/b_reset_active.png?__cv=e49aa34829f4b9acbdae59fca9e8b600);
+    background-image:  url(../../do_img/global/pilotSheet/skill/b_reset_active.png?__cv=e49aa34829f4b9acbdae59fca9e8b600);
 }
 .skillResetButton .label {
     position: absolute;
@@ -1561,7 +1561,7 @@
     width: 74px;
     height: 85px;
     position: absolute;
-    background-image:  url(/do_img/global/pilotSheet/skill/skilltree_textur.png?__cv=9af642510fbf36d5086f19cd02493f00);
+    background-image:  url(../../do_img/global/pilotSheet/skill/skilltree_textur.png?__cv=9af642510fbf36d5086f19cd02493f00);
     cursor: pointer;
 }
 .skill_effect, .skill_effect_inactive, .skill_effect_max {
@@ -1569,21 +1569,21 @@
     height: 85px;
 }
 .skill .skill_effect:hover {
-    background-image:  url(/do_img/global/pilotSheet/skill/skilltree_textur.png?__cv=9af642510fbf36d5086f19cd02493f00);
+    background-image:  url(../../do_img/global/pilotSheet/skill/skilltree_textur.png?__cv=9af642510fbf36d5086f19cd02493f00);
     background-position: -74px 0;
 }
 .skill .skill_effect:active {
-    background-image:  url(/do_img/global/pilotSheet/skill/skilltree_textur.png?__cv=9af642510fbf36d5086f19cd02493f00);
+    background-image:  url(../../do_img/global/pilotSheet/skill/skilltree_textur.png?__cv=9af642510fbf36d5086f19cd02493f00);
     background-position: -148px 0;
 }
 .skill .skill_effect_inactive {
-    background-image:  url(/do_img/global/pilotSheet/skill/skilltree_textur.png?__cv=9af642510fbf36d5086f19cd02493f00);
+    background-image:  url(../../do_img/global/pilotSheet/skill/skilltree_textur.png?__cv=9af642510fbf36d5086f19cd02493f00);
     background-position: -222px 0;
     cursor: default;
 }
 
 .skill .skill_effect_inactive:hover {
-    background-image:  url(/do_img/global/pilotSheet/skill/skilltree_textur.png?__cv=9af642510fbf36d5086f19cd02493f00);
+    background-image:  url(../../do_img/global/pilotSheet/skill/skilltree_textur.png?__cv=9af642510fbf36d5086f19cd02493f00);
     background-position: 0 0;
 }
 
@@ -1592,7 +1592,7 @@
 }
 
 .skill .skill_effect_max:hover {
-    background-image:  url(/do_img/global/pilotSheet/skill/skilltree_textur.png?__cv=9af642510fbf36d5086f19cd02493f00);
+    background-image:  url(../../do_img/global/pilotSheet/skill/skilltree_textur.png?__cv=9af642510fbf36d5086f19cd02493f00);
     background-position: -74px 0;
 }
 .noCursor {
@@ -1602,7 +1602,7 @@
 .skill_small {
     width: 22px;
     height:25px;
-    background-image:  url(/do_img/global/pilotSheet/skill/skilltree_textur_small.png?__cv=d7f30c6b9e78526f5e13b1910198d900);
+    background-image:  url(../../do_img/global/pilotSheet/skill/skilltree_textur_small.png?__cv=d7f30c6b9e78526f5e13b1910198d900);
     background-position: 0 0;
     background-repeat: no-repeat;
     float: left;
@@ -1838,7 +1838,7 @@
 .tooltip_header {
     width: 256px;
     height: 16px;
-    background-image:  url(/do_img/global/pilotSheet/skill/bg_tooltip_header.png?__cv=c3bb07ae9e7813b4c25bc94c8e514300)
+    background-image:  url(../../do_img/global/pilotSheet/skill/bg_tooltip_header.png?__cv=c3bb07ae9e7813b4c25bc94c8e514300)
 }
 .tooltip_content {
     width:228px;
@@ -1846,19 +1846,19 @@
     border-right:1px solid #7ca7ca;
     margin-left:3px;
     padding: 2px 10px;
-    background-image:  url(/do_img/global/pilotSheet/skill/bg_tooltip.png?__cv=e164a75ec34f11a3f070db3399669700);
+    background-image:  url(../../do_img/global/pilotSheet/skill/bg_tooltip.png?__cv=e164a75ec34f11a3f070db3399669700);
 }
 .tooltip_footer {
     width: 256px;
     height: 25px;
-    background-image:  url(/do_img/global/pilotSheet/skill/bg_tooltip_footer.png?__cv=5f46714ba8284521014d195f026c0500);
+    background-image:  url(../../do_img/global/pilotSheet/skill/bg_tooltip_footer.png?__cv=5f46714ba8284521014d195f026c0500);
     text-align:center;
     line-height: 25px;
 }
 .tooltip_seperator {
     height: 1px;
     margin: 5px 0;
-    background-image:  url(/do_img/global/pilotSheet/skill/bg_tooltip_seperator.png?__cv=d15a2935b564375597e392382b8a7e00);
+    background-image:  url(../../do_img/global/pilotSheet/skill/bg_tooltip_seperator.png?__cv=d15a2935b564375597e392382b8a7e00);
 }
 #resources td {
     vertical-align:top;
@@ -1883,7 +1883,7 @@
 }
 
 .inviteTabRollOver{
-    background-image:  url(/do_img/global/pilotSheet/incentives/subtab_active.png?__cv=33d1b5d28635dff3403b147360bc3f00);
+    background-image:  url(../../do_img/global/pilotSheet/incentives/subtab_active.png?__cv=33d1b5d28635dff3403b147360bc3f00);
     background-repeat: no-repeat;
     cursor: pointer;
     z-index: 2
@@ -1891,13 +1891,13 @@
 }
 
 .inviteTabActive{
-    background-image:  url(/do_img/global/pilotSheet/incentives/subtab_active.png?__cv=33d1b5d28635dff3403b147360bc3f00);
+    background-image:  url(../../do_img/global/pilotSheet/incentives/subtab_active.png?__cv=33d1b5d28635dff3403b147360bc3f00);
     background-repeat: no-repeat;
     z-index: 1
 }
 
 .inviteTabInActive{
-    background-image:  url(/do_img/global/pilotSheet/incentives/subtab_inactive.png?__cv=08e4c5dd0050ce322c9f1f7a4a7bbc00);
+    background-image:  url(../../do_img/global/pilotSheet/incentives/subtab_inactive.png?__cv=08e4c5dd0050ce322c9f1f7a4a7bbc00);
     background-repeat: no-repeat;
 }
 
@@ -1935,7 +1935,7 @@
     width: 773px;
     top: -22px;
     left: 0px;
-    background-image:  url(/do_img/global/pilotSheet/invitePage/subtabs_line.jpg?__cv=ac2a05c4984c590a0e221deea7c01100);
+    background-image:  url(../../do_img/global/pilotSheet/invitePage/subtabs_line.jpg?__cv=ac2a05c4984c590a0e221deea7c01100);
     background-repeat: no-repeat;
 }
 
@@ -1945,7 +1945,7 @@
     width: 773px;
     top: -6px;
     left: -1px;
-    background-image:  url(/do_img/global/pilotSheet/incentives/subtab_bg.jpg?__cv=4e847bbd086a5354fe17697781e3c300);
+    background-image:  url(../../do_img/global/pilotSheet/incentives/subtab_bg.jpg?__cv=4e847bbd086a5354fe17697781e3c300);
     background-repeat: no-repeat;
 }
 
@@ -1979,7 +1979,7 @@
     width: 740px;
     top: 10px;
     left: 15px;
-/*    background-image:  url(/do_img/global/pilotSheet/incentives/arrow_bar.jpg?__cv=f4927a46011ceb073ab1576426fb4b00);
+/*    background-image:  url(../../do_img/global/pilotSheet/incentives/arrow_bar.jpg?__cv=f4927a46011ceb073ab1576426fb4b00);
     background-repeat: no-repeat;*/
 }
 
@@ -1989,7 +1989,7 @@
     width: 55px;
     top: 6px;
     left: 10px;
-    background-image:  url(/do_img/global/pilotSheet/incentives/button_1.png?__cv=19ce1a8cca74d6530f20672af2d06000);
+    background-image:  url(../../do_img/global/pilotSheet/incentives/button_1.png?__cv=19ce1a8cca74d6530f20672af2d06000);
     background-repeat: no-repeat;
 }
 
@@ -2009,7 +2009,7 @@
     position: absolute;
     width: 179px;
     height: 32px;
-    background-image:  url(/do_img/global/pilotSheet/incentives/button_standard.png?__cv=521fce076e717775a44d68ff149f7000);
+    background-image:  url(../../do_img/global/pilotSheet/incentives/button_standard.png?__cv=521fce076e717775a44d68ff149f7000);
     background-repeat: no-repeat;
     top: 15px;
     left: 68px;
@@ -2018,12 +2018,12 @@
 }
 
 #friendInviteButton:hover{
-    background-image:  url(/do_img/global/pilotSheet/incentives/button_rollover.png?__cv=1233485c1f95c874e661c1e0a3c09800);
+    background-image:  url(../../do_img/global/pilotSheet/incentives/button_rollover.png?__cv=1233485c1f95c874e661c1e0a3c09800);
     background-repeat: no-repeat;
 }
 
 #friendInviteButton:active{
-     background-image:  url(/do_img/global/pilotSheet/incentives/button_click.png?__cv=b667584376a163487881d5d401218b00);
+     background-image:  url(../../do_img/global/pilotSheet/incentives/button_click.png?__cv=b667584376a163487881d5d401218b00);
     background-repeat: no-repeat;
 }
 
@@ -2033,7 +2033,7 @@
     width: 150px;
     top: -42px;
     left: 75px;
-    /*    background-image:  url(/do_img/global/pilotSheet/incentives/invite_button_inactive.png?__cv=12ad0ead3b6410ebc1c417dcc19fb200);
+    /*    background-image:  url(../../do_img/global/pilotSheet/incentives/invite_button_inactive.png?__cv=12ad0ead3b6410ebc1c417dcc19fb200);
         background-repeat: no-repeat;*/
 }
 #incentive2{
@@ -2042,7 +2042,7 @@
     width: 55px;
     top: 6px;
     left: 275px;
-    background-image:  url(/do_img/global/pilotSheet/incentives/button_2.png?__cv=6c6630a08b75eafe093103076b2cef00);
+    background-image:  url(../../do_img/global/pilotSheet/incentives/button_2.png?__cv=6c6630a08b75eafe093103076b2cef00);
     background-repeat: no-repeat;
 }
 #incentive2Hint{
@@ -2058,7 +2058,7 @@
     width: 55px;
     top: 5px;
     left: 533px;
-    background-image:  url(/do_img/global/pilotSheet/incentives/button_3.png?__cv=1692bd9125ff6686cb51596b21f68b00);
+    background-image:  url(../../do_img/global/pilotSheet/incentives/button_3.png?__cv=1692bd9125ff6686cb51596b21f68b00);
     background-repeat: no-repeat;
 }
 #incentive3Hint{
@@ -2177,7 +2177,7 @@
 #invitedTopRight{
     top: -19px;
     left: 181px;
-    background-image:  url(/do_img/global/pilotSheet/incentives/user_icon.png?__cv=be59bcb98b0b2b07d49f95562e6f7a00);
+    background-image:  url(../../do_img/global/pilotSheet/incentives/user_icon.png?__cv=be59bcb98b0b2b07d49f95562e6f7a00);
     background-repeat: no-repeat;
 }
 
@@ -2198,22 +2198,22 @@
 }
 
 .invitedArrowUpActive{
-    background-image:  url(/do_img/global/pilotSheet/incentives/arrow_up_active.png?__cv=9a04672771c07de8ec0d098120139d00);
+    background-image:  url(../../do_img/global/pilotSheet/incentives/arrow_up_active.png?__cv=9a04672771c07de8ec0d098120139d00);
     background-repeat: no-repeat;
 }
 
 .invitedArrowUpInActive{
-    background-image:  url(/do_img/global/pilotSheet/incentives/arrow_up_inactive.png?__cv=b2758e8e6950c64ea50ee4d4ad82b100);
+    background-image:  url(../../do_img/global/pilotSheet/incentives/arrow_up_inactive.png?__cv=b2758e8e6950c64ea50ee4d4ad82b100);
     background-repeat: no-repeat;
 }
 
 .invitedArrowDownActive{
-    background-image:  url(/do_img/global/pilotSheet/incentives/arrow_down_active.png?__cv=958f85a7522186370f1a5cbdbc33d600);
+    background-image:  url(../../do_img/global/pilotSheet/incentives/arrow_down_active.png?__cv=958f85a7522186370f1a5cbdbc33d600);
     background-repeat: no-repeat;
 }
 
 .invitedArrowDownInActive{
-    background-image:  url(/do_img/global/pilotSheet/incentives/arrow_down_inactive.png?__cv=e9e6e8fd7e9e55530a756de15ec81300);
+    background-image:  url(../../do_img/global/pilotSheet/incentives/arrow_down_inactive.png?__cv=e9e6e8fd7e9e55530a756de15ec81300);
     background-repeat: no-repeat;
 }
 
@@ -2237,7 +2237,7 @@
     position: relative;
     height: 60px;
     width: 57px;
-    background-image:  url(/do_img/global/pilotSheet/incentives/arrows.png?__cv=db01a673c8e99d5a2f9392bbd57a6b00);
+    background-image:  url(../../do_img/global/pilotSheet/incentives/arrows.png?__cv=db01a673c8e99d5a2f9392bbd57a6b00);
     background-repeat: no-repeat;
 }
 
@@ -2245,7 +2245,7 @@
     position: relative;
     height: 120px;
     width: 5px;
-    background-image:  url(/do_img/global/pilotSheet/incentives/separator_up.png?__cv=8ff6e7cfbe37b07274e49cab15ecb500);
+    background-image:  url(../../do_img/global/pilotSheet/incentives/separator_up.png?__cv=8ff6e7cfbe37b07274e49cab15ecb500);
     background-repeat: no-repeat;
 }
 
@@ -2253,7 +2253,7 @@
     position: relative;
     height: 120px;
     width: 5px;
-    background-image:  url(/do_img/global/pilotSheet/incentives/separator_down.png?__cv=898d8cd5b47f6ef3d679089c74a82400);
+    background-image:  url(../../do_img/global/pilotSheet/incentives/separator_down.png?__cv=898d8cd5b47f6ef3d679089c74a82400);
     background-repeat: no-repeat;
 }
 #middleArrow1{
@@ -2295,7 +2295,7 @@
 #middleTopRight{
     top: -19px;
     left: 140px;
-    background-image:  url(/do_img/global/pilotSheet/incentives/user_icons.png?__cv=47edd37fd719e552d5d7732857c6ac00);
+    background-image:  url(../../do_img/global/pilotSheet/incentives/user_icons.png?__cv=47edd37fd719e552d5d7732857c6ac00);
     background-repeat: no-repeat;
 }
 
@@ -2305,7 +2305,7 @@
     width: 220px;
     top: -13px;
     left: 0px;
-    background-image:  url(/do_img/global/pilotSheet/incentives/list_bg.png?__cv=3e0874b2242973d8d76a227452b30800);
+    background-image:  url(../../do_img/global/pilotSheet/incentives/list_bg.png?__cv=3e0874b2242973d8d76a227452b30800);
     background-repeat: no-repeat;
 }
 
@@ -2322,7 +2322,7 @@
 
 .middleLeft{
     float: left;
-    background-image:  url(/do_img/global/pilotSheet/incentives/userpic.jpg?__cv=18675924bdaf715df706be8d3f195100);
+    background-image:  url(../../do_img/global/pilotSheet/incentives/userpic.jpg?__cv=18675924bdaf715df706be8d3f195100);
     background-repeat: no-repeat;
     width: 48px;
     height: 50px;
@@ -2358,7 +2358,7 @@
 }
 
 .bonusInfoDiv{
-    background-image:  url(/do_img/global/pilotSheet/incentives/incentive_overlay_big.png?__cv=b68f9d08a4a89bcaca06bb1b94424b00);
+    background-image:  url(../../do_img/global/pilotSheet/incentives/incentive_overlay_big.png?__cv=b68f9d08a4a89bcaca06bb1b94424b00);
     background-repeat: no-repeat;
 }
 
@@ -2415,7 +2415,7 @@
     position: absolute;
     left: 135px;
     top: -400px;
-    background-image:  url(/do_img/global/pilotSheet/incentives/bonuslog_bg.png?__cv=dbb3396d2b89110b81b3bf2612f5a000);
+    background-image:  url(../../do_img/global/pilotSheet/incentives/bonuslog_bg.png?__cv=dbb3396d2b89110b81b3bf2612f5a000);
     background-repeat: no-repeat;
     height: 375px;
     width: 590px;
@@ -2483,7 +2483,7 @@
 }
 
 .noBonus{
-    background-image:  url(/do_img/global/pilotSheet/incentives/incentive_overlay.png?__cv=27687b6e1cc02b7cb4ab68ef4544e200);
+    background-image:  url(../../do_img/global/pilotSheet/incentives/incentive_overlay.png?__cv=27687b6e1cc02b7cb4ab68ef4544e200);
     background-repeat: no-repeat;
     height: 90px;
     width: 190px;
@@ -2492,12 +2492,12 @@
 }
 
 .showBonus{
-    background-image:  url(/do_img/global/pilotSheet/incentives/incentivereached_overlay.png?__cv=6905e3e617f3dd7373c18667258e4d00);
+    background-image:  url(../../do_img/global/pilotSheet/incentives/incentivereached_overlay.png?__cv=6905e3e617f3dd7373c18667258e4d00);
     background-repeat: no-repeat;
 }
 
 .showBonus{
-    background-image:  url(/do_img/global/pilotSheet/incentives/incentivereached_overlay.png?__cv=6905e3e617f3dd7373c18667258e4d00);
+    background-image:  url(../../do_img/global/pilotSheet/incentives/incentivereached_overlay.png?__cv=6905e3e617f3dd7373c18667258e4d00);
     background-repeat: no-repeat;
     height: 90px;
     width: 190px;
@@ -2583,32 +2583,32 @@
     width: 160px;
 }
 #completedTopInner{
-    background-image:  url(/do_img/global/pilotSheet/incentives/incentives1.png?__cv=7cbc8ab97030d6d880fe4f3a98960b00);
+    background-image:  url(../../do_img/global/pilotSheet/incentives/incentives1.png?__cv=7cbc8ab97030d6d880fe4f3a98960b00);
     background-repeat: no-repeat;
 }
 
 #completedMiddleInner{
-    background-image:  url(/do_img/global/pilotSheet/incentives/incentives2.png?__cv=9b899d672418acda495e4d15f3174e00);;
+    background-image:  url(../../do_img/global/pilotSheet/incentives/incentives2.png?__cv=9b899d672418acda495e4d15f3174e00);;
     background-repeat: no-repeat;
 }
 
 #completedBottomInner{
-    background-image:  url(/do_img/global/pilotSheet/incentives/incentives3.png?__cv=0bbc27869b370c4559ca5d15fce29e00);
+    background-image:  url(../../do_img/global/pilotSheet/incentives/incentives3.png?__cv=0bbc27869b370c4559ca5d15fce29e00);
     background-repeat: no-repeat;
 }
 
 #completedTopInnerEvent{
-    background-image:  url(/do_img/global/pilotSheet/incentives/incentives_push1_2.png?__cv=5ab004ed46efbc97350ea0a2cbd61400);
+    background-image:  url(../../do_img/global/pilotSheet/incentives/incentives_push1_2.png?__cv=5ab004ed46efbc97350ea0a2cbd61400);
     background-repeat: no-repeat;
 }
 
 #completedMiddleInnerEvent{
-    background-image:  url(/do_img/global/pilotSheet/incentives/incentives_push1_2.png?__cv=5ab004ed46efbc97350ea0a2cbd61400);;
+    background-image:  url(../../do_img/global/pilotSheet/incentives/incentives_push1_2.png?__cv=5ab004ed46efbc97350ea0a2cbd61400);;
     background-repeat: no-repeat;
 }
 
 #completedBottomInnerEvent{
-    background-image:  url(/do_img/global/pilotSheet/incentives/incentives_push3.png?__cv=fafaddc1de5fac97a6c5d6f3c7a57200);
+    background-image:  url(../../do_img/global/pilotSheet/incentives/incentives_push3.png?__cv=fafaddc1de5fac97a6c5d6f3c7a57200);
     background-repeat: no-repeat;
 }
 
@@ -2689,7 +2689,7 @@
 
 .searchProfileField{
     background-color: #000000;
-    background-image:  url(/do_img/global/pilotSheet/search/textfield_username.png?__cv=d45e66174810e674cf59a123c565a700);
+    background-image:  url(../../do_img/global/pilotSheet/search/textfield_username.png?__cv=d45e66174810e674cf59a123c565a700);
     background-repeat: no-repeat;
     border: medium none;
     height: 15px;
@@ -2699,7 +2699,7 @@
 }
 
 .searchProfileSubmit{
-    background: 0 0  url(/do_img/global/pilotSheet/search/search_button_sprite.png?__cv=d4ec53720dd285b7bd594940505c2600);
+    background: 0 0  url(../../do_img/global/pilotSheet/search/search_button_sprite.png?__cv=d4ec53720dd285b7bd594940505c2600);
     background-repeat: no-repeat;
     height: 21px;
     width: 20px;
@@ -2722,17 +2722,17 @@
 }
 
 .searchProfileAjaxLoader{
-    background: 0 0  url(/do_img/global/pilotSheet/search/loader.gif?__cv=e00a2cd3d4aa5a5c0a469952b1b68700);
+    background: 0 0  url(../../do_img/global/pilotSheet/search/loader.gif?__cv=e00a2cd3d4aa5a5c0a469952b1b68700);
     background-repeat: no-repeat;
 }
 
 .searchProfileSuccess{
-    background: 0 0  url(/do_img/global/pilotSheet/search/check_positiv.png?__cv=44f902a63a0dc22a97ae775a92530c00);
+    background: 0 0  url(../../do_img/global/pilotSheet/search/check_positiv.png?__cv=44f902a63a0dc22a97ae775a92530c00);
     background-repeat: no-repeat;
 }
 
 .searchProfileFailure{
-    background: 0 0  url(/do_img/global/pilotSheet/search/check_negative.png?__cv=825be78a2fe3e730a3ffb83a081c7700);
+    background: 0 0  url(../../do_img/global/pilotSheet/search/check_negative.png?__cv=825be78a2fe3e730a3ffb83a081c7700);
     background-repeat: no-repeat;
 }
 
@@ -2797,7 +2797,7 @@
 }
 
 .inviteInfoPopupHeader{
-    background-image:   url(/do_img/global/pilotSheet/invitePage/inviteDialog/header.png?__cv=57b8ccbb24e2865598f867c9a5e4dc00);
+    background-image:   url(../../do_img/global/pilotSheet/invitePage/inviteDialog/header.png?__cv=57b8ccbb24e2865598f867c9a5e4dc00);
     background-repeat: no-repeat;
     background-color: transparent;
     border-bottom: medium none;
@@ -2806,7 +2806,7 @@
 }
 
 .infoLayerHeaderIcon{
-    background:   url(/do_img/global/pilotSheet/invitePage/inviteDialog/userpic.png?__cv=587d57c96fdc71beba0955f4bf248700) no-repeat scroll left center transparent;
+    background:   url(../../do_img/global/pilotSheet/invitePage/inviteDialog/userpic.png?__cv=587d57c96fdc71beba0955f4bf248700) no-repeat scroll left center transparent;
     min-height: 54px;
     padding-left: 80px;
     position: relative;
@@ -2860,7 +2860,7 @@
 }
 
 .infoLayerBodyWhole{
-    background:   url(/do_img/global/pilotSheet/invitePage/inviteDialog/body.png?__cv=019b85e1130a9d773d007506386a7900);
+    background:   url(../../do_img/global/pilotSheet/invitePage/inviteDialog/body.png?__cv=019b85e1130a9d773d007506386a7900);
     background-repeat: no-repeat;
     height: 435px;
     width: 585px;
@@ -2895,7 +2895,7 @@
     left: 350px;
     height: 150px;
     width: 200px;
-    background-image:  url(/do_img/global/pilotSheet/invitePage/incentive_goliath.png?__cv=0bcc72e91551650bb6622b1715b21600);
+    background-image:  url(../../do_img/global/pilotSheet/invitePage/incentive_goliath.png?__cv=0bcc72e91551650bb6622b1715b21600);
     background-repeat: no-repeat;
 }
 
@@ -2905,7 +2905,7 @@
     left: 350px;
     height: 158px;
     width: 200px;
-    background-image:  url(/do_img/global/pilotSheet/invitePage/drone_formation_lance.png?__cv=76675a0c961721ee2adbc7118699e800);
+    background-image:  url(../../do_img/global/pilotSheet/invitePage/drone_formation_lance.png?__cv=76675a0c961721ee2adbc7118699e800);
     background-repeat: no-repeat;
 }
 
@@ -2926,7 +2926,7 @@
     width: 580px;
     height: 57px;
     top: 416px;
-    background-image:  url(/do_img/global/pilotSheet/invitePage/inviteDialog/footer.png?__cv=dea773104b03e47dc8b306e311009400);
+    background-image:  url(../../do_img/global/pilotSheet/invitePage/inviteDialog/footer.png?__cv=dea773104b03e47dc8b306e311009400);
     background-repeat: no-repeat;
 }
 #inviteInfoCheckBoxContainer{
@@ -2966,13 +2966,13 @@
 }
 
 .removeInviteeActive{
-    background-image:   url(/do_img/global/pilotSheet/edit_profile/close_button_rollover.png?__cv=9624c319461de01c5abc084084482000);
+    background-image:   url(../../do_img/global/pilotSheet/edit_profile/close_button_rollover.png?__cv=9624c319461de01c5abc084084482000);
     background-repeat: no-repeat;
     cursor: pointer;
 }
 
 .removeInviteeInActive{
-    background-image:   url(/do_img/global/pilotSheet/edit_profile/close_button.png?__cv=09eb7b238c3c31c405fb3481cd016200);
+    background-image:   url(../../do_img/global/pilotSheet/edit_profile/close_button.png?__cv=09eb7b238c3c31c405fb3481cd016200);
     background-repeat: no-repeat;
 }
 
@@ -2994,7 +2994,7 @@
 
 .pilotInvitePageShow{
     display: block;
-    background-image:  url(/do_img/global/pilotSheet/invitePage/background_black_overlay.png?__cv=82e1e897dfe4f18c96a17a04315f6300);
+    background-image:  url(../../do_img/global/pilotSheet/invitePage/background_black_overlay.png?__cv=82e1e897dfe4f18c96a17a04315f6300);
     background-repeat: no-repeat;
 }
 
@@ -3007,7 +3007,7 @@
 }
 
 #loginBonus{
-    background-image:  url(/do_img/global/pilotSheet/dailyLogin/dailyloginpage_bg.jpg?__cv=84c2418690c8be42291a50c386974b00);
+    background-image:  url(../../do_img/global/pilotSheet/dailyLogin/dailyloginpage_bg.jpg?__cv=84c2418690c8be42291a50c386974b00);
     background-repeat: no-repeat;
     width: 774px;
     height: 365px;
@@ -3029,7 +3029,7 @@
 }
 
 .introRight{
-    background-image:  url(/do_img/global/pilotSheet/dailyLogin/nextbonus.PNG?__cv=3b691f6bea1ac3a4b4adbb49da2f1200);
+    background-image:  url(../../do_img/global/pilotSheet/dailyLogin/nextbonus.PNG?__cv=3b691f6bea1ac3a4b4adbb49da2f1200);
     background-repeat: no-repeat;
 }
 
@@ -3119,12 +3119,12 @@
 }
 
 .boniHeadReceivedBg{
-    background-image:  url(/do_img/global/pilotSheet/dailyLogin/icon_received.png?__cv=b8d2514ac1824664d197db0587498800);
+    background-image:  url(../../do_img/global/pilotSheet/dailyLogin/icon_received.png?__cv=b8d2514ac1824664d197db0587498800);
     background-repeat: no-repeat;
 }
 
 .boniHeadNextBg{
-    background-image:  url(/do_img/global/pilotSheet/dailyLogin/bg_active.png?__cv=a5da85546fe77898c73e9aac0c5bf800);
+    background-image:  url(../../do_img/global/pilotSheet/dailyLogin/bg_active.png?__cv=a5da85546fe77898c73e9aac0c5bf800);
     background-repeat: no-repeat;
     height: 130px;
 }
@@ -3186,23 +3186,23 @@
 }
 
 .boni_1 {
-    background-image:  url(/do_img/global/pilotSheet/dailyLogin/bonus_1.png?__cv=0ca385e949676343012da195adb28100);
+    background-image:  url(../../do_img/global/pilotSheet/dailyLogin/bonus_1.png?__cv=0ca385e949676343012da195adb28100);
     background-repeat: no-repeat;
 }
 .boni_2 {
-    background-image:  url(/do_img/global/pilotSheet/dailyLogin/bonus_2.png?__cv=4debbf321db981c93e0db635e59ba900);
+    background-image:  url(../../do_img/global/pilotSheet/dailyLogin/bonus_2.png?__cv=4debbf321db981c93e0db635e59ba900);
     background-repeat: no-repeat;
 }
 .boni_3 {
-    background-image:  url(/do_img/global/pilotSheet/dailyLogin/bonus_3.png?__cv=c984b75454a1a19fb046617325134400);
+    background-image:  url(../../do_img/global/pilotSheet/dailyLogin/bonus_3.png?__cv=c984b75454a1a19fb046617325134400);
     background-repeat: no-repeat;
 }
 .boni_4 {
-    background-image:  url(/do_img/global/pilotSheet/dailyLogin/bonus_4.png?__cv=914b6bcdc6091d240c7381564811f900);
+    background-image:  url(../../do_img/global/pilotSheet/dailyLogin/bonus_4.png?__cv=914b6bcdc6091d240c7381564811f900);
     background-repeat: no-repeat;
 }
 .boni_5 {
-    background-image:  url(/do_img/global/pilotSheet/dailyLogin/bonus_5.png?__cv=89fc37c64592f4a01aa4879e54306600);
+    background-image:  url(../../do_img/global/pilotSheet/dailyLogin/bonus_5.png?__cv=89fc37c64592f4a01aa4879e54306600);
     background-repeat: no-repeat;
 }
 
@@ -3301,7 +3301,7 @@
     position: relative;
     top: -64px;
     left: 45px;
-    background-image:  url(/do_img/global/pilotSheet/dailyLogin/bg_progressbar.png?__cv=377fa10e286f62d77431e594e4108b00);
+    background-image:  url(../../do_img/global/pilotSheet/dailyLogin/bg_progressbar.png?__cv=377fa10e286f62d77431e594e4108b00);
     height: 11px;
 }
 .boniProgress_1 {   width: 45px;}
@@ -3344,7 +3344,7 @@
 
 .inviteBodyShow{
     display: block;
-    background-image:  url(/do_img/global/pilotSheet/invitePage/choose_platform_frame.png?__cv=a4ff8d6df500668be66c9ba04535e500);
+    background-image:  url(../../do_img/global/pilotSheet/invitePage/choose_platform_frame.png?__cv=a4ff8d6df500668be66c9ba04535e500);
     background-repeat: no-repeat;
 }
 .inviteBodyHide{
@@ -3363,7 +3363,7 @@
 }
 .inviteBodyEmailShow{
     display: block;
-    background-image:  url(/do_img/global/pilotSheet/invitePage/choose_platform_frame.png?__cv=a4ff8d6df500668be66c9ba04535e500);
+    background-image:  url(../../do_img/global/pilotSheet/invitePage/choose_platform_frame.png?__cv=a4ff8d6df500668be66c9ba04535e500);
     background-repeat: no-repeat;
 }
 
@@ -3427,19 +3427,19 @@
 }
 
 .inviteEmailTabRollOver{
-    background-image:  url(/do_img/global/pilotSheet/invitePage/email_invite_button_hover.png?__cv=480e299e13df98661ada310a46e6aa00);
+    background-image:  url(../../do_img/global/pilotSheet/invitePage/email_invite_button_hover.png?__cv=480e299e13df98661ada310a46e6aa00);
     z-index: 2;
 }
 .inviteEmailTabInActive{
-    background-image:  url(/do_img/global/pilotSheet/invitePage/email_invite_button_normal.png?__cv=a881dbbdf471cfd58a7db68513bc2a00);
+    background-image:  url(../../do_img/global/pilotSheet/invitePage/email_invite_button_normal.png?__cv=a881dbbdf471cfd58a7db68513bc2a00);
 }
 
 .inviteFbTabRollOver{
-    background-image:  url(/do_img/global/pilotSheet/invitePage/friend_invite_button_hover.png?__cv=bfa84174a66e88a187690b6f5959ef00);
+    background-image:  url(../../do_img/global/pilotSheet/invitePage/friend_invite_button_hover.png?__cv=bfa84174a66e88a187690b6f5959ef00);
 }
 
 .inviteFbTabInActive{
-    background-image:  url(/do_img/global/pilotSheet/invitePage/friend_invite_button_normal.png?__cv=7acfe94dc7356aa3f885980bc40f9900);
+    background-image:  url(../../do_img/global/pilotSheet/invitePage/friend_invite_button_normal.png?__cv=7acfe94dc7356aa3f885980bc40f9900);
 }
 
 .inviteTabLabelActive{
@@ -3475,14 +3475,14 @@
     right:0;
     height:100%;
     width:16px;
-    background-image:  url(/do_img/global/pilotSheet/incentives/scrollbar/vertical/bg.png?__cv=000cfa7c72a8a047af40093042ef6600);
+    background-image:  url(../../do_img/global/pilotSheet/incentives/scrollbar/vertical/bg.png?__cv=000cfa7c72a8a047af40093042ef6600);
     cursor:move;
     left: 203px;
 }
 
 #scrollbar_handle {
     width:16px;
-    background-image:  url(/do_img/global/pilotSheet/incentives/scrollbar/vertical/bar.png?__cv=6bc46b5f6b3b91f3f76cb00831cecc00);
+    background-image:  url(../../do_img/global/pilotSheet/incentives/scrollbar/vertical/bar.png?__cv=6bc46b5f6b3b91f3f76cb00831cecc00);
     cursor:move;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -3508,7 +3508,7 @@
     right:0;
     height:100%;
     width:16px;
-    background-image:  url(/do_img/global/pilotSheet/incentives/scrollbar/vertical/bg.png?__cv=000cfa7c72a8a047af40093042ef6600);
+    background-image:  url(../../do_img/global/pilotSheet/incentives/scrollbar/vertical/bg.png?__cv=000cfa7c72a8a047af40093042ef6600);
     cursor:move;
     left: 203px;
     display: block;
@@ -3516,7 +3516,7 @@
 
 #scrollbar_handle_country {
     width:16px;
-    background-image:  url(/do_img/global/pilotSheet/incentives/scrollbar/vertical/bar.png?__cv=6bc46b5f6b3b91f3f76cb00831cecc00);
+    background-image:  url(../../do_img/global/pilotSheet/incentives/scrollbar/vertical/bar.png?__cv=6bc46b5f6b3b91f3f76cb00831cecc00);
     cursor:move;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -3535,7 +3535,7 @@
 
 #scrollbar_handle_year {
     width:16px;
-    background-image:  url(/do_img/global/pilotSheet/incentives/scrollbar/vertical/bar.png?__cv=6bc46b5f6b3b91f3f76cb00831cecc00);
+    background-image:  url(../../do_img/global/pilotSheet/incentives/scrollbar/vertical/bar.png?__cv=6bc46b5f6b3b91f3f76cb00831cecc00);
     cursor:move;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -3550,7 +3550,7 @@
     right:0;
     height:100%;
     width:16px;
-    background-image:  url(/do_img/global/pilotSheet/incentives/scrollbar/vertical/bg.png?__cv=000cfa7c72a8a047af40093042ef6600);
+    background-image:  url(../../do_img/global/pilotSheet/incentives/scrollbar/vertical/bg.png?__cv=000cfa7c72a8a047af40093042ef6600);
     cursor:move;
     left: 49px;
 }
@@ -3579,14 +3579,14 @@
     right:0;
     height:100%;
     width:16px;
-    background-image:  url(/do_img/global/pilotSheet/incentives/scrollbar/vertical/bg.png?__cv=000cfa7c72a8a047af40093042ef6600);
+    background-image:  url(../../do_img/global/pilotSheet/incentives/scrollbar/vertical/bg.png?__cv=000cfa7c72a8a047af40093042ef6600);
     cursor:move;
     left: 49px;
 }
 
 #scrollbar_handle_month {
     width:16px;
-    background-image:  url(/do_img/global/pilotSheet/incentives/scrollbar/vertical/bar.png?__cv=6bc46b5f6b3b91f3f76cb00831cecc00);
+    background-image:  url(../../do_img/global/pilotSheet/incentives/scrollbar/vertical/bar.png?__cv=6bc46b5f6b3b91f3f76cb00831cecc00);
     background-color:#5c92e7;
     cursor:move;
     -moz-border-radius: 5px;
@@ -3615,14 +3615,14 @@
     right:0;
     height:100%;
     width:16px;
-    background-image:  url(/do_img/global/pilotSheet/incentives/scrollbar/vertical/bg.png?__cv=000cfa7c72a8a047af40093042ef6600);
+    background-image:  url(../../do_img/global/pilotSheet/incentives/scrollbar/vertical/bg.png?__cv=000cfa7c72a8a047af40093042ef6600);
     cursor:move;
     left: 36px;
 }
 
 #scrollbar_handle_day {
     width:16px;
-    background-image:  url(/do_img/global/pilotSheet/incentives/scrollbar/vertical/bar.png?__cv=6bc46b5f6b3b91f3f76cb00831cecc00);
+    background-image:  url(../../do_img/global/pilotSheet/incentives/scrollbar/vertical/bar.png?__cv=6bc46b5f6b3b91f3f76cb00831cecc00);
     background-color:#5c92e7;
     cursor:move;
     -moz-border-radius: 5px;
@@ -3653,7 +3653,7 @@
     right:0;
     height:100%;
     width:16px;
-    background-image:  url(/do_img/global/pilotSheet/incentives/scrollbar/vertical/bg.png?__cv=000cfa7c72a8a047af40093042ef6600);
+    background-image:  url(../../do_img/global/pilotSheet/incentives/scrollbar/vertical/bg.png?__cv=000cfa7c72a8a047af40093042ef6600);
     cursor:move;
     left: 512px;
     z-index: 1000;
@@ -3661,7 +3661,7 @@
 
 #scrollbar_handle_logBook {
     width:16px;
-    background-image:  url(/do_img/global/pilotSheet/incentives/scrollbar/vertical/bar.png?__cv=6bc46b5f6b3b91f3f76cb00831cecc00);
+    background-image:  url(../../do_img/global/pilotSheet/incentives/scrollbar/vertical/bar.png?__cv=6bc46b5f6b3b91f3f76cb00831cecc00);
     background-color:#5c92e7;
     cursor:move;
     -moz-border-radius: 5px;
@@ -3703,7 +3703,7 @@
     /*top: 24px;*/
     width: 30px; /* With the padding included, the width is 190 pixels: the actual width of the image. */
     /*left: 150px;*/
-    background:  url(/do_img/global/pilotSheet/edit_profile/rework/dropdown_60x17.png?__cv=69bbf900358afb37cea86261bde5b000) no-repeat;
+    background:  url(../../do_img/global/pilotSheet/edit_profile/rework/dropdown_60x17.png?__cv=69bbf900358afb37cea86261bde5b000) no-repeat;
     color:#A0A0A0;
     height:18px;
 }
@@ -3713,7 +3713,7 @@
     /*top: 24px;*/
     width: 30px; /* With the padding included, the width is 190 pixels: the actual width of the image. */
     /*left: 218px;*/
-    background:  url(/do_img/global/pilotSheet/edit_profile/rework/dropdown_60x17.png?__cv=69bbf900358afb37cea86261bde5b000) no-repeat;
+    background:  url(../../do_img/global/pilotSheet/edit_profile/rework/dropdown_60x17.png?__cv=69bbf900358afb37cea86261bde5b000) no-repeat;
     color:#A0A0A0;
     height:18px;
 }
@@ -3722,14 +3722,14 @@
     /*top: 24px;*/
     width: 60px; /* With the padding included, the width is 190 pixels: the actual width of the image. */
     /*left: 284px;*/
-    background:  url(/do_img/global/pilotSheet/edit_profile/rework/dropdown_92x17.png?__cv=827092ba3170a01af19d060e9e570100) no-repeat;
+    background:  url(../../do_img/global/pilotSheet/edit_profile/rework/dropdown_92x17.png?__cv=827092ba3170a01af19d060e9e570100) no-repeat;
     color:#A0A0A0;
     height:18px;
 }
 
 #selectsex{
     width: 228px; /* With the padding included, the width is 190 pixels: the actual width of the image. */
-    background:  url(/do_img/global/pilotSheet/edit_profile/dropdown_227x17psd.png?__cv=700c19e6c45bf27ea9d28713da112600) no-repeat;
+    background:  url(../../do_img/global/pilotSheet/edit_profile/dropdown_227x17psd.png?__cv=700c19e6c45bf27ea9d28713da112600) no-repeat;
     color:#A0A0A0;
     height:18px;
 }
@@ -3739,7 +3739,7 @@
     top: 99px;*/
     width: 228px; /* With the padding included, the width is 190 pixels: the actual width of the image. */
     /*left: 150px;*/
-    background:  url(/do_img/global/pilotSheet/edit_profile/dropdown_227x17psd.png?__cv=700c19e6c45bf27ea9d28713da112600) no-repeat;
+    background:  url(../../do_img/global/pilotSheet/edit_profile/dropdown_227x17psd.png?__cv=700c19e6c45bf27ea9d28713da112600) no-repeat;
     color:#A0A0A0;
     height:18px;
 }
@@ -3801,12 +3801,12 @@
 }
 
 .arrowSelectActive{
-    background-image:  url(/do_img/global/pilotSheet/edit_profile/dropdown_active.png?__cv=07b0f57edf514cefdf5f016833da2100);
+    background-image:  url(../../do_img/global/pilotSheet/edit_profile/dropdown_active.png?__cv=07b0f57edf514cefdf5f016833da2100);
     background-repeat: no-repeat;
 }
 
 .arrowSelectInactive{
-    background-image:  url(/do_img/global/pilotSheet/edit_profile/dropdown.png?__cv=a826fb536064c23d86257a218c9e0200);
+    background-image:  url(../../do_img/global/pilotSheet/edit_profile/dropdown.png?__cv=a826fb536064c23d86257a218c9e0200);
     background-repeat: no-repeat;
 }
 
@@ -3892,7 +3892,7 @@
     position: absolute;
     width: 15px;
     height: 15px;
-    background: transparent  url(/do_img/global/pilotSheet/incentives/scrollbar/horizontal/bar_left.png?__cv=31fe9cd43dfdb251e0c709ddc5b78500);
+    background: transparent  url(../../do_img/global/pilotSheet/incentives/scrollbar/horizontal/bar_left.png?__cv=31fe9cd43dfdb251e0c709ddc5b78500);
     background-repeat: no-repeat;
 }
 
@@ -3902,7 +3902,7 @@
     top: 0px;
     width: 15px;
     height: 15px;
-    background: transparent  url(/do_img/global/pilotSheet/incentives/scrollbar/horizontal/bar_right.png?__cv=07169ed8867758ba9b03b11c30639c00);
+    background: transparent  url(../../do_img/global/pilotSheet/incentives/scrollbar/horizontal/bar_right.png?__cv=07169ed8867758ba9b03b11c30639c00);
     background-repeat: no-repeat;
 }
 
@@ -3910,7 +3910,7 @@
     position: absolute;
     width: 15px;
     height: 15px;
-    background: transparent  url(/do_img/global/pilotSheet/incentives/scrollbar/horizontal/arrow_left.png?__cv=cce179282cc9592685ff011e952b1300);
+    background: transparent  url(../../do_img/global/pilotSheet/incentives/scrollbar/horizontal/arrow_left.png?__cv=cce179282cc9592685ff011e952b1300);
     background-repeat: no-repeat;
 }
 
@@ -3920,7 +3920,7 @@
     top: 0px;
     width: 15px;
     height: 15px;
-    background: transparent  url(/do_img/global/pilotSheet/incentives/scrollbar/horizontal/arrow_right.png?__cv=c43194a9a25d239ac3f643f991e7d400);
+    background: transparent  url(../../do_img/global/pilotSheet/incentives/scrollbar/horizontal/arrow_right.png?__cv=c43194a9a25d239ac3f643f991e7d400);
     background-repeat: no-repeat;
 }
 
@@ -3931,7 +3931,7 @@
     width: 535px;
     height: 16px;
     left: 5px;
-    background: transparent  url(/do_img/global/pilotSheet/incentives/scrollbar/horizontal/bg.png?__cv=6a54b28e9ff9fbb794710a767c86b600);
+    background: transparent  url(../../do_img/global/pilotSheet/incentives/scrollbar/horizontal/bg.png?__cv=6a54b28e9ff9fbb794710a767c86b600);
 }
 
 #skillTreeHorHandleCover{
@@ -3943,7 +3943,7 @@
 #skillTreeHorHandle {
     width: 37px;
     height: 15px;
-    background: transparent  url(/do_img/global/pilotSheet/incentives/scrollbar/horizontal/bar.png?__cv=502d2b3280891d54db214c8bbe7fd700);
+    background: transparent  url(../../do_img/global/pilotSheet/incentives/scrollbar/horizontal/bar.png?__cv=502d2b3280891d54db214c8bbe7fd700);
 }
 
 #skillTreeHorScrollable {
@@ -3972,7 +3972,7 @@
 .scroll-track{
     height:10px;
     width:16px;
-    background-image:  url(/do_img/global/pilotSheet/incentives/scrollbar/vertical/bg.png?__cv=000cfa7c72a8a047af40093042ef6600);
+    background-image:  url(../../do_img/global/pilotSheet/incentives/scrollbar/vertical/bg.png?__cv=000cfa7c72a8a047af40093042ef6600);
 }
 
 .scroll-handle{
@@ -3980,33 +3980,33 @@
     height:10px;
     width:15px;
     left: -1px;
-    background-image:  url(/do_img/global/pilotSheet/incentives/scrollbar/vertical/bar.png?__cv=6bc46b5f6b3b91f3f76cb00831cecc00);
+    background-image:  url(../../do_img/global/pilotSheet/incentives/scrollbar/vertical/bar.png?__cv=6bc46b5f6b3b91f3f76cb00831cecc00);
     cursor:pointer;
 }
 
 .scroll-track-top{
-    background-image:  url(/do_img/global/pilotSheet/incentives/scrollbar/vertical/arrow_up.png?__cv=abcf286c198aff708ba0e922d8854100);
+    background-image:  url(../../do_img/global/pilotSheet/incentives/scrollbar/vertical/arrow_up.png?__cv=abcf286c198aff708ba0e922d8854100);
     background-repeat: no-repeat;
     height:16px;
     width:16px;
 }
 
 .scroll-track-bot{
-    background-image:  url(/do_img/global/pilotSheet/incentives/scrollbar/vertical/arrow_down.png?__cv=04d0ed94ef193c5199b4c83e2ec38300);
+    background-image:  url(../../do_img/global/pilotSheet/incentives/scrollbar/vertical/arrow_down.png?__cv=04d0ed94ef193c5199b4c83e2ec38300);
     background-repeat: no-repeat;
     height:16px;
     width:16px;
 }
 
 .scroll-track-top-active{
-    background-image:  url(/do_img/global/pilotSheet/incentives/scrollbar/vertical/arrow_up_active.png?__cv=486293d4de491f5ce795552b0911e100);
+    background-image:  url(../../do_img/global/pilotSheet/incentives/scrollbar/vertical/arrow_up_active.png?__cv=486293d4de491f5ce795552b0911e100);
     background-repeat: no-repeat;
     height:16px;
     width:16px;
 }
 
 .scroll-track-bot-active{
-    background-image:  url(/do_img/global/pilotSheet/incentives/scrollbar/vertical/arrow_down_active.png?__cv=ca13238fd3d58410c4735c8c8256c700);
+    background-image:  url(../../do_img/global/pilotSheet/incentives/scrollbar/vertical/arrow_down_active.png?__cv=ca13238fd3d58410c4735c8c8256c700);
     background-repeat: no-repeat;
     height:16px;
     width:16px;
@@ -4016,18 +4016,18 @@
 	width: 19px;
 	height: 20px;
 	padding: 0 5px 0 0;
-	background:  url(/do_img/global/pilotSheet/edit_profile/checkbox.gif?__cv=640e32a9784fbb7f9e974fc41bb0a700) no-repeat;
+	background:  url(../../do_img/global/pilotSheet/edit_profile/checkbox.gif?__cv=640e32a9784fbb7f9e974fc41bb0a700) no-repeat;
 	display: block;
 	clear: left;
 	float: left;
 }
 
 .radio {
-	background:  url(/do_img/global/pilotSheet/edit_profile/radio_sprite.png?__cv=a8d4a76cd97031a564834c6ee210ce00) no-repeat;
+	background:  url(../../do_img/global/pilotSheet/edit_profile/radio_sprite.png?__cv=a8d4a76cd97031a564834c6ee210ce00) no-repeat;
 }
 
 .checkbox {
-	background:  url(/do_img/global/pilotSheet/edit_profile/radio_sprite.png?__cv=a8d4a76cd97031a564834c6ee210ce00) no-repeat;
+	background:  url(../../do_img/global/pilotSheet/edit_profile/radio_sprite.png?__cv=a8d4a76cd97031a564834c6ee210ce00) no-repeat;
 }
 
 
@@ -4038,7 +4038,7 @@
 	padding: 0 24px 0 8px;
 	color: #fff;
 	font: 12px/21px arial,sans-serif;
-	background:  url(/do_img/global/pilotSheet/edit_profile/radio_button_active.png?__cv=0f7c58fc4562ceda58febfeec618d300) no-repeat;
+	background:  url(../../do_img/global/pilotSheet/edit_profile/radio_button_active.png?__cv=0f7c58fc4562ceda58febfeec618d300) no-repeat;
 	overflow: hidden;
 }
 
@@ -4089,7 +4089,7 @@
 }
 
 #changeUsername {
-    background-image:  url(/do_img/global/pilotSheet/edit_profile/browse_button.png?__cv=77bcf4d683a7ba36a1efa0f059f41b00);
+    background-image:  url(../../do_img/global/pilotSheet/edit_profile/browse_button.png?__cv=77bcf4d683a7ba36a1efa0f059f41b00);
     color: #FFFFFF;
     float: right;
     font-weight: bold;
