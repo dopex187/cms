@@ -1,10 +1,15 @@
 <?php
 namespace Alexya\Foundation;
 
-use Alexya\Foundation\View\Parser;
 use \Exception;
 
 use \Alexya\Container;
+
+use Alexya\Foundation\View\{
+    Theme,
+    Parser
+};
+
 use \Alexya\FileSystem\File;
 use \Alexya\Tools\{
     Collection,
@@ -13,6 +18,7 @@ use \Alexya\Tools\{
 
 /**
  * View class.
+ * ===========
  *
  * The view is the file that are going to be rendered and displayed
  * in the browser.
@@ -24,6 +30,8 @@ use \Alexya\Tools\{
  * You can add variables to the view by using the method `\Alexya\Foundation\View::set`
  * or the magic method `\Alexya\Foundation\View::__set`.
  *
+ * You can specify the global theme for the view by setting the `$theme` static property.
+ *
  * @author Manulaiko <manulaiko@gmail.com>
  */
 class View extends Component
@@ -31,6 +39,15 @@ class View extends Component
     ///////////////////////////////////
     // Static methods and properties //
     ///////////////////////////////////
+
+    /**
+     * Global theme.
+     *
+     * Default theme to use for all views.
+     *
+     * @var Theme
+     */
+    public static $theme = null;
 
     /**
      * Global variables array.
@@ -145,6 +162,10 @@ class View extends Component
      */
     public function setName(string $name)
     {
+        if(static::$theme instanceof Theme) {
+            $name = static::$theme->viewName($name);
+        }
+
         $settings = Container::Settings()->get("alexya.view");
 
         // Assure that the name is associated with a valid parser
@@ -178,7 +199,7 @@ class View extends Component
      */
     public function render() : string
     {
-        $file   = $this->_getFile();
+        $file = $this->_getFile();
 
         /**
          * Parser object.
