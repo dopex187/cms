@@ -15,10 +15,10 @@
                     </div>
                     <div class="hp-info pull-left">
                         <span class="hp-sm">{$account->name}</span>
-                        <span class="hp-sm">{$account->register_date}</span>
+                        <span class="hp-sm">{$account->date}</span>
                         <span class="hp-sm">{$account->rank_position}</span>
-                        <span class="hp-sm">{$account->Map->name}</span>
-                        <span class="hp-sm" style="color: #{$account->Faction->color}"><i class="fa fa-circle"></i>{strtoupper($account->Faction->abbreviation)}</span>
+                        <span class="hp-sm">{*$account->Map->name*}</span>
+                        <span class="hp-sm" style="color: #{*$account->Faction->color*}"><i class="fa fa-circle"></i>{*strtoupper($account->Faction->abbreviation)*}</span>
                     </div>
                 </div>
             </div>
@@ -42,7 +42,7 @@
                         <span class="hp-sm">{$account->credits}</span>
                         <span class="hp-sm">{$account->uridium}</span>
                         <span class="hp-sm">{$account->experience}</span>
-                        <span class="hp-sm">{$account->Level->id}</span>
+                        <span class="hp-sm">{$account->levels_id}</span>
                         <span class="hp-sm">{$account->honor}</span>
                     </div>
                 </div>
@@ -95,13 +95,13 @@
                         </tr>
                     </thead>
                     <tbody>
-                        {foreach from=\Alexya\Database\ORM\Model::latest(7, "date_start", "events") item=event}
+                        {*foreach from=\Alexya\Database\ORM\Model::latest(7, "date_start", "events") item=event}
                         <tr>
                             <td>{$event->name}</td>
                             <td>{$event->date_start}</td>
                             <td>{$event->date_end}</td>
                         </tr>
-                        {/foreach}
+                        {/foreach*}
                     </tbody>
                 </table>
             </div>
@@ -123,14 +123,14 @@
                         </tr>
                     </thead>
                     <tbody>
-                        {foreach from=\Application\ORM\Account::latest(9, "rank_points") item=account name="user_rank"}
+                        {*foreach from=\Application\ORM\Account::latest(9, "rank_points") item=account name="user_rank"}
                         <tr>
                             <td>{$account->name}</td>
                             <td style="color: {$account->Faction->color}"><span class="fa fa-circle"></span>{strtoupper($account->Faction->abbreviation)}</td>
                             <td>{$smarty.foreach.user_rank.iteration}</td>
                             <td>{$account->rank_points}</td>
                         </tr>
-                        {/foreach}
+                        {/foreach*}
                         <tr>
                             <td colspan="4" style="text-align: center;"><b>{t("Your ranking")}</b></td>
                         </tr>
@@ -164,14 +164,14 @@
                         {if $account->clans_id != 0}
                             {$amount = 9}
                         {/if}
-                        {foreach from=\Alexya\Database\ORM\Model::latest($amount, "rank_points", "clans") item=clan name="clan_rank"}
+                        {*foreach from=\Alexya\Database\ORM\Model::latest($amount, "rank_points", "clans") item=clan name="clan_rank"}
                         <tr>
                             <td>{$clan->name}</td>
                             <td>{$clan->tag}</td>
                             <td>{$smarty.foreach.clan_rank.iteration}</td>
                             <td>{$clan->rank_points}</td>
                         </tr>
-                        {/foreach}
+                        {/foreach*}
                         {if $account->clans_id != 0}
                         <tr>
                             <td colspan="4" style="text-align: center;"><b>{t("Your clan ranking")}</b></td>

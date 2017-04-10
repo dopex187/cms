@@ -4,7 +4,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
     <link href="{$theme->url()}css/stylesheets.css" rel="stylesheet" type="text/css">
-    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="{$theme->url()}css/font-awesome.min.css" rel="stylesheet">
 
     <script type='text/javascript' src='{$theme->url()}js/plugins/jquery/jquery.min.js'></script>
     <script type='text/javascript' src='{$theme->url()}js/plugins/jquery/jquery-ui.min.js'></script>
@@ -127,12 +127,12 @@
                             <li class="dropdown nav-box">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                                     <span class="fa fa-envelope fa-3x"></span>
-                                    {if $user->Messaging->hasUnreadMessages()}
+                                    {*if $user->Messaging->hasUnreadMessages()}
                                         <small class="circle-warning top-right">{$user->Messaging->unreadMessagesCount()}</small>
-                                    {/if}
+                                    {/if*}
                                 </a>
                                 <ul class="dropdown-menu">
-                                    {foreach from=$user->Messaging->unreadMessages() item=message}
+                                    {*foreach from=$user->Messaging->unreadMessages() item=message}
                                     <li>
                                         <h4><a href="{$URL}Internal/Messages/{$message->id}">{$message->title}</a></h4>
                                     </li>
@@ -140,7 +140,7 @@
                                     <li>
                                         <h4>No new messages!</h4>
                                     </li>
-                                    {/foreach}
+                                    {/foreach*}
                                 </ul>
                             </li><li class="nav-box dropdown">
                                 <a href="#" class="drodown-toggle" data-toggle="dropdown">
