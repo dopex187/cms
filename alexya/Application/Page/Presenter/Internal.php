@@ -17,7 +17,8 @@ class Internal extends Presenter
      */
     public function render() : string
     {
-        $name = ($this->_request->uri()[2] ?? "");
+        $uri  = explode("/", ($_SERVER["PATH_INFO"] ?? "/Internal/Start"));
+        $name = ($uri[2] ?? "");
 
         $this->_triad->View->set("name", $name);
         $this->_setFramesFlag($name);
