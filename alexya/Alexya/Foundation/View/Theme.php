@@ -65,7 +65,7 @@ class Theme
      *
      * @var string
      */
-    protected $_name = "default/";
+    protected $_name = "default";
 
     /**
      * Returns the full URL to the theme directory.
@@ -76,7 +76,7 @@ class Theme
      */
     public function url(bool $trailingSlash = true) : string
     {
-        $url = Str::trailing(self::$URL, "/") . Str::trailing($this->_name, "/");
+        $url = Str::trailing(static::$URL, "/") . Str::trailing($this->_name, "/");
 
         if(!$trailingSlash) {
             return substr($url, 0, -1);
@@ -94,7 +94,7 @@ class Theme
      */
     public function viewName(string $name) : string
     {
-        return Str::placehold(self::$viewFormat, [
+        return Str::placehold(static::$viewFormat, [
             "name"  => $name,
             "theme" => $this->_name
         ]);
