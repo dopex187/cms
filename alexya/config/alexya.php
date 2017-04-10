@@ -47,6 +47,7 @@ return [
          * The value is the `\Alexya\Foundation\View\Theme` instance.
          */
         "themes" => [
+            "spacebattles" => new \Application\Theme\SpaceBattles()
         ]
     ],
 
