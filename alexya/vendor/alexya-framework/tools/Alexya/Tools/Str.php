@@ -332,7 +332,7 @@ class Str
         }
 
         foreach($placeholders as $key => $value) {
-           $search = $delimiters[0] . $value . $delimiters[1];
+           $search = $delimiters[0] . $key . $delimiters[1];
 
            $format = str_replace($search, $value, $format);
         }

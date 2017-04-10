@@ -263,7 +263,7 @@ class Triad
             $view->parser($extension, $class);
         }
         $view->setPath("{$this->_prefix}View\\{$this->_name}");
-        $view->setName("index.". $settings["default"]);
+        $view->setName("index");
 
         $this->_components["view"]["component"] = $view;
 

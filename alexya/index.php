@@ -101,6 +101,7 @@ if(!require_once("vendor/autoload.php")) {
 });
 
 // Implement theme
+\Alexya\Foundation\View\Theme::$URL = \Alexya\Container::Settings()->get("application.url");
 \Alexya\Foundation\View::$theme = new \Alexya\Foundation\View\Theme();
 $theme = (\Alexya\Http\Request::main()->get["theme"] ?? "");
 if(!empty($theme)) {
