@@ -8,17 +8,18 @@ namespace Alexya\Tools;
  *
  * Method summary:
  *
- * |    Name    |                    Parameters                    |   Return type   |                                                                Description                                                               |
- * |------------|:------------------------------------------------:|:---------------:|------------------------------------------------------------------------------------------------------------------------------------------|
- * | startsWith |         `string $base`, `string $starts`         |     `bool`      | Checks that `$base` starts with `$starts`, returns `true` if so, `false` if not.                                                         |
- * | endsWith   |          `string $base`, `string $ends`          |     `bool`      | Checks that `$base` ends with `$ends`, returns `true` if so, `false` if not.                                                             |
- * | contains   |        `string $base`, `string/array $str        |     `bool`      | Checks that `$base` contains any of `$str`, returns `true` if so, `false if not`.                                                        |
- * | snake      |                `string/array $str`               |    `string`     | Returns `$str` as `snake_case`.                                                                                                          |
- * | camel      |                `string/array $str`               |    `string`     | Returns `$str` as `camelCase`.                                                                                                           |
- * | singular   |                `string/array $str`               | `string/arrray` | Returns the singular form of `$str`.                                                                                                     |
- * | plural     |                `string/array $str`               | `string/array`  | Returns the plural form of `$str`.                                                                                                       |
- * | trailing   | `string $base`, `string $tail`, `bool $required` |    `string`     | If `$required` is set to `true` (default), returns `$base` with `$tail` (if it's not pressent), if not, returns `$base` without `$tail`. |
- * | random     |       `int $length`, `string/array $chars`       |    `string`     | Returns a random string of `$length` with `$chars`.                                                                                      |
+ * |    Name    |                             Parameters                              |   Return type   |                                                                Description                                                               |
+ * |------------|:-------------------------------------------------------------------:|:---------------:|------------------------------------------------------------------------------------------------------------------------------------------|
+ * | startsWith |                   `string $base`, `string $starts`                  |     `bool`      | Checks that `$base` starts with `$starts`, returns `true` if so, `false` if not.                                                         |
+ * | endsWith   |                    `string $base`, `string $ends`                   |     `bool`      | Checks that `$base` ends with `$ends`, returns `true` if so, `false` if not.                                                             |
+ * | contains   |                  `string $base`, `string/array $str                 |     `bool`      | Checks that `$base` contains any of `$str`, returns `true` if so, `false if not`.                                                        |
+ * | snake      |                         `string/array $str`                         |    `string`     | Returns `$str` as `snake_case`.                                                                                                          |
+ * | camel      |                         `string/array $str`                         |    `string`     | Returns `$str` as `camelCase`.                                                                                                           |
+ * | singular   |                         `string/array $str`                         | `string/array`  | Returns the singular form of `$str`.                                                                                                     |
+ * | plural     |                         `string/array $str`                         | `string/array`  | Returns the plural form of `$str`.                                                                                                       |
+ * | trailing   |           `string $base`, `string $tail`, `bool $required`          |    `string`     | If `$required` is set to `true` (default), returns `$base` with `$tail` (if it's not present), if not, returns `$base` without `$tail`.  |
+ * | random     |                `int $length`, `string/array $chars`                 |    `string`     | Returns a random string of `$length` with `$chars`.                                                                                      |
+ * | placehold  | `string $format`, `array $placeholders`, `string/array $delimiters` |    `string`     | Returns formatted `$format` with `$placeholders` wrapped in `$delimiters`. |
  *
  * @author Manulaiko <manulaiko@gmail.com>
  */
@@ -107,8 +108,8 @@ class Str
     /**
      * Parses `$str` and returns it as `snake_case`.
      *
-     * If `$str` is an array it will asume each index is a word,
-     * if not, each word will start with a capital leter or they
+     * If `$str` is an array it will assume each index is a word,
+     * if not, each word will start with a capital letter or they
      * will be separated by one or more spaces:
      *
      * ```php
@@ -136,7 +137,7 @@ class Str
             // Replace various spaces, each one next to other ("users    orm")
             $str = preg_replace("(\ *)", " ", $str);
 
-            // Replace spaces with underscore and lowercasefy it
+            // Replace spaces with underscore and lowercase-fy it
             return strtolower(str_replace(" ", "_", $str));
         }
 
@@ -155,7 +156,7 @@ class Str
     /**
      * Parses `$str` and returns it as `camelCase`.
      *
-     * If `$str` is an array it will asume each index is a word,
+     * If `$str` is an array it will assume each index is a word,
      * if not, each word will be separated by one or more underscores (`_`)
      * or spaces (` `)
      *
@@ -271,6 +272,8 @@ class Str
      * @param string $base     Base string.
      * @param string $tail     Trailing string.
      * @param bool   $required True if `$base` must end with `$tail`, `false` if not (default = `true`).
+     *
+     * @return string `$base` with (or without) `$tail`.
      */
     public static function trailing(string $base, string $tail, bool $required = true) : string
     {
@@ -311,5 +314,29 @@ class Str
         }
 
         return $str;
+    }
+
+    /**
+     * Parses the placeholders for `$format`
+     *
+     * @param string       $format       String to format.
+     * @param array        $placeholders Placeholders.
+     * @param string|array $delimiters   Delimiters (default = `["{","}"]`).
+     *
+     * @return string Formatted `$format` with `$placeholders`.
+     */
+    public static function placehold(string $format, array $placeholders, $delimiters = ["{","}"]) : string
+    {
+        if(is_string($delimiters)) {
+            $delimiters = [$delimiters, $delimiters];
+        }
+
+        foreach($placeholders as $key => $value) {
+           $search = $delimiters[0] . $value . $delimiters[1];
+
+           $format = str_replace($search, $value, $format);
+        }
+
+        return $format;
     }
 }
