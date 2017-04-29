@@ -11,7 +11,7 @@ return [
     /**
      * Server URL.
      */
-    "url" => "http://manulaiko.spacebattles.org/",
+    "url" => "http://blackeye/",
 
     /**
      * API server information.
@@ -25,7 +25,7 @@ return [
         /**
          * Server host.
          */
-        "host" => "api.manulaiko.spacebattles.org",
+        "host" => "api",
 
         /**
          * Mocked responses in case API is in debug.
@@ -120,15 +120,15 @@ return [
      * Server information.
      */
     "server" => [
-        "title"           => "SpaceBattles Private Server",
-        "tags"            => ["game", "darkorbit", "private server", "spacebattles", "spaceshooter"],
-        "author"          => "RetarDev",
+        "title"           => "BlackEye Private Server",
+        "tags"            => ["game", "darkorbit", "private server", "blackeye", "spaceshooter"],
+        "author"          => "Manulaiko",
         "reply_to"        => "",
-        "company"         => "RetarDev",
-        "name"            => "SpaceBattles",
+        "company"         => "Manulaiko",
+        "name"            => "BlackEye",
         "description"     => "The best DarkOrbit Private Server",
         "locales"         => [],
         "registeredUsers" => 0,
-        "host"            => "manulaiko.spacebattles.org"
+        "host"            => "blackeye"
     ]
 ];
