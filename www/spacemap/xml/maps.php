@@ -1,5 +1,7 @@
 <?php
-$ip = "144.217.188.121";
+$ip = "127.0.0.1";
+
+header("Content-Type: application/xml");
 ?>
 <maps>
 <map id="1"><gameserverIP><?php echo $ip; ?></gameserverIP></map>
