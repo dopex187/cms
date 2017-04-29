@@ -1,4 +1,4 @@
-<map id="81" name="FOOTBALL-TDM" music="0" scaleFactor="0.5" minimap="81football">
+<map id="81" name="FOOTBALL-TDM" music="0" scaleFactor="0.5">
 
 	<gameserverIP>%IP%</gameserverIP>
 

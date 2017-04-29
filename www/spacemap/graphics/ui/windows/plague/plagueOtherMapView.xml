@@ -34,7 +34,7 @@
                 alignX="center"
                 autoSizeWidth="true"
                 height="2"
-                registeredSkinName="plague_window_horizontal_divider"/>
+                registeredSkinName="influence_window_horizontal_divider"/>
         <label
                 text="localize:plague_window_summon_info"
                 height="14"
@@ -55,6 +55,6 @@
                 alignX="center"
                 autoSizeWidth="true"
                 height="2"
-                registeredSkinName="plague_window_horizontal_divider"/>
+                registeredSkinName="influence_window_horizontal_divider"/>
     </container>
 </root>

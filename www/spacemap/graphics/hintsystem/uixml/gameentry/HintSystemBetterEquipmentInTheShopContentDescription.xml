@@ -3,7 +3,7 @@
 	
 		<template name="HintSystem.confirmationLayerBetterEquipmentInTheShop">
 			<container name="confirmationContainer" template="HintSystem.confirmationLayerWithExternalLinkTemplate">
-				<button name="confirmationButton02" text="localize:gameentry_hintwindow_button_openequipment" />
+				<button name="confirmationButton02" text="localize:gameentry_hintwindow_button_openshop" />
 			</container>
 		</template>
 		

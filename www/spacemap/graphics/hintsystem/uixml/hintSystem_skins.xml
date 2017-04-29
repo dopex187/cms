@@ -6,7 +6,7 @@
 				<layer classname="BitmapLayer" libraryID="window_background" scale9grid="15 ,39,64,42,repeatXY" >mask</layer>
 			</skin>
 			<skin name="hintsystem_window_background" library="hintSystemUI" classname="BasicSkin">
-				<layer classname="BitmapLayer" libraryID="window_background" scale9grid="15 ,39,64,42,repeatY" >normal</layer>
+				<layer classname="BitmapLayer" libraryID="window_background" scale9grid="15 ,39,64,42,repeatXY" >normal</layer>
 			</skin>
 			<skin name="hintsystem_window_header_bgnd" library="hintSystemUI" classname="BasicSkin">
 				<layer classname="BitmapLayer" libraryID="window_header_bgnd">normal</layer>

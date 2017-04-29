@@ -1,4 +1,4 @@
-<map id="-1" name="Invasion" music="0" minimap="61football">
+<map id="-1" name="Invasion" music="0">
 	<gameserverIP>%IP%</gameserverIP>
 	<starfield>true</starfield>
 	<backgrounds>

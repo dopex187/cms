@@ -3,20 +3,20 @@
 
 <template name="HintSystem.confirmationLayerWithOneButtonTemplate" >
 	<container name="confirmationContainer" alignY="bottom" alignX="center" autoSizeWidth="true" height="60">
-		<button name="confirmationButton01" text="localize:gameentry_hintwindow_button_confirmation" width="220"  height="62" alignX="center" registeredSkinName="hintsystem_button_confirmation_green" registeredTextStyleName="commonui_confirmationbutton_green_normal"/>
+		<button name="confirmationButton01" text="localize:gameentry_hintwindow_button_confirmation" width="220"  height="62" alignX="center" registeredSkinName="hintsystem_button_confirmation_green" registeredTextStyleName="hintsystem_confirmation"/>
 	</container>
 </template>
 
 <template name="HintSystem.confirmationLayerWithButtonAndExternalLinkTemplate" >
 	<container name="confirmationContainer" alignY="bottom" alignX="center" autoSizeWidth="true" height="60">
-		<button name="confirmationButton01" text="localize:gameentry_hintwindow_button_confirmation" width="220"  height="62" alignX="left"  marginLeft ="24" registeredSkinName="hintsystem_button_confirmation_green" registeredTextStyleName="commonui_confirmationbutton_green_normal"/>
-		<button name="confirmationButton02" width="220"  height="62" alignX="right" marginRight="24" registeredSkinName="hintsystem_button_confirmation_blue"  registeredTextStyleName="commonui_confirmationbutton_blue_normal"/>	
+		<button name="confirmationButton01" text="localize:gameentry_hintwindow_button_confirmation" width="220"  height="62" alignX="left"  marginLeft ="24" registeredSkinName="hintsystem_button_confirmation_green" registeredTextStyleName="hintsystem_confirmation"/>
+		<button name="confirmationButton02" width="220"  height="62" alignX="right" marginRight="24" registeredSkinName="hintsystem_button_confirmation_blue"  registeredTextStyleName="hintsystem_confirmation"/>	
 	</container>
 </template>
 
 <template name="HintSystem.confirmationLayerWithExternalLinkTemplate" >
 	<container name="confirmationContainer" alignY="bottom" alignX="center" autoSizeWidth="true" height="60">
-		<button name="confirmationButton02" width="220"  height="62" alignX="center" marginRight="24" registeredSkinName="hintsystem_button_confirmation_blue"  registeredTextStyleName="commonui_confirmationbutton_blue_normal"/>	
+		<button name="confirmationButton02" width="220"  height="62" alignX="center" marginRight="24" registeredSkinName="hintsystem_button_confirmation_blue"  registeredTextStyleName="hintsystem_confirmation"/>	
 	</container>
 </template>
 

@@ -5,7 +5,8 @@
 	<assets>
 		<asset id="base" atlas="base" texture="icebergsmall" x="0" y="0" />
 	</assets>
-	<animation id="default" parallel="false" autoPlay="true">
-		<tween time="9" viewId="base" y="10" yoyo="true" repeat="-1"/>
+	
+	<animation parallel="false" loop="true" maxReductionThreshold="2" minUserQuality="2">
+		<tween time="9" viewId="base" y="10" yoyo="true" repeat="1" ease="sine.easeinout"/>
 	</animation>
 </view>

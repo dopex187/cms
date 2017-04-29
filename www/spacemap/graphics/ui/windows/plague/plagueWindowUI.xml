@@ -19,7 +19,7 @@
             name="plague_window_infected_textstyle"
             textColor="0x00cbff"
             type="dynamic"
-            align="center"
+            autoSize="center"
             fontSize="24"
             embedFonts="false"
             fontName="Verdana"/>
@@ -27,7 +27,7 @@
             name="plague_window_infected_timer_textstyle"
             textColor="0xffcb00"
             type="dynamic"
-            align="center"
+            autoSize="center"
             fontSize="10"
             embedFonts="false"
             fontName="Verdana"/>
@@ -55,16 +55,25 @@
             fontName="EurostileTHea"
             fontSize="20"
             embedFonts="true"
-            align="left"/>
+            autoSize="center"/>
     <textstyle
             name="plague_window_headline_textstyle"
-            align="center"
+            autoSize="center"
             textColor="0xBFBFBF"
             type="dynamic"
             fontSize="14"
             embedFonts="false"
             fontName="Verdana"/>
 
+    <skin
+            name="influence_window_horizontal_divider"
+            library="plagueWindow"
+            classname="BasicSkin">
+        <layer
+                classname="BitmapLayer"
+                libraryID="separator">normal
+        </layer>
+    </skin>
     <skin
             name="infectedImg"
             library="plagueWindow"
@@ -85,20 +94,9 @@
     </skin>
 
     <skin
-            name="plague_window_horizontal_divider"
-            library="plagueWindow"
-            classname="BasicSkin">
-        <layer
-                classname="BitmapLayer"
-                libraryID="separator">normal
-        </layer>
-    </skin>
-
-    <skin
-            name="plague_label_skin"
+            name="influence_label_skin"
             classname="LabelSkin"
             />
-
     <!-- CONTENT -->
     <container
             name="contentContainer"
@@ -114,86 +112,81 @@
             <label
                     autoSizeWidth="true"
                     text="localize:plague_window_headline"
-                    alignX="left"
-                    height="18"
-                    registeredSkinName="plague_label_skin"
+                    alignX="center"
+                    height="14"
+                    registeredSkinName="influence_label_skin"
                     registeredTextStyleName="plague_window_headline_textstyle"/>
             <label
                     autoSizeWidth="true"
                     name="infected"
-                    alignX="left"
                     text="localize:plague_window_infected"
-                    height="40"
-                    registeredSkinName="plague_label_skin"
+                    height="25"
+                    registeredSkinName="influence_label_skin"
                     registeredTextStyleName="plague_window_infected_textstyle"/>
             <label
                     autoSizeWidth="true"
                     name="timer"
                     text="00:00"
-                    alignX="left"
                     height="14"
-                    registeredSkinName="plague_label_skin"
+                    registeredSkinName="influence_label_skin"
                     registeredTextStyleName="plague_window_infected_timer_textstyle"/>
             <container name="buffs"
                        width="240"
                        height="60"
                        layout="vertical"
-                       alignX="left">
+                       alignX="center">
                 <container name="speed_container"
                            width="240"
                            height="10"
-                           x="10"
-                           alignX="left">
+                           alignX="center">
                     <label
                             autoSizeWidth="true"
                             text="localize:ttip_speed"
                             alignX="left"
-                            registeredSkinName="plague_label_skin"
+                            registeredSkinName="influence_label_skin"
                             registeredTextStyleName="plague_window_buffs_textstyle_left"/>
                     <label
                             name="label"
                             autoSizeWidth="true"
                             text="-"
                             alignX="right"
-                            registeredSkinName="plague_label_skin"
+                            registeredSkinName="influence_label_skin"
                             registeredTextStyleName="plague_window_buffs_textstyle_right"/>
                 </container>
                 <container name="dmg_container"
                            width="240"
                            height="10"
-                           x="10"
-                           alignX="left">
+                           alignX="center">
                     <label
                             autoSizeWidth="true"
                             text="localize:ttip_dmg"
                             alignX="left"
-                            registeredSkinName="plague_label_skin"
+                            registeredSkinName="influence_label_skin"
                             registeredTextStyleName="plague_window_buffs_textstyle_left"/>
                     <label
                             name="label"
                             autoSizeWidth="true"
                             text="-"
                             alignX="right"
-                            registeredSkinName="plague_label_skin"
+                            registeredSkinName="influence_label_skin"
                             registeredTextStyleName="plague_window_buffs_textstyle_right"/>
                 </container>
                 <container name="hp_container"
                            width="240"
                            height="10"
-                           x="10"
-                           alignX="left">
+                           alignX="center">
                     <label
                             autoSizeWidth="true"
                             text="localize:ttip_hitpoints"
                             alignX="left"
-                            registeredSkinName="plague_label_skin"
+                            registeredSkinName="influence_label_skin"
                             registeredTextStyleName="plague_window_buffs_textstyle_left"/>
                     <label
                             name="label"
                             autoSizeWidth="true"
                             text="-"
                             alignX="right"
-                            registeredSkinName="plague_label_skin"
+                            registeredSkinName="influence_label_skin"
                             registeredTextStyleName="plague_window_buffs_textstyle_right"/>
                 </container>
             </container>
@@ -223,10 +216,9 @@
                 <label
                         name="points"
                         text="1594"
-                        height="24"
+                        height="14"
                         width="50"
-                        marginLeft="5"
-                        registeredSkinName="plague_label_skin"
+                        registeredSkinName="influence_label_skin"
                         registeredTextStyleName="plague_window_points_textstyle"/>
             </container>
             <container
@@ -242,10 +234,9 @@
                 <label
                         name="points"
                         text="239"
-                        height="24"
+                        height="14"
                         width="50"
-                        marginLeft="5"
-                        registeredSkinName="plague_label_skin"
+                        registeredSkinName="influence_label_skin"
                         registeredTextStyleName="plague_window_points_textstyle"/>
             </container>
 

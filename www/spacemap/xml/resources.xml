@@ -4,16 +4,11 @@
     <location path="audio/music/" id="audio_music"/>
     <location path="audio/sounds/" id="audio_sounds"/>
     <location path="graphics/" id="graphics"/>
-    <location path="graphics/assembly/" id="graphics_assembly"/>
-    <location path="graphics/assembly/explanation/" id="graphics_assembly_explanation"/>
     <location path="graphics/assets/" id="graphics_assets"/>
-    <location path="graphics/assets/carnival/" id="graphics_assets_carnival"/>
     <location path="graphics/assets/coldwave/" id="graphics_assets_coldwave"/>
     <location path="graphics/assets/coldwave/atlas/" id="graphics_assets_coldwave_atlas"/>
-    <location path="graphics/assets/easter2016/" id="graphics_assets_easter2016"/>
     <location path="graphics/assets/plague/" id="graphics_assets_plague"/>
     <location path="graphics/assets/plague/assets/" id="graphics_assets_plague_assets"/>
-    <location path="graphics/assets/prometheus_day/" id="graphics_assets_prometheus_day"/>
     <location path="graphics/assets/springFight/" id="graphics_assets_springFight"/>
     <location path="graphics/assets/springFight/atlas/" id="graphics_assets_springFight_atlas"/>
     <location path="graphics/assets/trainingGrounds/" id="graphics_assets_trainingGrounds"/>
@@ -96,36 +91,22 @@
     <location path="graphics/ui/chat/skin/" id="graphics_ui_chat_skin"/>
     <location path="graphics/ui/chat/skin/darkorbit/" id="graphics_ui_chat_skin_darkorbit"/>
     <location path="graphics/ui/windows/" id="graphics_ui_windows"/>
-    <location path="graphics/ui/windows/assembly/" id="graphics_ui_windows_assembly"/>
-    <location path="graphics/ui/windows/assembly/explanation/" id="graphics_ui_windows_assembly_explanation"/>
-    <location path="graphics/ui/windows/booster/" id="graphics_ui_windows_booster"/>
-    <location path="graphics/ui/windows/chat/" id="graphics_ui_windows_chat"/>
     <location path="graphics/ui/windows/confirmationPopup/" id="graphics_ui_windows_confirmationPopup"/>
     <location path="graphics/ui/windows/contacts/" id="graphics_ui_windows_contacts"/>
     <location path="graphics/ui/windows/domination/" id="graphics_ui_windows_domination"/>
-    <location path="graphics/ui/windows/eventProgress/" id="graphics_ui_windows_eventProgress"/>
-    <location path="graphics/ui/windows/eventProgress/externals/" id="graphics_ui_windows_eventProgress_externals"/>
-    <location path="graphics/ui/windows/eventProgress/testdata/" id="graphics_ui_windows_eventProgress_testdata"/>
     <location path="graphics/ui/windows/influenceWindow/" id="graphics_ui_windows_influenceWindow"/>
-    <location path="graphics/ui/windows/killUI/" id="graphics_ui_windows_killUI"/>
     <location path="graphics/ui/windows/plague/" id="graphics_ui_windows_plague"/>
-    <location path="graphics/ui/windows/questChain/" id="graphics_ui_windows_questChain"/>
-    <location path="graphics/ui/windows/rzone/" id="graphics_ui_windows_rzone"/>
     <location path="graphics/ui/windows/settings/" id="graphics_ui_windows_settings"/>
     <location path="graphics/ui/windows/targetedOffers/" id="graphics_ui_windows_targetedOffers"/>
     <location path="graphics/ui/windows/traininggrounds/" id="graphics_ui_windows_traininggrounds"/>
-    <file version="1" type="xml" name="Example" location="graphics_ui_windows_eventProgress_externals" id="Example" hash="dfecd71639e33a758e7a171a254b3b00" debugView="false"/>
-    <file version="1" type="xml" name="HintSystemAllocateShipContentDescription" location="graphics_hintsystem_uixml_gameentry" id="HintSystemAllocateShipContentDescription" hash="6b074e2ecb4f57c98fde43cb24e2fc00" debugView="false"/>
-    <file version="1" type="xml" name="HintSystemAssemblyContentDescription" location="graphics_hintsystem_uixml_targeted" id="HintSystemAssemblyContentDescription" hash="14dc9e9d47c5b22d3f67e3fa5931ef00" debugView="false"/>
     <file version="1" type="xml" name="HintSystemAttackContentDescription" location="graphics_hintsystem_uixml_gameentry" id="HintSystemAttackContentDescription" hash="bb5b5e5257d871087e1f7d80eecfd500" debugView="false"/>
     <file version="1" type="xml" name="HintSystemAuctionHouseContentDescription" location="graphics_hintsystem_uixml_targeted" id="HintSystemAuctionHouseContentDescription" hash="7a15fae16750ddbdde0f8ca42dd90a00" debugView="false"/>
-    <file version="1" type="xml" name="HintSystemBetterEquipmentInTheShopContentDescription" location="graphics_hintsystem_uixml_gameentry" id="HintSystemBetterEquipmentInTheShopContentDescription" hash="3a7b089ff3727fffff6a3833c2ca9c00" debugView="false"/>
+    <file version="1" type="xml" name="HintSystemBetterEquipmentInTheShopContentDescription" location="graphics_hintsystem_uixml_gameentry" id="HintSystemBetterEquipmentInTheShopContentDescription" hash="9022ba957e78c6b2d8b58253b8798200" debugView="false"/>
     <file version="1" type="xml" name="HintSystemBoostingYourEquipmentContentDescription" location="graphics_hintsystem_uixml_gameentry" id="HintSystemBoostingYourEquipmentContentDescription" hash="dd73f10b9c6ac76fe79aaefa60fe9100" debugView="false"/>
     <file version="1" type="xml" name="HintSystemChangingShipsContentDescription" location="graphics_hintsystem_uixml_gameentry" id="HintSystemChangingShipsContentDescription" hash="6ba4ccf420fafc9744376ec3f6786900" debugView="false"/>
     <file version="1" type="xml" name="HintSystemClanBattleStationContentDescription" location="graphics_hintsystem_uixml_targeted" id="HintSystemClanBattleStationContentDescription" hash="df83b9b4198dfeeb1bb78da40bc25e00" debugView="false"/>
     <file version="1" type="xml" name="HintSystemContactlistContentDescription" location="graphics_hintsystem_uixml_targeted" id="HintSystemContactlistContentDescription" hash="802d1a14f36fbfb555925672c41f3300" debugView="false"/>
     <file version="1" type="xml" name="HintSystemCreatingGalaxyGatesContentDescription" location="graphics_hintsystem_uixml_gameentry" id="HintSystemCreatingGalaxyGatesContentDescription" hash="9e91e960f49cf81799ca24991d1e6d00" debugView="false"/>
-    <file version="1" type="xml" name="HintSystemDragItemToEquipContentDescription" location="graphics_hintsystem_uixml_gameentry" id="HintSystemDragItemToEquipContentDescription" hash="e065b4eff2cec7b07e97b30f19363400" debugView="false"/>
     <file version="1" type="xml" name="HintSystemEquipPLT2012ContentDescription" location="graphics_hintsystem_uixml_gameentry" id="HintSystemEquipPLT2012ContentDescription" hash="9e44608fe3f1733dd1dccf1ee68de700" debugView="false"/>
     <file version="1" type="xml" name="HintSystemExtraCPUsContentDescription" location="graphics_hintsystem_uixml_targeted" id="HintSystemExtraCPUsContentDescription" hash="12b18645337bed07987a9c034cb79300" debugView="false"/>
     <file version="1" type="xml" name="HintSystemFullCargoBoxContentDescription" location="graphics_hintsystem_uixml_gameentry" id="HintSystemFullCargoBoxContentDescription" hash="5e0c90c51a8ba6560a0f057772874b00" debugView="false"/>
@@ -137,13 +118,11 @@
     <file version="1" type="xml" name="HintSystemJumpGatesContentDescription" location="graphics_hintsystem_uixml_gameentry" id="HintSystemJumpGatesContentDescription" hash="38a95f789f4552d9897cd6e08deab700" debugView="false"/>
     <file version="1" type="xml" name="HintSystemJumpGatesDeviceContentDescription" location="graphics_hintsystem_uixml_gameentry" id="HintSystemJumpGatesDeviceContentDescription" hash="62b31c5adcd7525586b4f90db87c3300" debugView="false"/>
     <file version="1" type="xml" name="HintSystemLookingForGroupsContentDescription" location="graphics_hintsystem_uixml_targeted" id="HintSystemLookingForGroupsContentDescription" hash="23acabd252b5335da6050129ce0f1b00" debugView="false"/>
-    <file version="1" type="xml" name="HintSystemMotivationalSurveyDescription" location="graphics_hintsystem_uixml_targeted" id="HintSystemMotivationalSurveyDescription" hash="d003e7798abc67231d3d61856c02e200" debugView="false"/>
     <file version="1" type="xml" name="HintSystemOresTransferContentDescription" location="graphics_hintsystem_uixml_targeted" id="HintSystemOresTransferContentDescription" hash="003728196a9d6bafc0c26cd0d86a8500" debugView="false"/>
     <file version="1" type="xml" name="HintSystemPVPWarningContentDescription" location="graphics_hintsystem_uixml_gameentry" id="HintSystemPVPWarningContentDescription" hash="1d5f5d853bbfa5093852247a9135de00" debugView="false"/>
     <file version="1" type="xml" name="HintSystemPalladiumContentDescription" location="graphics_hintsystem_uixml_targeted" id="HintSystemPalladiumContentDescription" hash="076900bcd397f467f27a933a2ff58c00" debugView="false"/>
     <file version="1" type="xml" name="HintSystemPolicyChangesContentDescription" location="graphics_hintsystem_uixml_gameentry" id="HintSystemPolicyChangesContentDescription" hash="38206792444715ff64533ad699eef500" debugView="false"/>
     <file version="1" type="xml" name="HintSystemPrepareTheBattleContentDescription" location="graphics_hintsystem_uixml_gameentry" id="HintSystemPrepareTheBattleContentDescription" hash="d48ce75d0c49f826a1f491085f5be600" debugView="false"/>
-    <file version="1" type="xml" name="HintSystemProActionBarContentDescription" location="graphics_hintsystem_uixml_targeted" id="HintSystemProActionBarContentDescription" hash="44eb41c0febbc19d341f57583e324f00" debugView="false"/>
     <file version="1" type="xml" name="HintSystemRequestAMissionContentDescription" location="graphics_hintsystem_uixml_gameentry" id="HintSystemRequestAMissionContentDescription" hash="b1bf5f966c430676f9e2f2ed7bacf300" debugView="false"/>
     <file version="1" type="xml" name="HintSystemRocketLauncherContentDescription" location="graphics_hintsystem_uixml_targeted" id="HintSystemRocketLauncherContentDescription" hash="7ca2b8930ed380a1bc5cc9ce0814db00" debugView="false"/>
     <file version="1" type="xml" name="HintSystemSecondConfigurationDescription" location="graphics_hintsystem_uixml_targeted" id="HintSystemSecondConfigurationDescription" hash="77273fcbd9965c54ff77eef075802d00" debugView="false"/>
@@ -160,18 +139,13 @@
     <file version="1" type="xml" name="HintSystemWealthyFamousContentDescription" location="graphics_hintsystem_uixml_gameentry" id="HintSystemWealthyFamousContentDescription" hash="9934ee3397a2101cb7dfccd61f11b100" debugView="false"/>
     <file version="1" type="xml" name="HintSystemWelcomeContentDescription" location="graphics_hintsystem_uixml_gameentry" id="HintSystemWelcomeContentDescription" hash="ce654531250f309dd7782e4fe08e9300" debugView="false"/>
     <file version="1" type="swf" name="abilitySounds" location="audio_sounds" id="abilitySounds" hash="d22e1b1d9dc2675e7b2d74c736b69300" debugView="false"/>
-    <file version="1" type="swf" name="achievement" location="graphics_ui" id="achievement" hash="9b896d58cf68529e4ee5ec92862faf00" debugView="false"/>
+    <file version="1" type="swf" name="achievement" location="graphics_ui" id="achievement" hash="09f773064b6d3387bbcd6074ad423d00" debugView="false"/>
     <file version="1" type="swf" name="achievementGain" location="graphics_assets" id="achievementGain" hash="a7ee6377b13fe2610a0f706211ddba00" debugView="false"/>
-    <file version="1" type="swf" name="aegis_pod_frozen" location="graphics_items" id="aegis_pod_frozen" hash="b3ce0604a253ae9a3dd8742bcb279200" debugView="false"/>
     <file version="1" type="swf" name="alienMothership" location="graphics_assets" id="alienMothership" hash="3eceabfa4347c8424b0397cb3e4b0300" debugView="false"/>
     <file version="1" type="swf" name="ambience" location="audio_sounds" id="ambience" hash="f7f159fea9e8da8bad76d27f61515c00" debugView="false"/>
-    <file version="1" type="swf" name="anti_shield_mine" location="graphics_mines" id="anti_shield_mine" hash="f2629bd341fe240366640540730a9600" debugView="false"/>
+    <file version="1" type="swf" name="anti_shield_mine" location="graphics_mines" id="anti_shield_mine" hash="3901ea36a7942ceaf8cb291dab77b800" debugView="false"/>
     <file version="1" type="swf" name="aprilsFools" location="graphics_assets" id="aprilsFools" hash="d58b5bdc5d6784042b48c1a9a10c6000" debugView="false"/>
     <file version="1" type="swf" name="arrow" location="graphics_lasers" id="arrow" hash="85dad9df7edb2f850058dbe61f60d300" debugView="false"/>
-    <file version="1" type="swf" name="assemblyWindow" location="graphics_ui_windows_assembly" id="assemblyWindow" hash="e17b71b17e96111e8ecdc3302b812200" debugView="false"/>
-    <file version="1" type="xml" name="assemblyWindowUI" location="graphics_ui_windows_assembly" id="assemblyWindowUI" hash="c063f64c1115206c0bf9891746357a00" debugView="false"/>
-    <file version="1" type="swf" name="assembly_explanation_permafrost_library" location="graphics_ui_windows_assembly_explanation" id="assembly_explanation_permafrost_library" hash="cc4d032d559086536483764f506af500" debugView="false"/>
-    <file version="1" type="xml" name="assembly_explanation_permafrost_ui" location="graphics_ui_windows_assembly_explanation" id="assembly_explanation_permafrost_ui" hash="49935cd68903923c8b31a4eb75622d00" debugView="false"/>
     <file version="1" type="jxr" name="asteroid127" location="graphics_backgrounds_planets" id="asteroid127" hash="7457a5e423e85a3f420eb71aa12acc00" debugView="false"/>
     <file version="1" type="jxr" name="asteroid128" location="graphics_backgrounds_planets" id="asteroid128" hash="03f238113ceb0fbeaea266d4bacd5b00" debugView="false"/>
     <file version="1" type="jxr" name="asteroid129" location="graphics_backgrounds_planets" id="asteroid129" hash="dac3761c10bf493eac29ee4703353b00" debugView="false"/>
@@ -286,11 +260,7 @@
     <file version="1" type="xml" name="asteroids_small_lightblue_atlasXml" location="graphics_backgrounds_tilemaps" id="asteroids_small_lightblue_atlasXml" hash="568c2d6ef98c6312ceeacfbf0d242b00" debugView="false"/>
     <file version="1" type="jxr" name="asteroids_small_lightblue_texture" location="graphics_backgrounds_tilemaps" id="asteroids_small_lightblue_texture" hash="b6c47a934fe1f9fe05b103159fd8ab00" debugView="false"/>
     <file version="1" type="atf" name="asteroids_small_lightblue_texture_atf" location="graphics_backgrounds_tilemaps" id="asteroids_small_lightblue_texture_atf" hash="6d21c0c86343d6f52876bedddf4d8f00" debugView="false"/>
-    <file version="1" type="swf" name="aurum" location="graphics_collectables" id="aurum" hash="a9b5f6ec4dd941e52a3c815545daa600" debugView="false"/>
-    <file version="1" type="swf" name="aurus" location="graphics_collectables" id="aurus" hash="57c86ceaa761075f64591ada2bc14700" debugView="false"/>
     <file version="1" type="swf" name="axe" location="graphics_lasers" id="axe" hash="e584460f128a1211a902f02195bad400" debugView="false"/>
-    <file version="1" type="png" name="background-refraction" location="graphics_backgrounds_basic" id="background-refraction" hash="1603423aa5eb3cd2d64433c7c4ae4400" debugView="false"/>
-    <file version="1" type="atf" name="background-refraction_atf" location="graphics_backgrounds_basic" id="background-refraction_atf" hash="f806b11bc0cbe313e1b6702c70225b00" debugView="false"/>
     <file version="1" type="jxr" name="background1" location="graphics_backgrounds_basic" id="background1" hash="2e33e1cccf4007157c6d1930f533ba00" debugView="false"/>
     <file version="1" type="jxr" name="background10" location="graphics_backgrounds_basic" id="background10" hash="3ff20e96d64c86e6e1d0676112a9ce00" debugView="false"/>
     <file version="1" type="jxr" name="background101" location="graphics_backgrounds_basic" id="background101" hash="44d7fb0b2dc73ace53a359d5fa701900" debugView="false"/>
@@ -364,12 +334,6 @@
     <file version="1" type="atf" name="background29_atf" location="graphics_backgrounds_basic" id="background29_atf" hash="1d120b2ee85ad1baeb70e79b849cf000" debugView="false"/>
     <file version="1" type="atf" name="background2_atf" location="graphics_backgrounds_basic" id="background2_atf" hash="7d680cf833f3f2bfc9497307d6bb7600" debugView="false"/>
     <file version="1" type="jxr" name="background3" location="graphics_backgrounds_basic" id="background3" hash="16f0f996ce827c74888ceabe19756c00" debugView="false"/>
-    <file version="1" type="jxr" name="background300" location="graphics_backgrounds_basic" id="background300" hash="db81f5def70cca8a9596ead8545b5c00" debugView="false"/>
-    <file version="1" type="atf" name="background300_atf" location="graphics_backgrounds_basic" id="background300_atf" hash="537648a015868a979c0d6343f71b7700" debugView="false"/>
-    <file version="1" type="jxr" name="background302" location="graphics_backgrounds_basic" id="background302" hash="5618e8affbac38a74c28dd7c622ad100" debugView="false"/>
-    <file version="1" type="atf" name="background302_atf" location="graphics_backgrounds_basic" id="background302_atf" hash="b2f34b6ffd6effc58743f49955038f00" debugView="false"/>
-    <file version="1" type="jxr" name="background304" location="graphics_backgrounds_basic" id="background304" hash="0b9e123abd9c82b261a68e6f43df1d00" debugView="false"/>
-    <file version="1" type="atf" name="background304_atf" location="graphics_backgrounds_basic" id="background304_atf" hash="da7d0df62a43c5e492a1ebf00fe2ff00" debugView="false"/>
     <file version="1" type="atf" name="background3_atf" location="graphics_backgrounds_basic" id="background3_atf" hash="66f58956eb881866de51671e21595200" debugView="false"/>
     <file version="1" type="jxr" name="background4" location="graphics_backgrounds_basic" id="background4" hash="c5dc56672876f7dcda20fbae6dca5000" debugView="false"/>
     <file version="1" type="jxr" name="background42" location="graphics_backgrounds_basic" id="background42" hash="9670e89afdd31031eef53748aff23a00" debugView="false"/>
@@ -482,36 +446,25 @@
     <file version="1" type="swf" name="bigXmasStar" location="graphics_collectables" id="bigXmasStar" hash="c38b7483c82e9df8fe835f70c672f400" debugView="false"/>
     <file version="1" type="swf" name="billboard1" location="graphics_billboards" id="billboard1" hash="b35163fe91f54e8f8008066149bdf800" debugView="false"/>
     <file version="1" type="swf" name="billboard2" location="graphics_billboards" id="billboard2" hash="42da19fbd3d2ee71e50fdfd31d14dd00" debugView="false"/>
-    <file version="1" type="swf" name="billboard_beacon" location="graphics_billboards" id="billboard_beacon" hash="54870567ace0f9b55992b6223ec5f600" debugView="false"/>
     <file version="1" type="swf" name="billboard_green" location="graphics_billboards" id="billboard_green" hash="a5414429a8616c31897d8dd7f6e01400" debugView="false"/>
     <file version="1" type="swf" name="billboard_roccat" location="graphics_billboards" id="billboard_roccat" hash="d0a7c3f334a3dae56debe34b42574300" debugView="false"/>
     <file version="1" type="swf" name="birthdayBox" location="graphics_collectables" id="birthdayBox" hash="2102d472feb085708a5fd3a1d9311500" debugView="false"/>
     <file version="1" type="png" name="bitmapFont" location="graphics_ui" id="bitmapFont" hash="e92f53035ffa7ee76f10e68873588800" debugView="false"/>
-    <file version="1" type="xml" name="bitmapFont_atlasXml" location="graphics_ui" id="bitmapFont_atlasXml" hash="b44d232cf25f0947ca52b818a473b800" debugView="false"/>
-    <file version="1" type="png" name="bitmapFont_texture" location="graphics_ui" id="bitmapFont_texture" hash="736987f15a37484b354c1e590e8c3c00" debugView="false"/>
-    <file version="1" type="swf" name="black_booty_box" location="graphics_collectables" id="black_booty_box" hash="34fff6a4854ee6e11613264139a21400" debugView="false"/>
-    <file version="1" type="swf" name="blueprint_box" location="graphics_collectables" id="blueprint_box" hash="f40058ab7fb15c6a3ba92176c00ca600" debugView="false"/>
-    <file version="1" type="swf" name="boltrum" location="graphics_collectables" id="boltrum" hash="ef3a97efe9483fa7edb427974aebfc00" debugView="false"/>
+    <file version="1" type="xml" name="bitmapFont_atlasXml" location="graphics_ui" id="bitmapFont_atlasXml" hash="076f7975fbeccb445b82ad326b40e400" debugView="false"/>
+    <file version="1" type="png" name="bitmapFont_texture" location="graphics_ui" id="bitmapFont_texture" hash="93c530ee9088000039eb9ada488dd800" debugView="false"/>
     <file version="1" type="swf" name="bonusBoxSun" location="graphics_collectables" id="bonusBoxSun" hash="1c3a333c1ca633537e1960203bd45400" debugView="false"/>
     <file version="1" type="swf" name="boosterStationDamage" location="graphics_boosterstation" id="boosterStationDamage" hash="798d2600a09d934134161f07ac3a9400" debugView="false"/>
     <file version="1" type="swf" name="boosterStationHealth" location="graphics_boosterstation" id="boosterStationHealth" hash="4878ae545f5e9539c6dcc9c4d6aa6300" debugView="false"/>
     <file version="1" type="swf" name="boosterStationPrisma" location="graphics_boosterstation" id="boosterStationPrisma" hash="4c1b4ac0111908d7939e5ae4f39e6600" debugView="false"/>
     <file version="1" type="swf" name="boosterStationShield" location="graphics_boosterstation" id="boosterStationShield" hash="1d725aaff242dd999419ba7727c1c300" debugView="false"/>
-    <file version="1" type="xml" name="boosterUI" location="graphics_ui_windows_booster" id="boosterUI" hash="cb873d0b9e6f0702cfd08575baed6a00" debugView="false"/>
-    <file version="1" type="swf" name="boosterUIAssets" location="graphics_ui_windows_booster" id="boosterUIAssets" hash="e973b0bc51b823d3bc1313dad70a6b00" debugView="false"/>
     <file version="1" type="swf" name="box0" location="graphics_collectables" id="box0" hash="f298aeb6eec147596d9231832beee500" debugView="false"/>
     <file version="1" type="swf" name="box1" location="graphics_collectables" id="box1" hash="84a34d55d9ecfd1b8be2592392e10700" debugView="false"/>
     <file version="1" type="swf" name="box2" location="graphics_collectables" id="box2" hash="a8b60205756d8b3ba6c67b9f7d49c400" debugView="false"/>
     <file version="1" type="swf" name="boxAntec" location="graphics_collectables" id="boxAntec" hash="2b231b3c2aeda279fece59661d850600" debugView="false"/>
     <file version="1" type="swf" name="boxStar" location="graphics_collectables" id="boxStar" hash="e8f989f75102d54ccaa09574b355f000" debugView="false"/>
-    <file version="1" type="swf" name="box_demaner_freighter_1" location="graphics_collectables" id="box_demaner_freighter_1" hash="967ccdc0b3d08827131232d535a1f800" debugView="false"/>
-    <file version="1" type="swf" name="box_demaner_freighter_2" location="graphics_collectables" id="box_demaner_freighter_2" hash="67064ed7e81bb2fd836032f851302500" debugView="false"/>
-    <file version="1" type="swf" name="box_demaner_freighter_3" location="graphics_collectables" id="box_demaner_freighter_3" hash="17e19adbed79bf31a753b53547314600" debugView="false"/>
-    <file version="1" type="swf" name="box_demaner_freighter_4" location="graphics_collectables" id="box_demaner_freighter_4" hash="d3f9d8a2473e53005fe48c92ccb71600" debugView="false"/>
-    <file version="1" type="swf" name="box_uba" location="graphics_collectables" id="box_uba" hash="1d182215d79d573d6abb73eecfdba100" debugView="false"/>
     <file version="1" type="swf" name="brazilBonusBox" location="graphics_collectables" id="brazilBonusBox" hash="6e51e7a0b132e1cc5503e6d32a709200" debugView="false"/>
     <file version="1" type="xml" name="breachAsset" location="graphics_assets_coldwave" id="breachAsset" hash="758559a0de0f89cd404f3d70eed27e00" debugView="false"/>
-    <file version="1" type="xml" name="breachMoodAssetsDefinition" location="graphics_assets_coldwave" id="breachMoodAssetsDefinition" hash="dd3bd5640e72c8f6e47d4866b4d24c00" debugView="false"/>
+    <file version="1" type="xml" name="breachMoodAssetsDefinition" location="graphics_assets_coldwave" id="breachMoodAssetsDefinition" hash="71c9411911b8ce191ca1afac87fb8600" debugView="false"/>
     <file version="1" type="xml" name="breach_portal_atlas" location="graphics_assets_coldwave_atlas" id="breach_portal_atlas" hash="1c8c7619d76b54e60a7e7c92422ae500" debugView="false"/>
     <file version="1" type="png" name="breach_portal_texture" location="graphics_assets_coldwave_atlas" id="breach_portal_texture" hash="2fee8157a8595855d0505123f84ebb00" debugView="false"/>
     <file version="1" type="swf" name="britishBox" location="graphics_collectables" id="britishBox" hash="cdba2b5dbed07e4651e0ff789f8d4600" debugView="false"/>
@@ -522,12 +475,9 @@
     <file version="1" type="swf" name="candyBox" location="graphics_collectables" id="candyBox" hash="77b0fd6cc16971a6a3c86ca49bc8f000" debugView="false"/>
     <file version="1" type="swf" name="carnival_box" location="graphics_collectables" id="carnival_box" hash="b225e807b930aa3892371e941c17ca00" debugView="false"/>
     <file version="1" type="swf" name="chainBolt1" location="graphics_rockets" id="chainBolt1" hash="fa5aaf6edede63edd91f8c27cfcf9200" debugView="false"/>
-    <file version="1" type="xml" name="chatWindowUI" location="graphics_ui_windows_chat" id="chatWindowUI" hash="d520a3405b7da3071511e077becb1100" debugView="false"/>
-    <file version="1" type="swf" name="chatWindowUIAssets" location="graphics_ui_windows_chat" id="chatWindowUIAssets" hash="ddeefe5b7cc6ad8af5154af900fa5300" debugView="false"/>
     <file version="1" type="swf" name="christmasTreeAsteroid" location="graphics_assets" id="christmasTreeAsteroid" hash="f7ab383fc94f114b06e5d25327d76a00" debugView="false"/>
     <file version="1" type="swf" name="clanHierarchyWin" location="graphics_ui" id="clanHierarchyWin" hash="a8c3b58ca7016f383160cbd312e23400" debugView="false"/>
     <file version="1" type="swf" name="clickBubbles" location="graphics_ui" id="clickBubbles" hash="b9aba2c2d7ef78c2f94bf5e01ef1b900" debugView="false"/>
-    <file version="1" type="swf" name="clientSelection" location="graphics_ui" id="clientSelection" hash="6a49966f5cb47c9a3b0eb11bd483dd00" debugView="false"/>
     <file version="1" type="xml" name="clouds-darkred_atlasXml" location="graphics_backgrounds_tilemaps" id="clouds-darkred_atlasXml" hash="079f278adf9eaff8558e93b2c594dc00" debugView="false"/>
     <file version="1" type="jxr" name="clouds-darkred_texture" location="graphics_backgrounds_tilemaps" id="clouds-darkred_texture" hash="2b38f46d76f7a6e0ef557bbfbd89b000" debugView="false"/>
     <file version="1" type="atf" name="clouds-darkred_texture_atf" location="graphics_backgrounds_tilemaps" id="clouds-darkred_texture_atf" hash="3020e20295ecc324b14733dbd8cef900" debugView="false"/>
@@ -549,16 +499,15 @@
     <file version="1" type="xml" name="clouds_grey_atlasXml" location="graphics_backgrounds_tilemaps" id="clouds_grey_atlasXml" hash="50c01881e0ce163897c8cfab76875100" debugView="false"/>
     <file version="1" type="jxr" name="clouds_grey_texture" location="graphics_backgrounds_tilemaps" id="clouds_grey_texture" hash="df611d6b9c1ab654d945858878184700" debugView="false"/>
     <file version="1" type="atf" name="clouds_grey_texture_atf" location="graphics_backgrounds_tilemaps" id="clouds_grey_texture_atf" hash="3f627cf27a5b46c4b8e7790ff4460700" debugView="false"/>
-    <file version="1" type="swf" name="combatSounds" location="audio_sounds" id="combatSounds" hash="73991c78818fa3cfc4a99aba212a3900" debugView="false"/>
-    <file version="1" type="xml" name="confirmationPopup" location="graphics_ui_windows_confirmationPopup" id="confirmationPopup" hash="2fc1051c3ff0fa1dc39eaddb91474800" debugView="false"/>
+    <file version="1" type="swf" name="combatSounds" location="audio_sounds" id="combatSounds" hash="080e1c3e4c9219f5e07e37363ea6cc00" debugView="false"/>
     <file version="1" type="swf" name="contactsWindowUI" location="graphics_ui_windows_contacts" id="contactsWindowUI" hash="3ae69763f4dd303f8d4359a1fdcda800" debugView="false"/>
     <file version="1" type="xml" name="contacts_baseWindow" location="graphics_ui_windows_contacts" id="contacts_baseWindow" hash="05f6d8295c969d5cc27380f702031900" debugView="false"/>
     <file version="1" type="swf" name="controlPointProgress" location="graphics_effects" id="controlPointProgress" hash="bb7e7daa29d6a066a6efb7a1f3861e00" debugView="false"/>
     <file version="1" type="swf" name="crap0" location="graphics_assets" id="crap0" hash="195473ef737823b1023ae17227b0da00" debugView="false"/>
     <file version="1" type="swf" name="crestAndStar" location="graphics_collectables" id="crestAndStar" hash="4f9c1515be13e6b5ec130da795b31800" debugView="false"/>
-    <file version="1" type="swf" name="crystal_blue" location="graphics_lasers" id="crystal_blue" hash="d3db43f16257f4eabc69be29a0267200" debugView="false"/>
-    <file version="1" type="swf" name="crystal_red" location="graphics_lasers" id="crystal_red" hash="0df8f4fa35841d7f5ef42ab7768eb000" debugView="false"/>
-    <file version="1" type="swf" name="crystal_white" location="graphics_lasers" id="crystal_white" hash="9753e2557c4b102c92b08f6f9d9fb500" debugView="false"/>
+    <file version="1" type="swf" name="crystal_blue" location="graphics_lasers" id="crystal_blue" hash="94d572bdc6a6ea2ea1683407c6876100" debugView="false"/>
+    <file version="1" type="swf" name="crystal_red" location="graphics_lasers" id="crystal_red" hash="b2f618ee7853d0d2119cd7fc759a0e00" debugView="false"/>
+    <file version="1" type="swf" name="crystal_white" location="graphics_lasers" id="crystal_white" hash="9f8cd89c7924ec97621ad82f03d6c000" debugView="false"/>
     <file version="1" type="jxr" name="cubes202" location="graphics_backgrounds_planets" id="cubes202" hash="b3f653a2f54bd7aaab986fd1395b1b00" debugView="false"/>
     <file version="1" type="atf" name="cubes202_atf" location="graphics_backgrounds_planets" id="cubes202_atf" hash="7f07627a2e87ec04447d75852d99a500" debugView="false"/>
     <file version="1" type="png" name="cubes202_collider" location="graphics_backgrounds_planets" id="cubes202_collider" hash="b585bd1dfc90efac4bf6f4c354348700" debugView="false"/>
@@ -571,44 +520,35 @@
     <file version="1" type="swf" name="dagger" location="graphics_lasers" id="dagger" hash="d3583bd35f3cead58c0b6e41fc970400" debugView="false"/>
     <file version="1" type="swf" name="damageSounds" location="audio_sounds" id="damageSounds" hash="8abf04cdde34ffcda7aaf65b89729800" debugView="false"/>
     <file version="1" type="swf" name="demanerTransporterBootyBox" location="graphics_collectables" id="demanerTransporterBootyBox" hash="10c804834c195de3ecdfbedaf397b500" debugView="false"/>
-    <file version="1" type="swf" name="demonBox" location="graphics_collectables" id="demonBox" hash="6e0a8866eb7574fbffd03c0b321f2e00" debugView="false"/>
     <file version="1" type="swf" name="despawnEffect" location="graphics_effects" id="despawnEffect" hash="5d1d4d8bae381152fce32f8893ebca00" debugView="false"/>
-    <file version="1" type="swf" name="devolariumShot" location="graphics_lasers" id="devolariumShot" hash="2b905a12ce0f59e161fc577c96b37a00" debugView="false"/>
+    <file version="1" type="swf" name="devolariumShot" location="graphics_lasers" id="devolariumShot" hash="3f36c3f907e6ed9c30db54518d8e6200" debugView="false"/>
     <file version="1" type="swf" name="diminisher-effect" location="graphics_effects" id="diminisher-effect" hash="d8f4271a7550bafb27b9f057226bd400" debugView="false"/>
-    <file version="1" type="swf" name="direct_damage_mine" location="graphics_mines" id="direct_damage_mine" hash="ab363336468a538dc88facdeff448c00" debugView="false"/>
+    <file version="1" type="swf" name="direct_damage_mine" location="graphics_mines" id="direct_damage_mine" hash="d402503e7869c632c824508561fc0100" debugView="false"/>
     <file version="1" type="flv" name="disablingPepper" location="graphics_helpmovies" id="disablingPepper" hash="1d400e32c2ed9e4fb26684b590028000" debugView="false"/>
-    <file version="1" type="swf" name="disruption" location="graphics_effects" id="disruption" hash="c1bf04238b1e2d7e7dedcd76816d6c00" debugView="false"/>
     <file version="1" type="swf" name="dmgBuffs" location="graphics_effects" id="dmgBuffs" hash="325c3932b3b12eeec178a88253635f00" debugView="false"/>
-    <file version="1" type="xml" name="dominationWindowUI" location="graphics_ui_windows_domination" id="dominationWindowUI" hash="86bcbb6b1dd0f0086b840edb8d234d00" debugView="false"/>
+    <file version="1" type="xml" name="dominationWindowUI" location="graphics_ui_windows_domination" id="dominationWindowUI" hash="39b4ca4c8069cb6d1a95b4d573bbc400" debugView="false"/>
     <file version="1" type="swf" name="dominationWindowUILibrary" location="graphics_ui_windows_domination" id="dominationWindowUILibrary" hash="17f869223e1695a5250e1c24d50fbf00" debugView="false"/>
     <file version="1" type="swf" name="downGradedWindow" location="graphics_ui" id="downGradedWindow" hash="349a3fd1119699137fd3dc62673d2300" debugView="false"/>
     <file version="1" type="swf" name="droneGroup" location="graphics_assets" id="droneGroup" hash="666a1be55959c0fef3adfe06f5de7c00" debugView="false"/>
     <file version="1" type="swf" name="droneShoots" location="graphics_lasers" id="droneShoots" hash="21548b0f8d059a7a20eb5c0efc498100" debugView="false"/>
     <file version="1" type="swf" name="dronelaser0" location="graphics_lasers" id="dronelaser0" hash="011d9fd3fbf17e193636ecd2b2b12200" debugView="false"/>
-    <file version="1" type="swf" name="drones" location="graphics_assets" id="drones" hash="a4f7bf3be2a15313642812f9cc820700" debugView="false"/>
-    <file version="1" type="swf" name="drones_halloween_2015" location="graphics_assets" id="drones_halloween_2015" hash="a3ae627ae396ab31d2d9514c69775400" debugView="false"/>
-    <file version="1" type="xml" name="easter2016AssetsDefinition" location="graphics_assets_easter2016" id="easter2016AssetsDefinition" hash="6da62b8f3fd51dca19fef5cd0d5f6200" debugView="false"/>
+    <file version="1" type="swf" name="drones" location="graphics_assets" id="drones" hash="7844787c58cb92f9eccab0a191e25d00" debugView="false"/>
     <file version="1" type="swf" name="easterEgg" location="graphics_collectables" id="easterEgg" hash="83161818c3b0b2be3d3f777668872500" debugView="false"/>
     <file version="1" type="png" name="eic_bg" location="graphics_hintsystem_characters" id="eic_bg" hash="c1665239d5c72b15738c14f82bccbe00" debugView="false"/>
     <file version="1" type="png" name="eic_char" location="graphics_hintsystem_characters" id="eic_char" hash="3b07504f6aaceba0c3b3c5cafe4af100" debugView="false"/>
     <file version="1" type="swf" name="ela0" location="graphics_shields" id="ela0" hash="393de1ed1c1377ec40850b3701a36500" debugView="false"/>
     <file version="1" type="swf" name="elaCloud1" location="graphics_lasers" id="elaCloud1" hash="9ca0853f976fd70463d334875d5dd400" debugView="false"/>
     <file version="1" type="swf" name="emergencyRepair" location="graphics_effects" id="emergencyRepair" hash="e4804782c15a6e5b226fb44bed1a2900" debugView="false"/>
-    <file version="1" type="swf" name="emp_mine" location="graphics_mines" id="emp_mine" hash="d73f70b171fbccc6fa984074064c1200" debugView="false"/>
+    <file version="1" type="swf" name="emp_mine" location="graphics_mines" id="emp_mine" hash="2660779b2639b97c88db09cd96aa3a00" debugView="false"/>
     <file version="1" type="swf" name="emperorStickyBomb" location="graphics_effects" id="emperorStickyBomb" hash="0f492b2e7b014f1cfc7d82181a923b00" debugView="false"/>
-    <file version="1" type="swf" name="engine0" location="graphics_engines" id="engine0" hash="6358b1381b5ea6bd55bbb0bf38cc3c00" debugView="false"/>
-    <file version="1" type="swf" name="engine1" location="graphics_engines" id="engine1" hash="def538ab2afc1e12b6b3df0e9508a900" debugView="false"/>
-    <file version="1" type="swf" name="engineSmoke0" location="graphics_smoke" id="engineSmoke0" hash="c04eee611aa4f59f397b153321d76a00" debugView="false"/>
-    <file version="1" type="swf" name="engineSmoke1" location="graphics_smoke" id="engineSmoke1" hash="2b28df612b8d0caedb14cf2a4865fb00" debugView="false"/>
+    <file version="1" type="swf" name="engine0" location="graphics_engines" id="engine0" hash="167df7c249da6d0335ed89f41a1fa100" debugView="false"/>
+    <file version="1" type="swf" name="engine1" location="graphics_engines" id="engine1" hash="9049144e115c99150e28885ee5d04e00" debugView="false"/>
+    <file version="1" type="swf" name="engineSmoke0" location="graphics_smoke" id="engineSmoke0" hash="4a7e03cea2c58282ae50f31222c44000" debugView="false"/>
+    <file version="1" type="swf" name="engineSmoke1" location="graphics_smoke" id="engineSmoke1" hash="33af16af0c354887f1a62e6fe5bc4e00" debugView="false"/>
     <file version="1" type="jxr" name="epsilon-asteroids" location="graphics_backgrounds_basic" id="epsilon-asteroids" hash="5e1616abebae36d9b947d5a95f148d00" debugView="false"/>
     <file version="1" type="atf" name="epsilon-asteroids_atf" location="graphics_backgrounds_basic" id="epsilon-asteroids_atf" hash="954c53f416b842699cdcc0963a31a200" debugView="false"/>
     <file version="1" type="jxr" name="epsilon-clouds" location="graphics_backgrounds_basic" id="epsilon-clouds" hash="6c68be840c6a27e5306583aaf1fea000" debugView="false"/>
     <file version="1" type="atf" name="epsilon-clouds_atf" location="graphics_backgrounds_basic" id="epsilon-clouds_atf" hash="38072e71aed04a13afeb01026286fb00" debugView="false"/>
-    <file version="1" type="xml" name="eventProgress" location="graphics_ui_windows_eventProgress" id="eventProgress" hash="c7b18bc86a33fa30914efe39760e8100" debugView="false"/>
-    <file version="1" type="swf" name="eventProgressUI" location="graphics_ui_windows_eventProgress" id="eventProgressUI" hash="8f32ff87d641d10ee4c2bf740570e100" debugView="false"/>
-    <file version="1" type="xml" name="event_hatching_out" location="graphics_ui_windows_eventProgress_externals" id="event_hatching_out" hash="aced95376b970239c5fd5a4db4b2ad00" debugView="false"/>
-    <file version="1" type="xml" name="event_hatching_out2" location="graphics_ui_windows_eventProgress_testdata" id="event_hatching_out2" hash="348fe19971feb6a3c2d551f59b37a100" debugView="false"/>
-    <file version="1" type="xml" name="event_hatching_out3" location="graphics_ui_windows_eventProgress_testdata" id="event_hatching_out3" hash="1e193cf26d6676b22a8c2452a0037700" debugView="false"/>
     <file version="1" type="swf" name="explosion0" location="graphics_pyroEffects" id="explosion0" hash="e287a10d63f1d5742b56be60794eb300" debugView="false"/>
     <file version="1" type="swf" name="explosion1" location="graphics_pyroEffects" id="explosion1" hash="13256ed4ac0fc2636c47a2403c309d00" debugView="false"/>
     <file version="1" type="swf" name="explosion2" location="graphics_pyroEffects" id="explosion2" hash="c36f90eed4703a1bdb872e6d18d1d200" debugView="false"/>
@@ -621,9 +561,9 @@
     <file version="1" type="swf" name="explosion8" location="graphics_pyroEffects" id="explosion8" hash="e6df223e8c4b2466a59d6e07f7f75500" debugView="false"/>
     <file version="1" type="swf" name="explosion9" location="graphics_pyroEffects" id="explosion9" hash="eb75afcd7b73651c34cb781ea43fee00" debugView="false"/>
     <file version="1" type="swf" name="fathersDayBox" location="graphics_collectables" id="fathersDayBox" hash="b9fab582d81fb420d858da3c41aa4c00" debugView="false"/>
-    <file version="1" type="swf" name="featuresMenu" location="graphics_ui" id="featuresMenu" hash="67f88172c22f0bd211d39001a09c7300" debugView="false"/>
-    <file version="1" type="xml" name="featuresMenu_atlasXml" location="graphics_ui" id="featuresMenu_atlasXml" hash="e216acbe469fda76cafb4adeba3cd500" debugView="false"/>
-    <file version="1" type="png" name="featuresMenu_texture" location="graphics_ui" id="featuresMenu_texture" hash="50621f35b41496715f21845ebccf5000" debugView="false"/>
+    <file version="1" type="swf" name="featuresMenu" location="graphics_ui" id="featuresMenu" hash="34248e0056b5a01f879e57d5967a3c00" debugView="false"/>
+    <file version="1" type="xml" name="featuresMenu_atlasXml" location="graphics_ui" id="featuresMenu_atlasXml" hash="e569b6608a6beef4857c6c09b947b300" debugView="false"/>
+    <file version="1" type="png" name="featuresMenu_texture" location="graphics_ui" id="featuresMenu_texture" hash="407ea0dc7846973b0f63ed0a59628600" debugView="false"/>
     <file version="1" type="jxr" name="fifth-birthday-asteroids" location="graphics_backgrounds_basic" id="fifth-birthday-asteroids" hash="00cd6f086eeea3c9229e218a86d57600" debugView="false"/>
     <file version="1" type="atf" name="fifth-birthday-asteroids_atf" location="graphics_backgrounds_basic" id="fifth-birthday-asteroids_atf" hash="12f2d8345211a2dcc841f12e5e593a00" debugView="false"/>
     <file version="1" type="jxr" name="fifth-birthday-clouds-1" location="graphics_backgrounds_basic" id="fifth-birthday-clouds-1" hash="f496b919971b0151bfbc563dd0fa4100" debugView="false"/>
@@ -652,12 +592,12 @@
     <file version="1" type="swf" name="fireworks_box" location="graphics_collectables" id="fireworks_box" hash="fbbe9c7317a379a47df28cad92d5dd00" debugView="false"/>
     <file version="1" type="swf" name="flower" location="graphics_collectables" id="flower" hash="d41d8cd98f00b204e9800998ecf84200" debugView="false"/>
     <file version="1" type="swf" name="flower_mothersday" location="graphics_collectables" id="flower_mothersday" hash="70431f5947cb7eb37513c1cac0ed6f00" debugView="false"/>
-    <file version="1" type="swf" name="footballAbsorber" location="graphics_lasers" id="footballAbsorber" hash="dc2fbea5683e1a2ed737f0a4deed2200" debugView="false"/>
-    <file version="1" type="swf" name="footballLaser" location="graphics_lasers" id="footballLaser" hash="5c4e9eb2de18d7cb89dfcf5fb6049000" debugView="false"/>
-    <file version="1" type="xml" name="football_4-4" location="graphics_custommaps" id="football_4-4" hash="867b01af51b794d2ae6355c553c6f100" debugView="false"/>
+    <file version="1" type="swf" name="footballAbsorber" location="graphics_lasers" id="footballAbsorber" hash="af7f95e84c77298572b800d192af3400" debugView="false"/>
+    <file version="1" type="swf" name="footballLaser" location="graphics_lasers" id="footballLaser" hash="2cc6d40820a7acbfc34c7e9c966bbf00" debugView="false"/>
+    <file version="1" type="xml" name="football_4-4" location="graphics_custommaps" id="football_4-4" hash="f4d08167e9ef11ac97be2f2641c7d100" debugView="false"/>
     <file version="1" type="swf" name="football_box" location="graphics_collectables" id="football_box" hash="e7bef28339f17bea17223318fe7dda00" debugView="false"/>
-    <file version="1" type="xml" name="football_invasion" location="graphics_custommaps" id="football_invasion" hash="344783d6dacc5f1a3af80ce276e5be00" debugView="false"/>
-    <file version="1" type="xml" name="football_tdm" location="graphics_custommaps" id="football_tdm" hash="525cf0e3964ed9849c4b72ecf030ab00" debugView="false"/>
+    <file version="1" type="xml" name="football_invasion" location="graphics_custommaps" id="football_invasion" hash="22c241a5a2d452728caf565c22b19500" debugView="false"/>
+    <file version="1" type="xml" name="football_tdm" location="graphics_custommaps" id="football_tdm" hash="0765bc0398eb35ecf173313a2443f100" debugView="false"/>
     <file version="1" type="jxr" name="freighter_01" location="graphics_backgrounds_basic" id="freighter_01" hash="eba99d949a4a87274570dad5d1802700" debugView="false"/>
     <file version="1" type="atf" name="freighter_01_atf" location="graphics_backgrounds_basic" id="freighter_01_atf" hash="a591fe0fb34eba579c232a6dc5a13e00" debugView="false"/>
     <file version="1" type="jxr" name="freighter_02" location="graphics_backgrounds_basic" id="freighter_02" hash="6ea539fedf8468e5029bc2bb08385d00" debugView="false"/>
@@ -665,14 +605,13 @@
     <file version="1" type="swf" name="frostedGatesEffect" location="graphics_effects" id="frostedGatesEffect" hash="46b39cdcada5c8979e7a860a7ec07600" debugView="false"/>
     <file version="1" type="xml" name="frostedGatesEffect_atlasXml" location="graphics_effects" id="frostedGatesEffect_atlasXml" hash="4727585750b1fecf6268a9bfeb0bf600" debugView="false"/>
     <file version="1" type="png" name="frostedGatesEffect_texture" location="graphics_effects" id="frostedGatesEffect_texture" hash="f06a42247d2ee73ba42f1977612fe700" debugView="false"/>
-    <file version="1" type="swf" name="gameclientCommonUI" location="graphics_ui" id="gameclientCommonUI" hash="5a17d374ad2a3f64055d7dc566d64300" debugView="false"/>
-    <file version="1" type="xml" name="gameclientCommonUIStructure" location="graphics_ui" id="gameclientCommonUIStructure" hash="c0d7d865abccd8ca09e65382d4a31500" debugView="false"/>
+    <file version="1" type="swf" name="gameclientCommonUI" location="graphics_ui" id="gameclientCommonUI" hash="200eaf698836c56cd57198ba2e39a100" debugView="false"/>
+    <file version="1" type="xml" name="gameclientCommonUIStructure" location="graphics_ui" id="gameclientCommonUIStructure" hash="6e74ccc0db4b94d43e3c7b7a379ccc00" debugView="false"/>
     <file version="1" type="swf" name="germanUnificationDayBox" location="graphics_collectables" id="germanUnificationDayBox" hash="94fb294ae9acc5fa292ab6995cc7d700" debugView="false"/>
-    <file version="1" type="swf" name="groupSystemShipIcons" location="graphics_groupsystem" id="groupSystemShipIcons" hash="0984a579cfa143bca82e136526981c00" debugView="false"/>
+    <file version="1" type="swf" name="groupSystemShipIcons" location="graphics_groupsystem" id="groupSystemShipIcons" hash="ffc5dd21690e2db1e25b12f105cb3f00" debugView="false"/>
     <file version="1" type="swf" name="header_label" location="graphics_jackpot" id="header_label" hash="605ff0914698e229b8ba68c12698cd00" debugView="false"/>
     <file version="1" type="swf" name="healEffect" location="graphics_effects" id="healEffect" hash="fd34a98dbdbdca25d9ca1aa9c3245300" debugView="false"/>
     <file version="1" type="swf" name="healthStation" location="graphics_stations" id="healthStation" hash="ef6cde33f6e11e0f19aef43192365600" debugView="false"/>
-    <file version="1" type="swf" name="helix_box" location="graphics_collectables" id="helix_box" hash="220745b1b6486a5a050d2cee9eb1bb00" debugView="false"/>
     <file version="1" type="swf" name="helpmovie_0" location="graphics_helpmovies" id="helpmovie_0" hash="08743743f3905ff594744b2758cfd500" debugView="false"/>
     <file version="1" type="swf" name="helpmovie_1_faction1" location="graphics_helpmovies" id="helpmovie_1_faction1" hash="85630b4d26da0a7a3b4f80ccda2d6e00" debugView="false"/>
     <file version="1" type="swf" name="helpmovie_1_faction2" location="graphics_helpmovies" id="helpmovie_1_faction2" hash="066df74be98be6d8bcb211cefedd6d00" debugView="false"/>
@@ -680,8 +619,6 @@
     <file version="1" type="swf" name="helpmovie_2" location="graphics_helpmovies" id="helpmovie_2" hash="574a9a17369e71c421ce014143d06b00" debugView="false"/>
     <file version="1" type="swf" name="helpmovie_3" location="graphics_helpmovies" id="helpmovie_3" hash="a1f9fdca2bc9e8fc35df1b87e3964100" debugView="false"/>
     <file version="1" type="swf" name="highlightEffect" location="graphics_effects" id="highlightEffect" hash="00f6e9be94fa2d667b315994a7c57000" debugView="false"/>
-    <file version="1" type="png" name="hint-system_image_allocate_ship" location="graphics_hintsystem_slides_gameentry" id="hint-system_image_allocate_ship" hash="dab71246eb551e758bcfd7f0ea397900" debugView="false"/>
-    <file version="1" type="png" name="hint-system_image_assembly" location="graphics_hintsystem_slides_targeted" id="hint-system_image_assembly" hash="0483d8b0912d3c644a06595cd0f42200" debugView="false"/>
     <file version="1" type="png" name="hint-system_image_auction_house" location="graphics_hintsystem_slides_targeted" id="hint-system_image_auction_house" hash="9df4a67cd9433b1d529eb83f30505400" debugView="false"/>
     <file version="1" type="png" name="hint-system_image_better-ship" location="graphics_hintsystem_slides_gameentry" id="hint-system_image_better-ship" hash="c062269b9b2c133e5b307cb4746b3e00" debugView="false"/>
     <file version="1" type="png" name="hint-system_image_clan-battle-station" location="graphics_hintsystem_slides_gameentry" id="hint-system_image_clan-battle-station" hash="d4c23b9a3f4bb25f7779a43c1cfbdd00" debugView="false"/>
@@ -689,7 +626,6 @@
     <file version="1" type="png" name="hint-system_image_collect-ore" location="graphics_hintsystem_slides_gameentry" id="hint-system_image_collect-ore" hash="940f197afc9c4c23ea3767361850c000" debugView="false"/>
     <file version="1" type="png" name="hint-system_image_combat_cargobox" location="graphics_hintsystem_slides_gameentry" id="hint-system_image_combat_cargobox" hash="f5dac664841ff93585c4d03af205e100" debugView="false"/>
     <file version="1" type="png" name="hint-system_image_contactlist" location="graphics_hintsystem_slides_targeted" id="hint-system_image_contactlist" hash="1865c1abc76671fa69ffe812de4ece00" debugView="false"/>
-    <file version="1" type="png" name="hint-system_image_drag" location="graphics_hintsystem_slides_gameentry" id="hint-system_image_drag" hash="c80a48050532e4ba7c0899505b247500" debugView="false"/>
     <file version="1" type="png" name="hint-system_image_equipment" location="graphics_hintsystem_slides_gameentry" id="hint-system_image_equipment" hash="249767c58d0100b70fff779d1dc1be00" debugView="false"/>
     <file version="1" type="png" name="hint-system_image_extracpus" location="graphics_hintsystem_slides_targeted" id="hint-system_image_extracpus" hash="3638c21ffa09e089b2ad4033736e9600" debugView="false"/>
     <file version="1" type="png" name="hint-system_image_full-cargo" location="graphics_hintsystem_slides_gameentry" id="hint-system_image_full-cargo" hash="ca8d9a2fea3450ed7c2943ccbe765000" debugView="false"/>
@@ -713,10 +649,8 @@
     <file version="1" type="png" name="hint-system_image_jump-cpu_04" location="graphics_hintsystem_slides_gameentry" id="hint-system_image_jump-cpu_04" hash="2b567cd58a44798c4bffe4117d520a00" debugView="false"/>
     <file version="1" type="png" name="hint-system_image_looking_for_groups" location="graphics_hintsystem_slides_targeted" id="hint-system_image_looking_for_groups" hash="42094f5ea2a37cf88c352e3464816500" debugView="false"/>
     <file version="1" type="png" name="hint-system_image_missing" location="graphics_hintsystem_slides_gameentry" id="hint-system_image_missing" hash="b46db1bfe204402bc1d6157c14535b00" debugView="false"/>
-    <file version="1" type="png" name="hint-system_image_motivational_survey" location="graphics_hintsystem_slides_targeted" id="hint-system_image_motivational_survey" hash="bd397f7ac09216fa4503946fbd9aff00" debugView="false"/>
     <file version="1" type="png" name="hint-system_image_ores_transfer" location="graphics_hintsystem_slides_targeted" id="hint-system_image_ores_transfer" hash="595be77feea7b54d59534cca1b729d00" debugView="false"/>
     <file version="1" type="png" name="hint-system_image_palladium" location="graphics_hintsystem_slides_targeted" id="hint-system_image_palladium" hash="03d3e16a46d6ed4406c21a774cfa3700" debugView="false"/>
-    <file version="1" type="png" name="hint-system_image_proactionbar" location="graphics_hintsystem_slides_targeted" id="hint-system_image_proactionbar" hash="549d8338d53f55fe70e16c4d1c697a00" debugView="false"/>
     <file version="1" type="png" name="hint-system_image_pvp_warning" location="graphics_hintsystem_slides_gameentry" id="hint-system_image_pvp_warning" hash="24b590eb3a3771e373f0f5b525157600" debugView="false"/>
     <file version="1" type="png" name="hint-system_image_quickbar_01" location="graphics_hintsystem_slides_gameentry" id="hint-system_image_quickbar_01" hash="ab1d17e0f0920a216e2af401faa5cf00" debugView="false"/>
     <file version="1" type="png" name="hint-system_image_quickbar_02" location="graphics_hintsystem_slides_gameentry" id="hint-system_image_quickbar_02" hash="17d3b865605ac3927cdc95b7323ed900" debugView="false"/>
@@ -764,9 +698,9 @@
     <file version="1" type="png" name="hint-system_image_welcome_screen_mmo" location="graphics_hintsystem_slides_gameentry" id="hint-system_image_welcome_screen_mmo" hash="79af58fc4746101ea956498dc8284200" debugView="false"/>
     <file version="1" type="png" name="hint-system_image_welcome_screen_vru" location="graphics_hintsystem_slides_gameentry" id="hint-system_image_welcome_screen_vru" hash="f373b69f76e974b9fdc7578522ffa700" debugView="false"/>
     <file version="1" type="swf" name="hintSystemUI" location="graphics_hintsystem" id="hintSystemUI" hash="a4755f4c80c61e7bd68ee9d9db7fbf00" debugView="false"/>
-    <file version="1" type="xml" name="hintSystem_baseWindow" location="graphics_hintsystem_uixml" id="hintSystem_baseWindow" hash="7c714feaea165ffda2f8f3e9e2102200" debugView="false"/>
+    <file version="1" type="xml" name="hintSystem_baseWindow" location="graphics_hintsystem_uixml" id="hintSystem_baseWindow" hash="e8fb19ba1d2db422a3c4265baaa4d700" debugView="false"/>
     <file version="1" type="xml" name="hintSystem_overviewWindow" location="graphics_hintsystem_uixml" id="hintSystem_overviewWindow" hash="32a6a77b58ebfbadd83999a2c9cdc700" debugView="false"/>
-    <file version="1" type="xml" name="hintSystem_skins" location="graphics_hintsystem_uixml" id="hintSystem_skins" hash="672e128756a7dfadc3541db4a75edf00" debugView="false"/>
+    <file version="1" type="xml" name="hintSystem_skins" location="graphics_hintsystem_uixml" id="hintSystem_skins" hash="baaf7371cfa494bddf1d98b43ad69300" debugView="false"/>
     <file version="1" type="swf" name="hint_bigboyDefensive" location="graphics_hints" id="hint_bigboyDefensive" hash="931d460a0ffc63be4623fbf1ed5c4700" debugView="false"/>
     <file version="1" type="swf" name="hint_bigboyOffensive" location="graphics_hints" id="hint_bigboyOffensive" hash="8ad2d6b08b17d5489d779653fe5af100" debugView="false"/>
     <file version="1" type="swf" name="hint_booster_bonus_box" location="graphics_hints" id="hint_booster_bonus_box" hash="ec908c0563e8dfb18bb2999a0da99f00" debugView="false"/>
@@ -793,15 +727,15 @@
     <file version="1" type="swf" name="homebaseVRUOutpost" location="graphics_specialMapAssets_homebase" id="homebaseVRUOutpost" hash="913cb4199656e7e4324e4e4ef1310700" debugView="false"/>
     <file version="1" type="swf" name="hungarianRevolutionBox" location="graphics_collectables" id="hungarianRevolutionBox" hash="17191f3960ea03c50630037aa2afe900" debugView="false"/>
     <file version="1" type="xml" name="iceBergAssetDefinition" location="graphics_assets_coldwave" id="iceBergAssetDefinition" hash="0551ed1995c749431924ef4ffd4ee500" debugView="false"/>
-    <file version="1" type="xml" name="iceBergAssetLarge" location="graphics_assets_coldwave" id="iceBergAssetLarge" hash="204998963f46632952d4ba292740b100" debugView="false"/>
-    <file version="1" type="xml" name="iceBergAssetMedium" location="graphics_assets_coldwave" id="iceBergAssetMedium" hash="57c955abb35aa160c34b00ece8ad9900" debugView="false"/>
-    <file version="1" type="xml" name="iceBergAssetSmall" location="graphics_assets_coldwave" id="iceBergAssetSmall" hash="aabd0d06eaaa7e1ea702639f04430200" debugView="false"/>
+    <file version="1" type="xml" name="iceBergAssetLarge" location="graphics_assets_coldwave" id="iceBergAssetLarge" hash="1ca10aeb8e8472ce7b71ee6f5a67b900" debugView="false"/>
+    <file version="1" type="xml" name="iceBergAssetMedium" location="graphics_assets_coldwave" id="iceBergAssetMedium" hash="8cfeee5cd1d556a410d29cda36d03e00" debugView="false"/>
+    <file version="1" type="xml" name="iceBergAssetSmall" location="graphics_assets_coldwave" id="iceBergAssetSmall" hash="76461b36d467b33034115255c1b2e800" debugView="false"/>
     <file version="1" type="xml" name="iceberg_atlas" location="graphics_assets_coldwave_atlas" id="iceberg_atlas" hash="335015120a28c5797ffbb405a2c49200" debugView="false"/>
     <file version="1" type="png" name="iceberg_texture" location="graphics_assets_coldwave_atlas" id="iceberg_texture" hash="baa0045fffae4032814a189a562b7b00" debugView="false"/>
-    <file version="1" type="swf" name="icons" location="graphics_ui" id="icons" hash="5d152e84fe728f6b633641c5e7979700" debugView="false"/>
+    <file version="1" type="swf" name="icons" location="graphics_ui" id="icons" hash="86a36af85551e2b306b7ec93ba1a8b00" debugView="false"/>
     <file version="1" type="swf" name="icyBox" location="graphics_collectables" id="icyBox" hash="fd37fc55bd7f4ed192a273906f055700" debugView="false"/>
     <file version="1" type="swf" name="icyCube" location="graphics_effects" id="icyCube" hash="5f8db9db994478005f662ee6e56b1f00" debugView="false"/>
-    <file version="1" type="xml" name="influenceWindowUI" location="graphics_ui_windows_influenceWindow" id="influenceWindowUI" hash="cfce4ed272e1321239c8ce93d2a9e200" debugView="false"/>
+    <file version="1" type="xml" name="influenceWindowUI" location="graphics_ui_windows_influenceWindow" id="influenceWindowUI" hash="e880b9394d564463959681482bf8d300" debugView="false"/>
     <file version="1" type="swf" name="influenceWindowUILibrary" location="graphics_ui_windows_influenceWindow" id="influenceWindowUILibrary" hash="6f71bd66ec514d902b95814755de8300" debugView="false"/>
     <file version="1" type="swf" name="instaShield" location="graphics_shields" id="instaShield" hash="a14fd6a2d56409384bc5a266d592f500" debugView="false"/>
     <file version="1" type="swf" name="install_module" location="graphics_effects" id="install_module" hash="8e666a9259d667e42e475d3b1f7ffa00" debugView="false"/>
@@ -810,20 +744,20 @@
     <file version="1" type="swf" name="invincibilityShield2" location="graphics_shields" id="invincibilityShield2" hash="952b8418c4ceaa27d2ed19b0e7bb2300" debugView="false"/>
     <file version="1" type="swf" name="invisibleRefinery" location="graphics_specialMapAssets_homebase" id="invisibleRefinery" hash="07ec32c71f72f450744df11aa8e38500" debugView="false"/>
     <file version="1" type="swf" name="itemsControlMenu" location="graphics_ui" id="itemsControlMenu" hash="91522e0ec19677db4d0b163406bc3500" debugView="false"/>
-    <file version="1" type="xml" name="itemsControlMenu_atlasXml" location="graphics_ui" id="itemsControlMenu_atlasXml" hash="c27b30f561cc3236f14ab93cddb64600" debugView="false"/>
-    <file version="1" type="png" name="itemsControlMenu_texture" location="graphics_ui" id="itemsControlMenu_texture" hash="b5a67134e3406f57b12eb93dd592e200" debugView="false"/>
+    <file version="1" type="xml" name="itemsControlMenu_atlasXml" location="graphics_ui" id="itemsControlMenu_atlasXml" hash="bbd0e18619a7ac105059360ebeb5f800" debugView="false"/>
+    <file version="1" type="png" name="itemsControlMenu_texture" location="graphics_ui" id="itemsControlMenu_texture" hash="e038adc731815b9b0b27dfce175fc700" debugView="false"/>
     <file version="1" type="swf" name="jackpot" location="graphics_jackpot" id="jackpot" hash="54551e37208d0c6bb2d15718dbf59b00" debugView="false"/>
     <file version="1" type="swf" name="jackpotResultWin" location="graphics_jackpot" id="jackpotResultWin" hash="eb094938caf0613d83c257fa2d9f5300" debugView="false"/>
     <file version="1" type="xml" name="jumpAnimation_atlasXml" location="graphics_pyroEffects" id="jumpAnimation_atlasXml" hash="ba65f33c7c43a906ed5cada46ddf5700" debugView="false"/>
     <file version="1" type="png" name="jumpAnimation_texture" location="graphics_pyroEffects" id="jumpAnimation_texture" hash="070c407bd37a7d0cd9ec792b1a244300" debugView="false"/>
     <file version="1" type="swf" name="jumpportal0" location="graphics_pyroEffects" id="jumpportal0" hash="00d58519afdd2c6ff55eae4ad28de100" debugView="false"/>
-    <file version="1" type="swf" name="laser0" location="graphics_lasers" id="laser0" hash="f8bb8b12338ecbed8aa26b4a73bf8800" debugView="false"/>
-    <file version="1" type="swf" name="laser1" location="graphics_lasers" id="laser1" hash="318a3bb880785d7ba2089063860e6400" debugView="false"/>
-    <file version="1" type="swf" name="laser2" location="graphics_lasers" id="laser2" hash="620633d89013c99b34da778638a56700" debugView="false"/>
-    <file version="1" type="swf" name="laser3" location="graphics_lasers" id="laser3" hash="2ed051fba02a863b45d690e4d8bd3e00" debugView="false"/>
+    <file version="1" type="swf" name="laser0" location="graphics_lasers" id="laser0" hash="79273f7d11ea2ee729cadcb772d6be00" debugView="false"/>
+    <file version="1" type="swf" name="laser1" location="graphics_lasers" id="laser1" hash="a27bb496b31486d064877ef64f185900" debugView="false"/>
+    <file version="1" type="swf" name="laser2" location="graphics_lasers" id="laser2" hash="309fe267673b878e8a55410ec8c69000" debugView="false"/>
+    <file version="1" type="swf" name="laser3" location="graphics_lasers" id="laser3" hash="30c80980b9ae060a3b023c810fba3400" debugView="false"/>
     <file version="1" type="swf" name="laser4" location="graphics_lasers" id="laser4" hash="ad527fa9a509038fa570879ed383e700" debugView="false"/>
-    <file version="1" type="swf" name="laser5" location="graphics_lasers" id="laser5" hash="1b18b262f75b614da17a14ff57d68900" debugView="false"/>
-    <file version="1" type="swf" name="laser6" location="graphics_lasers" id="laser6" hash="77a0805cf775a4849bd1eab523480100" debugView="false"/>
+    <file version="1" type="swf" name="laser5" location="graphics_lasers" id="laser5" hash="ac10a2549efc390cb65d158c621ec900" debugView="false"/>
+    <file version="1" type="swf" name="laser6" location="graphics_lasers" id="laser6" hash="7ba4f9c2b0e9e4a98090c93b4847cd00" debugView="false"/>
     <file version="1" type="swf" name="laser7_sar01" location="graphics_lasers" id="laser7_sar01" hash="232c804a139d79599398184a0dda6c00" debugView="false"/>
     <file version="1" type="swf" name="laser7_sar02" location="graphics_lasers" id="laser7_sar02" hash="7dd02bbf35d0c68797696f6ac272e600" debugView="false"/>
     <file version="1" type="swf" name="laserDamage0" location="graphics_pyroEffects" id="laserDamage0" hash="e67d8e18a3694211c207e565d1bf3b00" debugView="false"/>
@@ -833,9 +767,9 @@
     <file version="1" type="swf" name="laserParaside" location="graphics_lasers" id="laserParaside" hash="1d8a772073163da9fe1d6a8dfd663300" debugView="false"/>
     <file version="1" type="swf" name="laserParasideSkilled" location="graphics_lasers" id="laserParasideSkilled" hash="5f220f3f314df3348b966879c332af00" debugView="false"/>
     <file version="1" type="swf" name="laser_1" location="graphics_assets" id="laser_1" hash="44c91553729d8609cf815cfa9ac4eb00" debugView="false"/>
-    <file version="1" type="swf" name="laser_halloween" location="graphics_lasers" id="laser_halloween" hash="ab28f833f3010dd9867326e567877600" debugView="false"/>
-    <file version="1" type="swf" name="laser_hitec_minion" location="graphics_lasers" id="laser_hitec_minion" hash="98c381319d6ddce74de9ae344f3ffb00" debugView="false"/>
-    <file version="1" type="swf" name="laser_hitec_mothership" location="graphics_lasers" id="laser_hitec_mothership" hash="7fea7c70a6bf36b99a115a76ebb73200" debugView="false"/>
+    <file version="1" type="swf" name="laser_halloween" location="graphics_lasers" id="laser_halloween" hash="372fa9dd968171e1a23fe207508fb500" debugView="false"/>
+    <file version="1" type="swf" name="laser_hitec_minion" location="graphics_lasers" id="laser_hitec_minion" hash="ccacff6df7ec11c4f34c01a8a75fab00" debugView="false"/>
+    <file version="1" type="swf" name="laser_hitec_mothership" location="graphics_lasers" id="laser_hitec_mothership" hash="07fdcb91a22002ecd8b12aa8f011de00" debugView="false"/>
     <file version="1" type="jxr" name="layer1" location="graphics_backgrounds_basic" id="layer1" hash="37e3568254c05c84a3da727885ccf300" debugView="false"/>
     <file version="1" type="atf" name="layer1_atf" location="graphics_backgrounds_basic" id="layer1_atf" hash="758d661954fee9dc976b826a53b38600" debugView="false"/>
     <file version="1" type="jxr" name="layer2" location="graphics_backgrounds_basic" id="layer2" hash="037a50d6b6f56862b686979844d8b500" debugView="false"/>
@@ -853,45 +787,40 @@
     <file version="1" type="swf" name="lensflare2" location="graphics_lensflares" id="lensflare2" hash="07a6572dad17cbd4e60d3c7fd92b9100" debugView="false"/>
     <file version="1" type="swf" name="lensflare3" location="graphics_lensflares" id="lensflare3" hash="2316398a0fac6a03e72a1e35a94d0900" debugView="false"/>
     <file version="1" type="swf" name="lensflare5" location="graphics_lensflares" id="lensflare5" hash="ebd8d517ade0908ec1e9eea02a003800" debugView="false"/>
-    <file version="1" type="swf" name="lensflare6" location="graphics_lensflares" id="lensflare6" hash="6e1555fcca427d27302df6ab8df95d00" debugView="false"/>
-    <file version="1" type="swf" name="levelUp" location="graphics_assets" id="levelUp" hash="7437ec51878b995b5e8e38051de5a100" debugView="false"/>
+    <file version="1" type="swf" name="levelUp" location="graphics_assets" id="levelUp" hash="9617b0d7a94a76a530441f07af025100" debugView="false"/>
     <file version="1" type="swf" name="locator" location="graphics_effects" id="locator" hash="4e976d543ee85fe369a73c1fbbd03500" debugView="false"/>
     <file version="1" type="swf" name="loopingCollectorBeam" location="graphics_effects" id="loopingCollectorBeam" hash="a64e513586b8fd473b4cbe8e93a3f200" debugView="false"/>
-    <file version="1" type="swf" name="lordakiumShot" location="graphics_lasers" id="lordakiumShot" hash="436f5fd37c7d4ef6d53461be7cbb8200" debugView="false"/>
-    <file version="1" type="swf" name="lordakiumShotSolarClash" location="graphics_lasers" id="lordakiumShotSolarClash" hash="a0ce9c0c8addf32dcc27f67be15c2000" debugView="false"/>
+    <file version="1" type="swf" name="lordakiumShot" location="graphics_lasers" id="lordakiumShot" hash="495d11f3b5aec43e8bf578e1b771f400" debugView="false"/>
+    <file version="1" type="swf" name="lordakiumShotSolarClash" location="graphics_lasers" id="lordakiumShotSolarClash" hash="7a49a98ec3c3cb95a1aabc1276f5a000" debugView="false"/>
     <file version="1" type="swf" name="malusCloud0" location="graphics_assets" id="malusCloud0" hash="09a0b18b0eccdba5e89b15a8508f5c00" debugView="false"/>
     <file version="1" type="swf" name="mapmarker0" location="graphics_mapmarkers" id="mapmarker0" hash="50b0a3f2b96fa25b7d15babc527a5500" debugView="false"/>
-    <file version="1" type="xml" name="maps-config" location="graphics" id="maps-config" hash="1e7a94ece84738f0186729fe8f918400" debugView="false"/>
-    <file version="1" type="swf" name="mask101_clouds-lightblue" location="graphics_backgroundmasks" id="mask101_clouds-lightblue" hash="10fcc4592de30708fe47447d535ae800" debugView="false"/>
-    <file version="1" type="swf" name="mask1_asteroids-small-darkred" location="graphics_backgroundmasks" id="mask1_asteroids-small-darkred" hash="934eb2e74f1969a30e282a96f067f900" debugView="false"/>
-    <file version="1" type="swf" name="mask1_clouds-grey" location="graphics_backgroundmasks" id="mask1_clouds-grey" hash="df52d2a71566dff12092337bbbb8da00" debugView="false"/>
-    <file version="1" type="swf" name="mask203_asteroids" location="graphics_backgroundmasks" id="mask203_asteroids" hash="7c5a0df620ffb19bbe0f7bcc756d0700" debugView="false"/>
-    <file version="1" type="swf" name="mask255_asteroids" location="graphics_backgroundmasks" id="mask255_asteroids" hash="2fd9c73477c3777fd5ad0c91e8ef0400" debugView="false"/>
-    <file version="1" type="swf" name="mask255_clouds-grey" location="graphics_backgroundmasks" id="mask255_clouds-grey" hash="88b76a99de0139c84f6f817e7cca9200" debugView="false"/>
-    <file version="1" type="swf" name="mask255_clouds-lightblue" location="graphics_backgroundmasks" id="mask255_clouds-lightblue" hash="1d798c89dd534b5938d954fc0c23d500" debugView="false"/>
-    <file version="1" type="swf" name="mask255_stars" location="graphics_backgroundmasks" id="mask255_stars" hash="19cced2aa5b7a94895d9a0b86e84a900" debugView="false"/>
-    <file version="1" type="swf" name="mask5_clouds-blue" location="graphics_backgroundmasks" id="mask5_clouds-blue" hash="152668a0e991c1c3a2f168cf45d59500" debugView="false"/>
-    <file version="1" type="swf" name="mask91-1" location="graphics_backgroundmasks" id="mask91-1" hash="a944f462ea247e8d6e044487e437d900" debugView="false"/>
-    <file version="1" type="swf" name="mask91-2" location="graphics_backgroundmasks" id="mask91-2" hash="3268155ee0e74b6b6f963d63520ba800" debugView="false"/>
-    <file version="1" type="swf" name="mask91-3" location="graphics_backgroundmasks" id="mask91-3" hash="55d849519bf83d49e97651bee246aa00" debugView="false"/>
-    <file version="1" type="swf" name="mask92-0" location="graphics_backgroundmasks" id="mask92-0" hash="26578f8b778f9b4aa3dd5706fe303200" debugView="false"/>
-    <file version="1" type="swf" name="mask92-1" location="graphics_backgroundmasks" id="mask92-1" hash="e32d593cfe447f762279d84dc1fc4f00" debugView="false"/>
-    <file version="1" type="swf" name="mask92-2" location="graphics_backgroundmasks" id="mask92-2" hash="fa0a83e6cd3ff3da2b5a2684fde02f00" debugView="false"/>
-    <file version="1" type="swf" name="mask92-3" location="graphics_backgroundmasks" id="mask92-3" hash="7960dfc6544898e5c30420943ff2cf00" debugView="false"/>
-    <file version="1" type="swf" name="mask93-1" location="graphics_backgroundmasks" id="mask93-1" hash="60b2a4122b18196ffadd9b702d2cb600" debugView="false"/>
+    <file version="1" type="xml" name="maps-config" location="graphics" id="maps-config" hash="1e0243da3b3237dda595a5075502ff00" debugView="false"/>
+    <file version="1" type="swf" name="mask101_clouds-lightblue" location="graphics_backgroundmasks" id="mask101_clouds-lightblue" hash="2dbba178b99f4a7d8286e2fa754d8e00" debugView="false"/>
+    <file version="1" type="swf" name="mask1_asteroids-small-darkred" location="graphics_backgroundmasks" id="mask1_asteroids-small-darkred" hash="2c80ae650ad6d55b1659005249450700" debugView="false"/>
+    <file version="1" type="swf" name="mask1_clouds-grey" location="graphics_backgroundmasks" id="mask1_clouds-grey" hash="325d5c4de998c09a963e8b9f313de400" debugView="false"/>
+    <file version="1" type="swf" name="mask203_asteroids" location="graphics_backgroundmasks" id="mask203_asteroids" hash="70f8b5ca9f298ab352efc9c3443dbf00" debugView="false"/>
+    <file version="1" type="swf" name="mask255_asteroids" location="graphics_backgroundmasks" id="mask255_asteroids" hash="d06021e1b80ac6bab333d9f56c01cc00" debugView="false"/>
+    <file version="1" type="swf" name="mask255_clouds-grey" location="graphics_backgroundmasks" id="mask255_clouds-grey" hash="94519ab57cc85c658b1cd137eccbac00" debugView="false"/>
+    <file version="1" type="swf" name="mask255_clouds-lightblue" location="graphics_backgroundmasks" id="mask255_clouds-lightblue" hash="2e3a37e10b4e974f130feda8cc3a5600" debugView="false"/>
+    <file version="1" type="swf" name="mask255_stars" location="graphics_backgroundmasks" id="mask255_stars" hash="5c81e677bcc83d2b27a188e7487c6f00" debugView="false"/>
+    <file version="1" type="swf" name="mask5_clouds-blue" location="graphics_backgroundmasks" id="mask5_clouds-blue" hash="2bb7cf108870f145a44b604134e0f000" debugView="false"/>
+    <file version="1" type="swf" name="mask91-1" location="graphics_backgroundmasks" id="mask91-1" hash="1aea742f8a29a866520e21ce9c750b00" debugView="false"/>
+    <file version="1" type="swf" name="mask91-2" location="graphics_backgroundmasks" id="mask91-2" hash="26c68624cf37865e2afbafadf44e5300" debugView="false"/>
+    <file version="1" type="swf" name="mask91-3" location="graphics_backgroundmasks" id="mask91-3" hash="c0ba638631fe60a78ed851ce9c614200" debugView="false"/>
+    <file version="1" type="swf" name="mask92-0" location="graphics_backgroundmasks" id="mask92-0" hash="cb4913bfd1948c873ac35a223c987600" debugView="false"/>
+    <file version="1" type="swf" name="mask92-1" location="graphics_backgroundmasks" id="mask92-1" hash="ac509c2ae33eb5bb64e590e6c050a100" debugView="false"/>
+    <file version="1" type="swf" name="mask92-2" location="graphics_backgroundmasks" id="mask92-2" hash="26ed351c1537f7ab43ed851058b7a200" debugView="false"/>
+    <file version="1" type="swf" name="mask92-3" location="graphics_backgroundmasks" id="mask92-3" hash="786ededc1756b575d721d59489f70900" debugView="false"/>
+    <file version="1" type="swf" name="mask93-1" location="graphics_backgroundmasks" id="mask93-1" hash="9492342cd48c50749f37c68d34ce0f00" debugView="false"/>
     <file version="1" type="swf" name="mask93-2" location="graphics_backgroundmasks" id="mask93-2" hash="7fb0f235f5af19b08a99f614e19fa700" debugView="false"/>
-    <file version="1" type="swf" name="mask93-3" location="graphics_backgroundmasks" id="mask93-3" hash="2b9eec3cff7ac7c9be908f3cfcbbda00" debugView="false"/>
-    <file version="1" type="swf" name="mask9_clouds-darkred" location="graphics_backgroundmasks" id="mask9_clouds-darkred" hash="f1efe21e985874bbf1fef81fa5e48c00" debugView="false"/>
-    <file version="1" type="swf" name="mask9_clouds-green-yellow" location="graphics_backgroundmasks" id="mask9_clouds-green-yellow" hash="f85bcff605031d0e636dce7ba0a96000" debugView="false"/>
-    <file version="1" type="swf" name="mask_border" location="graphics_backgroundmasks" id="mask_border" hash="ab8d47ed266da31009f8f9b170ffe100" debugView="false"/>
-    <file version="1" type="xml" name="masqueAssetsDefinition" location="graphics_assets_carnival" id="masqueAssetsDefinition" hash="e6bdfefa977d84bd0557c00866d04200" debugView="false"/>
-    <file version="1" type="swf" name="masque_booty_box" location="graphics_collectables" id="masque_booty_box" hash="f48362a28922384ffd582fddbf5efe00" debugView="false"/>
-    <file version="1" type="swf" name="masquebox" location="graphics_collectables" id="masquebox" hash="4692088521d1819900a017a9db589000" debugView="false"/>
+    <file version="1" type="swf" name="mask93-3" location="graphics_backgroundmasks" id="mask93-3" hash="1aea640079046d14e16c91dcd710b900" debugView="false"/>
+    <file version="1" type="swf" name="mask9_clouds-darkred" location="graphics_backgroundmasks" id="mask9_clouds-darkred" hash="2b3e9a04c34f5eb0191c7dfc677b4e00" debugView="false"/>
+    <file version="1" type="swf" name="mask9_clouds-green-yellow" location="graphics_backgroundmasks" id="mask9_clouds-green-yellow" hash="0880367d809c2aadb64c6f9825a06300" debugView="false"/>
+    <file version="1" type="swf" name="mask_border" location="graphics_backgroundmasks" id="mask_border" hash="04512d2b557130c87af359f992cd1d00" debugView="false"/>
     <file version="1" type="swf" name="meteorit1" location="graphics_meteors" id="meteorit1" hash="13e88e80e9abe837911c33e2e2481200" debugView="false"/>
     <file version="1" type="swf" name="meteorit1" location="graphics_assets" id="meteorit1" hash="b82a335ac6dd812f2109d0f036765e00" debugView="false"/>
     <file version="1" type="swf" name="meteorit2" location="graphics_assets" id="meteorit2" hash="bfc9bd85d6986520fdc2203851e4f800" debugView="false"/>
     <file version="1" type="swf" name="mexicanBonusBox" location="graphics_collectables" id="mexicanBonusBox" hash="0bfb2684e77c68a5d3f693b3da5db800" debugView="false"/>
-    <file version="1" type="swf" name="mimesis" location="graphics_ships" id="mimesis" hash="c19e476a444fecb9f0bd6e07dd786500" debugView="false"/>
     <file version="1" type="swf" name="minePulse" location="graphics_mines" id="minePulse" hash="3d129d3c2f37530738cbe40963be8700" debugView="false"/>
     <file version="1" type="swf" name="minimap" location="graphics_ui" id="minimap" hash="4448a04a39fcebd2dbbaf8515f0e0900" debugView="false"/>
     <file version="1" type="jpg" name="minimap-1-300" location="graphics_minimaps" id="minimap-1-300" hash="272b1a4344bcc90b629792cbb760cf00" debugView="false"/>
@@ -910,11 +839,7 @@
     <file version="1" type="jpg" name="minimap-14-700" location="graphics_minimaps" id="minimap-14-700" hash="097a7098d0ae6a89e15490f95aa16c00" debugView="false"/>
     <file version="1" type="jpg" name="minimap-15-300" location="graphics_minimaps" id="minimap-15-300" hash="6d52216a0f22090fce606f86ac20ac00" debugView="false"/>
     <file version="1" type="jpg" name="minimap-15-700" location="graphics_minimaps" id="minimap-15-700" hash="09da136b0388152324ed002ff2d08f00" debugView="false"/>
-    <file version="1" type="jpg" name="minimap-151-300" location="graphics_minimaps" id="minimap-151-300" hash="33fa517ad4d99529979a4b42249f9000" debugView="false"/>
-    <file version="1" type="jpg" name="minimap-151-700" location="graphics_minimaps" id="minimap-151-700" hash="933e85ff5646e4fab7211db667003a00" debugView="false"/>
     <file version="1" type="jpg" name="minimap-16" location="graphics_minimaps" id="minimap-16" hash="38b77049b3ec12b19704ec16edfec100" debugView="false"/>
-    <file version="1" type="jpg" name="minimap-16football-300" location="graphics_minimaps" id="minimap-16football-300" hash="11ba14a83b310e6ba00d91b88e28ec00" debugView="false"/>
-    <file version="1" type="jpg" name="minimap-16football-700" location="graphics_minimaps" id="minimap-16football-700" hash="85eab2c81e65e31ece8cd3f0839b3500" debugView="false"/>
     <file version="1" type="jpg" name="minimap-17-300" location="graphics_minimaps" id="minimap-17-300" hash="ce86e89b2c4e06ecd39fb75e8bfb6100" debugView="false"/>
     <file version="1" type="jpg" name="minimap-17-700" location="graphics_minimaps" id="minimap-17-700" hash="a09d5fff88dfb928b33987dc89d3b000" debugView="false"/>
     <file version="1" type="jpg" name="minimap-18-300" location="graphics_minimaps" id="minimap-18-300" hash="aa9afb177218020049bbc78915c8e300" debugView="false"/>
@@ -950,12 +875,6 @@
     <file version="1" type="jpg" name="minimap-29" location="graphics_minimaps" id="minimap-29" hash="2d765c6c0c7e8854072d6eb1f571a300" debugView="false"/>
     <file version="1" type="jpg" name="minimap-3-300" location="graphics_minimaps" id="minimap-3-300" hash="03a875f05f22b306a805c740998c9c00" debugView="false"/>
     <file version="1" type="jpg" name="minimap-3-700" location="graphics_minimaps" id="minimap-3-700" hash="aae0c9fa04627eb404afbee06bc44e00" debugView="false"/>
-    <file version="1" type="jpg" name="minimap-300-300" location="graphics_minimaps" id="minimap-300-300" hash="fee259ed6409a0412b281a94a6b41900" debugView="false"/>
-    <file version="1" type="jpg" name="minimap-300-700" location="graphics_minimaps" id="minimap-300-700" hash="3aed6bfdce32ee14a52a4645ea6e1c00" debugView="false"/>
-    <file version="1" type="jpg" name="minimap-302-300" location="graphics_minimaps" id="minimap-302-300" hash="c905a1d6543b470364abcba6a29f8800" debugView="false"/>
-    <file version="1" type="jpg" name="minimap-302-700" location="graphics_minimaps" id="minimap-302-700" hash="3fb6e7e5fa473cf0cc4721a4874dfe00" debugView="false"/>
-    <file version="1" type="jpg" name="minimap-304-300" location="graphics_minimaps" id="minimap-304-300" hash="ae80e3816e271f5263ce80dd29010e00" debugView="false"/>
-    <file version="1" type="jpg" name="minimap-304-700" location="graphics_minimaps" id="minimap-304-700" hash="bbf946e2839a7424f4cf4c2a3a8c0700" debugView="false"/>
     <file version="1" type="jpg" name="minimap-4-300" location="graphics_minimaps" id="minimap-4-300" hash="385fed25e3f6b327c23fcdb3a94c7e00" debugView="false"/>
     <file version="1" type="jpg" name="minimap-4-700" location="graphics_minimaps" id="minimap-4-700" hash="8c01fb0bd9a560e255134608c620bb00" debugView="false"/>
     <file version="1" type="jpg" name="minimap-42-300" location="graphics_minimaps" id="minimap-42-300" hash="fe94645b6d21cf35408a4e4d30229d00" debugView="false"/>
@@ -982,8 +901,6 @@
     <file version="1" type="jpg" name="minimap-6-700" location="graphics_minimaps" id="minimap-6-700" hash="86a67bed82cdd3abb572f213ad8a2700" debugView="false"/>
     <file version="1" type="jpg" name="minimap-61-300" location="graphics_minimaps" id="minimap-61-300" hash="04e06da44dc361cbcc66ab04f59a0d00" debugView="false"/>
     <file version="1" type="jpg" name="minimap-61-700" location="graphics_minimaps" id="minimap-61-700" hash="de68f74de3721a51f74d5b1b6695fb00" debugView="false"/>
-    <file version="1" type="jpg" name="minimap-61football-300" location="graphics_minimaps" id="minimap-61football-300" hash="eab337ba86d6f02307cd7e7d7109c800" debugView="false"/>
-    <file version="1" type="jpg" name="minimap-61football-700" location="graphics_minimaps" id="minimap-61football-700" hash="9571064eeeaa5b68c693dcfb1d0f6000" debugView="false"/>
     <file version="1" type="jpg" name="minimap-62-300" location="graphics_minimaps" id="minimap-62-300" hash="04e06da44dc361cbcc66ab04f59a0d00" debugView="false"/>
     <file version="1" type="jpg" name="minimap-62-700" location="graphics_minimaps" id="minimap-62-700" hash="de68f74de3721a51f74d5b1b6695fb00" debugView="false"/>
     <file version="1" type="jpg" name="minimap-63-300" location="graphics_minimaps" id="minimap-63-300" hash="04e06da44dc361cbcc66ab04f59a0d00" debugView="false"/>
@@ -1018,8 +935,6 @@
     <file version="1" type="jpg" name="minimap-76-700" location="graphics_minimaps" id="minimap-76-700" hash="0db059de6e94babe63f4a1fad45f9200" debugView="false"/>
     <file version="1" type="jpg" name="minimap-8-300" location="graphics_minimaps" id="minimap-8-300" hash="8fd69279689fb87b63b71b8ea5d1bc00" debugView="false"/>
     <file version="1" type="jpg" name="minimap-8-700" location="graphics_minimaps" id="minimap-8-700" hash="20ffe49efa7f16f3e8b65b6f55fd1d00" debugView="false"/>
-    <file version="1" type="jpg" name="minimap-81football-300" location="graphics_minimaps" id="minimap-81football-300" hash="7c2d6221db6698384df24448380f3d00" debugView="false"/>
-    <file version="1" type="jpg" name="minimap-81football-700" location="graphics_minimaps" id="minimap-81football-700" hash="870433f78b8f5d7851d5bce3b99d1200" debugView="false"/>
     <file version="1" type="jpg" name="minimap-9-300" location="graphics_minimaps" id="minimap-9-300" hash="2b0ffe4f8ecda9cd1efdba365a879700" debugView="false"/>
     <file version="1" type="jpg" name="minimap-9-700" location="graphics_minimaps" id="minimap-9-700" hash="8e17095629b7ecd9da49fd18d94b7a00" debugView="false"/>
     <file version="1" type="jpg" name="minimap-91" location="graphics_minimaps" id="minimap-91" hash="71669b5370357337e167cccc9ceda100" debugView="false"/>
@@ -1029,7 +944,7 @@
     <file version="1" type="swf" name="minimap112" location="graphics_minimaps" id="minimap112" hash="3dabd0132d76e399164dae1723dea700" debugView="false"/>
     <file version="1" type="swf" name="mirrorControls" location="graphics_effects" id="mirrorControls" hash="fd0d2ff697e7165db99972920c01cf00" debugView="false"/>
     <file version="1" type="swf" name="misc" location="graphics_ui" id="misc" hash="a4d0a43d500db705e391de5e98606000" debugView="false"/>
-    <file version="1" type="swf" name="miscSounds" location="audio_sounds" id="miscSounds" hash="632fabb074e3d232ffa2d80b75b70d00" debugView="false"/>
+    <file version="1" type="swf" name="miscSounds" location="audio_sounds" id="miscSounds" hash="70f51d7a41b11a7d64fdea390252df00" debugView="false"/>
     <file version="1" type="png" name="mmo_bg" location="graphics_hintsystem_characters" id="mmo_bg" hash="eb24e1b5d156630b270061eea0d3fc00" debugView="false"/>
     <file version="1" type="png" name="mmo_char" location="graphics_hintsystem_characters" id="mmo_char" hash="5ec190ba1b4611edd088232a6edfba00" debugView="false"/>
     <file version="1" type="xml" name="mmo_outpost_asset" location="graphics_mapassetXML_questgiver_mmo_outpost" id="mmo_outpost_asset" hash="5bd95d4fd5c7f1577c8977984c969900" debugView="false"/>
@@ -1038,37 +953,6 @@
     <file version="1" type="xml" name="mmo_x1_asset" location="graphics_mapassetXML_questgiver_mmo_x1" id="mmo_x1_asset" hash="e54753e5fbb20d6e82ccd05be9190000" debugView="false"/>
     <file version="1" type="png" name="mmo_x1_asset_0" location="graphics_mapassetXML_questgiver_mmo_x1" id="mmo_x1_asset_0" hash="cbc65c823df28352affe531e6272dc00" debugView="false"/>
     <file version="1" type="xml" name="mmo_x1_atlas" location="graphics_mapassetXML_questgiver_mmo_x1" id="mmo_x1_atlas" hash="8c3389551e94403da2ef2e6b9b8e2100" debugView="false"/>
-    <file version="1" type="png" name="module01_a_eic" location="graphics_backgrounds_planets" id="module01_a_eic" hash="77416560e3fa6dc58e4024f547093500" debugView="false"/>
-    <file version="1" type="atf" name="module01_a_eic_atf" location="graphics_backgrounds_planets" id="module01_a_eic_atf" hash="57f91e78065b4f049f3031544ea74400" debugView="false"/>
-    <file version="1" type="png" name="module01_a_mmo" location="graphics_backgrounds_planets" id="module01_a_mmo" hash="d8b24248d292bc011ed5f84412b88b00" debugView="false"/>
-    <file version="1" type="atf" name="module01_a_mmo_atf" location="graphics_backgrounds_planets" id="module01_a_mmo_atf" hash="98782342dddc9f5da82f031e486a4c00" debugView="false"/>
-    <file version="1" type="png" name="module01_a_vru" location="graphics_backgrounds_planets" id="module01_a_vru" hash="88812ec747fcb4ba7cf6548486324e00" debugView="false"/>
-    <file version="1" type="atf" name="module01_a_vru_atf" location="graphics_backgrounds_planets" id="module01_a_vru_atf" hash="2f00ab21e60d3d881c91bd2960b42700" debugView="false"/>
-    <file version="1" type="png" name="module01_b" location="graphics_backgrounds_planets" id="module01_b" hash="3a8e7c99afabcb774fb50297032dc200" debugView="false"/>
-    <file version="1" type="atf" name="module01_b_atf" location="graphics_backgrounds_planets" id="module01_b_atf" hash="c790e264c8da2359663b764790ebaa00" debugView="false"/>
-    <file version="1" type="png" name="module01_c" location="graphics_backgrounds_planets" id="module01_c" hash="ba362182a16aee6e279e0cec11efcf00" debugView="false"/>
-    <file version="1" type="atf" name="module01_c_atf" location="graphics_backgrounds_planets" id="module01_c_atf" hash="39a9254993535565d461f2d51dd32e00" debugView="false"/>
-    <file version="1" type="png" name="module01_d" location="graphics_backgrounds_planets" id="module01_d" hash="50cbb6f9209be67e8b89f2d7d4e20800" debugView="false"/>
-    <file version="1" type="atf" name="module01_d_atf" location="graphics_backgrounds_planets" id="module01_d_atf" hash="f7448be04e502f08aa1bb377be2fd200" debugView="false"/>
-    <file version="1" type="png" name="module03" location="graphics_backgrounds_planets" id="module03" hash="90f8d774ff3d29ef6a0098d749d51d00" debugView="false"/>
-    <file version="1" type="atf" name="module03_atf" location="graphics_backgrounds_planets" id="module03_atf" hash="b4435fed0bee766028ce277e79795f00" debugView="false"/>
-    <file version="1" type="png" name="module04" location="graphics_backgrounds_planets" id="module04" hash="34662cd24b69094abc936c1ed35be900" debugView="false"/>
-    <file version="1" type="atf" name="module04_atf" location="graphics_backgrounds_planets" id="module04_atf" hash="4cc5f0320a68592a097561079063a400" debugView="false"/>
-    <file version="1" type="png" name="module05_a" location="graphics_backgrounds_planets" id="module05_a" hash="3c416f61c4b064ea80deb22574751200" debugView="false"/>
-    <file version="1" type="atf" name="module05_a_atf" location="graphics_backgrounds_planets" id="module05_a_atf" hash="077f74f43aadb005d119d111090ec400" debugView="false"/>
-    <file version="1" type="png" name="module05_b" location="graphics_backgrounds_planets" id="module05_b" hash="ed06dcff9908ac324537cec3ec03ae00" debugView="false"/>
-    <file version="1" type="atf" name="module05_b_atf" location="graphics_backgrounds_planets" id="module05_b_atf" hash="e44b6d54c7eb90d51ce0420046879700" debugView="false"/>
-    <file version="1" type="png" name="module05_c" location="graphics_backgrounds_planets" id="module05_c" hash="1c380f46361dbbf08ca7f99fbbd60400" debugView="false"/>
-    <file version="1" type="atf" name="module05_c_atf" location="graphics_backgrounds_planets" id="module05_c_atf" hash="e19e1eac7d6f72626f352aaa58104000" debugView="false"/>
-    <file version="1" type="png" name="moduleCircle" location="graphics_backgrounds_planets" id="moduleCircle" hash="9ae16dade12cd6f96526e28510686c00" debugView="false"/>
-    <file version="1" type="atf" name="moduleCircle_atf" location="graphics_backgrounds_planets" id="moduleCircle_atf" hash="a30ac6bcc1f17486d98077d1f2e28700" debugView="false"/>
-    <file version="1" type="png" name="moduleCircle_eic" location="graphics_backgrounds_planets" id="moduleCircle_eic" hash="c73e268968a7d5a3e8933a4d8e5ccf00" debugView="false"/>
-    <file version="1" type="atf" name="moduleCircle_eic_atf" location="graphics_backgrounds_planets" id="moduleCircle_eic_atf" hash="cf0a2ae30f396157050ba2234c154600" debugView="false"/>
-    <file version="1" type="png" name="moduleCircle_mmo" location="graphics_backgrounds_planets" id="moduleCircle_mmo" hash="bceefa3ec53eba2b06ec6c1cccadfd00" debugView="false"/>
-    <file version="1" type="atf" name="moduleCircle_mmo_atf" location="graphics_backgrounds_planets" id="moduleCircle_mmo_atf" hash="e5f449934e81fd8029987c011187cc00" debugView="false"/>
-    <file version="1" type="png" name="moduleCircle_vru" location="graphics_backgrounds_planets" id="moduleCircle_vru" hash="9d3a6265336888651e2f0bf108a71c00" debugView="false"/>
-    <file version="1" type="atf" name="moduleCircle_vru_atf" location="graphics_backgrounds_planets" id="moduleCircle_vru_atf" hash="c6461c6831f7020712943478e7280f00" debugView="false"/>
-    <file version="1" type="swf" name="module_equipment_lib" location="graphics_ui_windows_assembly" id="module_equipment_lib" hash="02d7d0a2a3cc7898f8060091356c8700" debugView="false"/>
     <file version="1" type="jxr" name="moodAssetBase" location="graphics_assets_springFight_atlas" id="moodAssetBase" hash="36d8867f7084efe31ce466ea31819200" debugView="false"/>
     <file version="1" type="xml" name="moodAssetBase_atlas" location="graphics_assets_springFight_atlas" id="moodAssetBase_atlas" hash="4888d36127bfb4b42158a3346c4b5700" debugView="false"/>
     <file version="1" type="jxr" name="moodAssetEICPoster" location="graphics_assets_springFight_atlas" id="moodAssetEICPoster" hash="9787383c7728947ac8ff9ca9a4bbae00" debugView="false"/>
@@ -1084,14 +968,7 @@
     <file version="1" type="jxr" name="moodAssetVRUWinner" location="graphics_assets_springFight_atlas" id="moodAssetVRUWinner" hash="c7cbd5d36f1dd0e06a55b5228a781300" debugView="false"/>
     <file version="1" type="xml" name="moodAssetVRUWinner_atlas" location="graphics_assets_springFight_atlas" id="moodAssetVRUWinner_atlas" hash="82019dd133fb86e19981c1bfd1ad1400" debugView="false"/>
     <file version="1" type="png" name="moodAsset_collider" location="graphics_assets_springFight_atlas" id="moodAsset_collider" hash="43bbb81faeb0fa3a7eac4ac64f6c0500" debugView="false"/>
-    <file version="1" type="png" name="moodAsset_easter2016" location="graphics_assets_easter2016" id="moodAsset_easter2016" hash="ba6504d4ee9e9e220381aef62b884b00" debugView="false"/>
-    <file version="1" type="xml" name="moodAsset_easter2016_atlas" location="graphics_assets_easter2016" id="moodAsset_easter2016_atlas" hash="0fe9260c341de8eac4f2bbd5294ac400" debugView="false"/>
-    <file version="1" type="png" name="moodAsset_masque" location="graphics_assets_carnival" id="moodAsset_masque" hash="2f21576bc98f7a2fa36f93be752aee00" debugView="false"/>
-    <file version="1" type="xml" name="moodAsset_masque_atlas" location="graphics_assets_carnival" id="moodAsset_masque_atlas" hash="f59c56bdc587b759fef827b4aa79c800" debugView="false"/>
-    <file version="1" type="png" name="moodAsset_prometheus_day" location="graphics_assets_prometheus_day" id="moodAsset_prometheus_day" hash="6f14ddaa8995296b93687b803b852a00" debugView="false"/>
-    <file version="1" type="xml" name="moodAsset_prometheus_day_atlas" location="graphics_assets_prometheus_day" id="moodAsset_prometheus_day_atlas" hash="671cb39678eabdbdaf435dcceb755400" debugView="false"/>
     <file version="1" type="swf" name="morgus_petterson" location="graphics_questGiver" id="morgus_petterson" hash="7193e3a2fef48e0082e58e9aa5abb600" debugView="false"/>
-    <file version="1" type="swf" name="mucosum" location="graphics_collectables" id="mucosum" hash="7f2fd8fdd1e60cd155b04cff727eeb00" debugView="false"/>
     <file version="1" type="swf" name="nebula0" location="graphics_nebulas" id="nebula0" hash="72267da5ca33074abc2a4edd7c588700" debugView="false"/>
     <file version="1" type="xml" name="nebula_pirates_atlasXml" location="graphics_backgrounds_tilemaps" id="nebula_pirates_atlasXml" hash="59a73bd6d59debaa4bb7f02206050400" debugView="false"/>
     <file version="1" type="xml" name="nebula_pirates_simple_atlasXml" location="graphics_backgrounds_tilemaps" id="nebula_pirates_simple_atlasXml" hash="611e1ac90f44a75e767c01ae441bf200" debugView="false"/>
@@ -1099,50 +976,17 @@
     <file version="1" type="atf" name="nebula_pirates_simple_texture_atf" location="graphics_backgrounds_tilemaps" id="nebula_pirates_simple_texture_atf" hash="9ac3af827824273c3eeaec00f7b05300" debugView="false"/>
     <file version="1" type="jxr" name="nebula_pirates_texture" location="graphics_backgrounds_tilemaps" id="nebula_pirates_texture" hash="3fa4647221e6d9420626bc8d2afb6a00" debugView="false"/>
     <file version="1" type="atf" name="nebula_pirates_texture_atf" location="graphics_backgrounds_tilemaps" id="nebula_pirates_texture_atf" hash="6f04eb893f7ca688fbad018704acda00" debugView="false"/>
-    <file version="1" type="swf" name="nettel" location="graphics_lasers" id="nettel" hash="d7433908a4232fc4e0fa3f4b6a284200" debugView="false"/>
+    <file version="1" type="swf" name="nettel" location="graphics_lasers" id="nettel" hash="1bff7ab96c2d2a1e3ccc20e185909000" debugView="false"/>
     <file version="1" type="swf" name="nyx" location="graphics_questGiver" id="nyx" hash="cdf77a5af2524a178a53cf4885fa7c00" debugView="false"/>
     <file version="1" type="swf" name="nyx_mobile" location="graphics_questGiver" id="nyx_mobile" hash="382a6bdd6a2d8e6fd0c678d2e8bb6c00" debugView="false"/>
     <file version="1" type="swf" name="orangePumpkin" location="graphics_collectables" id="orangePumpkin" hash="fefcaf845c0b7a0876a448419d101100" debugView="false"/>
     <file version="1" type="swf" name="oreBlue" location="graphics_collectables" id="oreBlue" hash="c66e49267601336edb4780b544d12000" debugView="false"/>
     <file version="1" type="swf" name="oreRed" location="graphics_collectables" id="oreRed" hash="912e58f14bcbb605e26d504e9b719700" debugView="false"/>
     <file version="1" type="swf" name="oreYellow" location="graphics_collectables" id="oreYellow" hash="ffa42236b91ea7c79634af43e449a500" debugView="false"/>
-    <file version="1" type="swf" name="ore_bifenon" location="graphics_collectables" id="ore_bifenon" hash="69790b4b1a8c59f1001b63ec4a09a100" debugView="false"/>
-    <file version="1" type="swf" name="ore_kyhalon" location="graphics_collectables" id="ore_kyhalon" hash="9d51261c2c2f0bae2e4c6ece89c9cb00" debugView="false"/>
     <file version="1" type="swf" name="ore_palladium" location="graphics_collectables" id="ore_palladium" hash="96365975d10555043a10318ab49bac00" debugView="false"/>
-    <file version="1" type="swf" name="ore_tetrathrin" location="graphics_collectables" id="ore_tetrathrin" hash="05f7c2eeb2eeb775d75d928aacc10300" debugView="false"/>
     <file version="1" type="swf" name="pearkIcons" location="graphics_ui" id="pearkIcons" hash="4ebe809ff4b5b9abcc403c6c747aa700" debugView="false"/>
-    <file version="1" type="swf" name="permafrost_box" location="graphics_collectables" id="permafrost_box" hash="e287b2af7ef7bfc2524df022dce95500" debugView="false"/>
-    <file version="1" type="swf" name="pet-chimera-argon" location="graphics_ships" id="pet-chimera-argon" hash="14d118b231fa36093b7b537a64de9300" debugView="false"/>
-    <file version="1" type="swf" name="pet-chimera-green" location="graphics_ships" id="pet-chimera-green" hash="e59dba1961b5ba7f1ea8a785dd097700" debugView="false"/>
-    <file version="1" type="swf" name="pet-chimera-lava" location="graphics_ships" id="pet-chimera-lava" hash="56866e1f8b930915851e5809f9dcf300" debugView="false"/>
-    <file version="1" type="swf" name="pet-chimera-legend" location="graphics_ships" id="pet-chimera-legend" hash="22cc883c70b4da9ff649b688131e6100" debugView="false"/>
-    <file version="1" type="swf" name="pet-chimera-ocean" location="graphics_ships" id="pet-chimera-ocean" hash="923e7ec93ef9b87d70fa103f833b1a00" debugView="false"/>
-    <file version="1" type="swf" name="pet-chimera-orange" location="graphics_ships" id="pet-chimera-orange" hash="3407b0e913216b6b941005afffdb5c00" debugView="false"/>
-    <file version="1" type="swf" name="pet-chimera-poison" location="graphics_ships" id="pet-chimera-poison" hash="4d6e511c73ff94142e02d76fab842600" debugView="false"/>
-    <file version="1" type="swf" name="pet-chimera-red" location="graphics_ships" id="pet-chimera-red" hash="b7cfa7c68b5eb2afe9b38a84fa964000" debugView="false"/>
-    <file version="1" type="swf" name="pet-goliath-x" location="graphics_ships" id="pet-goliath-x" hash="ae7ef9e2ae56bc8fbc35a042b064b100" debugView="false"/>
-    <file version="1" type="swf" name="pet-goliath-x-borealis" location="graphics_ships" id="pet-goliath-x-borealis" hash="7e53d97c8c193a9972e93af1731ce700" debugView="false"/>
-    <file version="1" type="swf" name="pet-goliath-x-ocean" location="graphics_ships" id="pet-goliath-x-ocean" hash="a3bb9c74f4964047b4c8efb15b730100" debugView="false"/>
-    <file version="1" type="swf" name="pet-goliath-x-sandstorm" location="graphics_ships" id="pet-goliath-x-sandstorm" hash="7aa29302a7e9799f19f8c1bc22a4fe00" debugView="false"/>
-    <file version="1" type="swf" name="pet-mirage-green" location="graphics_ships" id="pet-mirage-green" hash="ad93e967f3b64306540cba12adecdc00" debugView="false"/>
-    <file version="1" type="swf" name="pet-mirage-orange" location="graphics_ships" id="pet-mirage-orange" hash="e887603f6fea4408a74ab159780bc200" debugView="false"/>
-    <file version="1" type="swf" name="pet-mirage-red" location="graphics_ships" id="pet-mirage-red" hash="2beb45278f3ac4b23c4c3d0fc773e500" debugView="false"/>
-    <file version="1" type="swf" name="pet-pusat-blaze" location="graphics_ships" id="pet-pusat-blaze" hash="97fe4790f7d666a6e4d59a30a45dae00" debugView="false"/>
-    <file version="1" type="swf" name="pet-pusat-ocean" location="graphics_ships" id="pet-pusat-ocean" hash="5aefa3eff13fb6eab4d8f40ee25e1c00" debugView="false"/>
-    <file version="1" type="swf" name="pet-spectrum-blaze" location="graphics_ships" id="pet-spectrum-blaze" hash="de5faf3bc1b1718e8bc03f43bf6d9200" debugView="false"/>
-    <file version="1" type="swf" name="pet-spectrum-ocean" location="graphics_ships" id="pet-spectrum-ocean" hash="a524f41fe4e3933862a51b5982fb2400" debugView="false"/>
     <file version="1" type="swf" name="petSounds" location="audio_sounds" id="petSounds" hash="244c1d6a2682984763f0326bc98db100" debugView="false"/>
     <file version="1" type="swf" name="petWeekBox" location="graphics_collectables" id="petWeekBox" hash="b2add772ea21a3d1334c1f97a7ece700" debugView="false"/>
-    <file version="1" type="swf" name="pet_design_pet-pusat-poison" location="graphics_ships" id="pet_design_pet-pusat-poison" hash="3d4e8a55be57991636ca074a69962300" debugView="false"/>
-    <file version="1" type="swf" name="pet_design_pet-spectrum-poison" location="graphics_ships" id="pet_design_pet-spectrum-poison" hash="3b64ec74e8e7c84972a168f1a2594700" debugView="false"/>
-    <file version="1" type="swf" name="pet_designs_pet_a_elite_blaze" location="graphics_ships" id="pet_designs_pet_a_elite_blaze" hash="f06a060fcdb3c1540536f4892005d800" debugView="false"/>
-    <file version="1" type="swf" name="pet_designs_pet_a_elite_lava" location="graphics_ships" id="pet_designs_pet_a_elite_lava" hash="336b04b94f587bb5518c024812ec8900" debugView="false"/>
-    <file version="1" type="swf" name="pet_designs_pet_a_elite_ocean" location="graphics_ships" id="pet_designs_pet_a_elite_ocean" hash="f0637a359c13ce5494f96b8d77bd3100" debugView="false"/>
-    <file version="1" type="swf" name="pet_designs_pet_a_elite_poison" location="graphics_ships" id="pet_designs_pet_a_elite_poison" hash="f5b1981e7835920b5163e4be0753d700" debugView="false"/>
-    <file version="1" type="swf" name="pet_designs_pet_a_elite_sandstorm" location="graphics_ships" id="pet_designs_pet_a_elite_sandstorm" hash="257ac9a7cf155249bf20753fe2036500" debugView="false"/>
-    <file version="1" type="swf" name="pet_frozen" location="graphics_ships" id="pet_frozen" hash="25a84751c9c3d4baeada2f49d6379000" debugView="false"/>
-    <file version="1" type="swf" name="pet_green" location="graphics_ships" id="pet_green" hash="5c5d008b81262c144383f64fa2d82300" debugView="false"/>
-    <file version="1" type="swf" name="pet_red" location="graphics_ships" id="pet_red" hash="98cea83f272d76e7fe0e424369a3bd00" debugView="false"/>
     <file version="1" type="swf" name="pirateBootyBlueBox" location="graphics_collectables" id="pirateBootyBlueBox" hash="08be77e71b11b0a6c9a57b3d09575d00" debugView="false"/>
     <file version="1" type="swf" name="pirateBootyBox" location="graphics_collectables" id="pirateBootyBox" hash="46a3c6b64238e604792421732f296000" debugView="false"/>
     <file version="1" type="swf" name="pirateBootyGoldBox" location="graphics_collectables" id="pirateBootyGoldBox" hash="7efcd7394d5d47d57cd1cbfa35be1900" debugView="false"/>
@@ -1158,18 +1002,18 @@
     <file version="1" type="png" name="pirateOneway_collider" location="graphics_backgrounds_planets" id="pirateOneway_collider" hash="4ad3be6f7625020860fab556f0177e00" debugView="false"/>
     <file version="1" type="swf" name="pirateSounds" location="audio_sounds" id="pirateSounds" hash="de5b31e5d7541ec89b1419988e3f6900" debugView="false"/>
     <file version="1" type="swf" name="pirateStation" location="graphics_stations" id="pirateStation" hash="ae816f9e4008104342ba0065a3d0ed00" debugView="false"/>
-    <file version="1" type="swf" name="piratesMine" location="graphics_mines" id="piratesMine" hash="6bb08fed9ecc61b998e4c3f2b4eaf100" debugView="false"/>
+    <file version="1" type="swf" name="piratesMine" location="graphics_mines" id="piratesMine" hash="859b383a3b8a5ca90c6be10440b7bf00" debugView="false"/>
     <file version="1" type="swf" name="placeholders" location="graphics_ui" id="placeholders" hash="8769df56e584012517afdaa24efa6c00" debugView="false"/>
-    <file version="1" type="xml" name="plagueGenericImg" location="graphics_ui_windows_plague" id="plagueGenericImg" hash="e9775fc7d3e7e9e0271a9eae42ca3700" debugView="false"/>
+    <file version="1" type="xml" name="plagueGenericImg" location="graphics_ui_windows_plague" id="plagueGenericImg" hash="22047bdb0f3fde123354decfb92d6600" debugView="false"/>
     <file version="1" type="swf" name="plagueMine" location="graphics_mines" id="plagueMine" hash="f0c5726a5bd3ba15ccf7df5ca57d0900" debugView="false"/>
     <file version="1" type="xml" name="plagueMoodAsset" location="graphics_assets_plague_assets" id="plagueMoodAsset" hash="dc9c6b4d50ae2b39ea23ae4e7c9d2800" debugView="false"/>
     <file version="1" type="xml" name="plagueMoodAsset_atlas" location="graphics_assets_plague_assets" id="plagueMoodAsset_atlas" hash="75d0b3a29ae99a0a3a4f91dbcfbd2200" debugView="false"/>
     <file version="1" type="jxr" name="plagueMoodAsset_texture" location="graphics_assets_plague_assets" id="plagueMoodAsset_texture" hash="f84fc11af8db3cdd60653f2bd4157d00" debugView="false"/>
     <file version="1" type="xml" name="plagueMoodAssetsDefinition" location="graphics_assets_plague" id="plagueMoodAssetsDefinition" hash="a344b1d11eb343c318707e5f862f7c00" debugView="false"/>
-    <file version="1" type="xml" name="plagueOtherMapView" location="graphics_ui_windows_plague" id="plagueOtherMapView" hash="e267a7c7e309ae4fa0c8469671276900" debugView="false"/>
-    <file version="1" type="xml" name="plagueProgressView" location="graphics_ui_windows_plague" id="plagueProgressView" hash="ca6b4a0f9aeec4203c10c0a52cafa600" debugView="false"/>
+    <file version="1" type="xml" name="plagueOtherMapView" location="graphics_ui_windows_plague" id="plagueOtherMapView" hash="6ac45c5a0d312e8587c86a14c2f5b100" debugView="false"/>
+    <file version="1" type="xml" name="plagueProgressView" location="graphics_ui_windows_plague" id="plagueProgressView" hash="c944ccb83a83023aa82510a104ff9d00" debugView="false"/>
     <file version="1" type="swf" name="plagueWindow" location="graphics_ui_windows_plague" id="plagueWindow" hash="4224a7746b259b1427abd6ca5becec00" debugView="false"/>
-    <file version="1" type="xml" name="plagueWindowUI" location="graphics_ui_windows_plague" id="plagueWindowUI" hash="80b50378ef98f31b5629fe521455d200" debugView="false"/>
+    <file version="1" type="xml" name="plagueWindowUI" location="graphics_ui_windows_plague" id="plagueWindowUI" hash="2075f7772bf58479c9ff0ee181caa500" debugView="false"/>
     <file version="1" type="xml" name="plague_asset_atlas" location="graphics_assets_plague_assets" id="plague_asset_atlas" hash="56d7de4d64e37d334747a2994c14c100" debugView="false"/>
     <file version="1" type="png" name="plague_asset_texture" location="graphics_assets_plague_assets" id="plague_asset_texture" hash="b91681173bee317fdf7adfba2290af00" debugView="false"/>
     <file version="1" type="swf" name="plague_box" location="graphics_collectables" id="plague_box" hash="f8c6daa47128225c6c7af0126fc44d00" debugView="false"/>
@@ -1406,7 +1250,7 @@
     <file version="1" type="atf" name="planet44_atf" location="graphics_backgrounds_planets" id="planet44_atf" hash="ac20acc9f01468454c92a91fe36d2800" debugView="false"/>
     <file version="1" type="png" name="planet44_collider" location="graphics_backgrounds_planets" id="planet44_collider" hash="1ffdf779b4ef6199a1413831b358d700" debugView="false"/>
     <file version="1" type="jxr" name="planet45" location="graphics_backgrounds_planets" id="planet45" hash="3a6be80c2ef421e3a5d8399e8f953500" debugView="false"/>
-    <file version="1" type="atf" name="planet45_atf" location="graphics_backgrounds_planets" id="planet45_atf" hash="d0fd23ea429b9475f5fa54c053923e00" debugView="false"/>
+    <file version="1" type="atf" name="planet45_atf" location="graphics_backgrounds_planets" id="planet45_atf" hash="f87602e9ac408cd7e9f380ecdbdee200" debugView="false"/>
     <file version="1" type="png" name="planet45_collider" location="graphics_backgrounds_planets" id="planet45_collider" hash="ed827f4e86822b95bb20e285c9e58200" debugView="false"/>
     <file version="1" type="jxr" name="planet46" location="graphics_backgrounds_planets" id="planet46" hash="df880df9164c7164476adb2037413100" debugView="false"/>
     <file version="1" type="atf" name="planet46_atf" location="graphics_backgrounds_planets" id="planet46_atf" hash="1f6328d2e8961e7cc326f2d05c9d0c00" debugView="false"/>
@@ -1518,8 +1362,8 @@
     <file version="1" type="png" name="planet99_collider" location="graphics_backgrounds_planets" id="planet99_collider" hash="65f87aa15aae31ad28a9a6a56d0c7a00" debugView="false"/>
     <file version="1" type="atf" name="planet9_atf" location="graphics_backgrounds_planets" id="planet9_atf" hash="fcd6d72ae786981dbcd523833dbc5200" debugView="false"/>
     <file version="1" type="png" name="planet9_collider" location="graphics_backgrounds_planets" id="planet9_collider" hash="6c602e125d3b2f69e8e19b9eb3593800" debugView="false"/>
-    <file version="1" type="swf" name="pods" location="graphics_items" id="pods" hash="45cc4e0fdcd13dafb581ec8cb87ec100" debugView="false"/>
-    <file version="1" type="swf" name="poizone_patterns" location="graphics_minimaps" id="poizone_patterns" hash="fc3139ca9748864aaa1d79237d45ea00" debugView="false"/>
+    <file version="1" type="swf" name="pods" location="graphics_items" id="pods" hash="dd58051c21a3bf395009f983ae97e000" debugView="false"/>
+    <file version="1" type="swf" name="poizone_patterns" location="graphics_minimaps" id="poizone_patterns" hash="daa750acc0613886e94900c93f8eeb00" debugView="false"/>
     <file version="1" type="swf" name="polarity" location="graphics_effects" id="polarity" hash="49d5ae372a215d3b82e15b8fac643100" debugView="false"/>
     <file version="1" type="swf" name="polishBonusBox" location="graphics_collectables" id="polishBonusBox" hash="835ff81ce3e78482c77d0aaf5bde7a00" debugView="false"/>
     <file version="1" type="swf" name="portalAnimation0" location="graphics_pyroEffects" id="portalAnimation0" hash="7e38fb8f01ff2d2de047a9ea6113bb00" debugView="false"/>
@@ -1596,24 +1440,21 @@
     <file version="1" type="xml" name="portal_tutorial_atlas" location="graphics_portals" id="portal_tutorial_atlas" hash="bce55481eef18e0d4ab411a8990fff00" debugView="false"/>
     <file version="1" type="png" name="portal_tutorial_collider" location="graphics_portals" id="portal_tutorial_collider" hash="dfb8f9c507506f51e3e09423cbe5f700" debugView="false"/>
     <file version="1" type="jxr" name="portal_tutorial_texture" location="graphics_portals" id="portal_tutorial_texture" hash="8f69cf5850a3e2e7255d541b56bad800" debugView="false"/>
-    <file version="1" type="xml" name="portal_zeta_atlas" location="graphics_portals" id="portal_zeta_atlas" hash="876138bf8d81b6e9c3aeb2d6f039e700" debugView="false"/>
+    <file version="1" type="xml" name="portal_zeta_atlas" location="graphics_portals" id="portal_zeta_atlas" hash="44d539f54aebbb9f2c470e1a51ef2a00" debugView="false"/>
     <file version="1" type="png" name="portal_zeta_collider" location="graphics_portals" id="portal_zeta_collider" hash="8f88592813f82a0b343f1f46dd41d600" debugView="false"/>
-    <file version="1" type="png" name="portal_zeta_texture" location="graphics_portals" id="portal_zeta_texture" hash="57428d88e9ac095ff974a45ad67e2a00" debugView="false"/>
-    <file version="1" type="swf" name="prismatium" location="graphics_collectables" id="prismatium" hash="535011ae52e2d6a8019108471d0cfd00" debugView="false"/>
+    <file version="1" type="jxr" name="portal_zeta_texture" location="graphics_portals" id="portal_zeta_texture" hash="d590454bc3be5de954480631f4b10d00" debugView="false"/>
     <file version="1" type="swf" name="progress_bar" location="graphics_splashscreens" id="progress_bar" hash="c874c99604b64aec7dc2237d00d0f000" debugView="false"/>
-    <file version="1" type="xml" name="prometheusAssetsDefinition" location="graphics_assets_prometheus_day" id="prometheusAssetsDefinition" hash="67106a2b441bfbdd02b0904804980300" debugView="false"/>
-    <file version="1" type="swf" name="prometheusBox" location="graphics_collectables" id="prometheusBox" hash="ac84ad1c3f03894e777236f11f81a700" debugView="false"/>
-    <file version="1" type="swf" name="protegitShot" location="graphics_lasers" id="protegitShot" hash="4c4a5f2c76aa1a6e849e932e6c13f900" debugView="false"/>
+    <file version="1" type="swf" name="protegitShot" location="graphics_lasers" id="protegitShot" hash="65367b08b9a5604c5b102620eead9f00" debugView="false"/>
     <file version="1" type="png" name="questGiverEIC" location="graphics_questGiver" id="questGiverEIC" hash="f5cc99fd4dea04a302dc3c0971563f00" debugView="false"/>
     <file version="1" type="xml" name="questGiverEICAtlasXml" location="graphics_questGiver" id="questGiverEICAtlasXml" hash="b99a2f8717291df8a80958443bc07300" debugView="false"/>
     <file version="1" type="swf" name="questSounds" location="audio_sounds" id="questSounds" hash="e5447de3f62c4aee40c93ffa53dda500" debugView="false"/>
     <file version="1" type="swf" name="questSystem" location="graphics_ui" id="questSystem" hash="ea0394f4cd57f76c3b370b9f2065ba00" debugView="false"/>
-    <file version="1" type="swf" name="questWin" location="graphics_ui" id="questWin" hash="11f7ed6bb513b27b2398accd125b9400" debugView="false"/>
+    <file version="1" type="swf" name="questWin" location="graphics_ui" id="questWin" hash="a662962611ba81ddfd52bf0a26986200" debugView="false"/>
     <file version="1" type="swf" name="rainbow" location="graphics_lasers" id="rainbow" hash="c2b49ea3963b0a0fa96117784c0edf00" debugView="false"/>
     <file version="1" type="swf" name="razorBox" location="graphics_collectables" id="razorBox" hash="10046a986f3e9b1e3aeacd254fa8a600" debugView="false"/>
-    <file version="1" type="swf" name="rb214" location="graphics_lasers" id="rb214" hash="4a3ce470f9e9023a461ee8923c2c2600" debugView="false"/>
-    <file version="1" type="swf" name="rb214_skilled" location="graphics_lasers" id="rb214_skilled" hash="2176b695a88b5ca19c8b540af98c8000" debugView="false"/>
-    <file version="1" type="swf" name="refinement" location="graphics_ui" id="refinement" hash="6b5e98985323153bc841f98f9429d800" debugView="false"/>
+    <file version="1" type="swf" name="rb214" location="graphics_lasers" id="rb214" hash="d795f2b6cf3dfc20ab8c1dc860767900" debugView="false"/>
+    <file version="1" type="swf" name="rb214_skilled" location="graphics_lasers" id="rb214_skilled" hash="bfe52d0eb577e197d7705faedc3b0200" debugView="false"/>
+    <file version="1" type="swf" name="refinement" location="graphics_ui" id="refinement" hash="f04cbe162c0b4e4790ec04e54a530a00" debugView="false"/>
     <file version="1" type="swf" name="reginald_crowley" location="graphics_questGiver" id="reginald_crowley" hash="1694fcc36b639c70bf3d6c7132d99400" debugView="false"/>
     <file version="1" type="swf" name="relayStation" location="graphics_stations" id="relayStation" hash="af58f2765d026a07caa9b02f810fb400" debugView="false"/>
     <file version="1" type="xml" name="repair_robot1_atlas" location="graphics_robots" id="repair_robot1_atlas" hash="5c0dd08bb481308a1f943b0027a65200" debugView="false"/>
@@ -1632,38 +1473,33 @@
     <file version="1" type="swf" name="repair_sparksblue_texture" location="graphics_robots" id="repair_sparksblue_texture" hash="b457319c36d733692003306bb5135600" debugView="false"/>
     <file version="1" type="xml" name="repair_techrobot_atlas" location="graphics_robots" id="repair_techrobot_atlas" hash="e30d18c3abae38684cdcac4e5c484d00" debugView="false"/>
     <file version="1" type="swf" name="repair_techrobot_texture" location="graphics_robots" id="repair_techrobot_texture" hash="c7a3e95e5dbeb68a33feaa4e6e9b2300" debugView="false"/>
-    <file version="1" type="swf" name="replacementCollectables" location="graphics_collectables" id="replacementCollectables" hash="bb139751e9012e00b30e6b0ed970a400" debugView="false"/>
-    <file version="1" type="swf" name="replacementShips" location="graphics_assets" id="replacementShips" hash="648e2d989a652652097488bcfb9a0b00" debugView="false"/>
-    <file version="1" type="swf" name="rocket1" location="graphics_rockets" id="rocket1" hash="2496a8a8d33571ffcf015e15497fbc00" debugView="false"/>
-    <file version="1" type="swf" name="rocket10" location="graphics_rockets" id="rocket10" hash="ed5287c952e20b74cb603bb9efc89b00" debugView="false"/>
-    <file version="1" type="swf" name="rocket11" location="graphics_rockets" id="rocket11" hash="c2b56baa8a2a0c6f20a1701bb2e69e00" debugView="false"/>
-    <file version="1" type="swf" name="rocket12" location="graphics_rockets" id="rocket12" hash="820b346151f9aeed476606c09df50300" debugView="false"/>
-    <file version="1" type="swf" name="rocket13" location="graphics_rockets" id="rocket13" hash="ed1383369b3f9722277d40c8a3776900" debugView="false"/>
-    <file version="1" type="swf" name="rocket14" location="graphics_rockets" id="rocket14" hash="f8ba6d4c511283d50272f6adf3b82a00" debugView="false"/>
-    <file version="1" type="swf" name="rocket15" location="graphics_rockets" id="rocket15" hash="a7e094780c1fc3772f5790608619fa00" debugView="false"/>
-    <file version="1" type="swf" name="rocket16" location="graphics_rockets" id="rocket16" hash="db78861272838e9978bf0802a05dba00" debugView="false"/>
-    <file version="1" type="swf" name="rocket17" location="graphics_rockets" id="rocket17" hash="a395bab98be52b243683edaddcd3bc00" debugView="false"/>
-    <file version="1" type="swf" name="rocket18" location="graphics_rockets" id="rocket18" hash="5b9b50beb6266f2afd814d39b67c3200" debugView="false"/>
-    <file version="1" type="swf" name="rocket19" location="graphics_rockets" id="rocket19" hash="ab33a7ab2ab106efcd8f1385a0527400" debugView="false"/>
-    <file version="1" type="swf" name="rocket2" location="graphics_rockets" id="rocket2" hash="f0445b0d61fb27aac53b27f0f801e300" debugView="false"/>
-    <file version="1" type="swf" name="rocket3" location="graphics_rockets" id="rocket3" hash="47d4d820e2faa0edfdb723ce6aab5a00" debugView="false"/>
-    <file version="1" type="swf" name="rocket4" location="graphics_rockets" id="rocket4" hash="63032d97cc676e677d39e852bd6d3600" debugView="false"/>
-    <file version="1" type="swf" name="rocket5" location="graphics_rockets" id="rocket5" hash="5f37f44070d15d47762328d8cca99c00" debugView="false"/>
-    <file version="1" type="swf" name="rocket6" location="graphics_rockets" id="rocket6" hash="de79ec8d6e3ae8f37cb7af300974f800" debugView="false"/>
-    <file version="1" type="swf" name="rocket7" location="graphics_rockets" id="rocket7" hash="e011ed45ff1822abbad0eb50f22bb600" debugView="false"/>
-    <file version="1" type="swf" name="rocket8" location="graphics_rockets" id="rocket8" hash="6cf7bcd2e08ca2b358b0702e8104aa00" debugView="false"/>
-    <file version="1" type="swf" name="rocket9" location="graphics_rockets" id="rocket9" hash="9b2a0cd07ea0cb82c7b36669c8fe5000" debugView="false"/>
+    <file version="1" type="swf" name="replacementCollectables" location="graphics_collectables" id="replacementCollectables" hash="03794815b5381f7ec45c2376a0077a00" debugView="false"/>
+    <file version="1" type="swf" name="replacementShips" location="graphics_assets" id="replacementShips" hash="a302afa8f0c6961563157c9b5d8d8b00" debugView="false"/>
+    <file version="1" type="swf" name="rocket1" location="graphics_rockets" id="rocket1" hash="cfe5a1222cbf14fef9e7824acff61900" debugView="false"/>
+    <file version="1" type="swf" name="rocket10" location="graphics_rockets" id="rocket10" hash="12e3da5e8af34af0315301bd48b07600" debugView="false"/>
+    <file version="1" type="swf" name="rocket11" location="graphics_rockets" id="rocket11" hash="d5dc196a5a98ee5d6998e7981bd70b00" debugView="false"/>
+    <file version="1" type="swf" name="rocket12" location="graphics_rockets" id="rocket12" hash="9864b5d396bd9caa78b08f3f05f7cf00" debugView="false"/>
+    <file version="1" type="swf" name="rocket13" location="graphics_rockets" id="rocket13" hash="17c124e87edad9b5f68a98abee8fea00" debugView="false"/>
+    <file version="1" type="swf" name="rocket14" location="graphics_rockets" id="rocket14" hash="8ddbf768a757ea295a383c6451aadd00" debugView="false"/>
+    <file version="1" type="swf" name="rocket15" location="graphics_rockets" id="rocket15" hash="b3c107ca1b9427360cbf8ba694f60400" debugView="false"/>
+    <file version="1" type="swf" name="rocket16" location="graphics_rockets" id="rocket16" hash="ed94864ba2d1bb9a6ea76e07db2f0200" debugView="false"/>
+    <file version="1" type="swf" name="rocket17" location="graphics_rockets" id="rocket17" hash="accfb7c7294a04a90f4d73e6e9ff3900" debugView="false"/>
+    <file version="1" type="swf" name="rocket18" location="graphics_rockets" id="rocket18" hash="ce67f0b426a6b01c991cea35dcc21400" debugView="false"/>
+    <file version="1" type="swf" name="rocket2" location="graphics_rockets" id="rocket2" hash="b1d6e2e8a24e3eca67723292511c9000" debugView="false"/>
+    <file version="1" type="swf" name="rocket3" location="graphics_rockets" id="rocket3" hash="6a41e1178e333d10a6c369b32830df00" debugView="false"/>
+    <file version="1" type="swf" name="rocket4" location="graphics_rockets" id="rocket4" hash="b75ed305c5c3e45d6e89fb8145f15400" debugView="false"/>
+    <file version="1" type="swf" name="rocket5" location="graphics_rockets" id="rocket5" hash="4949475e22ad678da992e623a6628f00" debugView="false"/>
+    <file version="1" type="swf" name="rocket6" location="graphics_rockets" id="rocket6" hash="b285fb45715cb0aac945d7da9bc0b900" debugView="false"/>
+    <file version="1" type="swf" name="rocket7" location="graphics_rockets" id="rocket7" hash="322583ed536dcf7470dbc52c466f6100" debugView="false"/>
+    <file version="1" type="swf" name="rocket8" location="graphics_rockets" id="rocket8" hash="4d96f54c5fd3d2414ef3131fcf8ba200" debugView="false"/>
+    <file version="1" type="swf" name="rocket9" location="graphics_rockets" id="rocket9" hash="543a8aa32b71d85548657144b382b600" debugView="false"/>
     <file version="1" type="swf" name="rocketDamage0" location="graphics_pyroEffects" id="rocketDamage0" hash="9dc31598a7002bf278a9657fd6e8bc00" debugView="false"/>
     <file version="1" type="swf" name="rocketDamage1" location="graphics_pyroEffects" id="rocketDamage1" hash="5b332ddc21feb1036e4d612c9fe1b300" debugView="false"/>
     <file version="1" type="swf" name="rocketDamage2" location="graphics_pyroEffects" id="rocketDamage2" hash="4482040a0befd4e5dfbbef1d9167b200" debugView="false"/>
-    <file version="1" type="swf" name="rocketSmoke0" location="graphics_smoke" id="rocketSmoke0" hash="90a8ca633cb3522027ed5c87fad10400" debugView="false"/>
-    <file version="1" type="swf" name="rocketSmoke1" location="graphics_smoke" id="rocketSmoke1" hash="936c5d9bdb63567dd30a14abd5692200" debugView="false"/>
-    <file version="1" type="swf" name="rocketSmoke2" location="graphics_smoke" id="rocketSmoke2" hash="09ce06d3f00f63a17668a99af0e0c100" debugView="false"/>
-    <file version="1" type="swf" name="rzone" location="graphics_ui_windows_rzone" id="rzone" hash="bd3ad96c93439b74d8ea3ef33e70a500" debugView="false"/>
-    <file version="1" type="xml" name="rzonePopup" location="graphics_ui_windows_rzone" id="rzonePopup" hash="03d6c1c70dd52bfe4a268d8e01ccbe00" debugView="false"/>
-    <file version="1" type="xml" name="rzoneWindowUI" location="graphics_ui_windows_rzone" id="rzoneWindowUI" hash="680148eb6786a44572004d7d89639900" debugView="false"/>
-    <file version="1" type="swf" name="sab_shot" location="graphics_effects" id="sab_shot" hash="70483a65c4d0b15c01fa308694921300" debugView="false"/>
-    <file version="1" type="swf" name="saimon_box" location="graphics_collectables" id="saimon_box" hash="fd1921894e59b72a33e19b328728fc00" debugView="false"/>
+    <file version="1" type="swf" name="rocketSmoke0" location="graphics_smoke" id="rocketSmoke0" hash="7b627cf74fad3fc4c8b829184d21f000" debugView="false"/>
+    <file version="1" type="swf" name="rocketSmoke1" location="graphics_smoke" id="rocketSmoke1" hash="d774c43a2b6ad13627c34784ae1d8600" debugView="false"/>
+    <file version="1" type="swf" name="rocketSmoke2" location="graphics_smoke" id="rocketSmoke2" hash="61a38557d3a80c80e4ab02ff390cb300" debugView="false"/>
+    <file version="1" type="swf" name="sab_shot" location="graphics_effects" id="sab_shot" hash="458022857e748d38ba2ece4c84b38600" debugView="false"/>
     <file version="1" type="jxr" name="satellite119" location="graphics_backgrounds_planets" id="satellite119" hash="32aee51cb6d61e22bfdd3e66b2a15200" debugView="false"/>
     <file version="1" type="atf" name="satellite119_atf" location="graphics_backgrounds_planets" id="satellite119_atf" hash="fb038bb6a59ded69c41980d5ce45bc00" debugView="false"/>
     <file version="1" type="png" name="satellite119_collider" location="graphics_backgrounds_planets" id="satellite119_collider" hash="a0119500e24c8c4ab26e9cdead376900" debugView="false"/>
@@ -1694,12 +1530,6 @@
     <file version="1" type="jxr" name="satellite155" location="graphics_backgrounds_planets" id="satellite155" hash="d411db4663b5da9a73e16e2fb35bfe00" debugView="false"/>
     <file version="1" type="atf" name="satellite155_atf" location="graphics_backgrounds_planets" id="satellite155_atf" hash="879ddaefb70a33c85b11239b5c6a3500" debugView="false"/>
     <file version="1" type="png" name="satellite155_collider" location="graphics_backgrounds_planets" id="satellite155_collider" hash="b111badf52c2b8bd2973a28a6cb3e500" debugView="false"/>
-    <file version="1" type="swf" name="scatter_laser1" location="graphics_lasers" id="scatter_laser1" hash="b894d614b87fea0871c9bf143615a300" debugView="false"/>
-    <file version="1" type="swf" name="scatter_laser2" location="graphics_lasers" id="scatter_laser2" hash="cd52af70497fec15b27569365577e500" debugView="false"/>
-    <file version="1" type="swf" name="scatter_laser3" location="graphics_lasers" id="scatter_laser3" hash="f99c445ac3764b955476b4637e505b00" debugView="false"/>
-    <file version="1" type="swf" name="scatter_laser_skilled1" location="graphics_lasers" id="scatter_laser_skilled1" hash="92d463f5238438ab1c96e5b84f556a00" debugView="false"/>
-    <file version="1" type="swf" name="scatter_laser_skilled2" location="graphics_lasers" id="scatter_laser_skilled2" hash="935de937d97bd8176717c844677daa00" debugView="false"/>
-    <file version="1" type="swf" name="scatter_laser_skilled3" location="graphics_lasers" id="scatter_laser_skilled3" hash="c3a8f09f6ae3665486b200fe0f7b5b00" debugView="false"/>
     <file version="1" type="jxr" name="scrap140" location="graphics_backgrounds_planets" id="scrap140" hash="aab5fa80ba7df02a5bc30482b1449f00" debugView="false"/>
     <file version="1" type="atf" name="scrap140_atf" location="graphics_backgrounds_planets" id="scrap140_atf" hash="69d6cfd96d8f02076a190f2780599700" debugView="false"/>
     <file version="1" type="png" name="scrap140_collider" location="graphics_backgrounds_planets" id="scrap140_collider" hash="3731aeac7dbce406ac86e24e05cc1400" debugView="false"/>
@@ -1772,14 +1602,11 @@
     <file version="1" type="atf" name="scrap_pirates_simple_texture_atf" location="graphics_backgrounds_tilemaps" id="scrap_pirates_simple_texture_atf" hash="4f6b75e81ec60ce9a4bcf100f8c87000" debugView="false"/>
     <file version="1" type="jxr" name="scrap_pirates_texture" location="graphics_backgrounds_tilemaps" id="scrap_pirates_texture" hash="4c62fa2a3398ee5c199f268853fa3900" debugView="false"/>
     <file version="1" type="atf" name="scrap_pirates_texture_atf" location="graphics_backgrounds_tilemaps" id="scrap_pirates_texture_atf" hash="823cf24449391fddbf1cda2aa18f0f00" debugView="false"/>
-    <file version="1" type="swf" name="scrapium" location="graphics_collectables" id="scrapium" hash="3223312f4625f248c5e9bfaf6c2d6900" debugView="false"/>
     <file version="1" type="swf" name="sectorControl" location="graphics_ui" id="sectorControl" hash="6834507894fecaa2c33bc7906090ea00" debugView="false"/>
     <file version="1" type="swf" name="sectorControlMapAssets" location="graphics_specialMapAssets" id="sectorControlMapAssets" hash="6963461f734ae2ff4b9a3fda52120500" debugView="false"/>
     <file version="1" type="swf" name="sectorControlSounds" location="audio_sounds" id="sectorControlSounds" hash="e8606c7761b3eab1baf62f6b0db34800" debugView="false"/>
     <file version="1" type="swf" name="sector_radius" location="graphics_backgrounds_tilemaps" id="sector_radius" hash="fea95c39e60c2b10484b66f7084c4300" debugView="false"/>
     <file version="1" type="swf" name="sentinel-effect" location="graphics_effects" id="sentinel-effect" hash="e81993c65f139e5e7be880fe30378000" debugView="false"/>
-    <file version="1" type="xml" name="settingsWindow" location="graphics_ui_windows_settings" id="settingsWindow" hash="53502abf26aa5251c855be56379ee100" debugView="false"/>
-    <file version="1" type="swf" name="settingsWindowFUI" location="graphics_ui_windows_settings" id="settingsWindowFUI" hash="22984f2c1fb4c0ca4ffd124500664c00" debugView="false"/>
     <file version="1" type="swf" name="shield0" location="graphics_shields" id="shield0" hash="0954d911778610fb93948e87712fd700" debugView="false"/>
     <file version="1" type="swf" name="shield1" location="graphics_shields" id="shield1" hash="de9069c449ad88b0298b7c4526499000" debugView="false"/>
     <file version="1" type="swf" name="shieldDamage" location="graphics_shields" id="shieldDamage" hash="be3e073cd8037b1550624d99ea245800" debugView="false"/>
@@ -1816,7 +1643,7 @@
     <file version="1" type="swf" name="ship123" location="graphics_ships" id="ship123" hash="2bc81863107fb6456c0c8046b92f8100" debugView="false"/>
     <file version="1" type="swf" name="ship124" location="graphics_ships" id="ship124" hash="8ec699469ba6f6daff75d66d2a2ed200" debugView="false"/>
     <file version="1" type="swf" name="ship125" location="graphics_ships" id="ship125" hash="578ca90a9e269f7bb838d1da45a53000" debugView="false"/>
-    <file version="1" type="swf" name="ship126" location="graphics_ships" id="ship126" hash="3a915e145293ca18092e7af17c37c600" debugView="false"/>
+    <file version="1" type="swf" name="ship126" location="graphics_ships" id="ship126" hash="6d5a2d29a41f874e6bd7c6d80c3f9000" debugView="false"/>
     <file version="1" type="swf" name="ship127" location="graphics_ships" id="ship127" hash="872dbe2745a088464d7702e1d2b7ee00" debugView="false"/>
     <file version="1" type="swf" name="ship128" location="graphics_ships" id="ship128" hash="5385474e9b5785c894f735da2d1b4c00" debugView="false"/>
     <file version="1" type="swf" name="ship129" location="graphics_ships" id="ship129" hash="696c7f82b11babf661dfec648c5e6500" debugView="false"/>
@@ -1826,13 +1653,9 @@
     <file version="1" type="swf" name="ship13_Emax" location="graphics_expansions" id="ship13_Emax" hash="59951cd1041dced16389284e1db7dc00" debugView="false"/>
     <file version="1" type="swf" name="ship13_Emed" location="graphics_expansions" id="ship13_Emed" hash="b775772c6f3c35c8e3034b4e42844700" debugView="false"/>
     <file version="1" type="swf" name="ship14" location="graphics_ships" id="ship14" hash="fd85b29569fe29bc6e24cc2be9ea5000" debugView="false"/>
-    <file version="1" type="swf" name="ship147" location="graphics_ships" id="ship147" hash="b6445c3fc18d42b57343bc74fb21ae00" debugView="false"/>
-    <file version="1" type="swf" name="ship148" location="graphics_ships" id="ship148" hash="d3575de7af3cc56f1271c45677a21500" debugView="false"/>
-    <file version="1" type="swf" name="ship149" location="graphics_ships" id="ship149" hash="009c709c1fc04fede2e752a23a299b00" debugView="false"/>
     <file version="1" type="swf" name="ship14_Emax" location="graphics_expansions" id="ship14_Emax" hash="2487569472a92a29afb2ca03f6962700" debugView="false"/>
     <file version="1" type="swf" name="ship14_Emed" location="graphics_expansions" id="ship14_Emed" hash="ecfe1c5b9639cf01af2dd77b1d912f00" debugView="false"/>
     <file version="1" type="swf" name="ship15" location="graphics_ships" id="ship15" hash="77e56f1993b7a3455f44a95c083a4b00" debugView="false"/>
-    <file version="1" type="swf" name="ship150" location="graphics_ships" id="ship150" hash="00099ccf5a5fb455336e2c66b98eae00" debugView="false"/>
     <file version="1" type="swf" name="ship15_Emax" location="graphics_expansions" id="ship15_Emax" hash="8cc1f6afce56c1fc8d4d0092975b3500" debugView="false"/>
     <file version="1" type="swf" name="ship15_Emed" location="graphics_expansions" id="ship15_Emed" hash="0137ec9d1655c8c8cfb6f409bc19a800" debugView="false"/>
     <file version="1" type="swf" name="ship16" location="graphics_ships" id="ship16" hash="3549bcd11f6455ac54fef46b1a6afb00" debugView="false"/>
@@ -1962,13 +1785,6 @@
     <file version="1" type="swf" name="shipGlow3" location="graphics_shipGlows" id="shipGlow3" hash="a6dd6437a6c058e14e94a999aa914800" debugView="false"/>
     <file version="1" type="swf" name="shipSounds" location="audio_sounds" id="shipSounds" hash="162f0b705ab8dff0a4f2e4ab22d7a600" debugView="false"/>
     <file version="1" type="swf" name="shipWrecks" location="graphics_assets" id="shipWrecks" hash="a2d4229d8eda1fd0c4da36b00c2cfc00" debugView="false"/>
-    <file version="1" type="swf" name="ship_a_elite_design_a_elite_blaze" location="graphics_ships" id="ship_a_elite_design_a_elite_blaze" hash="beba7994faf717b9042f9c94bbe48700" debugView="false"/>
-    <file version="1" type="swf" name="ship_a_elite_design_a_elite_lava" location="graphics_ships" id="ship_a_elite_design_a_elite_lava" hash="61b63169757123315cb9134b42cfcc00" debugView="false"/>
-    <file version="1" type="swf" name="ship_a_elite_design_a_elite_legend" location="graphics_ships" id="ship_a_elite_design_a_elite_legend" hash="dcde0aa2ed47b6a96bfed8982ade8600" debugView="false"/>
-    <file version="1" type="swf" name="ship_a_elite_design_a_elite_ocean" location="graphics_ships" id="ship_a_elite_design_a_elite_ocean" hash="e27f5c08234dc1e54b2fd19366f6ea00" debugView="false"/>
-    <file version="1" type="swf" name="ship_a_elite_design_a_elite_poison" location="graphics_ships" id="ship_a_elite_design_a_elite_poison" hash="b271c2a5fe0c6a42800df1d2592d8a00" debugView="false"/>
-    <file version="1" type="swf" name="ship_a_elite_design_a_elite_sandstorm" location="graphics_ships" id="ship_a_elite_design_a_elite_sandstorm" hash="33ffb38f40fe7620fdd9f077c99cb200" debugView="false"/>
-    <file version="1" type="swf" name="ship_aegis_design_aegis-frost" location="graphics_ships" id="ship_aegis_design_aegis-frost" hash="90a56d15905d5d6839e608f9a59b4500" debugView="false"/>
     <file version="1" type="swf" name="ship_aegis_design_aegisEliteEic" location="graphics_ships" id="ship_aegis_design_aegisEliteEic" hash="52e0b8d56d78ec4b246ed279cc14a400" debugView="false"/>
     <file version="1" type="swf" name="ship_aegis_design_aegisEliteMmo" location="graphics_ships" id="ship_aegis_design_aegisEliteMmo" hash="65db8a0243ce417c050ca4ab4c57d000" debugView="false"/>
     <file version="1" type="swf" name="ship_aegis_design_aegisEliteVru" location="graphics_ships" id="ship_aegis_design_aegisEliteVru" hash="ef6de2ac2c59bf5d1803aa3fd2e7fc00" debugView="false"/>
@@ -1983,7 +1799,6 @@
     <file version="1" type="swf" name="ship_bigboy_design_mamba_Emax" location="graphics_expansions" id="ship_bigboy_design_mamba_Emax" hash="1009fe96f102a2cab4fee80789cbef00" debugView="false"/>
     <file version="1" type="swf" name="ship_bigboy_design_mamba_Emed" location="graphics_expansions" id="ship_bigboy_design_mamba_Emed" hash="427f72c877e3557769e4e52af3067b00" debugView="false"/>
     <file version="1" type="swf" name="ship_bigboy_design_solemn" location="graphics_ships" id="ship_bigboy_design_solemn" hash="0f2d63727d33863bbc54c97f8005f600" debugView="false"/>
-    <file version="1" type="swf" name="ship_citadel_design_citadel-frost" location="graphics_ships" id="ship_citadel_design_citadel-frost" hash="0c0fed72db339b1853827918d98cd300" debugView="false"/>
     <file version="1" type="swf" name="ship_citadel_design_citadelEliteEic" location="graphics_ships" id="ship_citadel_design_citadelEliteEic" hash="a5144164a240162479d2df9def224600" debugView="false"/>
     <file version="1" type="swf" name="ship_citadel_design_citadelEliteMmo" location="graphics_ships" id="ship_citadel_design_citadelEliteMmo" hash="b55bbfae94d9dd025055b96f00f1f500" debugView="false"/>
     <file version="1" type="swf" name="ship_citadel_design_citadelEliteVru" location="graphics_ships" id="ship_citadel_design_citadelEliteVru" hash="4e89edf4d6322ff4a3e0c2c6d7581100" debugView="false"/>
@@ -1994,79 +1809,17 @@
     <file version="1" type="swf" name="ship_citadel_mmo" location="graphics_ships" id="ship_citadel_mmo" hash="60cd5b5a87ca8e045ac12faa85f1c500" debugView="false"/>
     <file version="1" type="swf" name="ship_citadel_neutral" location="graphics_ships" id="ship_citadel_neutral" hash="c8ba3f3d1749118268a61d8936d06b00" debugView="false"/>
     <file version="1" type="swf" name="ship_citadel_vru" location="graphics_ships" id="ship_citadel_vru" hash="c8542d21325d656d8c0a85445f0b8100" debugView="false"/>
-    <file version="1" type="swf" name="ship_defcom_raven" location="graphics_ships" id="ship_defcom_raven" hash="de79c5d955c98ddb58d167067a942300" debugView="false"/>
-    <file version="1" type="swf" name="ship_defcom_violet" location="graphics_ships" id="ship_defcom_violet" hash="4344c95180467db23921c9bf8849e000" debugView="false"/>
-    <file version="1" type="swf" name="ship_diminisher_violet" location="graphics_ships" id="ship_diminisher_violet" hash="913fff069db8af5e560b72872ff21a00" debugView="false"/>
-    <file version="1" type="swf" name="ship_g-cyborg" location="graphics_ships" id="ship_g-cyborg" hash="40e142a4599958cec6e413475beb4100" debugView="false"/>
-    <file version="1" type="swf" name="ship_g-surgeon_design_g-surgeon-cicada" location="graphics_ships" id="ship_g-surgeon_design_g-surgeon-cicada" hash="aee6aa611c76140b01691ebeef86e500" debugView="false"/>
-    <file version="1" type="swf" name="ship_g-surgeon_design_g-surgeon-locust" location="graphics_ships" id="ship_g-surgeon_design_g-surgeon-locust" hash="3344159fa70ecd83744b2569296d8400" debugView="false"/>
-    <file version="1" type="swf" name="ship_g_champion" location="graphics_ships" id="ship_g_champion" hash="6719289cca7d8ba6ee1fc769b9f88300" debugView="false"/>
-    <file version="1" type="swf" name="ship_g_champion_design_g_champion_albania" location="graphics_ships" id="ship_g_champion_design_g_champion_albania" hash="807a64bae696a6de5c8ceb2fda2eab00" debugView="false"/>
-    <file version="1" type="swf" name="ship_g_champion_design_g_champion_austria" location="graphics_ships" id="ship_g_champion_design_g_champion_austria" hash="ce8a24c7ec1029627b8cf876b8264d00" debugView="false"/>
-    <file version="1" type="swf" name="ship_g_champion_design_g_champion_belgium" location="graphics_ships" id="ship_g_champion_design_g_champion_belgium" hash="5b7ace3907bd5a97d7b19977afb8df00" debugView="false"/>
-    <file version="1" type="swf" name="ship_g_champion_design_g_champion_croatia" location="graphics_ships" id="ship_g_champion_design_g_champion_croatia" hash="4ab427958d7120c88af58e8724721f00" debugView="false"/>
-    <file version="1" type="swf" name="ship_g_champion_design_g_champion_czech_republic" location="graphics_ships" id="ship_g_champion_design_g_champion_czech_republic" hash="a7d4a188f3e5fc8c0f780762943e4a00" debugView="false"/>
-    <file version="1" type="swf" name="ship_g_champion_design_g_champion_england" location="graphics_ships" id="ship_g_champion_design_g_champion_england" hash="1a31336dcd4f981748a5f636e6907200" debugView="false"/>
-    <file version="1" type="swf" name="ship_g_champion_design_g_champion_france" location="graphics_ships" id="ship_g_champion_design_g_champion_france" hash="ed207406666114b0eeda775ccbdfd000" debugView="false"/>
-    <file version="1" type="swf" name="ship_g_champion_design_g_champion_germany" location="graphics_ships" id="ship_g_champion_design_g_champion_germany" hash="f68efa433cf08d41676799da2f2a2900" debugView="false"/>
-    <file version="1" type="swf" name="ship_g_champion_design_g_champion_hungary" location="graphics_ships" id="ship_g_champion_design_g_champion_hungary" hash="90c15a88de3ea04e97e5bad8f36ce600" debugView="false"/>
-    <file version="1" type="swf" name="ship_g_champion_design_g_champion_iceland" location="graphics_ships" id="ship_g_champion_design_g_champion_iceland" hash="4e0e884a0555a141956de2090eb45a00" debugView="false"/>
-    <file version="1" type="swf" name="ship_g_champion_design_g_champion_ireland" location="graphics_ships" id="ship_g_champion_design_g_champion_ireland" hash="45a567e81cba2b81da34a4413f43f800" debugView="false"/>
-    <file version="1" type="swf" name="ship_g_champion_design_g_champion_italy" location="graphics_ships" id="ship_g_champion_design_g_champion_italy" hash="45a567e81cba2b81da34a4413f43f800" debugView="false"/>
-    <file version="1" type="swf" name="ship_g_champion_design_g_champion_northern_ireland" location="graphics_ships" id="ship_g_champion_design_g_champion_northern_ireland" hash="0d2e024be60fb46c4193d3d9925db200" debugView="false"/>
-    <file version="1" type="swf" name="ship_g_champion_design_g_champion_poland" location="graphics_ships" id="ship_g_champion_design_g_champion_poland" hash="90cba2afd3e56473f2025d88895e7600" debugView="false"/>
-    <file version="1" type="swf" name="ship_g_champion_design_g_champion_portugal" location="graphics_ships" id="ship_g_champion_design_g_champion_portugal" hash="c39768170a1cc2bd1d40063086850f00" debugView="false"/>
-    <file version="1" type="swf" name="ship_g_champion_design_g_champion_republic_of_ireland" location="graphics_ships" id="ship_g_champion_design_g_champion_republic_of_ireland" hash="3e940db26d5c2d125c4ba55982ef9500" debugView="false"/>
-    <file version="1" type="swf" name="ship_g_champion_design_g_champion_romania" location="graphics_ships" id="ship_g_champion_design_g_champion_romania" hash="0c9c4397390018827e2a0247b1b79b00" debugView="false"/>
-    <file version="1" type="swf" name="ship_g_champion_design_g_champion_russia" location="graphics_ships" id="ship_g_champion_design_g_champion_russia" hash="252018d0a616ed86ae4fde66a3bd4700" debugView="false"/>
-    <file version="1" type="swf" name="ship_g_champion_design_g_champion_slovakia" location="graphics_ships" id="ship_g_champion_design_g_champion_slovakia" hash="a8cdc4af7027c58dc862184e2a1fad00" debugView="false"/>
-    <file version="1" type="swf" name="ship_g_champion_design_g_champion_spain" location="graphics_ships" id="ship_g_champion_design_g_champion_spain" hash="d2b52baede90430f99718be14b69a400" debugView="false"/>
-    <file version="1" type="swf" name="ship_g_champion_design_g_champion_sweden" location="graphics_ships" id="ship_g_champion_design_g_champion_sweden" hash="f5bc1f2d9784e8ccef3a5abbf1b80f00" debugView="false"/>
-    <file version="1" type="swf" name="ship_g_champion_design_g_champion_switzerland" location="graphics_ships" id="ship_g_champion_design_g_champion_switzerland" hash="ba176ba78badd90c511b89632a812200" debugView="false"/>
-    <file version="1" type="swf" name="ship_g_champion_design_g_champion_ukraine" location="graphics_ships" id="ship_g_champion_design_g_champion_ukraine" hash="7050f6d7a89ac13d335e6247364c7c00" debugView="false"/>
-    <file version="1" type="swf" name="ship_g_champion_design_g_champion_wales" location="graphics_ships" id="ship_g_champion_design_g_champion_wales" hash="8d5dc59cdff996471cc6b37cb717a000" debugView="false"/>
-    <file version="1" type="swf" name="ship_goliath-solace-blaze" location="graphics_ships" id="ship_goliath-solace-blaze" hash="5b46a1ea87c1c01ba12260afe5460200" debugView="false"/>
-    <file version="1" type="swf" name="ship_goliath-x" location="graphics_ships" id="ship_goliath-x" hash="ad3d849621ff8ceff9393f9a63a76800" debugView="false"/>
-    <file version="1" type="swf" name="ship_goliath-x-borealis" location="graphics_ships" id="ship_goliath-x-borealis" hash="7688784c25e500b126e85581814cd700" debugView="false"/>
-    <file version="1" type="swf" name="ship_goliath-x-ocean" location="graphics_ships" id="ship_goliath-x-ocean" hash="55f0988691aee7e7deaeb24537a54f00" debugView="false"/>
-    <file version="1" type="swf" name="ship_goliath-x-sandstorm" location="graphics_ships" id="ship_goliath-x-sandstorm" hash="6457af7d9c203585df3d3ffd69854c00" debugView="false"/>
-    <file version="1" type="swf" name="ship_goliath_design_bronze" location="graphics_ships" id="ship_goliath_design_bronze" hash="d2a691b974d4649a69fd0ec726cd5000" debugView="false"/>
-    <file version="1" type="swf" name="ship_goliath_design_gold" location="graphics_ships" id="ship_goliath_design_gold" hash="e2749a9cb41494c625b7eca7d3b5a300" debugView="false"/>
-    <file version="1" type="swf" name="ship_goliath_design_goliath-frost" location="graphics_ships" id="ship_goliath_design_goliath-frost" hash="471f8839d8696d201c7790fb6ac38c00" debugView="false"/>
-    <file version="1" type="swf" name="ship_goliath_design_iron" location="graphics_ships" id="ship_goliath_design_iron" hash="7ba84e74886325914de866567f0c2f00" debugView="false"/>
     <file version="1" type="swf" name="ship_goliath_design_peacemaker" location="graphics_ships" id="ship_goliath_design_peacemaker" hash="0aed58258fdd393bd096393423591100" debugView="false"/>
-    <file version="1" type="swf" name="ship_goliath_design_plague" location="graphics_ships" id="ship_goliath_design_plague" hash="d22e6b9f647807ea32dfb48b099a0e00" debugView="false"/>
+    <file version="1" type="swf" name="ship_goliath_design_plague" location="graphics_ships" id="ship_goliath_design_plague" hash="2de7835e02446a63095666be23127000" debugView="false"/>
     <file version="1" type="swf" name="ship_goliath_design_razer" location="graphics_ships" id="ship_goliath_design_razer" hash="9032bd2bf6ad36a56f7f23dea7094700" debugView="false"/>
-    <file version="1" type="swf" name="ship_goliath_design_silver" location="graphics_ships" id="ship_goliath_design_silver" hash="2195395e350ad7d7df455c3fc3c3d700" debugView="false"/>
     <file version="1" type="swf" name="ship_goliath_design_sovereign" location="graphics_ships" id="ship_goliath_design_sovereign" hash="e9e4bb5672b549e8a5d705e688329d00" debugView="false"/>
     <file version="1" type="swf" name="ship_goliath_design_turkish" location="graphics_ships" id="ship_goliath_design_turkish" hash="a7bb13c1b5a4b5b307be30fd2387e700" debugView="false"/>
     <file version="1" type="swf" name="ship_goliath_design_vanquisher" location="graphics_ships" id="ship_goliath_design_vanquisher" hash="dd89f764e3607a3dd4d73281fa687e00" debugView="false"/>
-    <file version="1" type="swf" name="ship_gygerthrall_infected" location="graphics_ships" id="ship_gygerthrall_infected" hash="f06d63db7b1acf801a5e1b2bf3b49700" debugView="false"/>
-    <file version="1" type="swf" name="ship_hammerclaw" location="graphics_ships" id="ship_hammerclaw" hash="8fedba52de392b03b091f3a370936200" debugView="false"/>
-    <file version="1" type="swf" name="ship_hitac_frost" location="graphics_ships" id="ship_hitac_frost" hash="bc3f646528d7fcb96804146d2c3c8500" debugView="false"/>
-    <file version="1" type="swf" name="ship_hitac_infected" location="graphics_ships" id="ship_hitac_infected" hash="784f0b5a0745eed38d6e24988243f700" debugView="false"/>
-    <file version="1" type="swf" name="ship_hitac_minion_frost" location="graphics_ships" id="ship_hitac_minion_frost" hash="a49edc34a66cbd337cbe716544de7000" debugView="false"/>
-    <file version="1" type="swf" name="ship_infected_egg" location="graphics_ships" id="ship_infected_egg" hash="067b85a476e1c02583be36428cdc4700" debugView="false"/>
-    <file version="1" type="swf" name="ship_lightning_frost" location="graphics_ships" id="ship_lightning_frost" hash="1a173dd8003b7b71e2865d37a9125600" debugView="false"/>
-    <file version="1" type="swf" name="ship_n-ambassador_design_n-ambassador-inferno" location="graphics_ships" id="ship_n-ambassador_design_n-ambassador-inferno" hash="e2d2853ae2471cd5e88e938d15a98900" debugView="false"/>
+	 <file version="1" type="swf" name="ship_goliath_design_bronze" location="graphics_ships" id="ship_goliath_design_bronze" hash="dd89f764e3607a3dd4d73281fa687e00" debugView="false"/>
     <file version="1" type="swf" name="ship_nostromo_design_ambassador" location="graphics_ships" id="ship_nostromo_design_ambassador" hash="d095228ebd45fefa5af99f9884ea1800" debugView="false"/>
-    <file version="1" type="swf" name="ship_nostromo_design_ambassador_frost" location="graphics_ships" id="ship_nostromo_design_ambassador_frost" hash="25034b0ebc70fd31e348e25b85564b00" debugView="false"/>
     <file version="1" type="swf" name="ship_nostromo_design_diplomat" location="graphics_ships" id="ship_nostromo_design_diplomat" hash="8fd6aab8781590be2d63ddde4406be00" debugView="false"/>
     <file version="1" type="swf" name="ship_nostromo_design_envoy" location="graphics_ships" id="ship_nostromo_design_envoy" hash="84d8c7309271cd6e754234bc9a1fba00" debugView="false"/>
     <file version="1" type="swf" name="ship_nostromo_design_razer" location="graphics_ships" id="ship_nostromo_design_razer" hash="c71e1bb15402b45c423c933633ee7300" debugView="false"/>
-    <file version="1" type="swf" name="ship_pusat_blaze" location="graphics_ships" id="ship_pusat_blaze" hash="81815a4eacbd158cef31c5c7ddd11600" debugView="false"/>
-    <file version="1" type="swf" name="ship_pusat_design_pusat-inferno" location="graphics_ships" id="ship_pusat_design_pusat-inferno" hash="0172bb8b37d72bab648ec6d4119b2b00" debugView="false"/>
-    <file version="1" type="swf" name="ship_pusat_lava" location="graphics_ships" id="ship_pusat_lava" hash="9a7e69de0e4b7043da2f33f99cf30400" debugView="false"/>
-    <file version="1" type="swf" name="ship_pusat_legend" location="graphics_ships" id="ship_pusat_legend" hash="2d243620a31e6813415251450317ad00" debugView="false"/>
-    <file version="1" type="swf" name="ship_pusat_ocean" location="graphics_ships" id="ship_pusat_ocean" hash="4dfa83cc96e58b5bac5b082e7f497c00" debugView="false"/>
-    <file version="1" type="swf" name="ship_pusat_poison" location="graphics_ships" id="ship_pusat_poison" hash="3e6f8d812880fba4232bad6fd58eb700" debugView="false"/>
-    <file version="1" type="swf" name="ship_pusat_sandstorm" location="graphics_ships" id="ship_pusat_sandstorm" hash="bba2ddedfdd4b8f3373099d7a1076c00" debugView="false"/>
-    <file version="1" type="swf" name="ship_pusat_violet" location="graphics_ships" id="ship_pusat_violet" hash="3f3a4d04cc3f044ab5cab7080bc05400" debugView="false"/>
-    <file version="1" type="swf" name="ship_sentinel_design_sentinel-inferno" location="graphics_ships" id="ship_sentinel_design_sentinel-inferno" hash="866fa9fb0cbe8ab78b18709006135500" debugView="false"/>
-    <file version="1" type="swf" name="ship_sentinel_frost" location="graphics_ships" id="ship_sentinel_frost" hash="a41190c4f5b8ae62621596f2e458c400" debugView="false"/>
-    <file version="1" type="swf" name="ship_sentinel_violet" location="graphics_ships" id="ship_sentinel_violet" hash="666691bba94e662f87ccdbaa94af2600" debugView="false"/>
-    <file version="1" type="swf" name="ship_solace_design_solace-ocean" location="graphics_ships" id="ship_solace_design_solace-ocean" hash="0ee9d893e87316e112bec003bbdf8000" debugView="false"/>
-    <file version="1" type="swf" name="ship_spearhead_design_spearhead-frost" location="graphics_ships" id="ship_spearhead_design_spearhead-frost" hash="103eb143897dbeeb67d5cd71366d8000" debugView="false"/>
     <file version="1" type="swf" name="ship_spearhead_design_spearheadEliteEic" location="graphics_ships" id="ship_spearhead_design_spearheadEliteEic" hash="2ce499a8ac163146450f4ddc74240f00" debugView="false"/>
     <file version="1" type="swf" name="ship_spearhead_design_spearheadEliteMmo" location="graphics_ships" id="ship_spearhead_design_spearheadEliteMmo" hash="7dc9f532aa080511bed95dfcb1136600" debugView="false"/>
     <file version="1" type="swf" name="ship_spearhead_design_spearheadEliteVru" location="graphics_ships" id="ship_spearhead_design_spearheadEliteVru" hash="2775e6f691c2bee83e47788e14bccd00" debugView="false"/>
@@ -2077,46 +1830,23 @@
     <file version="1" type="swf" name="ship_spearhead_mmo" location="graphics_ships" id="ship_spearhead_mmo" hash="d095a8584343e0804921c84a076e9f00" debugView="false"/>
     <file version="1" type="swf" name="ship_spearhead_neutral" location="graphics_ships" id="ship_spearhead_neutral" hash="bcb01c8e91c1ad02f056c58b08a47600" debugView="false"/>
     <file version="1" type="swf" name="ship_spearhead_vru" location="graphics_ships" id="ship_spearhead_vru" hash="0bd000cf3e813c02802d3dd540e8aa00" debugView="false"/>
-    <file version="1" type="swf" name="ship_spectrum_blaze" location="graphics_ships" id="ship_spectrum_blaze" hash="2238c6c446d965159c68a49a92349f00" debugView="false"/>
-    <file version="1" type="swf" name="ship_spectrum_design_spectrum-inferno" location="graphics_ships" id="ship_spectrum_design_spectrum-inferno" hash="801f8cce3ddeb888832e47052e239000" debugView="false"/>
-    <file version="1" type="swf" name="ship_spectrum_frost" location="graphics_ships" id="ship_spectrum_frost" hash="1e8bb213ca9ba6b222429198b5c7f300" debugView="false"/>
-    <file version="1" type="swf" name="ship_spectrum_lava" location="graphics_ships" id="ship_spectrum_lava" hash="7c1c3aa2d3a828c9d392a4bc35eef200" debugView="false"/>
-    <file version="1" type="swf" name="ship_spectrum_legend" location="graphics_ships" id="ship_spectrum_legend" hash="ec2cbf390dcab15083ecc42dcc04ac00" debugView="false"/>
-    <file version="1" type="swf" name="ship_spectrum_ocean" location="graphics_ships" id="ship_spectrum_ocean" hash="3d3e67e4c0af48eeb07aed3e8d36a600" debugView="false"/>
-    <file version="1" type="swf" name="ship_spectrum_poison" location="graphics_ships" id="ship_spectrum_poison" hash="501b36154e8d7f1cf9d4a4d13100c600" debugView="false"/>
-    <file version="1" type="swf" name="ship_spectrum_sandstorm" location="graphics_ships" id="ship_spectrum_sandstorm" hash="bc3824b3caac5037b676a9031d7dd200" debugView="false"/>
-    <file version="1" type="swf" name="ship_streuner_rocketeer" location="graphics_ships" id="ship_streuner_rocketeer" hash="5f766b03c1417b6e2d13334597243a00" debugView="false"/>
-    <file version="1" type="swf" name="ship_streuner_seeker_rocket" location="graphics_ships" id="ship_streuner_seeker_rocket" hash="ac755d716e67eb4d5af0c25ce6c69f00" debugView="false"/>
-    <file version="1" type="swf" name="ship_v-lightning_design_v-lightning-inferno" location="graphics_ships" id="ship_v-lightning_design_v-lightning-inferno" hash="1748e455c58860e8ef2d2c43bda6b400" debugView="false"/>
     <file version="1" type="swf" name="ship_vengeance_design_pusat" location="graphics_ships" id="ship_vengeance_design_pusat" hash="2eda17cd4aa211d8b2590c19ed47ca00" debugView="false"/>
-    <file version="1" type="swf" name="ship_vengeance_design_pusat_frost" location="graphics_ships" id="ship_vengeance_design_pusat_frost" hash="7e825d50fbb15425ff78259d0c2bf400" debugView="false"/>
-    <file version="1" type="swf" name="ship_vengeance_lightning_violet" location="graphics_ships" id="ship_vengeance_lightning_violet" hash="5e5cd9a13461dbee5cf1e160241b4500" debugView="false"/>
-    <file version="1" type="swf" name="ship_venom-blaze" location="graphics_ships" id="ship_venom-blaze" hash="bfa41d9457c93263f4c262e92acd1a00" debugView="false"/>
-    <file version="1" type="swf" name="ship_venom-frost" location="graphics_ships" id="ship_venom-frost" hash="de63c59ad0257ede77d17291c4587600" debugView="false"/>
-    <file version="1" type="swf" name="ship_venom_design_venom-inferno" location="graphics_ships" id="ship_venom_design_venom-inferno" hash="0913e85781e4850521a7fa3e76b8e300" debugView="false"/>
-    <file version="1" type="swf" name="ship_venom_design_venom-ocean" location="graphics_ships" id="ship_venom_design_venom-ocean" hash="67a9d132332a5dbe7602e965a950d500" debugView="false"/>
-    <file version="1" type="swf" name="ship_venom_frost" location="graphics_ships" id="ship_venom_frost" hash="de63c59ad0257ede77d17291c4587600" debugView="false"/>
-    <file version="1" type="swf" name="ship_yamato_ronin" location="graphics_ships" id="ship_yamato_ronin" hash="3bf0dc52611ed09112130000d8dcea00" debugView="false"/>
-    <file version="1" type="swf" name="ship_yamato_violet" location="graphics_ships" id="ship_yamato_violet" hash="55b2d977ae7d33a427021c3f340d9900" debugView="false"/>
     <file version="1" type="swf" name="shockwaves" location="graphics_pyroEffects" id="shockwaves" hash="2a233841d73bcbe0ccd9f1887a7c9600" debugView="false"/>
-    <file version="1" type="swf" name="sibelonShot" location="graphics_lasers" id="sibelonShot" hash="e11fd7655573d12346fdc28975cb3700" debugView="false"/>
+    <file version="1" type="swf" name="sibelonShot" location="graphics_lasers" id="sibelonShot" hash="90397fa4a2c2915345e501870d494800" debugView="false"/>
     <file version="1" type="swf" name="silverBootyBox" location="graphics_collectables" id="silverBootyBox" hash="4ea7faf77edfa81da401009b3f147c00" debugView="false"/>
-    <file version="1" type="swf" name="simple_patterns" location="graphics_backgrounds_tilemaps" id="simple_patterns" hash="16aee0e08a40ec05e9b248fff59c3500" debugView="false"/>
-    <file version="1" type="swf" name="skillLaser0" location="graphics_lasers" id="skillLaser0" hash="c031c5dcd504646fdfb200344a8a4d00" debugView="false"/>
-    <file version="1" type="swf" name="skillLaser1" location="graphics_lasers" id="skillLaser1" hash="ce5878f034b874781cf3cf7e0ac29500" debugView="false"/>
-    <file version="1" type="swf" name="skillLaser2" location="graphics_lasers" id="skillLaser2" hash="eb587181750f8f9f4bfcaa45a0fc9000" debugView="false"/>
-    <file version="1" type="swf" name="skillLaser3" location="graphics_lasers" id="skillLaser3" hash="89eac6d49ec50a85edf1a0bfeb3e4800" debugView="false"/>
-    <file version="1" type="swf" name="skillLaser4" location="graphics_lasers" id="skillLaser4" hash="8f8356a0b1b0e0171ada221a26f5f900" debugView="false"/>
-    <file version="1" type="swf" name="skillLaser5" location="graphics_lasers" id="skillLaser5" hash="97c00cfbc1415692585bba3ae125cb00" debugView="false"/>
-    <file version="1" type="swf" name="skillLaser6" location="graphics_lasers" id="skillLaser6" hash="f923846f4be6d5395388039c60bd4c00" debugView="false"/>
+    <file version="1" type="swf" name="simple_patterns" location="graphics_backgrounds_tilemaps" id="simple_patterns" hash="7903597ac24fe1f2af6a1d2a31158400" debugView="false"/>
+    <file version="1" type="swf" name="skillLaser0" location="graphics_lasers" id="skillLaser0" hash="0dc250dbe56dad3655cbb51b7d4f8900" debugView="false"/>
+    <file version="1" type="swf" name="skillLaser1" location="graphics_lasers" id="skillLaser1" hash="23d194d8fa6a2148e434f89a2c512900" debugView="false"/>
+    <file version="1" type="swf" name="skillLaser2" location="graphics_lasers" id="skillLaser2" hash="d4617d48765dbdecabf4842687030a00" debugView="false"/>
+    <file version="1" type="swf" name="skillLaser3" location="graphics_lasers" id="skillLaser3" hash="0a5a82c284073919d0a81ff7c834c100" debugView="false"/>
+    <file version="1" type="swf" name="skillLaser4" location="graphics_lasers" id="skillLaser4" hash="442a259d278a068f4908f3f7da76d900" debugView="false"/>
+    <file version="1" type="swf" name="skillLaser5" location="graphics_lasers" id="skillLaser5" hash="c6d417da45e49de3a6e63d13dd840200" debugView="false"/>
+    <file version="1" type="swf" name="skillLaser6" location="graphics_lasers" id="skillLaser6" hash="e00d159fdb6c3e0ea712c0df472cf600" debugView="false"/>
     <file version="1" type="swf" name="skull" location="graphics_effects" id="skull" hash="0c750ad1f4e3c65fd1ab0d6e083cbe00" debugView="false"/>
     <file version="1" type="swf" name="slow-effect" location="graphics_effects" id="slow-effect" hash="70f2f8334d9471d8f6f85b2417d3b000" debugView="false"/>
-    <file version="1" type="swf" name="slowdownMine" location="graphics_mines" id="slowdownMine" hash="1647f16c2c466b3fb2f0b300cdb86d00" debugView="false"/>
+    <file version="1" type="swf" name="slowdownMine" location="graphics_mines" id="slowdownMine" hash="21d8ec8070399c2557c48b07cbfd8a00" debugView="false"/>
     <file version="1" type="swf" name="smartbomb1" location="graphics_pyroEffects" id="smartbomb1" hash="c17fa1792a02d66ffbb78d67d26fa400" debugView="false"/>
     <file version="1" type="swf" name="solace-effect" location="graphics_effects" id="solace-effect" hash="3f81d22920b199d3fa5edf4e81cf5d00" debugView="false"/>
-    <file version="1" type="swf" name="soundword1" location="graphics_pyroEffects" id="soundword1" hash="0c68d24a3e592b46901005b8a416de00" debugView="false"/>
-    <file version="1" type="swf" name="soundword2" location="graphics_pyroEffects" id="soundword2" hash="91b2175c4372570cfcf1b7c2f43b1300" debugView="false"/>
-    <file version="1" type="swf" name="soundword3" location="graphics_pyroEffects" id="soundword3" hash="bd8323e0c83c0e6d7233d00f4cf13000" debugView="false"/>
     <file version="1" type="swf" name="spacemap" location="graphics_ui" id="spacemap" hash="4ee4783a74216847785553bf0b450600" debugView="false"/>
     <file version="1" type="swf" name="spawn0" location="graphics_effects" id="spawn0" hash="ba4e3eeb0ba14f558bf0c51cc5e8bf00" debugView="false"/>
     <file version="1" type="swf" name="spawn1" location="graphics_effects" id="spawn1" hash="b6f649edd48b7120cc87e6e726d40100" debugView="false"/>
@@ -2141,7 +1871,7 @@
     <file version="1" type="xml" name="springFightWinnerAssetsMmo" location="graphics_assets_springFight" id="springFightWinnerAssetsMmo" hash="fb9e6e90d504efb84eb620f6ac3a9200" debugView="false"/>
     <file version="1" type="xml" name="springFightWinnerAssetsVru" location="graphics_assets_springFight" id="springFightWinnerAssetsVru" hash="465e90616e71aa9cafc8261a5633f500" debugView="false"/>
     <file version="1" type="swf" name="staff" location="graphics_lasers" id="staff" hash="3b686532ede27b912b963c69a5eecf00" debugView="false"/>
-    <file version="1" type="swf" name="standardMine" location="graphics_mines" id="standardMine" hash="70d1dc5c2a94af90efaeeeaca0959a00" debugView="false"/>
+    <file version="1" type="swf" name="standardMine" location="graphics_mines" id="standardMine" hash="bf10f044a274b6a2c7469ac0d779c200" debugView="false"/>
     <file version="1" type="xml" name="stars2_50x50_atlasXml" location="graphics_backgrounds_tilemaps" id="stars2_50x50_atlasXml" hash="7329f71c05b408e3941baa7da7cdcc00" debugView="false"/>
     <file version="1" type="jxr" name="stars2_50x50_texture" location="graphics_backgrounds_tilemaps" id="stars2_50x50_texture" hash="56e89695b398f2e56fc04c5f24540e00" debugView="false"/>
     <file version="1" type="atf" name="stars2_50x50_texture_atf" location="graphics_backgrounds_tilemaps" id="stars2_50x50_texture_atf" hash="80f2119b00ef3528d6a70c7796b72a00" debugView="false"/>
@@ -2155,12 +1885,6 @@
     <file version="1" type="atf" name="stars2_50x50_texture_red_atf" location="graphics_backgrounds_tilemaps" id="stars2_50x50_texture_red_atf" hash="851c256c9a3a3960aac84908cc00f900" debugView="false"/>
     <file version="1" type="jxr" name="stars2_50x50_texture_yellow" location="graphics_backgrounds_tilemaps" id="stars2_50x50_texture_yellow" hash="81990d6dec608b5990ba06d6afd70800" debugView="false"/>
     <file version="1" type="atf" name="stars2_50x50_texture_yellow_atf" location="graphics_backgrounds_tilemaps" id="stars2_50x50_texture_yellow_atf" hash="fbb6b66ef54d17f2fba415a95431c400" debugView="false"/>
-    <file version="1" type="png" name="stars_lightblue_50x50" location="graphics_backgrounds_tilemaps" id="stars_lightblue_50x50" hash="1cf4323b90e5427dfb4b604816150c00" debugView="false"/>
-    <file version="1" type="xml" name="stars_lightblue_50x50Xml" location="graphics_backgrounds_tilemaps" id="stars_lightblue_50x50Xml" hash="6f3c0d690020522497253dbd97d16500" debugView="false"/>
-    <file version="1" type="atf" name="stars_lightblue_50x50_atf" location="graphics_backgrounds_tilemaps" id="stars_lightblue_50x50_atf" hash="6397f21638842ae1bf188c9796d4b900" debugView="false"/>
-    <file version="1" type="png" name="stars_turquoise_50x50" location="graphics_backgrounds_tilemaps" id="stars_turquoise_50x50" hash="976e54dcbb7333852c1496b7fb6adf00" debugView="false"/>
-    <file version="1" type="xml" name="stars_turquoise_50x50Xml" location="graphics_backgrounds_tilemaps" id="stars_turquoise_50x50Xml" hash="5554b71371d61e5b80b1b34fcfa52500" debugView="false"/>
-    <file version="1" type="atf" name="stars_turquoise_50x50_atf" location="graphics_backgrounds_tilemaps" id="stars_turquoise_50x50_atf" hash="2c3e1640d8fa4bb329b76219e4b43d00" debugView="false"/>
     <file version="1" type="swf" name="startSpawnChildrenShip80" location="graphics_effects" id="startSpawnChildrenShip80" hash="72af569e6b5c5aae4c9e5073254c0800" debugView="false"/>
     <file version="1" type="swf" name="staticMap" location="graphics_effects" id="staticMap" hash="b161f856e833b0a7cd487d2f6b7b6800" debugView="false"/>
     <file version="1" type="jxr" name="station169" location="graphics_backgrounds_planets" id="station169" hash="5a4ac8f0f25cb3902383847f126c1e00" debugView="false"/>
@@ -2224,48 +1948,9 @@
     <file version="1" type="swf" name="stdXmasStar" location="graphics_collectables" id="stdXmasStar" hash="79a31e8bf21f52f8435e9c9d21919000" debugView="false"/>
     <file version="1" type="swf" name="stickyBomb" location="graphics_effects" id="stickyBomb" hash="cdc16de96cb7c10306b43e4d055abc00" debugView="false"/>
     <file version="1" type="swf" name="stpatricksDayBox" location="graphics_collectables" id="stpatricksDayBox" hash="ccae4844bb496f582c83e873a5a3d800" debugView="false"/>
-    <file version="1" type="swf" name="streuner-asteroid-gate-splitted" location="graphics_assets" id="streuner-asteroid-gate-splitted" hash="d0780fd8b44075744209d5db684c3600" debugView="false"/>
-    <file version="1" type="png" name="streuner-asteroid-gate_bot" location="graphics_backgrounds_planets" id="streuner-asteroid-gate_bot" hash="1f27723756ef7543ea7c4693a1411000" debugView="false"/>
-    <file version="1" type="atf" name="streuner-asteroid-gate_bot_atf" location="graphics_backgrounds_planets" id="streuner-asteroid-gate_bot_atf" hash="12c6c76ab0a9f9fa7df9826df2654500" debugView="false"/>
-    <file version="1" type="png" name="streuner-asteroid-gate_bot_collider" location="graphics_backgrounds_planets" id="streuner-asteroid-gate_bot_collider" hash="efa182a43df3b4bed3f1b90093211500" debugView="false"/>
-    <file version="1" type="png" name="streuner-asteroid01" location="graphics_backgrounds_planets" id="streuner-asteroid01" hash="442ccbcc75fc020e44eff3a9637e3b00" debugView="false"/>
-    <file version="1" type="atf" name="streuner-asteroid01_atf" location="graphics_backgrounds_planets" id="streuner-asteroid01_atf" hash="55ceda16b587a50fb6daabe328714e00" debugView="false"/>
-    <file version="1" type="png" name="streuner-asteroid01_collider" location="graphics_backgrounds_planets" id="streuner-asteroid01_collider" hash="138e4ff09bed672f5220044a8141c100" debugView="false"/>
-    <file version="1" type="png" name="streuner-asteroid02" location="graphics_backgrounds_planets" id="streuner-asteroid02" hash="c12fae0e90523025c5b1e9708b250600" debugView="false"/>
-    <file version="1" type="atf" name="streuner-asteroid02_atf" location="graphics_backgrounds_planets" id="streuner-asteroid02_atf" hash="260f8eb1729b9992ffaa9cb0edbc6500" debugView="false"/>
-    <file version="1" type="png" name="streuner-asteroid02_collider" location="graphics_backgrounds_planets" id="streuner-asteroid02_collider" hash="7c166e902862c57cf851465f048e8300" debugView="false"/>
-    <file version="1" type="png" name="streuner-asteroid03" location="graphics_backgrounds_planets" id="streuner-asteroid03" hash="a09040f96c35c6a3648b8dccc5b79500" debugView="false"/>
-    <file version="1" type="atf" name="streuner-asteroid03_atf" location="graphics_backgrounds_planets" id="streuner-asteroid03_atf" hash="74f5f2306953c41cb467350c9d1aa600" debugView="false"/>
-    <file version="1" type="png" name="streuner-asteroid03_collider" location="graphics_backgrounds_planets" id="streuner-asteroid03_collider" hash="e4791d9a3a658390de09739ccfac4900" debugView="false"/>
-    <file version="1" type="png" name="streuner-blockzone01" location="graphics_backgrounds_planets" id="streuner-blockzone01" hash="5676eeac576266863de9d10e8b745b00" debugView="false"/>
-    <file version="1" type="atf" name="streuner-blockzone01_atf" location="graphics_backgrounds_planets" id="streuner-blockzone01_atf" hash="e6e6254cc81cade01a802aab561d2c00" debugView="false"/>
-    <file version="1" type="png" name="streuner-blockzone01_collider" location="graphics_backgrounds_planets" id="streuner-blockzone01_collider" hash="35147929c6b000995d01b2369a1a6500" debugView="false"/>
-    <file version="1" type="png" name="streuner-blockzone02" location="graphics_backgrounds_planets" id="streuner-blockzone02" hash="c8575013b17eeeb2a577a7e31e4f0900" debugView="false"/>
-    <file version="1" type="atf" name="streuner-blockzone02_atf" location="graphics_backgrounds_planets" id="streuner-blockzone02_atf" hash="e5093e5cb2fdb4ea445015f5ef1a9400" debugView="false"/>
-    <file version="1" type="png" name="streuner-blockzone02_collider" location="graphics_backgrounds_planets" id="streuner-blockzone02_collider" hash="e92afe884f66692bebb60983f2876400" debugView="false"/>
-    <file version="1" type="png" name="streuner-blockzone03" location="graphics_backgrounds_planets" id="streuner-blockzone03" hash="dee6f4eeb7f1e6622eeaea73aaa24000" debugView="false"/>
-    <file version="1" type="atf" name="streuner-blockzone03_atf" location="graphics_backgrounds_planets" id="streuner-blockzone03_atf" hash="60cd5b44498308509ad4914080c15700" debugView="false"/>
-    <file version="1" type="png" name="streuner-blockzone03_collider" location="graphics_backgrounds_planets" id="streuner-blockzone03_collider" hash="b9b0eabf866c3ed99d675319b82a3800" debugView="false"/>
-    <file version="1" type="xml" name="streuner-blockzones_atlasXml" location="graphics_backgrounds_tilemaps" id="streuner-blockzones_atlasXml" hash="d487b8d1948304c4cd48a6fc8f015f00" debugView="false"/>
-    <file version="1" type="png" name="streuner-blockzones_texture" location="graphics_backgrounds_tilemaps" id="streuner-blockzones_texture" hash="9888463860915590c79bde60466f0600" debugView="false"/>
-    <file version="1" type="atf" name="streuner-blockzones_texture_atf" location="graphics_backgrounds_tilemaps" id="streuner-blockzones_texture_atf" hash="36420a3ce6e9010bb7ce565e20b16800" debugView="false"/>
-    <file version="1" type="png" name="streuner-homebase" location="graphics_backgrounds_planets" id="streuner-homebase" hash="2b9b32d28846fa19cfa12d22b60a5000" debugView="false"/>
-    <file version="1" type="atf" name="streuner-homebase_atf" location="graphics_backgrounds_planets" id="streuner-homebase_atf" hash="bf77738327d34ebfe556f9f22fe3ad00" debugView="false"/>
-    <file version="1" type="png" name="streuner-homebase_collider" location="graphics_backgrounds_planets" id="streuner-homebase_collider" hash="73a2a8392dcbeebff2b0febbac859300" debugView="false"/>
-    <file version="1" type="swf" name="streuner-turret-openShip148" location="graphics_effects" id="streuner-turret-openShip148" hash="f79f03296eb1750de190782fb0327b00" debugView="false"/>
-    <file version="1" type="swf" name="streuner_bonus_box" location="graphics_collectables" id="streuner_bonus_box" hash="b2ad13c8a2327e2632b089c2ffcaf900" debugView="false"/>
-    <file version="1" type="swf" name="streuner_booty_box" location="graphics_collectables" id="streuner_booty_box" hash="85265aa27e93a3b9abc66f5b67c9a300" debugView="false"/>
-    <file version="1" type="xml" name="streuner_gate_atlas" location="graphics_portals" id="streuner_gate_atlas" hash="d82d4e7359a133c82a7bc0e508d7e600" debugView="false"/>
-    <file version="1" type="png" name="streuner_gate_collider" location="graphics_portals" id="streuner_gate_collider" hash="7a4890d71f95e16ea7c3687c63043100" debugView="false"/>
-    <file version="1" type="png" name="streuner_gate_texture" location="graphics_portals" id="streuner_gate_texture" hash="8952a3ae157110f9f6cff4a1b8cc9600" debugView="false"/>
     <file version="1" type="swf" name="summerEventBox" location="graphics_collectables" id="summerEventBox" hash="c8a916d90a6048e55c2ef77e3ce09a00" debugView="false"/>
-    <file version="1" type="swf" name="targetedOfferUI" location="graphics_targetedOffers" id="targetedOfferUI" hash="2f8efc5ef04ac772df36ad3c7c83bf00" debugView="false"/>
-    <file version="1" type="swf" name="targetedOfferUI" location="graphics_ui_windows_targetedOffers" id="targetedOfferUI" hash="2f8efc5ef04ac772df36ad3c7c83bf00" debugView="false"/>
-    <file version="1" type="xml" name="targetedOffersWindow" location="graphics_ui_windows_targetedOffers" id="targetedOffersWindow" hash="49fd89ce6c6cba38b0f8f3505d457800" debugView="false"/>
-    <file version="1" type="png" name="targeted_offer_2016_BG" location="graphics_targetedOffers_Background" id="targeted_offer_2016_BG" hash="50ccb88ce0b38bdb1ad067cd0433c800" debugView="false"/>
+    <file version="1" type="xml" name="targetedOffersWindow" location="graphics_ui_windows_targetedOffers" id="targetedOffersWindow" hash="1c2bba2e7b378805b23835c59d4c9200" debugView="false"/>
     <file version="1" type="jpg" name="targeted_offer_bg1" location="graphics_targetedOffers_Background" id="targeted_offer_bg1" hash="bfa95042bc0bd1f2c716ed02368c5d00" debugView="false"/>
-    <file version="1" type="png" name="targeted_offer_hover" location="graphics_targetedOffers_Background" id="targeted_offer_hover" hash="935e90f69584ffedfb4fb4923bec7c00" debugView="false"/>
-    <file version="1" type="swf" name="tartarus" location="graphics_ships" id="tartarus" hash="930a819969c248798806319794144600" debugView="false"/>
     <file version="1" type="swf" name="tdmBattleMaster" location="graphics_specialMapAssets" id="tdmBattleMaster" hash="ea162f3c09cd5a004c579038ee91dc00" debugView="false"/>
     <file version="1" type="swf" name="tdmLobbyWindow" location="graphics_ui" id="tdmLobbyWindow" hash="9c7435d55d9534d0235af9f864020200" debugView="false"/>
     <file version="1" type="swf" name="tdmResultWin" location="graphics_tdm" id="tdmResultWin" hash="422cd35d88d440c2cfa406fba68c1d00" debugView="false"/>
@@ -2273,23 +1958,21 @@
     <file version="1" type="xml" name="testMapAsset" location="graphics_mapassetXML" id="testMapAsset" hash="37e5fa3dfa879dd769e24437e9ff1200" debugView="false"/>
     <file version="1" type="swf" name="theItalianBox" location="graphics_collectables" id="theItalianBox" hash="284a28e586c81c1b2c3c8284cf302400" debugView="false"/>
     <file version="1" type="swf" name="titanicBonusBox" location="graphics_collectables" id="titanicBonusBox" hash="505354a687ca402f7231549a70fe6300" debugView="false"/>
-    <file version="1" type="swf" name="titanicMine" location="graphics_mines" id="titanicMine" hash="883fc4b3555251b4526f29a3275faf00" debugView="false"/>
+    <file version="1" type="swf" name="titanicMine" location="graphics_mines" id="titanicMine" hash="baca9b0e95710e1471fe118662deb600" debugView="false"/>
     <file version="1" type="swf" name="track0" location="audio_music" id="track0" hash="ad2a00b0481466e7eade536a7c12c700" debugView="false"/>
     <file version="1" type="swf" name="trackBattlemap" location="audio_music" id="trackBattlemap" hash="84c595bc562d8b1934c2a51a3abf8f00" debugView="false"/>
     <file version="1" type="swf" name="trackCombat" location="audio_music" id="trackCombat" hash="ce65e698755e7bf3e16037a5d003e800" debugView="false"/>
     <file version="1" type="swf" name="trackEIC" location="audio_music" id="trackEIC" hash="71f9ae65208ae5608d9ac14231966b00" debugView="false"/>
     <file version="1" type="swf" name="trackMMO" location="audio_music" id="trackMMO" hash="b7157c6adf4873d1917ecde5ecf33a00" debugView="false"/>
     <file version="1" type="swf" name="trackPirate" location="audio_music" id="trackPirate" hash="9adf92bc26df90fb72b8ed45f3877600" debugView="false"/>
-    <file version="1" type="swf" name="trackRZone" location="audio_music" id="trackRZone" hash="4ebf59d2842e3fd2b3cb7c54c12e7900" debugView="false"/>
     <file version="1" type="swf" name="trackVRU" location="audio_music" id="trackVRU" hash="5161e039b9f0c51a28fda8c256e90e00" debugView="false"/>
-    <file version="1" type="swf" name="track_halloween" location="audio_music" id="track_halloween" hash="7955faa3a40e440496cfcc82028fc500" debugView="false"/>
-    <file version="1" type="swf" name="track_halloween_loop" location="audio_music" id="track_halloween_loop" hash="c6df8ec1bac992f9d5e80a2f3da98400" debugView="false"/>
-    <file version="1" type="xml" name="trainingGroundsPointsDisplay" location="graphics_assets_trainingGrounds" id="trainingGroundsPointsDisplay" hash="2b5574e2192c156dd4ff85af706c0200" debugView="false"/>
-    <file version="1" type="swf" name="traininggroundsUI" location="graphics_ui_windows_traininggrounds" id="traininggroundsUI" hash="0ceb0c8eee939d4b2d8ea1fe64d77400" debugView="false"/>
-    <file version="1" type="jxr" name="traininggroundsVictoryPointsBackgroundDisplay" location="graphics_assets_trainingGrounds" id="traininggroundsVictoryPointsBackgroundDisplay" hash="ccea0e8fc0ba93c89270adbc2b538300" debugView="false"/>
-    <file version="1" type="xml" name="traininggroundsVictoryPointsBackgroundDisplayAtlas" location="graphics_assets_trainingGrounds" id="traininggroundsVictoryPointsBackgroundDisplayAtlas" hash="94c2a8e0f07556630812e71e1c27ca00" debugView="false"/>
-    <file version="1" type="xml" name="traininggrounds_baseWindow" location="graphics_ui_windows_traininggrounds" id="traininggrounds_baseWindow" hash="202be1d61e5df3d501080f72a7cdb000" debugView="false"/>
-    <file version="1" type="xml" name="traininggrounds_resultsWindow" location="graphics_ui_windows_traininggrounds" id="traininggrounds_resultsWindow" hash="a3fc5ee4db295ea40ba286bf5503c900" debugView="false"/>
+    <file version="1" type="xml" name="trainingGroundsPointsDisplay" location="graphics_assets_trainingGrounds" id="trainingGroundsPointsDisplay" hash="24508246e1dad7e20c33b0f88d26cf00" debugView="false"/>
+    <file version="1" type="swf" name="traininggroundsUI" location="graphics_ui" id="traininggroundsUI" hash="c54d1c4f652820da86452963bdac5000" debugView="false"/>
+    <file version="1" type="swf" name="traininggroundsVictoryPoints" location="graphics_effects" id="traininggroundsVictoryPoints" hash="6e51a92bdf99dfb1af20a748a03ae200" debugView="false"/>
+    <file version="1" type="jxr" name="traininggroundsVictoryPointsBackgroundDisplay" location="graphics_assets_trainingGrounds" id="traininggroundsVictoryPointsBackgroundDisplay" hash="746eae9e8ed330e48b2a948d665ba900" debugView="false"/>
+    <file version="1" type="xml" name="traininggroundsVictoryPointsBackgroundDisplayAtlas" location="graphics_assets_trainingGrounds" id="traininggroundsVictoryPointsBackgroundDisplayAtlas" hash="9395bcdbdc4e7cc0004d139ea329aa00" debugView="false"/>
+    <file version="1" type="xml" name="traininggrounds_baseWindow" location="graphics_ui_windows_traininggrounds" id="traininggrounds_baseWindow" hash="c1597e1f3f0cd0eb7d232c9bf3ac6200" debugView="false"/>
+    <file version="1" type="xml" name="traininggrounds_resultsWindow" location="graphics_ui_windows_traininggrounds" id="traininggrounds_resultsWindow" hash="f7d9ddeef7d7cddb0e50a012456e8900" debugView="false"/>
     <file version="1" type="swf" name="treasureChest" location="graphics_collectables" id="treasureChest" hash="c002b4dc5493fe886161812f859f3300" debugView="false"/>
     <file version="1" type="jxr" name="trianglesYellow200" location="graphics_backgrounds_planets" id="trianglesYellow200" hash="555b9bbdada5e5c2bdc3ae0ef3443200" debugView="false"/>
     <file version="1" type="atf" name="trianglesYellow200_atf" location="graphics_backgrounds_planets" id="trianglesYellow200_atf" hash="1567bd8ea6d3690f88cc751a3d40f900" debugView="false"/>
@@ -2300,7 +1983,7 @@
     <file version="1" type="swf" name="trigger_zone_inner" location="graphics_backgrounds_tilemaps" id="trigger_zone_inner" hash="91b1779ea22492b46ce3499c75e39500" debugView="false"/>
     <file version="1" type="swf" name="trigger_zone_outer" location="graphics_backgrounds_tilemaps" id="trigger_zone_outer" hash="ee36e7b79b23a64a8edb3f0762bed400" debugView="false"/>
     <file version="1" type="swf" name="turkey" location="graphics_collectables" id="turkey" hash="bfbd5f3db09e3d75319d94533b77f000" debugView="false"/>
-    <file version="1" type="swf" name="ui" location="graphics_ui" id="ui" hash="04f67dc78ec30acd6962bfff90a27c00" debugView="false"/>
+    <file version="1" type="swf" name="ui" location="graphics_ui" id="ui" hash="73b1af63a9564063ace8f52f8c17dd00" debugView="false"/>
     <file version="1" type="swf" name="uiSounds" location="audio_sounds" id="uiSounds" hash="4c0904c89164e402e25685d010d33100" debugView="false"/>
     <file version="1" type="swf" name="underConstruction" location="graphics_effects" id="underConstruction" hash="60901e3f38466664e8f3df98649a8f00" debugView="false"/>
     <file version="1" type="swf" name="vanessa_arkadium" location="graphics_questGiver" id="vanessa_arkadium" hash="4a6b41099cb7dc6d157b7617c84eb600" debugView="false"/>
@@ -2314,20 +1997,17 @@
     <file version="1" type="swf" name="videoPic_3" location="graphics_comchannel" id="videoPic_3" hash="53237cffa838824b617fe55a17ca5b00" debugView="false"/>
     <file version="1" type="swf" name="videoPic_4" location="graphics_comchannel" id="videoPic_4" hash="43e307a554709706e26a0b7f1feb3100" debugView="false"/>
     <file version="1" type="swf" name="videoPic_5" location="graphics_comchannel" id="videoPic_5" hash="6330bae2a1a0941755f8fd259f814a00" debugView="false"/>
-    <file version="1" type="swf" name="videoPic_6" location="graphics_comchannel" id="videoPic_6" hash="b597c886aa374d92c37424c993eeb600" debugView="false"/>
     <file version="1" type="swf" name="video_0" location="graphics_comchannel" id="video_0" hash="99f870a9f24d878cdd67e56026ddab00" debugView="false"/>
     <file version="1" type="swf" name="video_1" location="graphics_comchannel" id="video_1" hash="ee3380941a3c401e6b96d2fea9461c00" debugView="false"/>
-    <file version="1" type="swf" name="viral_box" location="graphics_collectables" id="viral_box" hash="bad3fa01e2b5c020cc17ce2d957d0900" debugView="false"/>
     <file version="1" type="swf" name="voiceSounds" location="audio_sounds" id="voiceSounds" hash="ac9126caac815e2b3291c5d5172cef00" debugView="false"/>
     <file version="1" type="png" name="vru_bg" location="graphics_hintsystem_characters" id="vru_bg" hash="ed2a3081a11711b0a5d70375fa492c00" debugView="false"/>
     <file version="1" type="png" name="vru_char" location="graphics_hintsystem_characters" id="vru_char" hash="55c5bf32415903cd746cd19f67ab2900" debugView="false"/>
     <file version="1" type="swf" name="warpAnimation" location="graphics_pyroEffects" id="warpAnimation" hash="c568bf89445ecbe52edd8ec103408500" debugView="false"/>
-    <file version="1" type="swf" name="window" location="graphics_ui" id="window" hash="1c60ba22cc0983391c207e4b4fa4f100" debugView="false"/>
+    <file version="1" type="swf" name="window" location="graphics_ui" id="window" hash="9f6fbff8f8cfcaf73f98b9caeff2cd00" debugView="false"/>
     <file version="1" type="swf" name="winterGiftBox" location="graphics_collectables" id="winterGiftBox" hash="a3ff7865712f5b5cf2f587bf0c5a7700" debugView="false"/>
     <file version="1" type="xml" name="wrecks_tiles_atlasXml" location="graphics_backgrounds_tilemaps" id="wrecks_tiles_atlasXml" hash="5b1d3c05a82fefeb50a1b226d2ffd200" debugView="false"/>
     <file version="1" type="jxr" name="wrecks_tiles_texture" location="graphics_backgrounds_tilemaps" id="wrecks_tiles_texture" hash="1cb17327c4e7869f4bdc890d7fbbea00" debugView="false"/>
     <file version="1" type="atf" name="wrecks_tiles_texture_atf" location="graphics_backgrounds_tilemaps" id="wrecks_tiles_texture_atf" hash="244e80231787e63411c6072039ba0d00" debugView="false"/>
-    <file version="1" type="swf" name="yurisBonusBox" location="graphics_collectables" id="yurisBonusBox" hash="b615a2a1cdfb2d89385447bc6afd6700" debugView="false"/>
     <file version="1" type="jxr" name="zeta-2-asteroids-1" location="graphics_backgrounds_basic" id="zeta-2-asteroids-1" hash="77890a7afe5a5389face4000bf9f7e00" debugView="false"/>
     <file version="1" type="atf" name="zeta-2-asteroids-1_atf" location="graphics_backgrounds_basic" id="zeta-2-asteroids-1_atf" hash="711dd14bce51ae9087680fcd16ab8c00" debugView="false"/>
     <file version="1" type="jxr" name="zeta-2-clouds-1" location="graphics_backgrounds_basic" id="zeta-2-clouds-1" hash="bff2ed2f30acfd6723a0b9aad0fe4e00" debugView="false"/>
@@ -2340,5 +2020,4 @@
     <file version="1" type="atf" name="zeta-3-clouds-1_atf" location="graphics_backgrounds_basic" id="zeta-3-clouds-1_atf" hash="03075c00f1a023b0c13bf30c15c5d100" debugView="false"/>
     <file version="1" type="jxr" name="zeta-3-clouds-2" location="graphics_backgrounds_basic" id="zeta-3-clouds-2" hash="1ac933904349451b44dd5f99e9576300" debugView="false"/>
     <file version="1" type="atf" name="zeta-3-clouds-2_atf" location="graphics_backgrounds_basic" id="zeta-3-clouds-2_atf" hash="47c7f3778d01fbc868f7d49a92fb0a00" debugView="false"/>
-    <file version="1" type="swf" name="zone_pet_disruption" location="graphics_poizones" id="zone_pet_disruption" hash="2da1cb1bf29bcdddb7d2d7f5cf1b2600" debugView="false"/>
 </filecollection>
