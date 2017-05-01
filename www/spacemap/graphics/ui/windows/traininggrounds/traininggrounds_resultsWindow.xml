@@ -41,7 +41,7 @@
 				fontName       = "EurostileT"
 				align		   = "center"
 				/>
-	<textstyle 	name           = "traininggrounds_whiteTextStyle" 
+	<textstyle 	name           = "traininggrounds_result_whiteTextStyle" 
 				textColor      = "0xAAAAAA" 
 				type           = "dynamic" 
 				selectable     = "false" 
@@ -75,14 +75,7 @@
 				border     	   = "true" 
 				borderColor    = "0x000000" 
 				/>
-	<textstyle 	name           = "traininggrounds_smallDescriptionTextStyle" 
-				textColor      = "0xFFFFFF" 
-				type           = "dynamic" 
-				selectable     = "false" 
-				fontName       = "EurostileT"
-				align		   = "center"
-				fontSize	   = "8"
-				/>
+
 
 	<skins>
 		<skin name="traininggrounds_label" classname="LabelSkin" library="gameclientCommonUI" />
@@ -121,9 +114,9 @@
 		<itemlist registeredSkinName="traininggrounds_list_skin" marginLeft="25" marginRight="25" autoSizeWidth="true" autoSizeHeight="true" marginTop="141" marginBottom="50" cacheSkinMaskAsBitmap="false" mouseEnabled="true" mouseChildren="true" name="traininggroundsScoreItemlist">
 			<itemrenderer height="20" mouseEnabled="true" mouseChildren="true" >
 				<coreponent name="hitlayer" registeredSkinName="commonui_hitlayer" mouseEnabled="true" mouseChildren="true" autoSizeWidth="true"  autoSizeHeight="true" alpha="0"/>
-				<label name="dataColumn" registeredSkinName="traininggrounds_label" alignX="center" marginLeft="25" marginRight="325" autoSizeWidth="true" alpha="1" mouseEnabled="false" mouseChildren="false" height="20"  registeredTextStyleName="traininggrounds_whiteTextStyle" />
-				<label name="winnerColumn" registeredSkinName="traininggrounds_label" alignX="center" marginLeft="168" marginRight="168" autoSizeWidth="true" alpha="1" mouseEnabled="false" mouseChildren="false" height="20"  registeredTextStyleName="traininggrounds_whiteTextStyle" />
-				<label name="loserColumn" registeredSkinName="traininggrounds_label" alignX="center" marginLeft="325" marginRight="25" autoSizeWidth="true" alpha="1" mouseEnabled="false" mouseChildren="false" height="20"  registeredTextStyleName="traininggrounds_whiteTextStyle" />
+				<label name="dataColumn" registeredSkinName="traininggrounds_label" alignX="center" marginLeft="0" marginRight="300" autoSizeWidth="true" alpha="1" mouseEnabled="false" mouseChildren="false" height="20"  registeredTextStyleName="traininggrounds_result_whiteTextStyle" />
+				<label name="winnerColumn" registeredSkinName="traininggrounds_label" alignX="center" marginLeft="143" marginRight="143" autoSizeWidth="true" alpha="1" mouseEnabled="false" mouseChildren="false" height="20"  registeredTextStyleName="traininggrounds_result_whiteTextStyle" />
+				<label name="loserColumn" registeredSkinName="traininggrounds_label" alignX="center" marginLeft="300" marginRight="0" autoSizeWidth="true" alpha="1" mouseEnabled="false" mouseChildren="false" height="20"  registeredTextStyleName="traininggrounds_result_whiteTextStyle" />
 			</itemrenderer>
 		</itemlist>	
 		
@@ -138,8 +131,8 @@
 		<itemlist registeredSkinName="traininggrounds_list_skin" itemGap="1" marginLeft="25" marginRight="25" autoSizeWidth="true" y="241" height="64"	cacheSkinMaskAsBitmap="false" mouseEnabled="true" mouseChildren="true" name="traininggroundsRewardsItemlist">
 			<itemrenderer height="20" mouseEnabled="true" mouseChildren="true" >
 				<coreponent name="hitlayer" registeredSkinName="commonui_hitlayer" mouseEnabled="true" mouseChildren="true" autoSizeWidth="true"  autoSizeHeight="true" alpha="0"/>
-				<label name="rewardColumn" registeredSkinName="traininggrounds_label" marginLeft="25" marginRight="255" alignX="center" autoSizeWidth="true" alpha="1" mouseEnabled="false" mouseChildren="false" height="20"  registeredTextStyleName="traininggrounds_whiteTextStyle" />
-				<label name="amountColumn" registeredSkinName="traininggrounds_label" marginLeft="255" marginRight="25" alignX="center" autoSizeWidth="true" alpha="1" mouseEnabled="false" mouseChildren="false" height="20"  registeredTextStyleName="traininggrounds_whiteTextStyle" />
+				<label name="rewardColumn" registeredSkinName="traininggrounds_label" marginLeft="0" marginRight="230" alignX="center" autoSizeWidth="true" alpha="1" mouseEnabled="false" mouseChildren="false" height="20"  registeredTextStyleName="traininggrounds_result_whiteTextStyle" />
+				<label name="amountColumn" registeredSkinName="traininggrounds_label" marginLeft="230" marginRight="0" alignX="center" autoSizeWidth="true" alpha="1" mouseEnabled="false" mouseChildren="false" height="20"  registeredTextStyleName="traininggrounds_result_whiteTextStyle" />
 			</itemrenderer>
 		</itemlist>	
 		<scrollbar name="rewardScrollbar" width="10" autoSizeHeight="true" alignX="right" registeredSkinName="commonui_scrollbar_bgnd" marginRight="5" marginBottom="40" marginTop="219">
