@@ -35,7 +35,7 @@ class Results
     /**
      * Sets session object.
      *
-     * @param  Session $session Session where results will be saved.
+     * @param Session $session Session where results will be saved.
      */
     public static function initialize(Session $session)
     {
@@ -91,12 +91,7 @@ class Results
     {
         $results = static::$_session->get("_RESULTS");
 
-        $size = sizeof($results);
-        for($i = 0; $i < $size; $i++) {
-            if($result[$i]["name"] === $name) {
-                unset($results[$i]);
-            }
-        }
+        unset($results[$name]);
 
         static::$_session->set("_RESULTS", $results);
     }
@@ -122,31 +117,26 @@ class Results
 
             if($results[$length]["type"] === "flash") {
                 unset($results[$length]);
-            }
 
-            static::$_session->set("_RESULTS", $results);
+                static::$_session->set("_RESULTS", $results);
+            }
 
             return $ret;
         }
 
-        $size = sizeof($results);
-        for($i = 0; $i < $size; $i++) {
-            if(!isset($results[$i])) {
-                continue;
-            }
-
+        foreach($results as $key => $value) {
             if($offset > 0) {
                 $offset--;
                 continue;
             }
 
-            $ret[] = $results[$i]["result"];
+            $ret[$key] = $$value["result"];
 
-            if($results[$i]["type"] === "flash") {
-                unset($results[$i]);
+            if($value["type"] == "flash") {
+                unset($results[$key]);
             }
 
-            if($length === $i) {
+            if($length-- == 0) {
                 break;
             }
         }

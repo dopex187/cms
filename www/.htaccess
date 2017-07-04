@@ -1,9 +1,13 @@
-#Options +FollowSymLinks
-#Snowy's Rewrite :)
-RewriteEngine on
+RewriteEngine On
 
+RewriteCond $1 !\.(gif|jpe?g|png|css|js|html)$ [NC]
+RewriteCond $1 !phpmyadmin [NC]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^(.*)$ index.php/$1 [L,QSA]
 RewriteRule ^gameserver.es$ gameserver.php [L]
 RewriteRule ^getflashres.es$ getflashres.php [L]
-RewriteRule ^indexInternal.es$ spaceSystemOld.php [L]
+RewriteRule ^indexInternal.es$ test.html [L]
 
 
