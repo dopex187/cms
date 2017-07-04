@@ -33,7 +33,7 @@ return [
      */
     "{DEFAULT}" => function() {
         $request = \Alexya\Http\Request::main();
-        $uri     = $request->uri();
+        $uri     = explode("/", ($_SERVER["PATH_INFO"] ?? "/External"));
 
         $page    = $uri[1];
         $action  = ($uri[2] ?? ($_POST["action"] ?? "index"));
@@ -90,7 +90,7 @@ return [
          *
          * @var \Application\ORM\Account $Account
          */
-        $Account = \Alexya\Container::Account();
+        $Account = \Alexya\Container::get("Account");
 
         if(
             $page == "External" &&
@@ -120,9 +120,16 @@ return [
          *
          * @var \Application\ORM\Account $Account
          */
-        $Account = \Alexya\Container::Account();
+        $Account = \Alexya\Container::get("Account");
 
         $page = (explode("/", $page)[0] ?? "");
+
+        // Logout
+        if($page == "Logout") {
+            \Alexya\Container::Session()->remove("id");
+
+            \Alexya\Http\Response::redirect("/External");
+        }
 
         // In case user hasn't choose a company yet
         if(

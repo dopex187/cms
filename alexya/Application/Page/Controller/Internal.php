@@ -25,11 +25,13 @@ class Internal extends Controller
     /**
      * Loads and executes the requested module.
      *
-     * @return Response Response object
+     * @return Response Response object.
+     *
+     * @throws Exception If something goes wrong.
      */
     public function index() : Response
     {
-        $uri = $this->_request->uri();
+        $uri = explode("/", ($_SERVER["PATH_INFO"] ?? "/Internal/Start"));
 
         if(
             count($uri) < 2 ||

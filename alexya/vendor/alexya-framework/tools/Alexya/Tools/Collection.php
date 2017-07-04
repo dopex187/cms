@@ -350,6 +350,63 @@ class Collection implements ArrayAccess
     }
 
     /**
+     * Walks the array and returns the first occurrence of `$closure`.
+     *
+     * The `$closure` must accept as parameter the current key and value of the array,
+     * perform certain operations and return a boolean indicating if the
+     * index is the one we're looking for.
+     *
+     * Example:
+     *
+     * ```php
+     * $number1 = $collection->find(function($key, $value) {
+     *    return $value == 1;
+     * });
+     * ```
+     *
+     * @param callable $closure Closure to execute.
+     *
+     * @return mixed The index that matches `$closure` or null.
+     */
+    public function find(callable $closure)
+    {
+        foreach($this->getAll() as $key => $value) {
+            if($closure($key, $value)) {
+                return $value;
+            }
+        }
+
+        return null;
+    }
+
+    /**
+     * Sorts the array based on `$closure`.
+     *
+     * It calls `uasort` with the contents of the array and specified closure.
+     *
+     * Example:
+     *
+     * ```php
+     * $collection = new Collection([0, 5, 1, 2, 3, -1, 4, -2]);
+     *
+     * $collection->sort(function($a, $b) {
+     *     if($a == $b) {
+     *         return 0;
+     *     }
+     *
+     *     return ($a < $b) ? -1 : 1;
+     * });
+     *
+     * // $collection = new Collection([-2, -1, 0, 1, 2, 3, 4, 5]);
+     *
+     * @param callable $closure The comparison function.
+     */
+    public function sort(callable $closure)
+    {
+        uasort($this->_data, $closure);
+    }
+
+    /**
      * Returns the amount of items in the array.
      *
      * @return int Size of the array.

@@ -5,6 +5,9 @@ RewriteCond $1 !phpmyadmin [NC]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 
-#RewriteRule ^indexInternal(.*) map.html [L,QSA]
-
 RewriteRule ^(.*)$ index.php/$1 [L,QSA]
+RewriteRule ^gameserver.es$ gameserver.php [L]
+RewriteRule ^getflashres.es$ getflashres.php [L]
+RewriteRule ^indexInternal.es$ test.html [L]
+
+

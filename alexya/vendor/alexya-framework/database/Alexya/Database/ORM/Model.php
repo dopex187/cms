@@ -849,11 +849,30 @@ class Model
     /**
      * Returns table values.
      *
+     * @param bool $decodeJSON Whether the JSONs should be decoded or not.
+     *
      * @return array Table values.
      */
-    public function asArray() : array
+    public function asArray(bool $decodeJSON = true) : array
     {
-        return $this->_data;
+        if(!$decodeJSON) {
+            return $this->_data;
+        }
+
+        $return = [];
+        foreach($this->_data as $key => $value) {
+            $decoded = json_decode($value);
+
+            $return[$key] = $decoded;
+            if(
+                !is_array($decoded)  &&
+                !is_object($decoded)
+            ) {
+                $return[$key] = $value;
+            }
+        }
+
+        return $return;
     }
 
     /**

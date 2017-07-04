@@ -37,6 +37,7 @@ if(!require_once("vendor/autoload.php")) {
     $Settings = \Alexya\Container::Settings();
 
     $template = \Httpful\Request::init()
+                                ->addHeader("X-Forwarded-For", ($_SERVER["REMOTE_ADDR"] ?? "255.255.255.255"))
                                 ->method(\Httpful\Http::POST)
                                 ->expects(\Httpful\Mime::JSON)
                                 ->sendsType(\Httpful\Mime::FORM);
@@ -92,8 +93,20 @@ if(!require_once("vendor/autoload.php")) {
      */
     $API = \Alexya\Container::get("API");
 
-    return \Application\ORM\Account::api($API->get("accounts/{$sid}"));
+    $response = $API->get("accounts/all", [
+        "session_id" => $sid
+    ]);
+
+    return \Application\ORM\Account::api($response);
 });
+
+// Implement theme
+\Alexya\Foundation\View\Theme::$URL = \Alexya\Container::Settings()->get("application.url");
+\Alexya\Foundation\View::$theme = new \Alexya\Foundation\View\Theme();
+$theme = (\Alexya\Http\Request::main()->get["theme"] ?? "");
+if(!empty($theme)) {
+    \Alexya\Container::Session()->set("theme", $theme);
+}
 
 \Alexya\Foundation\View::global("server", \Alexya\Container::get("Server"));
 \Alexya\Foundation\View::global("locale", \Alexya\Container::Translator()->locale);

@@ -114,9 +114,9 @@ class Controller extends Component
      *
      * Routes the request to the controller methods by default, you can override this.
      *
-     * @return Response Response object.
+     * @return Response|mixed Response object.
      */
-    public function render() : Response
+    public function render()
     {
         $response = "";
         $URI = $this->_request->uri();
@@ -149,6 +149,12 @@ class Controller extends Component
         if(empty($response)) {
             return $this->index();
         }
+
+        /*if(!($response instanceof Response)) {
+            $response = new Response([
+                "Content-Type" => "text/html"
+             ], $response);
+        }*/
 
         return $response;
     }

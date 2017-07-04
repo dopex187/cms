@@ -1,10 +1,15 @@
 <?php
 namespace Alexya\Foundation;
 
-use Alexya\Foundation\View\Parser;
 use \Exception;
 
 use \Alexya\Container;
+
+use Alexya\Foundation\View\{
+    Theme,
+    Parser
+};
+
 use \Alexya\FileSystem\File;
 use \Alexya\Tools\{
     Collection,
@@ -13,6 +18,7 @@ use \Alexya\Tools\{
 
 /**
  * View class.
+ * ===========
  *
  * The view is the file that are going to be rendered and displayed
  * in the browser.
@@ -24,6 +30,20 @@ use \Alexya\Tools\{
  * You can add variables to the view by using the method `\Alexya\Foundation\View::set`
  * or the magic method `\Alexya\Foundation\View::__set`.
  *
+ * You can specify the global theme for the view by setting the `$theme` static property.
+ * If you don't and there session variable `theme` is set, it will be used to set the theme,
+ * being the variable the key of the `application.view.themes` settings array.
+ *
+ * Example:
+ *
+ * ```php
+ * // Default theme.
+ * View::$theme = new DefaultTheme();
+ *
+ * // Set global $theme through the session variable.
+ * Container::Session()->set("theme", "test");
+ * ```
+ *
  * @author Manulaiko <manulaiko@gmail.com>
  */
 class View extends Component
@@ -31,6 +51,15 @@ class View extends Component
     ///////////////////////////////////
     // Static methods and properties //
     ///////////////////////////////////
+
+    /**
+     * Global theme.
+     *
+     * Default theme to use for all views.
+     *
+     * @var Theme
+     */
+    public static $theme = null;
 
     /**
      * Global variables array.
@@ -101,6 +130,15 @@ class View extends Component
         $this->_data    = new Collection();
         $this->_parsers = Container::Settings()->get("alexya.view.parsers");
 
+        // Override the theme by using the `$_SESSION["theme"]` var.
+        $themes = Container::Settings()->get("alexya.view.themes");
+        $theme  = Container::Session()->get("theme");
+        if(isset($themes[$theme])) {
+            self::$theme = $themes[$theme];
+        }
+
+        $this->set("theme", self::$theme);
+
         $this->onInstance();
     }
 
@@ -145,6 +183,10 @@ class View extends Component
      */
     public function setName(string $name)
     {
+        if(self::$theme instanceof Theme) {
+            $name = self::$theme->viewName($name);
+        }
+
         $settings = Container::Settings()->get("alexya.view");
 
         // Assure that the name is associated with a valid parser
@@ -178,7 +220,7 @@ class View extends Component
      */
     public function render() : string
     {
-        $file   = $this->_getFile();
+        $file = $this->_getFile();
 
         /**
          * Parser object.

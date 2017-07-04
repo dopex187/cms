@@ -17,23 +17,32 @@ class Internal extends Presenter
      */
     public function render() : string
     {
-        $name = ($this->_request->uri()[2] ?? "");
-
-        if($name == "CompanyChoose") {
-            return $this->_triad->children->module->Controller->render();
-        }
+        $uri  = explode("/", ($_SERVER["PATH_INFO"] ?? "/Internal/Start"));
+        $name = ($uri[2] ?? "");
 
         $this->_triad->View->set("name", $name);
         $this->_setFramesFlag($name);
 
+        $vars = $this->_triad->Model->all();
         if($this->_triad->children->module->hasModel()) {
-            foreach($this->_triad->Model->all() as $key => $value) {
-                $this->_triad->children->module->Model->set($key, $value);
-            }
+            $vars = array_merge($vars, $this->_triad->children->module->Model->all());
         }
 
+        foreach($vars as $key => $value) {
+            $this->_triad->children->module->View->set($key, $value);
+        }
+
+        $module = $this->_triad->children->module->Controller->render();
+
         // Call the render method here so it redirects now instead of when the view is being rendered.
-        $this->_triad->View->set("module", $this->_triad->children->module->Controller->render());
+        $this->_triad->View->set("module", $module);
+
+        if(
+            $name == "CompanyChoose" ||
+            $name == "Map"
+        ) {
+            return $module;
+        }
 
         // TODO $this->_triad->View->set("news", Model::latest(10, "id", "news"));
 

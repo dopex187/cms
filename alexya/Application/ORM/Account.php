@@ -1,6 +1,7 @@
 <?php
 namespace Application\ORM;
 
+use Alexya\Container;
 use Alexya\Database\ORM\Model;
 use Alexya\Tools\Str;
 use Httpful\Response;
@@ -81,13 +82,17 @@ class Account extends Model
     /**
      * Returns an Account object from an API response.
      *
-     * @param Response $response API response.
+     * @param mixed $response API response.
      *
      * @return \Application\ORM\Account Account object.
      */
-    public static function api(Response $response) : Account
+    public static function api($response) : Account
     {
-        return Account::debug(json_decode($response->raw_body, true));
+        if($response->isError) {
+            return Account::empty();
+        }
+
+        return Account::debug((array)$response->result[0]);
     }
 
     ///////////////////////////////////////
@@ -102,5 +107,52 @@ class Account extends Model
     public function isLogged() : bool
     {
         return !empty(($this->id ?? ""));
+    }
+
+    /**
+     * Dynamically set references.
+     *
+     * @param string $name Requested property.
+     *
+     * @return mixed Property value.
+     */
+    public function __get(string $name)
+    {
+        if(isset($this->_data[$name])) {
+            return $this->_data[$name];
+        }
+
+        // Check that first character is uppercase.
+        $chr = substr($name, 0, 1);
+        if(strtolower($chr) == $chr) {
+            return null;
+        }
+
+        $command = Str::snake(Str::plural($name));
+        $key     = Str::snake([$command, "id"]);
+
+        if(!array_key_exists($key, $this->_data)) {
+            return null;
+        }
+
+        $value = $this->_data[$key];
+
+        /**
+         * API object.
+         *
+         * @var \Application\API $api
+         */
+        $api = Container::get("API");
+        $response = $api->get($command, [
+            "id" => $value
+        ]);
+
+        if($response->isError) {
+            return null;
+        }
+
+        $this->_data[$name] = $response->result[0];
+
+        return $this->_data[$name];
     }
 }

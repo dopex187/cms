@@ -176,10 +176,10 @@ class Database extends AbstractLogger
     }
 
     /**
-     * Writes the log message to the database table
+     * Writes the log message to the database table.
      *
-     * @param string $message Message to log
-     * @param array  $context Custom placeholders
+     * @param string $message Message to log.
+     * @param array  $context Custom placeholders.
      */
     protected function _write(string $message, array $context = [])
     {
